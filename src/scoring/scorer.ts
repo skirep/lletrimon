@@ -152,6 +152,16 @@ export function calculateSyllableSimilarity(expected: string, recognized: string
 
   let bestSimilarity = calculateSimilarity(normalizedExpected, recognized);
   for (const word of recognizedWords) {
+    const isClusterWithInsertedVowel =
+      /^[a-z][lr][aeiou]$/.test(normalizedExpected) &&
+      /^[a-z][aeiou][lr][aeiou]$/.test(word) &&
+      word[0] === normalizedExpected[0] &&
+      word[2] === normalizedExpected[1] &&
+      word[3] === normalizedExpected[2];
+    if (isClusterWithInsertedVowel) {
+      bestSimilarity = Math.max(bestSimilarity, 0.85);
+    }
+
     if (word.length < normalizedExpected.length) {
       bestSimilarity = Math.max(bestSimilarity, calculateSimilarity(normalizedExpected, word));
       continue;
