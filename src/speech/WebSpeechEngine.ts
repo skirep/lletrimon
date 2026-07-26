@@ -4,7 +4,21 @@ declare global {
   interface Window {
     SpeechRecognition?: new () => SpeechRecognition;
     webkitSpeechRecognition?: new () => SpeechRecognition;
+    SpeechGrammarList?: new () => SpeechGrammarList;
+    webkitSpeechGrammarList?: new () => SpeechGrammarList;
   }
+}
+
+interface SpeechGrammarList {
+  length: number;
+  addFromString(grammar: string, weight?: number): void;
+  item(index: number): SpeechGrammar;
+  [index: number]: SpeechGrammar;
+}
+
+interface SpeechGrammar {
+  src: string;
+  weight: number;
 }
 
 interface SpeechRecognition extends EventTarget {
@@ -12,6 +26,7 @@ interface SpeechRecognition extends EventTarget {
   continuous: boolean;
   interimResults: boolean;
   maxAlternatives: number;
+  grammars: SpeechGrammarList | null;
   start(): void;
   stop(): void;
   abort(): void;
@@ -98,6 +113,23 @@ export class WebSpeechEngine implements SpeechEngine {
     this.recognition.continuous = options.continuous ?? false;
     this.recognition.interimResults = options.interimResults ?? true;
     this.recognition.maxAlternatives = 5;
+
+    // When caller provides expected words/syllables, build a JSGF grammar and
+    // feed it to the recogniser so it biases towards those tokens.
+    // Chrome supports webkitSpeechGrammarList; other browsers ignore it safely.
+    const hints = options.hints ?? [];
+    if (hints.length > 0) {
+      const GrammarListCtor = window.SpeechGrammarList ?? window.webkitSpeechGrammarList;
+      if (GrammarListCtor) {
+        const grammarList = new GrammarListCtor();
+        const alternatives = hints.join(' | ');
+        grammarList.addFromString(
+          `#JSGF V1.0; grammar hints; public <hint> = ${alternatives};`,
+          1,
+        );
+        this.recognition.grammars = grammarList;
+      }
+    }
 
     this.recognition.onresult = (event: SpeechRecognitionEvent) => {
       const result = event.results[event.results.length - 1];

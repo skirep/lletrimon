@@ -8,6 +8,7 @@ import { shuffleItems } from '../exercises';
 import { sessionStorage } from '../storage';
 import { gamificationService } from '../gamification';
 import { generateId } from '../utils';
+import { WhisperEngine } from '../speech';
 import type { ExerciseItem, Profile, ReadingResult, ExerciseAttempt, ExerciseSession, ExerciseType, Difficulty } from '../models';
 
 interface EndlessRunnerProps {
@@ -22,9 +23,18 @@ interface EndlessRunnerProps {
 const CORRECT_DISPLAY_MS = 600;
 const ERROR_DISPLAY_MS = 1500;
 
+/** Exercise types that use WhisperEngine for better short-token recognition. */
+const WHISPER_TYPES = new Set<ExerciseType>(['syllables', 'sounds']);
+
 export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficulty, onFinish }: EndlessRunnerProps) {
   const { settings, loading: settingsLoading } = useSettings(profile.id);
-  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition();
+
+  // Choose engine based on exercise type (same logic as ExerciseRunner).
+  const useWhisper = WHISPER_TYPES.has(sessionType);
+  const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
+  const grammarHints = useRef(useWhisper ? [] : itemPool.map((item) => item.text)).current;
+
+  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
 
   const shuffledPoolRef = useRef(shuffleItems(itemPool));
   const poolIndexRef = useRef(0);
