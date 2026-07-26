@@ -145,6 +145,30 @@ export function calculateSimilarity(expected: string, recognized: string): numbe
   return Math.max(0, 1 - distance / maxLen);
 }
 
+export function calculateSyllableSimilarity(expected: string, recognized: string): number {
+  const normalizedExpected = normalize(expected).replace(/\s/g, '');
+  const recognizedWords = normalize(recognized).split(/\s+/).filter(Boolean);
+  if (!normalizedExpected || recognizedWords.length === 0) return 0;
+
+  let bestSimilarity = calculateSimilarity(normalizedExpected, recognized);
+  for (const word of recognizedWords) {
+    if (word.length < normalizedExpected.length) {
+      bestSimilarity = Math.max(bestSimilarity, calculateSimilarity(normalizedExpected, word));
+      continue;
+    }
+
+    const prefix = word.slice(0, normalizedExpected.length);
+    const suffix = word.slice(-normalizedExpected.length);
+    bestSimilarity = Math.max(
+      bestSimilarity,
+      calculateSimilarity(normalizedExpected, prefix),
+      calculateSimilarity(normalizedExpected, suffix),
+    );
+  }
+
+  return bestSimilarity;
+}
+
 export function classifyResult(similarity: number): ReadingResult {
   if (similarity >= 0.8) return 'correct';
   if (similarity >= 0.55) return 'almost';

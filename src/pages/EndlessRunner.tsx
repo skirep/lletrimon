@@ -3,7 +3,7 @@ import styles from './EndlessRunner.module.css';
 import { ExerciseText, ResultFeedback } from '../components/exercise';
 import { Button } from '../components/common';
 import { useSettings, useSpeechRecognition } from '../hooks';
-import { calculateSimilarity, classifyResult, detectErrors, calculateScore } from '../scoring';
+import { calculateSimilarity, calculateSyllableSimilarity, classifyResult, detectErrors, calculateScore } from '../scoring';
 import { shuffleItems } from '../exercises';
 import { sessionStorage } from '../storage';
 import { gamificationService } from '../gamification';
@@ -23,7 +23,7 @@ const CORRECT_DISPLAY_MS = 600;
 const ERROR_DISPLAY_MS = 1500;
 
 export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficulty, onFinish }: EndlessRunnerProps) {
-  const { settings } = useSettings(profile.id);
+  const { settings, loading: settingsLoading } = useSettings(profile.id);
   const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition();
 
   const shuffledPoolRef = useRef(shuffleItems(itemPool));
@@ -78,10 +78,11 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     const timeMs = Date.now() - startTimeRef.current;
 
     // Try all speech alternatives and pick the one that best matches the expected text.
+    const compareText = sessionType === 'syllables' ? calculateSyllableSimilarity : calculateSimilarity;
     let bestText = recognizedText;
-    let bestSimilarity = calculateSimilarity(currentItemRef.current.text, recognizedText);
+    let bestSimilarity = compareText(currentItemRef.current.text, recognizedText);
     for (const alt of alternativesRef.current) {
-      const sim = calculateSimilarity(currentItemRef.current.text, alt.transcript);
+      const sim = compareText(currentItemRef.current.text, alt.transcript);
       if (sim > bestSimilarity) {
         bestSimilarity = sim;
         bestText = alt.transcript;
@@ -107,7 +108,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       setStreak(streakRef.current);
     }
     setPhase('result');
-  }, [clearTimer]);
+  }, [clearTimer, sessionType]);
 
   const completeSession = useCallback(async (finalAttempts: ExerciseAttempt[]) => {
     if (completingRef.current) return;
@@ -158,7 +159,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
 
   // ready → listening
   useEffect(() => {
-    if (phase !== 'ready') return;
+    if (phase !== 'ready' || settingsLoading) return;
     setTranscript('');
     transcriptRef.current = '';
     setLastResult(null);
@@ -177,7 +178,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       setPhase('done');
     }, durationMs);
     return () => { clearTimer(readTimeoutRef); };
-  }, [phase, settings.speed, settings.exerciseSpeeds, sessionType, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt]);
+  }, [phase, settingsLoading, settings.speed, settings.exerciseSpeeds, sessionType, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt]);
 
   // Timer countdown
   useEffect(() => {

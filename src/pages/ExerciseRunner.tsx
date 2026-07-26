@@ -3,7 +3,7 @@ import styles from './ExerciseRunner.module.css';
 import { ExerciseText } from '../components/exercise';
 import { Button } from '../components/common';
 import { useSettings, useSpeechRecognition } from '../hooks';
-import { calculateSimilarity, classifyResult, detectErrors, calculateScore, extractSoundToken } from '../scoring';
+import { calculateSimilarity, calculateSyllableSimilarity, classifyResult, detectErrors, calculateScore, extractSoundToken } from '../scoring';
 import { sessionStorage } from '../storage';
 import { gamificationService } from '../gamification';
 import { shuffleItems } from '../exercises';
@@ -67,7 +67,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const transcriptRef = useRef('');
   const alternativesRef = useRef<Array<{ transcript: string; confidence: number }>>([]);
 
-  const { settings } = useSettings(profile.id);
+  const { settings, loading: settingsLoading } = useSettings(profile.id);
   const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition();
 
   const currentItem = items[index];
@@ -127,11 +127,12 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     // This significantly improves recognition of short syllables that aren't real words,
     // since the speech engine's top result often misidentifies them.
     const toComparableText = (value: string) => set.type === 'sounds' ? extractSoundToken(value) : value;
+    const compareText = set.type === 'syllables' ? calculateSyllableSimilarity : calculateSimilarity;
     let bestText = toComparableText(recognizedText);
-    let bestSimilarity = calculateSimilarity(currentItem.text, bestText);
+    let bestSimilarity = compareText(currentItem.text, bestText);
     for (const alt of alternativesRef.current) {
       const candidateText = toComparableText(alt.transcript);
-      const sim = calculateSimilarity(currentItem.text, candidateText);
+      const sim = compareText(currentItem.text, candidateText);
       if (sim > bestSimilarity) {
         bestSimilarity = sim;
         bestText = candidateText;
@@ -251,7 +252,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       setPhase('done');
       return;
     }
-    if (phase !== 'ready') return;
+    if (phase !== 'ready' || settingsLoading) return;
     // Ensure any previous recognition instance is fully stopped before restarting.
     stop();
     setTranscript('');
@@ -270,7 +271,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     return () => {
       clearTimer(readTimeoutRef);
     };
-  }, [phase, settings.speed, settings.exerciseSpeeds, set.type, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt, handleReadTimeout]);
+  }, [phase, settingsLoading, settings.speed, settings.exerciseSpeeds, set.type, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt, handleReadTimeout]);
 
   useEffect(() => {
     if (phase !== 'listening') return;
