@@ -167,6 +167,15 @@
   object-fit: contain;
   margin-left: -6px;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.18));
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.15s ease;
+  z-index: 0;
+}
+
+.rankingPokemonSprite:hover {
+  transform: scale(2);
+  z-index: 2;
 }
 
 .rankingPokemonMore {
