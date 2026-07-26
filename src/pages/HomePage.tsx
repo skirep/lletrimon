@@ -1,6 +1,5 @@
 import styles from './HomePage.module.css';
 import { Avatar, ProgressBar } from '../components/common';
-import { StreakDisplay } from '../components/gamification';
 import { Button } from '../components/common';
 import { useProfileStats, useGamification, useRecommendedMission } from '../hooks';
 import { getXpToNextLevel } from '../models';
@@ -21,87 +20,83 @@ export function HomePage({ profile, onNavigate, onStartMission, onSwitchProfile 
 
   return (
     <div className={`page ${styles.page}`}>
-      {/* Profile header */}
-      <div className={styles.profileHeader}>
-        <button className={styles.avatarBtn} onClick={onSwitchProfile} title="Canviar de perfil">
-          <Avatar avatarId={profile.avatar} size="md" name={profile.name} />
-        </button>
-        <div className={styles.profileInfo}>
-          <h1 className={styles.greeting}>Hola, {profile.name}! 👋</h1>
+      <header className={styles.hero}>
+        <div className={styles.profileHeader}>
+          <button className={styles.avatarBtn} onClick={onSwitchProfile} title="Canviar de perfil" aria-label="Canviar de perfil">
+            <Avatar avatarId={profile.avatar} size="md" name={profile.name} />
+          </button>
+          <div className={styles.profileInfo}>
+            <span className={styles.eyebrow}>A punt per llegir?</span>
+            <h1 className={styles.greeting}>Hola, {profile.name}!</h1>
+          </div>
           {stats && <span className={styles.level}>Nivell {stats.level}</span>}
         </div>
-      </div>
-
-      {/* About the game */}
-      <details className="info-box">
-        <summary>🎓 Sobre Lletrimon: per a què serveix?</summary>
-        <div className="info-box-content">
-          <p><strong>Lletrimon</strong> és una eina d&apos;entrenament de la lectura en veu alta pensada per a infants i persones que volen millorar la seva fluïdesa lectora.</p>
-          <p>L&apos;objectiu principal és practicar la descodificació de síl·labes, paraules, pseudoparaules i frases llegint amb la veu mentre el sistema comprova automàticament si ho has dit bé.</p>
-          <ul>
-            <li>🔤 <strong>Síl·labes i paraules</strong> — consolida el coneixement fonètic i ortogràfic.</li>
-            <li>🔮 <strong>Pseudoparaules</strong> — entrena la ruta fonològica sense dependre de la memòria visual.</li>
-            <li>📖 <strong>Frases</strong> — millora la lectura contínua i la comprensió.</li>
-          </ul>
-          <p>Amb la pràctica diària, la ratxa i el sistema de punts pots fer un seguiment del teu progrés i mantenir la motivació.</p>
-        </div>
-      </details>
-
-      {/* XP Bar */}
-      {xpInfo && (
-        <div className={`card ${styles.xpCard}`}>
-          <div className={styles.xpHeader}>
-            <span>⭐ Experiència</span>
-            <span className="text-muted">{xpInfo.current} / {xpInfo.needed} XP</span>
+        {xpInfo && (
+          <div className={styles.xpBlock}>
+            <div className={styles.progressHeader}>
+              <span>Progrés del nivell</span>
+              <strong>{xpInfo.current} de {xpInfo.needed} XP</strong>
+            </div>
+            <ProgressBar value={xpInfo.current} max={xpInfo.needed} color="var(--color-secondary)" />
           </div>
-          <ProgressBar value={xpInfo.current} max={xpInfo.needed} color="var(--color-secondary)" />
-        </div>
-      )}
+        )}
+      </header>
 
-      {/* Daily goal */}
-      {dailyGoal && (
-        <div className={`card ${styles.goalCard}`}>
-          <div className={styles.goalHeader}>
-            <span>🎯 Objectiu diari</span>
-            <span className="text-muted">{dailyGoal.completedExercises} / {dailyGoal.targetExercises}</span>
+      {(dailyGoal || streak) && (
+        <section className={styles.todaySection} aria-labelledby="today-title">
+          <h2 id="today-title" className={styles.sectionTitle}>Avui</h2>
+          <div className={styles.todayGrid}>
+            {dailyGoal && (
+              <div className={`${styles.todayCard} ${dailyGoal.completed ? styles.todayCardDone : ''}`}>
+                <span className={styles.todayIcon} aria-hidden="true">🎯</span>
+                <div className={styles.todayInfo}>
+                  <span className={styles.todayLabel}>{dailyGoal.completed ? 'Objectiu fet!' : 'Objectiu diari'}</span>
+                  <strong>{dailyGoal.completedExercises} de {dailyGoal.targetExercises}</strong>
+                  <ProgressBar
+                    value={dailyGoal.completedExercises}
+                    max={dailyGoal.targetExercises}
+                    color={dailyGoal.completed ? 'var(--color-success)' : 'var(--color-primary)'}
+                  />
+                </div>
+              </div>
+            )}
+            {streak && (
+              <div className={styles.todayCard}>
+                <span className={styles.todayIcon} aria-hidden="true">🔥</span>
+                <div className={styles.todayInfo}>
+                  <span className={styles.todayLabel}>Ratxa</span>
+                  <strong>{streak.current} {streak.current === 1 ? 'dia seguit' : 'dies seguits'}</strong>
+                  <span className={styles.todayHint}>Rècord: {streak.longest} dies</span>
+                </div>
+              </div>
+            )}
           </div>
-          <ProgressBar
-            value={dailyGoal.completedExercises}
-            max={dailyGoal.targetExercises}
-            color={dailyGoal.completed ? 'var(--color-success)' : 'var(--color-primary)'}
-          />
-          {dailyGoal.completed && (
-            <p className={`text-success ${styles.goalDone}`}>✅ Objectiu d&apos;avui assolit!</p>
-          )}
-        </div>
+        </section>
       )}
-
-      {/* Streak */}
-      {streak && <StreakDisplay streak={streak} />}
 
       {(mission || missionLoading) && (
-        <section className={`card ${styles.missionCard}`}>
+        <section className={styles.missionCard} aria-labelledby="mission-title">
           {missionLoading || !mission ? (
             <div className={styles.missionLoading}>Preparant la teva següent missió...</div>
           ) : (
             <>
               <div className={styles.missionTopline}>
-                <span className={styles.missionLabel}>Missió recomanada</span>
-                <span className={styles.missionTarget}>Objectiu {mission.targetScore}%</span>
+                <span className={styles.missionLabel}>La teva pròxima missió</span>
+                <span className={styles.missionTarget}>Meta: {mission.targetScore}%</span>
               </div>
-              <h2 className={styles.missionTitle}>{mission.set.title}</h2>
+              <h2 id="mission-title" className={styles.missionTitle}>{mission.set.title}</h2>
               <p className={styles.missionReason}>{mission.reason}</p>
               <div className={styles.missionProgress}>
                 <div className={styles.missionProgressHeader}>
-                  <span>Millor marca</span>
+                  <span>La teva millor marca</span>
                   <strong>{mission.bestScore}%</strong>
                 </div>
-                <ProgressBar value={mission.bestScore} max={mission.targetScore} color="#dc2626" />
+                <ProgressBar value={mission.bestScore} max={mission.targetScore} color="var(--color-primary)" />
               </div>
               <div className={styles.missionFooter}>
-                <span>{mission.set.items.length} elements · {mission.attempts === 0 ? 'Repte nou' : `${mission.attempts} intents`}</span>
-                <Button size="lg" onClick={() => onStartMission(mission.set.id)}>
-                  Començar missió
+                <span>{mission.set.items.length} elements · {mission.attempts === 0 ? 'És nova!' : `${mission.attempts} intents`}</span>
+                <Button className={styles.missionButton} size="lg" onClick={() => onStartMission(mission.set.id)}>
+                  Comença
                 </Button>
               </div>
             </>
@@ -109,39 +104,25 @@ export function HomePage({ profile, onNavigate, onStartMission, onSwitchProfile 
         </section>
       )}
 
-      {/* Quick actions */}
-      <details className="info-box">
-        <summary>ℹ️ Com funciona aquesta pantalla?</summary>
-        <div className="info-box-content">
-          <p>Aquesta és la teva pantalla d'inici. Aquí pots veure:</p>
-          <ul>
-            <li><strong>Barra d'experiència (XP):</strong> mostra quant has progressat cap al nivell següent.</li>
-            <li><strong>Objectiu diari:</strong> quants exercicis has de fer avui per assolir la teva meta.</li>
-            <li><strong>Ratxa:</strong> quants dies seguits has practicat. No la trencis!</li>
-          </ul>
-          <p>Prem <strong>🚀 Practicar ara!</strong> per començar un exercici de lectura.</p>
-        </div>
-      </details>
-
-      {/* Quick actions */}
-      <div className={styles.actions}>
+      <section className={styles.actions} aria-labelledby="explore-title">
+        <h2 id="explore-title" className={styles.sectionTitle}>Tria què vols fer</h2>
         <Button
           className={styles.actionBtn}
           variant="primary"
           size="lg"
           onClick={() => onNavigate('exercises')}
         >
-          🚀 Practicar ara!
+          <span aria-hidden="true">📖</span> Practicar lectura
         </Button>
         <div className={styles.grid2}>
           <Button variant="secondary" onClick={() => onNavigate('stats')}>
-            📊 Estadístiques
+            <span aria-hidden="true">📊</span> El meu progrés
           </Button>
           <Button variant="secondary" onClick={() => onNavigate('badges')}>
-            🐾 Pokémon
+            <span aria-hidden="true">⭐</span> Col·lecció
           </Button>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

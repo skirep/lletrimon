@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import styles from './StatsPage.module.css';
+import { ProgressBar } from '../components/common';
 import { sessionStorage } from '../storage';
 import { formatDate, formatTime, percentageStr } from '../utils';
 import { useProfileStats, useRankings } from '../hooks';
 import { POKEMON_PATHS, type Profile, type ExerciseSession } from '../models';
+import { pokeApiService } from '../services/pokeApiService';
 
 const EXERCISE_TYPE_LABELS = {
   sounds: 'Sons',
@@ -24,18 +26,46 @@ const POKEMON_SPRITE_URL = (pokemonId: number) =>
 
 const TOTAL_POKEMON = POKEMON_PATHS.length;
 
+function RankingPokemonSprite({ pokemonId }: { pokemonId: number }) {
+  const fallbackName = POKEMON_PATHS.find((path) => path.pokemonId === pokemonId)?.fallbackName ?? `Pokémon ${pokemonId}`;
+  const [pokemonName, setPokemonName] = useState(fallbackName);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    void pokeApiService.getPokemon(pokemonId, fallbackName).then((pokemon) => {
+      if (!cancelled) setPokemonName(pokemon.name);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [fallbackName, pokemonId]);
+
+  return (
+    <img
+      className={styles.rankingPokemonSprite}
+      src={POKEMON_SPRITE_URL(pokemonId)}
+      alt={pokemonName}
+      title={pokemonName}
+      loading="lazy"
+    />
+  );
+}
+
 function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
   const { rankings, loading } = useRankings();
 
   if (loading) {
-    return <p className="text-muted text-center">Carregant rànquing...</p>;
+    return <p className={styles.loadingMessage}>Preparant la classificació...</p>;
   }
 
   if (rankings.length === 0) {
     return (
       <div className={styles.rankingsEmpty}>
-        <span>🏆</span>
-        <p className="text-muted">El rànquing encara no té entrades. Completa exercicis per aparèixer-hi!</p>
+        <span aria-hidden="true">🏆</span>
+        <h2>Sigues el primer!</h2>
+        <p>Completa exercicis i apareixeràs a la classificació.</p>
       </div>
     );
   }
@@ -45,9 +75,9 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
       {rankings.map((entry, index) => {
         const isMe = entry.profileId === currentProfileId;
         return (
-          <div
+          <article
             key={entry.profileId}
-            className={`card ${styles.rankingCard} ${isMe ? styles.rankingCardMe : ''}`}
+            className={`${styles.rankingCard} ${isMe ? styles.rankingCardMe : ''}`}
           >
             <span className={styles.rankingPos}>
               {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`}
@@ -63,7 +93,7 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
                 </span>
               )}
             </div>
-            <div className={styles.rankingStats}>
+            <div className={styles.rankingStats} aria-label={`Nivell ${entry.level}, ${entry.experience} punts d'experiència`}>
               <span className={styles.rankingLevel}>Niv. {entry.level}</span>
               <span className={styles.rankingXp}>{entry.experience} XP</span>
             </div>
@@ -73,13 +103,7 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
               </span>
               <div className={styles.rankingPokemonList} aria-label={`${entry.pokemonIds.length} Pokémon desbloquejats`}>
                 {entry.pokemonIds.slice(-8).map((pokemonId) => (
-                  <img
-                    key={pokemonId}
-                    className={styles.rankingPokemonSprite}
-                    src={POKEMON_SPRITE_URL(pokemonId)}
-                    alt={`Pokémon número ${pokemonId}`}
-                    loading="lazy"
-                  />
+                  <RankingPokemonSprite key={pokemonId} pokemonId={pokemonId} />
                 ))}
                 {entry.pokemonIds.length > 8 && (
                   <span className={styles.rankingPokemonMore}>+{entry.pokemonIds.length - 8}</span>
@@ -89,7 +113,7 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
                 )}
               </div>
             </div>
-          </div>
+          </article>
         );
       })}
     </div>
@@ -133,6 +157,18 @@ export function StatsPage({ profile }: StatsPageProps) {
     }
   }
   const topErrors = Object.entries(errorMap).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const typeBreakdown = Object.entries(EXERCISE_TYPE_LABELS).map(([type, label]) => {
+    const typeSessions = sessions.filter((session) => session.type === type);
+    const average = typeSessions.length > 0
+      ? Math.round(typeSessions.reduce((sum, session) => sum + session.score, 0) / typeSessions.length)
+      : 0;
+    return { type, label, count: typeSessions.length, average };
+  }).filter((item) => item.count > 0);
+  const progressMessage = avgScore >= 90
+    ? 'Fantàstic! Estàs llegint amb molta precisió.'
+    : avgScore >= 70
+      ? 'Molt bé! Cada sessió et fa avançar.'
+      : 'Continua practicant: cada intent compta.';
   const ERROR_LABELS: Record<string, string> = {
     b_d_confusion: 'Confusió b/d',
     p_q_confusion: 'Confusió p/q',
@@ -145,33 +181,28 @@ export function StatsPage({ profile }: StatsPageProps) {
 
   return (
     <div className={`page ${styles.page}`}>
-      <h1 className="page-title">Estadístiques</h1>
+      <header className={styles.pageHeader}>
+        <span className={styles.eyebrow}>Segueix avançant</span>
+        <h1>El teu progrés</h1>
+        <p>Aquí pots veure tot el que has aconseguit, {profile.name}.</p>
+      </header>
 
-      <details className="info-box">
-        <summary>ℹ️ Com funciona aquesta pantalla?</summary>
-        <div className="info-box-content">
-          <p>Aquí pots seguir el teu progrés:</p>
-          <ul>
-            <li><strong>📊 Les meves:</strong> veu el total d'exercicis, la puntuació mitjana, el millor resultat, el temps total practicat i els errors més freqüents que has comès.</li>
-            <li><strong>🏆 Rànquing:</strong> compara el teu nivell, XP i col·lecció de Pokémon amb els d'altres jugadors de tot arreu.</li>
-          </ul>
-          <p>Com més exercicis facis, millor reflectiran les estadístiques el teu progrés real.</p>
-        </div>
-      </details>
-
-      {/* Tabs */}
-      <div className={styles.tabs}>
+      <div className={styles.tabs} role="tablist" aria-label="Vistes d'estadístiques">
         <button
           className={`${styles.tab} ${tab === 'personal' ? styles.tabActive : ''}`}
           onClick={() => setTab('personal')}
+          role="tab"
+          aria-selected={tab === 'personal'}
         >
-          📊 Les meves
+          <span aria-hidden="true">📈</span> El meu progrés
         </button>
         <button
           className={`${styles.tab} ${tab === 'rankings' ? styles.tabActive : ''}`}
           onClick={() => setTab('rankings')}
+          role="tab"
+          aria-selected={tab === 'rankings'}
         >
-          🏆 Rànquing
+          <span aria-hidden="true">🏆</span> Classificació
         </button>
       </div>
 
@@ -181,38 +212,80 @@ export function StatsPage({ profile }: StatsPageProps) {
         <>
           {!hasAnyStats ? (
             <div className={styles.emptyPersonal}>
-              <span className={styles.emptyIcon}>📊</span>
-              <p className="text-muted">Encara no tens cap exercici completat. Practica per veure les estadístiques!</p>
+              <span className={styles.emptyIcon} aria-hidden="true">🌱</span>
+              <h2>El teu camí comença aquí</h2>
+              <p>Completa el primer exercici i veuràs com creix el teu progrés.</p>
             </div>
           ) : (
             <>
+              <section className={styles.scoreHero} aria-labelledby="score-title">
+                <div className={styles.scoreCopy}>
+                  <span className={styles.scoreLabel}>La teva mitjana</span>
+                  <div className={styles.scoreValue} id="score-title">{avgScore}%</div>
+                  <p>{progressMessage}</p>
+                </div>
+                <div className={styles.scoreProgress}>
+                  <ProgressBar
+                    value={avgScore}
+                    max={100}
+                    color={avgScore >= 80 ? 'var(--color-success)' : 'var(--color-primary)'}
+                  />
+                  <span>Has encertat {avgScore} de cada 100 elements.</span>
+                </div>
+              </section>
+
               <div className={styles.summaryGrid}>
-                <div className={`card ${styles.statCard}`}>
+                <div className={styles.statCard}>
+                  <span className={styles.statIcon} aria-hidden="true">📚</span>
                   <span className={styles.statValue}>{stats?.totalExercises ?? sessions.length}</span>
-                  <span className={styles.statLabel}>Exercicis</span>
+                  <span className={styles.statLabel}>Exercicis fets</span>
                 </div>
-                <div className={`card ${styles.statCard}`}>
-                  <span className={styles.statValue}>{avgScore}%</span>
-                  <span className={styles.statLabel}>Mitjana</span>
-                </div>
-                <div className={`card ${styles.statCard}`}>
+                <div className={styles.statCard}>
+                  <span className={styles.statIcon} aria-hidden="true">⭐</span>
                   <span className={styles.statValue}>{bestScore !== null ? `${bestScore}%` : '—'}</span>
-                  <span className={styles.statLabel}>Millor</span>
+                  <span className={styles.statLabel}>Millor resultat</span>
                 </div>
-                <div className={`card ${styles.statCard}`}>
+                <div className={styles.statCard}>
+                  <span className={styles.statIcon} aria-hidden="true">⏱️</span>
                   <span className={styles.statValue}>{totalMinutes} min</span>
-                  <span className={styles.statLabel}>Temps total</span>
+                  <span className={styles.statLabel}>Temps llegint</span>
                 </div>
               </div>
 
+              {typeBreakdown.length > 0 && (
+                <section className={styles.progressSection}>
+                  <div className={styles.sectionHeading}>
+                    <div>
+                      <span className={styles.sectionEyebrow}>Per activitat</span>
+                      <h2 className={styles.sectionTitle}>Com et va?</h2>
+                    </div>
+                    <span className={styles.sectionHint}>Últimes {sessions.length} sessions</span>
+                  </div>
+                  <div className={styles.typeList}>
+                    {typeBreakdown.map((item) => (
+                      <div key={item.type} className={styles.typeRow}>
+                        <div className={styles.typeHeader}>
+                          <span>{item.label}</span>
+                          <strong>{item.average}%</strong>
+                        </div>
+                        <ProgressBar value={item.average} max={100} color="var(--color-primary)" />
+                        <span className={styles.typeCount}>{item.count} {item.count === 1 ? 'sessió' : 'sessions'}</span>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
               {topErrors.length > 0 && (
-                <section className={`card ${styles.errorSection}`}>
-                  <h2 className={styles.sectionTitle}>Errors més freqüents</h2>
+                <section className={styles.errorSection}>
+                  <span className={styles.sectionEyebrow}>Un petit repte</span>
+                  <h2 className={styles.sectionTitle}>Coses per practicar</h2>
+                  <p className={styles.sectionDescription}>Aquestes són les que pots entrenar una mica més.</p>
                   <div className={styles.errorList}>
                     {topErrors.map(([err, count]) => (
                       <div key={err} className={styles.errorRow}>
                         <span className={styles.errorName}>{ERROR_LABELS[err] ?? err}</span>
-                        <span className={styles.errorCount}>{count}</span>
+                        <span className={styles.errorCount}>{count} {count === 1 ? 'vegada' : 'vegades'}</span>
                       </div>
                     ))}
                   </div>
@@ -220,14 +293,17 @@ export function StatsPage({ profile }: StatsPageProps) {
               )}
 
               <section className={styles.sessionSection}>
-                <h2 className={styles.sectionTitle}>Sessions recents</h2>
+                <div className={styles.sectionHeading}>
+                  <div>
+                    <span className={styles.sectionEyebrow}>El teu historial</span>
+                    <h2 className={styles.sectionTitle}>Últimes sessions</h2>
+                  </div>
+                </div>
                 {hasRecentSessions ? (
                   <div className={styles.sessionList}>
                     {sessions.slice(0, 15).map((session) => (
-                      <div key={session.id} className={`card ${styles.sessionCard}`}>
-                        <div className={styles.sessionScore} style={{
-                          color: session.score >= 80 ? 'var(--color-success)' : session.score >= 50 ? 'var(--color-warning)' : 'var(--color-error)'
-                        }}>
+                      <article key={session.id} className={styles.sessionCard}>
+                        <div className={`${styles.sessionScore} ${session.score >= 80 ? styles.scoreHigh : session.score >= 50 ? styles.scoreMedium : styles.scoreLow}`}>
                           {session.score}%
                         </div>
                         <div className={styles.sessionInfo}>
@@ -240,12 +316,12 @@ export function StatsPage({ profile }: StatsPageProps) {
                         <div className={styles.sessionDate}>
                           {formatDate(session.completedAt ?? session.startedAt)}
                         </div>
-                      </div>
+                      </article>
                     ))}
                   </div>
                 ) : (
-                  <div className={`card ${styles.sessionCard}`}>
-                    <p className="text-muted">No hi ha sessions recents desades en aquest dispositiu.</p>
+                  <div className={styles.sessionCard}>
+                    <p>No hi ha sessions recents desades en aquest dispositiu.</p>
                   </div>
                 )}
               </section>

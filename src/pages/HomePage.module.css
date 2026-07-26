@@ -1,14 +1,27 @@
 .page {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
   padding-bottom: 80px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 22px;
+  border: 1px solid color-mix(in srgb, var(--color-primary) 18%, var(--color-border));
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(140deg, color-mix(in srgb, var(--color-primary) 9%, var(--color-surface)) 0%, var(--color-surface) 58%),
+    var(--color-surface);
+  box-shadow: var(--shadow-sm);
 }
 
 .profileHeader {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
 }
 
 .avatarBtn {
@@ -19,58 +32,128 @@
   transition: transform 0.2s;
 }
 
-.avatarBtn:hover {
+.avatarBtn:hover,
+.avatarBtn:focus-visible {
   transform: scale(1.1);
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 3px;
 }
 
 .profileInfo {
+  min-width: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
-.greeting {
-  font-size: 24px;
+.eyebrow {
+  color: var(--color-text-muted);
+  font-size: 13px;
   font-weight: 700;
 }
 
-.level {
-  font-size: 16px;
-  color: var(--color-text-muted);
-  background: var(--color-border);
-  padding: 2px 10px;
-  border-radius: 99px;
-  align-self: flex-start;
+.greeting {
+  overflow-wrap: anywhere;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.15;
 }
 
-.xpCard, .goalCard {
+.level {
+  flex: 0 0 auto;
+  padding: 7px 11px;
+  border-radius: 99px;
+  background: var(--color-primary);
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.xpBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.progressHeader strong {
+  color: var(--color-text);
+}
+
+.todaySection,
+.actions {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.xpHeader, .goalHeader {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  font-weight: 600;
+.sectionTitle {
+  font-size: 19px;
+  font-weight: 800;
 }
 
-.goalDone {
-  font-size: 14px;
-  font-weight: 600;
+.todayGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.todayCard {
+  min-height: 118px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.todayCardDone {
+  border-color: color-mix(in srgb, var(--color-success) 45%, var(--color-border));
+  background: color-mix(in srgb, var(--color-success) 7%, var(--color-surface));
+}
+
+.todayIcon {
+  font-size: 25px;
+  line-height: 1;
+}
+
+.todayInfo {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 15px;
+}
+
+.todayLabel,
+.todayHint {
+  color: var(--color-text-muted);
+  font-size: 12px;
 }
 
 .missionCard {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   overflow: hidden;
+  padding: 24px;
+  border-radius: var(--radius-lg);
   background:
-    linear-gradient(115deg, rgba(255, 255, 255, 0.96), rgba(254, 242, 242, 0.94)),
-    repeating-linear-gradient(135deg, transparent 0 18px, rgba(220, 38, 38, 0.05) 18px 20px);
-  border: 2px solid rgba(220, 38, 38, 0.28);
-  box-shadow: 0 16px 30px rgba(127, 29, 29, 0.1);
+    linear-gradient(135deg, color-mix(in srgb, var(--color-secondary) 13%, var(--color-surface)), var(--color-surface));
+  border: 2px solid color-mix(in srgb, var(--color-secondary) 45%, var(--color-border));
+  box-shadow: var(--shadow-md);
 }
 
 .missionTopline,
@@ -83,18 +166,17 @@
 }
 
 .missionLabel {
-  color: #b91c1c;
+  color: var(--color-secondary-dark);
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
 }
 
 .missionTarget {
   padding: 6px 10px;
   border-radius: 999px;
-  background: #b91c1c;
-  color: white;
+  background: color-mix(in srgb, var(--color-secondary) 18%, var(--color-surface));
+  color: var(--color-text);
   font-size: 12px;
   font-weight: 800;
 }
@@ -107,7 +189,8 @@
 .missionReason,
 .missionLoading {
   color: var(--color-text-muted);
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .missionProgress {
@@ -125,15 +208,14 @@
   font-size: 13px;
 }
 
-.actions {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.missionButton {
+  min-width: 150px;
 }
 
 .actionBtn {
+  min-height: 64px;
   width: 100%;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .grid2 {
@@ -143,6 +225,10 @@
 }
 
 @media (max-width: 620px) {
+  .todayGrid {
+    grid-template-columns: 1fr;
+  }
+
   .missionFooter {
     align-items: stretch;
     flex-direction: column;
@@ -150,5 +236,20 @@
 
   .missionFooter :global(button) {
     width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero,
+  .missionCard {
+    padding: 18px;
+  }
+
+  .greeting {
+    font-size: 22px;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
   }
 }
