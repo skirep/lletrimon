@@ -24,16 +24,8 @@ async function syncSessionToSupabase(session: ExerciseSession): Promise<void> {
   }
 }
 
-async function loadRecentSessionsFromSupabase(profileId: string, since: number): Promise<ExerciseSession[]> {
-  const { data, error } = await supabase
-    .from('profile_sessions')
-    .select('*')
-    .eq('profile_id', profileId)
-    .gte('completed_at', since)
-    .order('completed_at', { ascending: false })
-    .limit(50);
-  if (error || !data) return [];
-  return data.map((row) => ({
+function mapSessionRow(row: Record<string, unknown>): ExerciseSession {
+  return {
     id: row.id as string,
     profileId: row.profile_id as string,
     setId: row.set_id as string,
@@ -46,13 +38,48 @@ async function loadRecentSessionsFromSupabase(profileId: string, since: number):
     totalItems: row.total_items as number,
     correctItems: row.correct_items as number,
     averageTimeMs: row.average_time_ms as number,
-  }));
+  };
+}
+
+async function loadAllSessionsFromSupabase(profileId: string): Promise<ExerciseSession[] | null> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return null;
+
+  const pageSize = 1000;
+  const sessions: ExerciseSession[] = [];
+  for (let from = 0; ; from += pageSize) {
+    const { data, error } = await supabase
+      .from('profile_sessions')
+      .select('*')
+      .eq('profile_id', profileId)
+      .order('completed_at', { ascending: true })
+      .range(from, from + pageSize - 1);
+    if (error) {
+      console.error('Failed to load sessions from Supabase:', error.message);
+      return null;
+    }
+    sessions.push(...(data ?? []).map((row) => mapSessionRow(row)));
+    if (!data || data.length < pageSize) break;
+  }
+  return sessions;
+}
+
+async function loadRecentSessionsFromSupabase(profileId: string, since: number): Promise<ExerciseSession[]> {
+  const { data, error } = await supabase
+    .from('profile_sessions')
+    .select('*')
+    .eq('profile_id', profileId)
+    .gte('completed_at', since)
+    .order('completed_at', { ascending: false })
+    .limit(50);
+  if (error || !data) return [];
+  return data.map((row) => mapSessionRow(row));
 }
 
 export const sessionStorage = {
   async save(session: ExerciseSession): Promise<void> {
     await db.sessions.put(session);
-    void syncSessionToSupabase(session);
+    await syncSessionToSupabase(session);
   },
 
   async getByProfile(profileId: string, limit = 50): Promise<ExerciseSession[]> {
@@ -65,6 +92,22 @@ export const sessionStorage = {
   },
 
   async getAllByProfile(profileId: string): Promise<ExerciseSession[]> {
+    const local = await db.sessions
+      .where('profileId')
+      .equals(profileId)
+      .toArray();
+    const cloud = await loadAllSessionsFromSupabase(profileId);
+    if (cloud) {
+      const cloudIds = new Set(cloud.map((session) => session.id));
+      await Promise.all(
+        local
+          .filter((session) => !cloudIds.has(session.id))
+          .map((session) => syncSessionToSupabase(session)),
+      );
+      if (cloud.length > 0) {
+        await db.sessions.bulkPut(cloud);
+      }
+    }
     return db.sessions
       .where('profileId')
       .equals(profileId)
