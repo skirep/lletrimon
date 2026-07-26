@@ -410,6 +410,48 @@
         "text": "pinzell",
         "type": "words",
         "difficulty": "medium"
+      },
+      {
+        "id": "w-umbreon",
+        "text": "Umbreon",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-inteleon",
+        "text": "Inteleon",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-plusle",
+        "text": "Plusle",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-cinderace",
+        "text": "Cinderace",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-meloetta",
+        "text": "Meloetta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-mawile",
+        "text": "Mawile",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "w-panpour",
+        "text": "Panpour",
+        "type": "words",
+        "difficulty": "medium"
       }
     ]
   },
@@ -615,6 +657,12 @@
       {
         "id": "w50",
         "text": "esternocleidomastoïdal",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "w-mewtwo",
+        "text": "Mewtwo",
         "type": "words",
         "difficulty": "hard"
       }

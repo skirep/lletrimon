@@ -217,21 +217,75 @@
   min-width: 0;
 }
 
+.rankingPokemonButton {
+  width: 34px;
+  height: 34px;
+  margin-left: -6px;
+  padding: 0;
+  border-radius: 50%;
+  background: transparent;
+  position: relative;
+}
+
+.rankingPokemonButton:focus-visible {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 2px;
+  z-index: 1;
+}
+
 .rankingPokemonSprite {
   width: 34px;
   height: 34px;
   object-fit: contain;
-  margin-left: -6px;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.18));
-  position: relative;
-  transform: scale(1);
-  transition: transform 0.15s ease;
-  z-index: 0;
 }
 
-.rankingPokemonSprite:hover {
-  transform: scale(2.2);
-  z-index: 2;
+.pokemonPreview {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(15, 23, 42, 0.58);
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  animation: previewFadeIn 0.16s ease-out;
+}
+
+.pokemonPreviewContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  animation: previewPopIn 0.2s ease-out;
+}
+
+.pokemonPreviewContent img {
+  width: min(68vw, 390px);
+  height: min(68vw, 390px);
+  object-fit: contain;
+  filter: drop-shadow(0 24px 28px rgba(0, 0, 0, 0.38));
+}
+
+.pokemonPreviewContent strong {
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 18px;
+  text-transform: capitalize;
+  box-shadow: var(--shadow-md);
+}
+
+@keyframes previewFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes previewPopIn {
+  from { transform: scale(0.78); }
+  to { transform: scale(1); }
 }
 
 .rankingPokemonMore {

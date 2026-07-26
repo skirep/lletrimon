@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import styles from './StatsPage.module.css';
 import { ProgressBar } from '../components/common';
 import { sessionStorage } from '../storage';
@@ -23,12 +24,15 @@ type StatsTab = 'personal' | 'rankings';
 
 const POKEMON_SPRITE_URL = (pokemonId: number) =>
   `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
+const POKEMON_ARTWORK_URL = (pokemonId: number) =>
+  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId}.png`;
 
 const TOTAL_POKEMON = POKEMON_PATHS.length;
 
 function RankingPokemonSprite({ pokemonId }: { pokemonId: number }) {
   const fallbackName = POKEMON_PATHS.find((path) => path.pokemonId === pokemonId)?.fallbackName ?? `Pokémon ${pokemonId}`;
   const [pokemonName, setPokemonName] = useState(fallbackName);
+  const [showPreview, setShowPreview] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -43,13 +47,34 @@ function RankingPokemonSprite({ pokemonId }: { pokemonId: number }) {
   }, [fallbackName, pokemonId]);
 
   return (
-    <img
-      className={styles.rankingPokemonSprite}
-      src={POKEMON_SPRITE_URL(pokemonId)}
-      alt={pokemonName}
-      title={pokemonName}
-      loading="lazy"
-    />
+    <>
+      <button
+        type="button"
+        className={styles.rankingPokemonButton}
+        onMouseEnter={() => setShowPreview(true)}
+        onMouseLeave={() => setShowPreview(false)}
+        onFocus={() => setShowPreview(true)}
+        onBlur={() => setShowPreview(false)}
+        aria-label={`Veure ${pokemonName} en gran`}
+      >
+        <img
+          className={styles.rankingPokemonSprite}
+          src={POKEMON_SPRITE_URL(pokemonId)}
+          alt=""
+          title={pokemonName}
+          loading="lazy"
+        />
+      </button>
+      {showPreview && createPortal(
+        <div className={styles.pokemonPreview} role="tooltip">
+          <div className={styles.pokemonPreviewContent}>
+            <img src={POKEMON_ARTWORK_URL(pokemonId)} alt={pokemonName} />
+            <strong>{pokemonName}</strong>
+          </div>
+        </div>,
+        document.body,
+      )}
+    </>
   );
 }
 
