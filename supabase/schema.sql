@@ -101,6 +101,7 @@ create table public.rankings (
   level integer not null default 1,
   experience integer not null default 0,
   total_exercises integer not null default 0,
+  pokemon_ids integer[] not null default '{}',
   updated_at bigint not null default 0
 );
 

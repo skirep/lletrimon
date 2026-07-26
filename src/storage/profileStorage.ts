@@ -1,6 +1,6 @@
 import { db } from './database';
 import type { Profile, ProfileStats } from '../models';
-import { getLevelFromXp } from '../models';
+import { getLevelFromXp, POKEMON_PATHS } from '../models';
 import { supabase } from '../lib/supabase';
 
 function createEmptyProfileStats(profileId: string): ProfileStats {
@@ -81,7 +81,11 @@ async function syncRankingToSupabase(profile: Profile, stats: ProfileStats): Pro
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return;
   await syncToSupabase(profile);
-  const { error } = await supabase.from('rankings').upsert({
+  const sessions = await db.sessions.where('profileId').equals(profile.id).toArray();
+  const pokemonIds = POKEMON_PATHS
+    .filter((path) => sessions.some((session) => path.setIds.includes(session.setId) && session.score >= path.minScorePercent))
+    .map((path) => path.pokemonId);
+  const ranking = {
     profile_id: profile.id,
     display_name: profile.name,
     school: profile.school ?? null,
@@ -89,8 +93,14 @@ async function syncRankingToSupabase(profile: Profile, stats: ProfileStats): Pro
     level: stats.level,
     experience: stats.experience,
     total_exercises: stats.totalExercises,
+    pokemon_ids: pokemonIds,
     updated_at: Date.now(),
-  }, { onConflict: 'profile_id' });
+  };
+  let { error } = await supabase.from('rankings').upsert(ranking, { onConflict: 'profile_id' });
+  if (error?.message.includes('pokemon_ids')) {
+    const { pokemon_ids: _pokemonIds, ...legacyRanking } = ranking;
+    ({ error } = await supabase.from('rankings').upsert(legacyRanking, { onConflict: 'profile_id' }));
+  }
   if (error) {
     console.error('Failed to sync ranking to Supabase:', error.message);
   }
@@ -104,6 +114,7 @@ export interface RankingEntry {
   level: number;
   experience: number;
   totalExercises: number;
+  pokemonIds: number[];
 }
 
 export async function loadRankings(): Promise<RankingEntry[]> {
@@ -121,6 +132,7 @@ export async function loadRankings(): Promise<RankingEntry[]> {
     level: r.level as number,
     experience: r.experience as number,
     totalExercises: r.total_exercises as number,
+    pokemonIds: Array.isArray(r.pokemon_ids) ? r.pokemon_ids as number[] : [],
   }));
 }
 

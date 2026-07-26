@@ -3,7 +3,7 @@ import styles from './StatsPage.module.css';
 import { sessionStorage } from '../storage';
 import { formatDate, formatTime, percentageStr } from '../utils';
 import { useProfileStats, useRankings } from '../hooks';
-import type { Profile, ExerciseSession } from '../models';
+import { POKEMON_PATHS, type Profile, type ExerciseSession } from '../models';
 
 const EXERCISE_TYPE_LABELS = {
   sounds: 'Sons',
@@ -18,6 +18,11 @@ interface StatsPageProps {
 }
 
 type StatsTab = 'personal' | 'rankings';
+
+const POKEMON_SPRITE_URL = (pokemonId: number) =>
+  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
+
+const TOTAL_POKEMON = POKEMON_PATHS.length;
 
 function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
   const { rankings, loading } = useRankings();
@@ -61,6 +66,28 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
             <div className={styles.rankingStats}>
               <span className={styles.rankingLevel}>Niv. {entry.level}</span>
               <span className={styles.rankingXp}>{entry.experience} XP</span>
+            </div>
+            <div className={styles.rankingPokemon}>
+              <span className={styles.rankingPokemonCount}>
+                {entry.pokemonIds.length}/{TOTAL_POKEMON} Pokémon
+              </span>
+              <div className={styles.rankingPokemonList} aria-label={`${entry.pokemonIds.length} Pokémon desbloquejats`}>
+                {entry.pokemonIds.slice(-8).map((pokemonId) => (
+                  <img
+                    key={pokemonId}
+                    className={styles.rankingPokemonSprite}
+                    src={POKEMON_SPRITE_URL(pokemonId)}
+                    alt={`Pokémon número ${pokemonId}`}
+                    loading="lazy"
+                  />
+                ))}
+                {entry.pokemonIds.length > 8 && (
+                  <span className={styles.rankingPokemonMore}>+{entry.pokemonIds.length - 8}</span>
+                )}
+                {entry.pokemonIds.length === 0 && (
+                  <span className={styles.rankingPokemonEmpty}>Encara cap</span>
+                )}
+              </div>
             </div>
           </div>
         );
@@ -126,7 +153,7 @@ export function StatsPage({ profile }: StatsPageProps) {
           <p>Aquí pots seguir el teu progrés:</p>
           <ul>
             <li><strong>📊 Les meves:</strong> veu el total d'exercicis, la puntuació mitjana, el millor resultat, el temps total practicat i els errors més freqüents que has comès.</li>
-            <li><strong>🏆 Rànquing:</strong> compara el teu nivell i XP amb els d'altres jugadors de tot arreu.</li>
+            <li><strong>🏆 Rànquing:</strong> compara el teu nivell, XP i col·lecció de Pokémon amb els d'altres jugadors de tot arreu.</li>
           </ul>
           <p>Com més exercicis facis, millor reflectiran les estadístiques el teu progrés real.</p>
         </div>
