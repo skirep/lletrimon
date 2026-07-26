@@ -21,10 +21,6 @@ import type { ExerciseSet, Profile, ExerciseAttempt, ExerciseSession } from '../
  *  'done'      → All items have been processed; the session is saved and
  *                gamification is processed (XP, badges, streak…).
  *
- * Special behaviour:
- *  - In **syllable-hard** mode the set is pre-expanded to HARD_SYLLABLE_BASE_ITEMS
- *    items; any item answered incorrectly is appended again to the queue so the
- *    player must eventually read every syllable correctly.
  */
 
 interface ExerciseRunnerProps {
@@ -33,23 +29,11 @@ interface ExerciseRunnerProps {
   onFinish: () => void;
 }
 
-const HARD_SYLLABLE_BASE_ITEMS = 50;
 const SPEECH_GRACE_MS = 200;
 const SHORT_TIMER_SPEECH_GRACE_MS = 700;
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
-  const isHardSyllableMode = set.type === 'syllables' && set.difficulty === 'hard';
-  const hardBaseItems = Math.max(1, set.items.length || HARD_SYLLABLE_BASE_ITEMS);
-  const [items, setItems] = useState(() => {
-    const shuffled = shuffleItems(set.items);
-    if (!isHardSyllableMode || shuffled.length === 0) {
-      return shuffled;
-    }
-    return Array.from({ length: hardBaseItems }, (_, idx) => {
-      const source = shuffled[idx % shuffled.length];
-      return { ...source, id: `${source.id}-run-${idx + 1}` };
-    });
-  });
+  const [items] = useState(() => shuffleItems(set.items));
   const [index, setIndex] = useState(0);
   const [attempts, setAttempts] = useState<ExerciseAttempt[]>([]);
   const [phase, setPhase] = useState<'ready' | 'listening' | 'done'>('ready');
@@ -156,19 +140,14 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     attemptsRef.current = updatedAttempts;
     setAttempts(updatedAttempts);
 
-    const shouldRetry = isHardSyllableMode && result !== 'correct';
-    if (shouldRetry) {
-      setItems((prev) => [...prev, { ...currentItem, id: `${currentItem.id}-retry-${Date.now()}` }]);
-    }
-
-    if (index + 1 < items.length || shouldRetry) {
+    if (index + 1 < items.length) {
       setIndex((i) => i + 1);
       setPhase('ready');
       return;
     }
 
     void completeSession(updatedAttempts);
-  }, [currentItem, clearTimer, isHardSyllableMode, index, items.length, completeSession]);
+  }, [currentItem, clearTimer, index, items.length, completeSession]);
 
   const handleReadTimeout = useCallback(() => {
     if (phaseRef.current !== 'listening' || timedOutRef.current || !currentItem) return;
@@ -190,13 +169,6 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       const updatedAttempts = [...attemptsRef.current, attempt];
       attemptsRef.current = updatedAttempts;
       setAttempts(updatedAttempts);
-
-      if (isHardSyllableMode) {
-        setItems((prev) => [...prev, { ...currentItem, id: `${currentItem.id}-retry-${Date.now()}` }]);
-        setIndex((i) => i + 1);
-        setPhase('ready');
-        return;
-      }
 
       if (index + 1 < items.length) {
         setIndex((i) => i + 1);
@@ -229,7 +201,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       : SPEECH_GRACE_MS;
     clearTimer(graceTimeoutRef);
     graceTimeoutRef.current = window.setTimeout(tryFinalizeFromCapturedSpeech, graceMs);
-  }, [clearTimer, stop, currentItem, isHardSyllableMode, index, items.length, completeSession, evaluateCurrentAttempt]);
+  }, [clearTimer, stop, currentItem, index, items.length, completeSession, evaluateCurrentAttempt]);
 
   useEffect(() => {
     attemptsRef.current = attempts;
