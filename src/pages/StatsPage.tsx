@@ -79,7 +79,7 @@ function RankingPokemonSprite({ pokemonId }: { pokemonId: number }) {
 }
 
 function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
-  const { rankings, loading } = useRankings();
+  const { rankings, loading } = useRankings(currentProfileId);
 
   if (loading) {
     return <p className={styles.loadingMessage}>Preparant la classificació...</p>;
@@ -127,12 +127,9 @@ function RankingsTab({ currentProfileId }: { currentProfileId: string }) {
                 {entry.pokemonIds.length}/{TOTAL_POKEMON} Pokémon
               </span>
               <div className={styles.rankingPokemonList} aria-label={`${entry.pokemonIds.length} Pokémon desbloquejats`}>
-                {entry.pokemonIds.slice(-8).map((pokemonId) => (
+                {entry.pokemonIds.map((pokemonId) => (
                   <RankingPokemonSprite key={pokemonId} pokemonId={pokemonId} />
                 ))}
-                {entry.pokemonIds.length > 8 && (
-                  <span className={styles.rankingPokemonMore}>+{entry.pokemonIds.length - 8}</span>
-                )}
                 {entry.pokemonIds.length === 0 && (
                   <span className={styles.rankingPokemonEmpty}>Encara cap</span>
                 )}

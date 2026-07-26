@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { profileStorage, loadProfilesFromSupabase, loadRankings, loadGamificationFromSupabase, loadSettingsFromSupabase } from '../storage';
+import { profileStorage, sessionStorage, loadProfilesFromSupabase, loadRankings, loadGamificationFromSupabase, loadSettingsFromSupabase } from '../storage';
 import type { Profile, ProfileStats } from '../models';
 import type { RankingEntry } from '../storage';
 import { generateId } from '../utils';
@@ -101,16 +101,28 @@ export function useProfileStats(profileId: string | null) {
   return stats;
 }
 
-export function useRankings() {
+export function useRankings(profileId?: string) {
   const [rankings, setRankings] = useState<RankingEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    loadRankings().then((data) => {
-      setRankings(data);
-      setLoading(false);
-    });
-  }, []);
+    let cancelled = false;
+
+    const load = async () => {
+      if (profileId) {
+        await sessionStorage.getAllByProfile(profileId);
+        await profileStorage.syncRanking(profileId);
+      }
+      const data = await loadRankings();
+      if (!cancelled) {
+        setRankings(data);
+        setLoading(false);
+      }
+    };
+
+    void load();
+    return () => { cancelled = true; };
+  }, [profileId]);
 
   return { rankings, loading };
 }

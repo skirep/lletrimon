@@ -243,7 +243,19 @@ export const profileStorage = {
   async updateStats(stats: ProfileStats): Promise<void> {
     await db.profileStats.put(stats);
     const profile = await db.profiles.get(stats.profileId);
-    if (profile) void syncRankingToSupabase(profile, stats);
-    void syncStatsToSupabase(stats);
+    await Promise.all([
+      profile ? syncRankingToSupabase(profile, stats) : Promise.resolve(),
+      syncStatsToSupabase(stats),
+    ]);
+  },
+
+  async syncRanking(profileId: string): Promise<void> {
+    const [profile, stats] = await Promise.all([
+      db.profiles.get(profileId),
+      db.profileStats.get(profileId),
+    ]);
+    if (profile && stats) {
+      await syncRankingToSupabase(profile, stats);
+    }
   },
 };
