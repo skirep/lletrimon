@@ -9,6 +9,7 @@ import type {
 import type { RankingEntry } from '../storage/profileStorage';
 import { usePokemonCollection } from '../hooks';
 import { battleService } from '../services/battleService';
+import { BattleReplay } from '../components/gamification';
 import styles from './BattlesPage.module.css';
 
 interface BattlesPageProps {
@@ -28,7 +29,7 @@ function Team({ pokemon }: { pokemon: BattlePokemon[] | null }) {
   if (!pokemon) return <div className={styles.teamPending}>Equip pendent de seleccionar</div>;
   return (
     <div className={styles.team}>
-      {pokemon.map((fighter) => (
+      {[...pokemon].sort((left, right) => right.power - left.power).map((fighter) => (
         <div className={styles.teamPokemon} key={fighter.pokemonId}>
           {fighter.imageUrl
             ? <img src={fighter.imageUrl} alt={fighter.name} />
@@ -52,7 +53,9 @@ function statusLabel(status: BattleChallenge['status']): string {
 
 export function BattlesPage({ profile }: BattlesPageProps) {
   const { collection, loading: collectionLoading } = usePokemonCollection(profile.id);
-  const unlocked = collection.filter((pokemon) => pokemon.unlocked);
+  const unlocked = collection
+    .filter((pokemon) => pokemon.unlocked)
+    .sort((left, right) => right.power - left.power || left.name.localeCompare(right.name));
   const [teamSize, setTeamSize] = useState<BattleTeamSize>(1);
   const [selectedRivalId, setSelectedRivalId] = useState('');
   const [selectedPokemonIds, setSelectedPokemonIds] = useState<number[]>([]);
@@ -63,6 +66,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
   const [loading, setLoading] = useState(true);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [autoPlayChallengeId, setAutoPlayChallengeId] = useState<string | null>(null);
 
   const load = async () => {
     setLoading(true);
@@ -72,6 +76,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
       const newlyAccepted = data.challenges.filter((challenge) => challenge.status === 'accepted');
       if (newlyAccepted.length > 0) {
         await Promise.all(newlyAccepted.map((challenge) => battleService.open(challenge.id)));
+        setAutoPlayChallengeId(newlyAccepted[0]?.id ?? null);
         data = await battleService.list(profile.id);
       }
       setChallenges(data.challenges);
@@ -109,7 +114,8 @@ export function BattlesPage({ profile }: BattlesPageProps) {
       const team = selectedPokemonIds
         .map((id) => unlocked.find((pokemon) => pokemon.pokemonId === id))
         .filter((pokemon): pokemon is PokemonCollectionItem => Boolean(pokemon))
-        .map(toBattlePokemon);
+        .map(toBattlePokemon)
+        .sort((left, right) => right.power - left.power);
       await battleService.create(profile.id, selectedRivalId, teamSize, team);
       setSelectedPokemonIds([]);
       await load();
@@ -130,6 +136,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
             .map((id) => unlocked.find((pokemon) => pokemon.pokemonId === id))
             .filter((pokemon): pokemon is PokemonCollectionItem => Boolean(pokemon))
             .map(toBattlePokemon)
+            .sort((left, right) => right.power - left.power)
         : null;
       await battleService.respond(challenge.id, accept, team);
       setAcceptingChallengeId(null);
@@ -269,13 +276,16 @@ export function BattlesPage({ profile }: BattlesPageProps) {
                 )}
 
                 {challenge.result && (
-                  <div className={`${styles.result} ${won ? styles.victory : styles.defeat}`}>
-                    <div>
-                      <span>{won ? 'Victòria' : 'Derrota'}</span>
-                      <strong>{challenge.result.challengerScore} - {challenge.result.opponentScore}</strong>
+                  <>
+                    <div className={`${styles.result} ${won ? styles.victory : styles.defeat}`}>
+                      <div>
+                        <span>{won ? 'Victòria' : 'Derrota'}</span>
+                        <strong>{challenge.result.challengerScore} - {challenge.result.opponentScore}</strong>
+                      </div>
+                      <p>{challenge.result.summary}</p>
                     </div>
-                    <p>{challenge.result.summary}</p>
-                  </div>
+                    <BattleReplay challenge={challenge} autoPlay={autoPlayChallengeId === challenge.id} />
+                  </>
                 )}
               </article>
             );

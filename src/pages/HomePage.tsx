@@ -1,6 +1,7 @@
 import styles from './HomePage.module.css';
 import { Avatar, ProgressBar } from '../components/common';
 import { Button } from '../components/common';
+import { HomeBattles } from '../components/gamification';
 import { useProfileStats, useGamification, useRecommendedMission } from '../hooks';
 import { getXpToNextLevel } from '../models';
 import type { Profile } from '../models';
@@ -104,6 +105,8 @@ export function HomePage({ profile, onNavigate, onStartMission, onSwitchProfile 
         </section>
       )}
 
+      <HomeBattles profileId={profile.id} onOpenArena={() => onNavigate('battles')} />
+
       <section className={styles.actions} aria-labelledby="explore-title">
         <h2 id="explore-title" className={styles.sectionTitle}>Tria què vols fer</h2>
         <Button
@@ -120,6 +123,9 @@ export function HomePage({ profile, onNavigate, onStartMission, onSwitchProfile 
           </Button>
           <Button variant="secondary" onClick={() => onNavigate('badges')}>
             <span aria-hidden="true">⭐</span> Col·lecció
+          </Button>
+          <Button variant="secondary" onClick={() => onNavigate('battles')}>
+            <span aria-hidden="true">⚔️</span> Lluites
           </Button>
         </div>
       </section>

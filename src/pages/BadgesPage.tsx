@@ -372,7 +372,7 @@ export function BadgesPage({ profile }: BadgesPageProps) {
       {POKEDEX_SECTIONS.map((section) => {
         const sectionCollection = collection
           .filter(section.match)
-          .sort((left, right) => DIFFICULTY_RANK[left.difficulty] - DIFFICULTY_RANK[right.difficulty]);
+          .sort((left, right) => right.power - left.power || DIFFICULTY_RANK[right.difficulty] - DIFFICULTY_RANK[left.difficulty]);
         const sectionUnlocked = sectionCollection.filter((pokemon) => pokemon.unlocked).length;
 
         return (

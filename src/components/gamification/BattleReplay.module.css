@@ -1,0 +1,194 @@
+.replay {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 42px minmax(0, 1fr);
+  grid-template-rows: auto minmax(150px, auto) 34px;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+  min-height: 220px;
+  padding: 10px;
+  border-radius: 7px;
+  background:
+    linear-gradient(180deg, #dbeafe 0 47%, #86efac 47% 72%, #65a30d 72% 100%);
+}
+
+.trainerLabel {
+  min-width: 0;
+  overflow: hidden;
+  color: #172554;
+  font-size: 12px;
+  font-weight: 900;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.trainerLabel:nth-child(2) {
+  grid-column: 3;
+  text-align: right;
+}
+
+.fighter {
+  grid-row: 2;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.25s ease;
+}
+
+.fighter img,
+.fallback {
+  width: min(112px, 100%);
+  height: 112px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 5px rgba(15, 23, 42, 0.25));
+}
+
+.fallback {
+  display: grid;
+  place-items: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.fighter strong {
+  max-width: 100%;
+  overflow: hidden;
+  color: #0f172a;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fighter span {
+  color: #334155;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.left {
+  grid-column: 1;
+}
+
+.right {
+  grid-column: 3;
+}
+
+.left.attacking {
+  animation: attackRight 0.7s ease-in-out;
+}
+
+.right.attacking {
+  animation: attackLeft 0.7s ease-in-out;
+}
+
+.hit img,
+.hit .fallback {
+  animation: takeHit 0.45s ease 0.2s;
+}
+
+.clash {
+  grid-column: 2;
+  grid-row: 2;
+  z-index: 2;
+  color: #991b1b;
+  font-size: 18px;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.attackLine {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  align-self: stretch;
+  padding: 7px 9px;
+  border-radius: 6px;
+  background: rgba(15, 23, 42, 0.88);
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  animation: callout 0.3s ease both;
+}
+
+.timeline {
+  height: 6px;
+  margin-top: 9px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e2e8f0;
+}
+
+.timeline div {
+  height: 100%;
+  border-radius: inherit;
+  background: #dc2626;
+  transition: width 0.2s ease;
+}
+
+.finalScore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  color: #14532d;
+  font-weight: 900;
+}
+
+.finalScore strong {
+  font-size: 20px;
+}
+
+.playButton {
+  width: 100%;
+  min-height: 42px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 7px;
+  background: #1e293b;
+  color: white;
+  font-weight: 900;
+}
+
+.playButton:disabled {
+  opacity: 0.7;
+}
+
+@keyframes attackRight {
+  0%, 100% { transform: translateX(0); }
+  52% { transform: translateX(34%); }
+}
+
+@keyframes attackLeft {
+  0%, 100% { transform: translateX(0); }
+  52% { transform: translateX(-34%); }
+}
+
+@keyframes takeHit {
+  0%, 100% { transform: translateX(0); filter: none; }
+  30% { transform: translateX(10px); filter: brightness(2); }
+  60% { transform: translateX(-8px); }
+}
+
+@keyframes callout {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .attacking,
+  .hit img,
+  .hit .fallback,
+  .attackLine {
+    animation: none;
+  }
+}
