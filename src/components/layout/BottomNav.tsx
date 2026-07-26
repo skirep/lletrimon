@@ -11,6 +11,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: 'exercises', label: 'Exercicis', icon: '📚' },
   { id: 'stats', label: 'Estadístiques', icon: '📊' },
   { id: 'badges', label: 'Pokémon', icon: '🐾' },
+  { id: 'battles', label: 'Lluites', icon: '⚔️' },
   { id: 'settings', label: 'Ajustos', icon: '⚙️' },
 ];
 

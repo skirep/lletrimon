@@ -78,6 +78,39 @@ export interface PokemonCollectionItem extends PokemonPath, PokemonDetails {
   specialAttackCondition: string | null;
 }
 
+export type BattleTeamSize = 1 | 3;
+export type BattleChallengeStatus = 'pending' | 'accepted' | 'declined' | 'completed';
+
+export interface BattlePokemon {
+  pokemonId: number;
+  name: string;
+  imageUrl: string | null;
+  power: number;
+}
+
+export interface BattleResult {
+  winnerProfileId: string;
+  challengerScore: number;
+  opponentScore: number;
+  summary: string;
+}
+
+export interface BattleChallenge {
+  id: string;
+  challengerProfileId: string;
+  opponentProfileId: string;
+  challengerName: string;
+  opponentName: string;
+  teamSize: BattleTeamSize;
+  challengerTeam: BattlePokemon[];
+  opponentTeam: BattlePokemon[] | null;
+  status: BattleChallengeStatus;
+  result: BattleResult | null;
+  createdAt: number;
+  respondedAt: number | null;
+  simulatedAt: number | null;
+}
+
 export interface DailyGoal {
   profileId: string;
   date: string;

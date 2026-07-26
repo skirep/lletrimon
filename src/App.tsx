@@ -6,6 +6,7 @@ import { HomePage } from './pages/HomePage';
 import { ExercisesPage } from './pages/ExercisesPage';
 import { StatsPage } from './pages/StatsPage';
 import { BadgesPage } from './pages/BadgesPage';
+import { BattlesPage } from './pages/BattlesPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { BottomNav } from './components/layout';
 import { DatabaseReadIndicator, LoadingSpinner, WalkingPikachu } from './components/common';
@@ -13,7 +14,7 @@ import { useSettings, useProfiles } from './hooks';
 import type { Profile, AppSettings as AppSettingsData } from './models';
 import styles from './App.module.css';
 
-type Page = 'home' | 'exercises' | 'stats' | 'badges' | 'settings';
+type Page = 'home' | 'exercises' | 'stats' | 'badges' | 'battles' | 'settings';
 type MicrophonePermissionState = 'unknown' | 'granted' | 'denied' | 'unsupported';
 
 const POKEMON_SKIN_ART = {
@@ -197,6 +198,7 @@ function AppContent() {
       );
       case 'stats': return <StatsPage profile={currentProfile} />;
       case 'badges': return <BadgesPage profile={currentProfile} />;
+      case 'battles': return <BattlesPage profile={currentProfile} />;
       case 'settings': return <SettingsPage profile={currentProfile} settings={settings} onUpdateSettings={updateSettings} onUpdateProfile={async (p) => { await updateProfile(p); setCurrentProfile(p); }} />;
     }
   };
