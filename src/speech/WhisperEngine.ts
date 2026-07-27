@@ -131,7 +131,12 @@ export class WhisperEngine implements SpeechEngine {
       this.chunks = [];
 
       const arrayBuffer = await blob.arrayBuffer();
-      const base64 = btoa(String.fromCharCode(...new Uint8Array(arrayBuffer)));
+      const bytes = new Uint8Array(arrayBuffer);
+      let binary = '';
+      for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      const base64 = btoa(binary);
 
       const url = `${this.supabaseUrl}${EDGE_FUNCTION_PATH}`;
       const response = await fetch(url, {
