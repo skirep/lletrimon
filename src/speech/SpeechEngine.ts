@@ -14,6 +14,8 @@ export interface SpeechEngineOptions {
   language: string;
   continuous: boolean;
   interimResults: boolean;
+  /** Optional list of expected words/syllables used to bias recognition. */
+  hints: string[];
 }
 
 export interface SpeechEngine {

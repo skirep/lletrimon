@@ -8,6 +8,7 @@ import { sessionStorage } from '../storage';
 import { gamificationService } from '../gamification';
 import { shuffleItems } from '../exercises';
 import { generateId } from '../utils';
+import { WhisperEngine } from '../speech';
 import type { ExerciseSet, Profile, ExerciseAttempt, ExerciseSession } from '../models';
 
 /**
@@ -30,7 +31,13 @@ interface ExerciseRunnerProps {
 }
 
 const SPEECH_GRACE_MS = 200;
-const SHORT_TIMER_SPEECH_GRACE_MS = 700;
+const SHORT_TIMER_SPEECH_GRACE_MS = 1200;
+// Whisper needs extra grace time: the API call itself takes 1-3 seconds after
+// the audio recording stops, so we wait longer before giving up.
+const WHISPER_SPEECH_GRACE_MS = 5000;
+
+/** Exercise types that use WhisperEngine for better short-token recognition. */
+const WHISPER_TYPES = new Set(['syllables', 'sounds']);
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
   const [items] = useState(() => shuffleItems(set.items));
@@ -51,8 +58,15 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const transcriptRef = useRef('');
   const alternativesRef = useRef<Array<{ transcript: string; confidence: number }>>([]);
 
+  // Choose engine and grammar hints based on exercise type.
+  // Syllable/sound exercises use WhisperEngine (better at short tokens).
+  // Other types use the default WebSpeechEngine with a grammar-hints list.
+  const useWhisper = WHISPER_TYPES.has(set.type);
+  const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
+  const grammarHints = useRef(useWhisper ? [] : items.map((item) => item.text)).current;
+
   const { settings, loading: settingsLoading } = useSettings(profile.id);
-  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition();
+  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
 
   const currentItem = items[index];
 
@@ -196,12 +210,14 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       return;
     }
 
-    const graceMs = currentDurationMsRef.current <= 1000
-      ? SHORT_TIMER_SPEECH_GRACE_MS
-      : SPEECH_GRACE_MS;
+    const graceMs = useWhisper
+      ? WHISPER_SPEECH_GRACE_MS
+      : currentDurationMsRef.current <= 1000
+        ? SHORT_TIMER_SPEECH_GRACE_MS
+        : SPEECH_GRACE_MS;
     clearTimer(graceTimeoutRef);
     graceTimeoutRef.current = window.setTimeout(tryFinalizeFromCapturedSpeech, graceMs);
-  }, [clearTimer, stop, currentItem, index, items.length, completeSession, evaluateCurrentAttempt]);
+  }, [clearTimer, stop, currentItem, index, items.length, completeSession, evaluateCurrentAttempt, useWhisper]);
 
   useEffect(() => {
     attemptsRef.current = attempts;
