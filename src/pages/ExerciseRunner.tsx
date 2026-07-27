@@ -36,8 +36,8 @@ const SHORT_TIMER_SPEECH_GRACE_MS = 1200;
 // the audio recording stops, so we wait longer before giving up.
 const WHISPER_SPEECH_GRACE_MS = 5000;
 
-/** Exercise types that use WhisperEngine for better short-token recognition. */
-const WHISPER_TYPES = new Set(['syllables', 'sounds']);
+/** Keep Whisper only for isolated sounds; syllables continue on Web Speech. */
+const WHISPER_TYPES = new Set(['sounds']);
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
   const [items] = useState(() => shuffleItems(set.items));
@@ -59,7 +59,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const alternativesRef = useRef<Array<{ transcript: string; confidence: number }>>([]);
 
   // Choose engine and grammar hints based on exercise type.
-  // Syllable/sound exercises use WhisperEngine (better at short tokens).
+  // Sounds use WhisperEngine.
   // Other types use the default WebSpeechEngine with a grammar-hints list.
   const useWhisper = WHISPER_TYPES.has(set.type);
   const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
