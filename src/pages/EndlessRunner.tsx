@@ -23,8 +23,8 @@ interface EndlessRunnerProps {
 const CORRECT_DISPLAY_MS = 600;
 const ERROR_DISPLAY_MS = 1500;
 
-/** Exercise types that use WhisperEngine for better short-token recognition. */
-const WHISPER_TYPES = new Set<ExerciseType>(['syllables', 'sounds']);
+/** Keep Whisper only for isolated sounds; syllables continue on Web Speech. */
+const WHISPER_TYPES = new Set<ExerciseType>(['sounds']);
 
 export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficulty, onFinish }: EndlessRunnerProps) {
   const { settings, loading: settingsLoading } = useSettings(profile.id);
