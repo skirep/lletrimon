@@ -92,7 +92,7 @@ npm run lint     # linter (oxlint)
 
 ### Android (Capacitor)
 
-Requisits: Node.js 22 o superior, JDK 17, Android Studio i Android SDK 36. Configura
+Requisits: Node.js 22 o superior, JDK 21, Android Studio i Android SDK 36. Configura
 `ANDROID_HOME` i les variables `VITE_SUPABASE_URL` i `VITE_SUPABASE_ANON_KEY`
 abans de compilar. L'aplicació, les dades d'exercicis i IndexedDB són locals i
 es poden carregar sense xarxa. La transcripció Whisper, l'autenticació/sincronització
