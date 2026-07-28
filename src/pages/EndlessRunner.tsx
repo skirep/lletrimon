@@ -9,6 +9,7 @@ import { sessionStorage } from '../storage';
 import { gamificationService } from '../gamification';
 import { generateId } from '../utils';
 import { WhisperEngine } from '../speech';
+import { Capacitor } from '@capacitor/core';
 import type { ExerciseItem, Profile, ReadingResult, ExerciseAttempt, ExerciseSession, ExerciseType, Difficulty } from '../models';
 
 interface EndlessRunnerProps {
@@ -22,15 +23,16 @@ interface EndlessRunnerProps {
 
 const CORRECT_DISPLAY_MS = 600;
 const ERROR_DISPLAY_MS = 1500;
+const WHISPER_SPEECH_GRACE_MS = 5000;
 
-/** Keep Whisper only for isolated sounds; syllables continue on Web Speech. */
+/** Web uses Whisper only for sounds; Android WebView uses it for every type. */
 const WHISPER_TYPES = new Set<ExerciseType>(['sounds']);
 
 export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficulty, onFinish }: EndlessRunnerProps) {
   const { settings, loading: settingsLoading } = useSettings(profile.id);
 
   // Choose engine based on exercise type (same logic as ExerciseRunner).
-  const useWhisper = WHISPER_TYPES.has(sessionType);
+  const useWhisper = Capacitor.getPlatform() === 'android' || WHISPER_TYPES.has(sessionType);
   const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
   const grammarHints = useRef(useWhisper ? [] : itemPool.map((item) => item.text)).current;
 
@@ -58,7 +60,9 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
   const sessionStartRef = useRef(Date.now());
   const itemDeadlineRef = useRef(0);
   const timedOutRef = useRef(false);
+  const awaitingWhisperResultRef = useRef(false);
   const readTimeoutRef = useRef<number | null>(null);
+  const graceTimeoutRef = useRef<number | null>(null);
   const nextTimeoutRef = useRef<number | null>(null);
   const attemptsRef = useRef<ExerciseAttempt[]>([]);
   const completingRef = useRef(false);
@@ -84,7 +88,9 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
 
   const evaluateCurrentAttempt = useCallback((recognizedText: string) => {
     if (phaseRef.current !== 'listening' || timedOutRef.current) return;
+    awaitingWhisperResultRef.current = false;
     clearTimer(readTimeoutRef);
+    clearTimer(graceTimeoutRef);
     const timeMs = Date.now() - startTimeRef.current;
 
     // Try all speech alternatives and pick the one that best matches the expected text.
@@ -174,6 +180,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     transcriptRef.current = '';
     setLastResult(null);
     timedOutRef.current = false;
+    awaitingWhisperResultRef.current = false;
     const configuredSeconds = settings.exerciseSpeeds?.[sessionType] ?? settings.speed;
     const durationMs = Math.max(1000, Math.round(configuredSeconds * 1000));
     startTimeRef.current = Date.now();
@@ -182,13 +189,25 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     setPhase('listening');
     start();
     readTimeoutRef.current = window.setTimeout(() => {
-      timedOutRef.current = true;
+      awaitingWhisperResultRef.current = useWhisper;
       stop();
       setTimeLeftMs(0);
-      setPhase('done');
+      if (useWhisper) {
+        graceTimeoutRef.current = window.setTimeout(() => {
+          awaitingWhisperResultRef.current = false;
+          timedOutRef.current = true;
+          setPhase('done');
+        }, WHISPER_SPEECH_GRACE_MS);
+      } else {
+        timedOutRef.current = true;
+        setPhase('done');
+      }
     }, durationMs);
-    return () => { clearTimer(readTimeoutRef); };
-  }, [phase, settingsLoading, settings.speed, settings.exerciseSpeeds, sessionType, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt]);
+    return () => {
+      clearTimer(readTimeoutRef);
+      clearTimer(graceTimeoutRef);
+    };
+  }, [phase, settingsLoading, settings.speed, settings.exerciseSpeeds, sessionType, start, stop, setTranscript, clearTimer, evaluateCurrentAttempt, useWhisper]);
 
   // Timer countdown
   useEffect(() => {
@@ -201,10 +220,10 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
 
   // When recognition ends naturally
   useEffect(() => {
-    if (!isListening && phase === 'listening' && !timedOutRef.current) {
-      evaluateCurrentAttempt(transcriptRef.current);
-    }
-  }, [isListening, phase, evaluateCurrentAttempt]);
+    if (isListening || phase !== 'listening' || timedOutRef.current) return;
+    if (awaitingWhisperResultRef.current && !transcript.trim()) return;
+    evaluateCurrentAttempt(transcriptRef.current);
+  }, [isListening, phase, transcript, evaluateCurrentAttempt]);
 
   // result → next or done
   useEffect(() => {
@@ -229,7 +248,9 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
 
   // Cleanup on unmount
   useEffect(() => () => {
+    awaitingWhisperResultRef.current = false;
     clearTimer(readTimeoutRef);
+    clearTimer(graceTimeoutRef);
     clearTimer(nextTimeoutRef);
     stop();
   }, [clearTimer, stop]);

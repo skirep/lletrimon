@@ -97,8 +97,13 @@ export class WhisperEngine implements SpeechEngine {
         }
       }, maxMs);
     }).catch((err: unknown) => {
-      const msg = err instanceof Error ? err.message : String(err);
-      this.onError?.(`No s'ha pogut accedir al micròfon: ${msg}`);
+      const name = err instanceof DOMException ? err.name : '';
+      const message = name === 'NotAllowedError' || name === 'PermissionDeniedError'
+        ? 'Permís de micròfon denegat. Activa el micròfon als permisos de l’aplicació i torna-ho a provar.'
+        : name === 'NotFoundError'
+          ? 'No s’ha detectat cap micròfon disponible.'
+          : `No s'ha pogut accedir al micròfon: ${err instanceof Error ? err.message : String(err)}`;
+      this.onError?.(message);
     });
   }
 
@@ -174,7 +179,10 @@ export class WhisperEngine implements SpeechEngine {
       this.onResult?.(result);
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
-      this.onError?.(`Error en el reconeixement: ${msg}`);
+      const message = err instanceof TypeError
+        ? 'No s’ha pogut connectar al servei de transcripció. Comprova la connexió a Internet.'
+        : `Error en el reconeixement: ${msg}`;
+      this.onError?.(message);
     } finally {
       this.onEnd?.();
     }

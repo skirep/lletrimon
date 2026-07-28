@@ -9,6 +9,7 @@ import { gamificationService } from '../gamification';
 import { shuffleItems } from '../exercises';
 import { generateId } from '../utils';
 import { WhisperEngine } from '../speech';
+import { Capacitor } from '@capacitor/core';
 import type { ExerciseSet, Profile, ExerciseAttempt, ExerciseSession } from '../models';
 
 /**
@@ -36,7 +37,7 @@ const SHORT_TIMER_SPEECH_GRACE_MS = 1200;
 // the audio recording stops, so we wait longer before giving up.
 const WHISPER_SPEECH_GRACE_MS = 5000;
 
-/** Keep Whisper only for isolated sounds; syllables continue on Web Speech. */
+/** Web uses Whisper only for sounds; Android WebView uses it for every type. */
 const WHISPER_TYPES = new Set(['sounds']);
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
@@ -59,9 +60,8 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const alternativesRef = useRef<Array<{ transcript: string; confidence: number }>>([]);
 
   // Choose engine and grammar hints based on exercise type.
-  // Sounds use WhisperEngine.
-  // Other types use the default WebSpeechEngine with a grammar-hints list.
-  const useWhisper = WHISPER_TYPES.has(set.type);
+  // Android WebView does not provide a dependable Web Speech implementation.
+  const useWhisper = Capacitor.getPlatform() === 'android' || WHISPER_TYPES.has(set.type);
   const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
   const grammarHints = useRef(useWhisper ? [] : items.map((item) => item.text)).current;
 

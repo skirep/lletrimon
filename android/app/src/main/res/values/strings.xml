@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lletrimon</string>
+    <string name="title_activity_main">Lletrimon</string>
+    <string name="package_name">cat.lletrimon.app</string>
+    <string name="custom_url_scheme">cat.lletrimon.app</string>
+</resources>

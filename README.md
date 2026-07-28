@@ -1,6 +1,6 @@
 # Lletrimon
 
-Lletrimon és una aplicació web de suport a la lectura, pensada especialment per a infants i persones que s'estan aprenent a llegir o que presenten dificultats de lectura (com la dislèxia). Utilitza el **reconeixement de veu** del navegador per avaluar en temps real com el jugador llegeix síl·labes, paraules, pseudoparaules i frases.
+Lletrimon és una aplicació web de suport a la lectura, pensada especialment per a infants i persones que s'estan aprenent a llegir o que presenten dificultats de lectura (com la dislèxia). Utilitza **reconeixement de veu** per avaluar en temps real com el jugador llegeix síl·labes, paraules, pseudoparaules i frases.
 
 ---
 
@@ -78,7 +78,7 @@ Pots desbloquejar **200 Pokémon** de la primera generació:
 - **Frontend**: React + TypeScript + Vite
 - **Emmagatzematge local**: IndexedDB via Dexie (sense necessitat de servidor)
 - **Autenticació opcional**: Supabase (email + contrasenya) per sincronitzar perfils
-- **Reconeixement de veu**: Web Speech API del navegador
+- **Reconeixement de veu**: Web Speech API al web i MediaRecorder + Whisper a Android
 - **Linter**: oxlint
 - **Documentació tècnica (arquitectura i stack)**: [DOCUMENTACIO_TECNICA.md](./DOCUMENTACIO_TECNICA.md)
 
@@ -89,3 +89,32 @@ npm run dev      # servidor de desenvolupament
 npm run build    # compilar per a producció
 npm run lint     # linter (oxlint)
 ```
+
+### Android (Capacitor)
+
+Requisits: Node.js 22 o superior, JDK 17, Android Studio i Android SDK 36. Configura
+`ANDROID_HOME` i les variables `VITE_SUPABASE_URL` i `VITE_SUPABASE_ANON_KEY`
+abans de compilar. L'aplicació, les dades d'exercicis i IndexedDB són locals i
+es poden carregar sense xarxa. La transcripció Whisper, l'autenticació/sincronització
+Supabase, les batalles i les imatges remotes sí que necessiten Internet.
+
+```bash
+npm install
+npm run android:sync   # compila el web natiu i sincronitza Android
+npm run android:open   # obre el projecte a Android Studio
+npm run android:debug  # crea android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+Per crear un AAB de distribució:
+
+1. Executa `npm run android:sync` i `npm run android:open`.
+2. A Android Studio, selecciona **Build > Generate Signed App Bundle or APK**,
+   **Android App Bundle**, el mòdul `app`, la clau de signatura i la variant
+   `release`.
+3. Recull l'AAB signat que indica l'assistent (habitualment
+   `android/app/release/app-release.aab`).
+
+Amb una configuració de signatura `release` ja definida a Gradle també es pot
+executar `cd android && ./gradlew bundleRelease`; el resultat és
+`android/app/build/outputs/bundle/release/app-release.aab`. No versionis claus
+ni contrasenyes de signatura.
