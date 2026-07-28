@@ -1,4 +1,5 @@
 import { registerSW } from 'virtual:pwa-register';
+import { Capacitor } from '@capacitor/core';
 
 const BUILD_STORAGE_KEY = 'lletrimon:build-id';
 const RELOAD_STORAGE_KEY = 'lletrimon:reloaded-build-id';
@@ -54,6 +55,10 @@ async function syncPublishedBuild() {
 }
 
 export function initializeAppUpdateFlow() {
+  if (__NATIVE_BUILD__ || Capacitor.isNativePlatform()) {
+    return;
+  }
+
   const updateServiceWorker = registerSW({
     immediate: true,
     onNeedRefresh() {

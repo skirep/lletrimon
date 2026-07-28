@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Capacitor, type PluginListenerHandle } from '@capacitor/core';
+import { App as CapacitorApp } from '@capacitor/app';
 import { AppProvider, useAppContext, AuthProvider, useAuth } from './services';
 import { ProfilesPage } from './pages/ProfilesPage';
 import { AuthPage } from './pages/AuthPage';
@@ -115,6 +117,32 @@ function AppContent() {
   const waitingForDatabaseRead = Boolean(user && loadedUserId !== user.id);
 
   useEffect(() => {
+    if (Capacitor.getPlatform() !== 'android') return;
+
+    let disposed = false;
+    let listener: PluginListenerHandle | undefined;
+    void CapacitorApp.addListener('backButton', () => {
+      if (!user || !currentProfile || page === 'home') {
+        void CapacitorApp.exitApp();
+      } else {
+        setRequestedExerciseSetId(null);
+        setPage('home');
+      }
+    }).then((handle) => {
+      if (disposed) {
+        void handle.remove();
+      } else {
+        listener = handle;
+      }
+    });
+
+    return () => {
+      disposed = true;
+      void listener?.remove();
+    };
+  }, [currentProfile, page, user]);
+
+  useEffect(() => {
     let cancelled = false;
 
     void requestMicrophonePermission().then((state) => {
@@ -159,7 +187,7 @@ function AppContent() {
   ) : null;
   const microphonePermissionWarning = microphonePermission === 'denied' ? (
     <div className={styles.microphonePermissionWarning} role="alert">
-      Cal activar el permís del micròfon al navegador per poder fer els exercicis de lectura en veu alta.
+      Cal activar el permís del micròfon al navegador o als ajustos de l’aplicació per fer els exercicis de lectura en veu alta.
     </div>
   ) : null;
 
