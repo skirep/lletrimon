@@ -78,7 +78,7 @@ export interface PokemonCollectionItem extends PokemonPath, PokemonDetails {
   specialAttackCondition: string | null;
 }
 
-export type BattleTeamSize = 1 | 3;
+export type BattleTeamSize = 1 | 3 | 6;
 export type BattleChallengeStatus = 'pending' | 'accepted' | 'declined' | 'completed';
 
 export interface BattlePokemon {

@@ -7,7 +7,7 @@ create table if not exists public.battle_challenges (
   id uuid primary key default gen_random_uuid(),
   challenger_profile_id text not null references public.profiles(id) on delete cascade,
   opponent_profile_id text not null references public.profiles(id) on delete cascade,
-  team_size integer not null check (team_size in (1, 3)),
+  team_size integer not null check (team_size in (1, 3, 6)),
   challenger_team jsonb not null,
   opponent_team jsonb,
   status text not null default 'pending' check (status in ('pending', 'accepted', 'declined', 'completed')),
@@ -19,6 +19,11 @@ create table if not exists public.battle_challenges (
   check (jsonb_typeof(challenger_team) = 'array' and jsonb_array_length(challenger_team) = team_size),
   check (opponent_team is null or (jsonb_typeof(opponent_team) = 'array' and jsonb_array_length(opponent_team) = team_size))
 );
+
+alter table public.battle_challenges
+  drop constraint if exists battle_challenges_team_size_check;
+alter table public.battle_challenges
+  add constraint battle_challenges_team_size_check check (team_size in (1, 3, 6));
 
 create index if not exists battle_challenges_challenger_idx on public.battle_challenges(challenger_profile_id, created_at desc);
 create index if not exists battle_challenges_opponent_idx on public.battle_challenges(opponent_profile_id, created_at desc);
@@ -98,7 +103,8 @@ declare
   challenge public.battle_challenges;
   challenger_power integer;
   opponent_power integer;
-  variance integer;
+  random_margin integer;
+  challenger_gets_margin boolean;
   challenger_score integer;
   opponent_score integer;
   winner_id text;
@@ -119,9 +125,10 @@ begin
     select coalesce(sum((pokemon->>'power')::integer), 0) into opponent_power
     from jsonb_array_elements(challenge.opponent_team) pokemon;
 
-    variance := (('x' || substr(md5(challenge.id::text), 1, 8))::bit(32)::bigint % 21)::integer - 10;
-    challenger_score := greatest(1, challenger_power + variance);
-    opponent_score := greatest(1, opponent_power - variance);
+    random_margin := floor(random() * 11)::integer + 20;
+    challenger_gets_margin := random() < 0.5;
+    challenger_score := greatest(1, challenger_power + case when challenger_gets_margin then random_margin else 0 end);
+    opponent_score := greatest(1, opponent_power + case when challenger_gets_margin then 0 else random_margin end);
     winner_id := case when challenger_score >= opponent_score then challenge.challenger_profile_id else challenge.opponent_profile_id end;
 
     update public.battle_challenges

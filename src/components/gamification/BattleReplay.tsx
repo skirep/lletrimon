@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { BattleChallenge, BattlePokemon } from '../../models';
 import styles from './BattleReplay.module.css';
 
@@ -30,6 +30,8 @@ export function BattleReplay({ challenge, autoPlay = false }: BattleReplayProps)
   const [playing, setPlaying] = useState(autoPlay);
   const [turn, setTurn] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const replayRef = useRef<HTMLDivElement>(null);
   const challengerTeam = [...challenge.challengerTeam].sort((left, right) => right.power - left.power);
   const opponentTeam = [...(challenge.opponentTeam ?? [])].sort((left, right) => right.power - left.power);
   const totalTurns = Math.max(4, challenge.teamSize * 4);
@@ -43,23 +45,47 @@ export function BattleReplay({ challenge, autoPlay = false }: BattleReplayProps)
     if (turn >= totalTurns) {
       setPlaying(false);
       setFinished(true);
+      setExpanded(false);
+      if (document.fullscreenElement) void document.exitFullscreen();
       return;
     }
 
-    const timer = window.setTimeout(() => setTurn((current) => current + 1), 760);
+    const timer = window.setTimeout(() => setTurn((current) => current + 1), 1200);
     return () => window.clearTimeout(timer);
   }, [playing, totalTurns, turn]);
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      if (!document.fullscreenElement) setExpanded(false);
+    };
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  }, []);
 
   const play = () => {
     setTurn(0);
     setFinished(false);
     setPlaying(true);
+    setExpanded(true);
+    void replayRef.current?.requestFullscreen().catch(() => {
+      // The fixed full-viewport presentation remains available when browser fullscreen is blocked.
+    });
+  };
+
+  const closeExpanded = () => {
+    setExpanded(false);
+    if (document.fullscreenElement) void document.exitFullscreen();
   };
 
   if (!challenge.result || !challenger || !opponent) return null;
 
   return (
-    <div className={styles.replay}>
+    <div ref={replayRef} className={`${styles.replay} ${expanded ? styles.expanded : ''}`}>
+      {expanded && (
+        <button type="button" className={styles.closeButton} onClick={closeExpanded} aria-label="Surt de la pantalla completa">
+          ✕
+        </button>
+      )}
       <div className={styles.stage} aria-live="polite">
         <div className={styles.trainerLabel}>{challenge.challengerName}</div>
         <div className={styles.trainerLabel}>{challenge.opponentName}</div>
