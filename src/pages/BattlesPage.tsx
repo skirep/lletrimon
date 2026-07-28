@@ -170,6 +170,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
           <div className={styles.sizeControl} aria-label="Mida de l’equip">
             <button type="button" className={teamSize === 1 ? styles.sizeActive : ''} onClick={() => setSize(1)}>1 Pokémon</button>
             <button type="button" className={teamSize === 3 ? styles.sizeActive : ''} onClick={() => setSize(3)}>3 Pokémon</button>
+            <button type="button" className={teamSize === 6 ? styles.sizeActive : ''} onClick={() => setSize(6)}>6 Pokémon</button>
           </div>
         </div>
 
