@@ -36,7 +36,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
   const speechEngine = useRef(useWhisper ? new WhisperEngine() : undefined).current;
   const grammarHints = useRef(useWhisper ? [] : itemPool.map((item) => item.text)).current;
 
-  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
+  const { transcript, alternatives, lastAudioBase64, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
 
   const shuffledPoolRef = useRef(shuffleItems(itemPool));
   const poolIndexRef = useRef(0);
@@ -48,8 +48,8 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
   const [streak, setStreak] = useState(0);
   const streakRef = useRef(0);
 
-  const [phase, setPhase] = useState<'ready' | 'listening' | 'result' | 'done'>('ready');
-  const phaseRef = useRef<'ready' | 'listening' | 'result' | 'done'>('ready');
+  const [phase, setPhase] = useState<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
+  const phaseRef = useRef<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
 
   const [lastResult, setLastResult] = useState<{ result: ReadingResult; recognized: string; similarity: number } | null>(null);
   const [timeLeftMs, setTimeLeftMs] = useState(0);
@@ -64,6 +64,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
   const readTimeoutRef = useRef<number | null>(null);
   const graceTimeoutRef = useRef<number | null>(null);
   const nextTimeoutRef = useRef<number | null>(null);
+  const resumeDurationMsRef = useRef<number | null>(null);
   const attemptsRef = useRef<ExerciseAttempt[]>([]);
   const completingRef = useRef(false);
 
@@ -111,6 +112,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       itemId: currentItemRef.current.id,
       expected: currentItemRef.current.text,
       recognized: bestText,
+      recordedAudioBase64: sessionType === 'sounds' ? (lastAudioBase64 ?? undefined) : undefined,
       result,
       similarity,
       errorTypes: detectErrors(currentItemRef.current.text, bestText),
@@ -124,7 +126,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       setStreak(streakRef.current);
     }
     setPhase('result');
-  }, [clearTimer, sessionType]);
+  }, [clearTimer, sessionType, lastAudioBase64]);
 
   const completeSession = useCallback(async (finalAttempts: ExerciseAttempt[]) => {
     if (completingRef.current) return;
@@ -182,7 +184,9 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     timedOutRef.current = false;
     awaitingWhisperResultRef.current = false;
     const configuredSeconds = settings.exerciseSpeeds?.[sessionType] ?? settings.speed;
-    const durationMs = Math.max(1000, Math.round(configuredSeconds * 1000));
+    const configuredDurationMs = Math.max(1000, Math.round(configuredSeconds * 1000));
+    const durationMs = resumeDurationMsRef.current ?? configuredDurationMs;
+    resumeDurationMsRef.current = null;
     startTimeRef.current = Date.now();
     itemDeadlineRef.current = startTimeRef.current + durationMs;
     setTimeLeftMs(durationMs);
@@ -264,11 +268,28 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     attemptsRef.current = [];
     sessionStartRef.current = Date.now();
     completingRef.current = false;
+    resumeDurationMsRef.current = null;
     streakRef.current = 0;
     setStreak(0);
     setLastResult(null);
     setPhase('ready');
   }, [itemPool]);
+
+  const handlePause = useCallback(() => {
+    if (phase !== 'listening') return;
+    const remaining = Math.max(0, itemDeadlineRef.current - Date.now());
+    setTimeLeftMs(remaining);
+    resumeDurationMsRef.current = remaining;
+    clearTimer(readTimeoutRef);
+    clearTimer(graceTimeoutRef);
+    stop();
+    setPhase('paused');
+  }, [phase, clearTimer, stop]);
+
+  const handleResume = useCallback(() => {
+    if (phase !== 'paused') return;
+    setPhase('ready');
+  }, [phase]);
 
   if (phase === 'done') {
     const s = streakRef.current;
@@ -329,7 +350,16 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
 
       <div className={styles.controls}>
         {phase === 'listening' && (
-          <p className="text-muted">⏱️ {Math.ceil(timeLeftMs / 1000)}s</p>
+          <>
+            <p className="text-muted">⏱️ {Math.ceil(timeLeftMs / 1000)}s</p>
+            <Button variant="secondary" size="sm" onClick={handlePause}>⏸️ Pausa</Button>
+          </>
+        )}
+        {phase === 'paused' && (
+          <>
+            <p className="text-muted">Partida en pausa</p>
+            <Button variant="primary" size="sm" onClick={handleResume}>▶️ Continuar</Button>
+          </>
         )}
         {phase === 'result' && lastResult?.result === 'correct' && (
           <p className="text-muted">Preparant el següent...</p>

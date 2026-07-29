@@ -53,12 +53,13 @@ export function useProfiles(userId?: string) {
 
   useEffect(() => { void load(); }, [load]);
 
-  const createProfile = useCallback(async (name: string, avatar: string) => {
+  const createProfile = useCallback(async (name: string, avatar: string, isAdmin = false) => {
     const profile: Profile = {
       id: generateId(),
       userId,
       name,
       avatar,
+      isAdmin,
       createdAt: Date.now(),
       updatedAt: Date.now(),
     };

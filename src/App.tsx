@@ -101,9 +101,7 @@ function AppContent() {
   const { user, loading: authLoading } = useAuth();
   const { currentProfile, setCurrentProfile } = useAppContext();
   const {
-    profiles,
     loading: profilesLoading,
-    createProfile,
     updateProfile,
     databaseReadStatus,
     databaseReadError,
@@ -112,7 +110,6 @@ function AppContent() {
   const { settings, update: updateSettings } = useSettings(currentProfile?.id ?? null);
   const [page, setPage] = useState<Page>('home');
   const [requestedExerciseSetId, setRequestedExerciseSetId] = useState<string | null>(null);
-  const [autoHandling, setAutoHandling] = useState(false);
   const [microphonePermission, setMicrophonePermission] = useState<MicrophonePermissionState>('unknown');
   const waitingForDatabaseRead = Boolean(user && loadedUserId !== user.id);
 
@@ -162,21 +159,7 @@ function AppContent() {
     }
   }, [user, setCurrentProfile]);
 
-  useEffect(() => {
-    if (!user || profilesLoading || currentProfile || autoHandling || loadedUserId !== user.id) return;
-
-    if (profiles.length === 0 && databaseReadStatus === 'success') {
-      setAutoHandling(true);
-      const rawName = user.email?.split('@')[0] ?? 'Jugador';
-      const name = rawName.charAt(0).toUpperCase() + rawName.slice(1);
-      createProfile(name, 'cat').then((p) => {
-        setCurrentProfile(p);
-        setAutoHandling(false);
-      });
-    }
-  }, [profiles, profilesLoading, user, currentProfile, autoHandling, createProfile, setCurrentProfile, databaseReadStatus, loadedUserId]);
-
-  if (authLoading || (user && (profilesLoading || waitingForDatabaseRead)) || autoHandling) return <LoadingSpinner />;
+  if (authLoading || (user && (profilesLoading || waitingForDatabaseRead))) return <LoadingSpinner />;
 
   if (!user) return <AuthPage />;
 

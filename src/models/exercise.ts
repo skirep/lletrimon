@@ -24,6 +24,7 @@ export interface ExerciseAttempt {
   itemId: string;
   expected: string;
   recognized: string;
+  recordedAudioBase64?: string;
   result: ReadingResult;
   similarity: number;
   errorTypes: ErrorType[];

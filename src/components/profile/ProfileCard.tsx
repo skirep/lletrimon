@@ -21,6 +21,7 @@ export function ProfileCard({ profile, stats, selected, onClick }: ProfileCardPr
       <Avatar avatarId={profile.avatar} size="lg" name={profile.name} />
       <div className={styles.info}>
         <span className={styles.name}>{profile.name}</span>
+        {profile.isAdmin && <span className={styles.adminBadge}>👑 Administrador</span>}
         {stats && (
           <>
             <span className={styles.level}>Nivell {stats.level} ⭐</span>

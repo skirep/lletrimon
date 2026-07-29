@@ -155,6 +155,7 @@ export async function loadProfilesFromSupabase(userId: string): Promise<Profile[
     userId: r.user_id as string,
     name: r.name as string,
     avatar: r.avatar as string,
+    isAdmin: false,
     school: (r.school as string | null) ?? undefined,
     location: (r.location as string | null) ?? undefined,
     createdAt: r.created_at as number,
@@ -175,13 +176,17 @@ export const profileStorage = {
   },
 
   async create(profile: Profile): Promise<void> {
-    await db.profiles.add(profile);
+    await db.profiles.add({ ...profile, isAdmin: profile.isAdmin ?? false });
     await db.profileStats.add(createEmptyProfileStats(profile.id));
     void syncToSupabase(profile);
   },
 
   async upsertFromCloud(profile: Profile): Promise<void> {
-    await db.profiles.put(profile);
+    const local = await db.profiles.get(profile.id);
+    await db.profiles.put({
+      ...profile,
+      isAdmin: profile.isAdmin ?? local?.isAdmin ?? false,
+    });
     const cloudStats = await loadStatsFromSupabase(profile.id);
     if (cloudStats) {
       const localStats = await db.profileStats.get(profile.id);

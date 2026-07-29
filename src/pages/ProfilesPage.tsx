@@ -58,9 +58,8 @@ export function ProfilesPage({ onSelect }: ProfilesPageProps) {
       {showForm ? (
         <ProfileForm
           onSave={async (draft) => {
-            const p = await createProfile(draft.name, draft.avatar);
+            await createProfile(draft.name, draft.avatar, draft.isAdmin ?? false);
             setShowForm(false);
-            onSelect(p);
           }}
           onCancel={() => setShowForm(false)}
         />

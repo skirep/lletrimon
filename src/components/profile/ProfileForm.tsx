@@ -14,6 +14,7 @@ interface ProfileFormProps {
 export function ProfileForm({ onSave, onCancel, initial }: ProfileFormProps) {
   const [name, setName] = useState(initial?.name ?? '');
   const [avatar, setAvatar] = useState(initial?.avatar ?? AVATARS[0]);
+  const [isAdmin, setIsAdmin] = useState(initial?.isAdmin ?? false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,6 +23,7 @@ export function ProfileForm({ onSave, onCancel, initial }: ProfileFormProps) {
       id: initial?.id ?? generateId(),
       name: name.trim(),
       avatar,
+      isAdmin,
       createdAt: initial?.createdAt ?? Date.now(),
       updatedAt: Date.now(),
     };
@@ -63,6 +65,15 @@ export function ProfileForm({ onSave, onCancel, initial }: ProfileFormProps) {
           ))}
         </div>
       </div>
+
+      <label className={styles.adminToggle}>
+        <input
+          type="checkbox"
+          checked={isAdmin}
+          onChange={(e) => setIsAdmin(e.target.checked)}
+        />
+        <span>👑 Perfil administrador</span>
+      </label>
 
       <div className={styles.actions}>
         <Button type="button" variant="secondary" onClick={onCancel}>

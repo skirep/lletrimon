@@ -64,6 +64,7 @@ interface SpeechRecognitionErrorEvent extends Event {
 
 export class WebSpeechEngine implements SpeechEngine {
   onResult: ((result: SpeechRecognitionResult) => void) | null = null;
+  onAudio: ((audioBlob: Blob) => void) | null = null;
   onError: ((error: string) => void) | null = null;
   onEnd: (() => void) | null = null;
 

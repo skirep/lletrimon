@@ -67,6 +67,14 @@
   background: rgba(99, 102, 241, 0.08);
 }
 
+.adminToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
 .actions {
   display: flex;
   gap: 12px;
