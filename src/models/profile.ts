@@ -3,6 +3,7 @@ export interface Profile {
   userId?: string;
   name: string;
   avatar: string;
+  isAdmin?: boolean;
   school?: string;
   location?: string;
   createdAt: number;

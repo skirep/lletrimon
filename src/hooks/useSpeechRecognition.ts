@@ -6,6 +6,7 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
   const engineRef = useRef<SpeechEngine>(engine ?? new WebSpeechEngine());
   const [transcript, setTranscript] = useState('');
   const [alternatives, setAlternatives] = useState<SpeechRecognitionAlternativeResult[]>([]);
+  const [lastAudioBase64, setLastAudioBase64] = useState<string | null>(null);
   const [isListening, setIsListening] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isSupported] = useState(() => engineRef.current.isSupported());
@@ -13,6 +14,7 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
   const start = useCallback(() => {
     setTranscript('');
     setAlternatives([]);
+    setLastAudioBase64(null);
     setError(null);
     setIsListening(true);
     const e = engineRef.current;
@@ -27,6 +29,14 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
       setError(err);
       setIsListening(false);
     };
+    e.onAudio = (audioBlob) => {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64 = typeof reader.result === 'string' ? reader.result : null;
+        setLastAudioBase64(base64);
+      };
+      reader.readAsDataURL(audioBlob);
+    };
     e.onEnd = () => {
       setIsListening(false);
     };
@@ -38,5 +48,5 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
     setIsListening(false);
   }, []);
 
-  return { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript };
+  return { transcript, alternatives, lastAudioBase64, isListening, error, isSupported, start, stop, setTranscript };
 }

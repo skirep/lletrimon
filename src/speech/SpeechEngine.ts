@@ -23,6 +23,7 @@ export interface SpeechEngine {
   start(options?: Partial<SpeechEngineOptions>): void;
   stop(): void;
   onResult: ((result: SpeechRecognitionResult) => void) | null;
+  onAudio?: ((audioBlob: Blob) => void) | null;
   onError: ((error: string) => void) | null;
   onEnd: (() => void) | null;
 }

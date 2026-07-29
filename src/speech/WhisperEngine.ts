@@ -21,6 +21,7 @@ const DEFAULT_MAX_DURATION_MS = 8_000;
 
 export class WhisperEngine implements SpeechEngine {
   onResult: ((result: SpeechRecognitionResult) => void) | null = null;
+  onAudio: ((audioBlob: Blob) => void) | null = null;
   onError: ((error: string) => void) | null = null;
   onEnd: (() => void) | null = null;
 
@@ -133,6 +134,7 @@ export class WhisperEngine implements SpeechEngine {
 
       const mimeType = this.mediaRecorder?.mimeType ?? 'audio/webm';
       const blob = new Blob(this.chunks, { type: mimeType });
+      this.onAudio?.(blob);
       this.chunks = [];
 
       const arrayBuffer = await blob.arrayBuffer();

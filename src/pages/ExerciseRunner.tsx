@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import styles from './ExerciseRunner.module.css';
-import { ExerciseText } from '../components/exercise';
+import { ExerciseText, ResultFeedback } from '../components/exercise';
 import { Button } from '../components/common';
 import { useSettings, useSpeechRecognition } from '../hooks';
 import { calculateSimilarity, calculateSyllableSimilarity, classifyResult, detectErrors, calculateScore, extractSoundToken } from '../scoring';
@@ -33,6 +33,8 @@ interface ExerciseRunnerProps {
 
 const SPEECH_GRACE_MS = 200;
 const SHORT_TIMER_SPEECH_GRACE_MS = 1200;
+const CORRECT_DISPLAY_MS = 700;
+const ERROR_DISPLAY_MS = 1100;
 // Whisper needs extra grace time: the API call itself takes 1-3 seconds after
 // the audio recording stops, so we wait longer before giving up.
 const WHISPER_SPEECH_GRACE_MS = 5000;
@@ -41,10 +43,11 @@ const WHISPER_SPEECH_GRACE_MS = 5000;
 const WHISPER_TYPES = new Set(['sounds']);
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
-  const [items] = useState(() => shuffleItems(set.items));
+  const [items, setItems] = useState(() => shuffleItems(set.items));
   const [index, setIndex] = useState(0);
   const [attempts, setAttempts] = useState<ExerciseAttempt[]>([]);
-  const [phase, setPhase] = useState<'ready' | 'listening' | 'done'>('ready');
+  const [phase, setPhase] = useState<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
+  const [lastResult, setLastResult] = useState<{ expected: string; recognized: string; similarity: number; result: ExerciseAttempt['result']; recordedAudioBase64?: string } | null>(null);
   const [timeLeftMs, setTimeLeftMs] = useState(0);
   const startTimeRef = useRef<number>(0);
   const sessionStartRef = useRef<number>(Date.now());
@@ -52,10 +55,12 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const timedOutRef = useRef(false);
   const readTimeoutRef = useRef<number | null>(null);
   const graceTimeoutRef = useRef<number | null>(null);
+  const nextTimeoutRef = useRef<number | null>(null);
+  const resumeDurationMsRef = useRef<number | null>(null);
   const currentDurationMsRef = useRef(0);
   const attemptsRef = useRef<ExerciseAttempt[]>([]);
   const completingRef = useRef(false);
-  const phaseRef = useRef<'ready' | 'listening' | 'done'>('ready');
+  const phaseRef = useRef<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
   const transcriptRef = useRef('');
   const alternativesRef = useRef<Array<{ transcript: string; confidence: number }>>([]);
 
@@ -66,7 +71,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const grammarHints = useRef(useWhisper ? [] : items.map((item) => item.text)).current;
 
   const { settings, loading: settingsLoading } = useSettings(profile.id);
-  const { transcript, alternatives, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
+  const { transcript, alternatives, lastAudioBase64, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
 
   const currentItem = items[index];
 
@@ -144,6 +149,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       itemId: currentItem.id,
       expected: currentItem.text,
       recognized: bestText,
+      recordedAudioBase64: set.type === 'sounds' ? (lastAudioBase64 ?? undefined) : undefined,
       result,
       similarity,
       errorTypes,
@@ -154,14 +160,20 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     attemptsRef.current = updatedAttempts;
     setAttempts(updatedAttempts);
 
+    setLastResult({
+      expected: currentItem.text,
+      recognized: bestText,
+      similarity,
+      result,
+      recordedAudioBase64: attempt.recordedAudioBase64,
+    });
     if (index + 1 < items.length) {
-      setIndex((i) => i + 1);
-      setPhase('ready');
+      setPhase('result');
       return;
     }
 
     void completeSession(updatedAttempts);
-  }, [currentItem, clearTimer, index, items.length, completeSession]);
+  }, [currentItem, clearTimer, index, items.length, completeSession, set.type, lastAudioBase64]);
 
   const handleReadTimeout = useCallback(() => {
     if (phaseRef.current !== 'listening' || timedOutRef.current || !currentItem) return;
@@ -183,10 +195,15 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       const updatedAttempts = [...attemptsRef.current, attempt];
       attemptsRef.current = updatedAttempts;
       setAttempts(updatedAttempts);
+      setLastResult({
+        expected: currentItem.text,
+        recognized: '',
+        similarity: 0,
+        result: 'incorrect',
+      });
 
       if (index + 1 < items.length) {
-        setIndex((i) => i + 1);
-        setPhase('ready');
+        setPhase('result');
         return;
       }
 
@@ -245,9 +262,12 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     stop();
     setTranscript('');
     transcriptRef.current = '';
+    setLastResult(null);
     timedOutRef.current = false;
     const configuredSeconds = settings.exerciseSpeeds?.[set.type] ?? settings.speed;
-    const durationMs = Math.max(1000, Math.round(configuredSeconds * 1000));
+    const configuredDurationMs = Math.max(1000, Math.round(configuredSeconds * 1000));
+    const durationMs = resumeDurationMsRef.current ?? configuredDurationMs;
+    resumeDurationMsRef.current = null;
     currentDurationMsRef.current = durationMs;
     startTimeRef.current = Date.now();
     itemDeadlineRef.current = startTimeRef.current + durationMs;
@@ -282,11 +302,56 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     evaluateCurrentAttempt(recognized);
   }, [isListening, phase, evaluateCurrentAttempt]);
 
+  useEffect(() => {
+    if (phase !== 'result' || !lastResult) return;
+    const delay = lastResult.result === 'correct' ? CORRECT_DISPLAY_MS : ERROR_DISPLAY_MS;
+    nextTimeoutRef.current = window.setTimeout(() => {
+      setIndex((i) => i + 1);
+      setPhase('ready');
+    }, delay);
+    return () => clearTimer(nextTimeoutRef);
+  }, [phase, lastResult, clearTimer]);
+
   useEffect(() => () => {
     clearTimer(readTimeoutRef);
     clearTimer(graceTimeoutRef);
+    clearTimer(nextTimeoutRef);
     stop();
   }, [clearTimer, stop]);
+
+  const handlePause = useCallback(() => {
+    if (phase !== 'listening') return;
+    const remaining = Math.max(0, itemDeadlineRef.current - Date.now());
+    setTimeLeftMs(remaining);
+    resumeDurationMsRef.current = remaining;
+    clearTimer(readTimeoutRef);
+    clearTimer(graceTimeoutRef);
+    stop();
+    setPhase('paused');
+  }, [phase, clearTimer, stop]);
+
+  const handleResume = useCallback(() => {
+    if (phase !== 'paused') return;
+    setPhase('ready');
+  }, [phase]);
+
+  const handleRestart = useCallback(() => {
+    clearTimer(readTimeoutRef);
+    clearTimer(graceTimeoutRef);
+    clearTimer(nextTimeoutRef);
+    stop();
+    const shuffled = shuffleItems(set.items);
+    setItems(shuffled);
+    setIndex(0);
+    setAttempts([]);
+    attemptsRef.current = [];
+    setLastResult(null);
+    timedOutRef.current = false;
+    completingRef.current = false;
+    resumeDurationMsRef.current = null;
+    sessionStartRef.current = Date.now();
+    setPhase('ready');
+  }, [clearTimer, stop, set.items]);
 
   if (phase === 'done') {
     const correctItems = attempts.filter((a) => a.result === 'correct').length;
@@ -317,10 +382,18 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
                 </div>
                 <div className={styles.summaryLine}><strong>Esperat:</strong> {attempt.expected}</div>
                 <div className={styles.summaryLine}><strong>Has dit:</strong> {recognizedLabel}</div>
+                {attempt.recordedAudioBase64 && (
+                  <audio controls src={attempt.recordedAudioBase64}>
+                    El navegador no pot reproduir aquest àudio.
+                  </audio>
+                )}
               </div>
             );
           })}
         </div>
+        <Button size="lg" variant="primary" onClick={handleRestart}>
+          🔄 Repetir partida
+        </Button>
         <Button size="lg" onClick={onFinish}>
           🏠 Tornar a l&apos;inici
         </Button>
@@ -346,6 +419,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
         <div className={styles.progressBar}>
           <div className={styles.progressFill} style={{ width: `${((index) / items.length) * 100}%` }} />
         </div>
+        <button className={styles.closeBtn} onClick={handleRestart} aria-label="Repetir partida">↺</button>
         <button className={styles.closeBtn} onClick={onFinish} aria-label="Sortir">✕</button>
       </div>
 
@@ -365,10 +439,28 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       {error && <p className="text-error text-center">{error}</p>}
       {!isSupported && <p className="text-error text-center">🎤 Micròfon no disponible en aquest navegador</p>}
 
+      {phase === 'result' && lastResult && (
+        <ResultFeedback
+          result={lastResult.result}
+          expected={lastResult.expected}
+          recognized={lastResult.recognized}
+          similarity={lastResult.similarity}
+        />
+      )}
+
       {/* Controls */}
       <div className={styles.controls}>
         {phase === 'listening' && (
-          <p className="text-muted">⏱️ Temps restant: {Math.ceil(timeLeftMs / 1000)}s</p>
+          <>
+            <p className="text-muted">⏱️ Temps restant: {Math.ceil(timeLeftMs / 1000)}s</p>
+            <Button variant="secondary" size="sm" onClick={handlePause}>⏸️ Pausa</Button>
+          </>
+        )}
+        {phase === 'paused' && (
+          <>
+            <p className="text-muted">Partida en pausa</p>
+            <Button variant="primary" size="sm" onClick={handleResume}>▶️ Continuar</Button>
+          </>
         )}
       </div>
     </div>
