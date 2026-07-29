@@ -42,6 +42,7 @@ function normalizeSettingsPayload(profileId: string, source: Partial<AppSettings
     speed: baseSpeed,
     exerciseSpeeds: normalizeExerciseSpeeds(source.exerciseSpeeds, baseSpeed),
     uppercaseText: source.uppercaseText ?? DEFAULT_SETTINGS.uppercaseText,
+    showReadingFeedback: source.showReadingFeedback ?? DEFAULT_SETTINGS.showReadingFeedback,
     skin: normalizeSkin(source.skin),
   };
 }
@@ -55,6 +56,7 @@ function readLegacyCloudSettings(profileId: string, data: Record<string, unknown
       speed,
     ),
     uppercaseText: (data.uppercase_text as boolean | null) ?? DEFAULT_SETTINGS.uppercaseText,
+    showReadingFeedback: (data.show_reading_feedback as boolean | null) ?? DEFAULT_SETTINGS.showReadingFeedback,
     fontSize: (data.font_size as AppSettings['fontSize'] | undefined) ?? DEFAULT_SETTINGS.fontSize,
     fontFamily: (data.font_family as AppSettings['fontFamily'] | undefined) ?? DEFAULT_SETTINGS.fontFamily,
     colorScheme: (data.color_scheme as AppSettings['colorScheme'] | undefined) ?? DEFAULT_SETTINGS.colorScheme,

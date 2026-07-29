@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type {
   BattleChallenge,
   BattlePokemon,
@@ -23,6 +23,27 @@ function toBattlePokemon(pokemon: PokemonCollectionItem): BattlePokemon {
     imageUrl: pokemon.imageUrl,
     power: pokemon.power,
   };
+}
+
+function randomizePower(basePower: number): number {
+  const factor = 0.7 + Math.random() * 0.6;
+  return Math.max(1, Math.round(basePower * factor));
+}
+
+function toBattlePokemonWithVariation(pokemon: PokemonCollectionItem): BattlePokemon {
+  return {
+    ...toBattlePokemon(pokemon),
+    power: randomizePower(pokemon.power),
+  };
+}
+
+function shufflePokemon(items: PokemonCollectionItem[]): PokemonCollectionItem[] {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
 }
 
 function Team({ pokemon }: { pokemon: BattlePokemon[] | null }) {
@@ -53,20 +74,26 @@ function statusLabel(status: BattleChallenge['status']): string {
 
 export function BattlesPage({ profile }: BattlesPageProps) {
   const { collection, loading: collectionLoading } = usePokemonCollection(profile.id);
-  const unlocked = collection
-    .filter((pokemon) => pokemon.unlocked)
-    .sort((left, right) => right.power - left.power || left.name.localeCompare(right.name));
+  const unlocked = useMemo(
+    () => collection.filter((pokemon) => pokemon.unlocked),
+    [collection],
+  );
   const [teamSize, setTeamSize] = useState<BattleTeamSize>(1);
   const [selectedRivalId, setSelectedRivalId] = useState('');
   const [selectedPokemonIds, setSelectedPokemonIds] = useState<number[]>([]);
   const [acceptingChallengeId, setAcceptingChallengeId] = useState<string | null>(null);
   const [acceptTeamIds, setAcceptTeamIds] = useState<number[]>([]);
+  const [shuffledUnlocked, setShuffledUnlocked] = useState<PokemonCollectionItem[]>([]);
   const [challenges, setChallenges] = useState<BattleChallenge[]>([]);
   const [rivals, setRivals] = useState<RankingEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [autoPlayChallengeId, setAutoPlayChallengeId] = useState<string | null>(null);
+
+  useEffect(() => {
+    setShuffledUnlocked(shufflePokemon(unlocked));
+  }, [unlocked]);
 
   const load = async () => {
     setLoading(true);
@@ -114,7 +141,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
       const team = selectedPokemonIds
         .map((id) => unlocked.find((pokemon) => pokemon.pokemonId === id))
         .filter((pokemon): pokemon is PokemonCollectionItem => Boolean(pokemon))
-        .map(toBattlePokemon)
+        .map(toBattlePokemonWithVariation)
         .sort((left, right) => right.power - left.power);
       await battleService.create(profile.id, selectedRivalId, teamSize, team);
       setSelectedPokemonIds([]);
@@ -135,7 +162,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
         ? acceptTeamIds
             .map((id) => unlocked.find((pokemon) => pokemon.pokemonId === id))
             .filter((pokemon): pokemon is PokemonCollectionItem => Boolean(pokemon))
-            .map(toBattlePokemon)
+            .map(toBattlePokemonWithVariation)
             .sort((left, right) => right.power - left.power)
         : null;
       await battleService.respond(challenge.id, accept, team);
@@ -185,7 +212,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
         <div className={styles.pokemonGrid}>
           {collectionLoading && <p>Carregant la teva col·lecció...</p>}
           {!collectionLoading && unlocked.length === 0 && <p>Desbloqueja un Pokémon abans de crear un repte.</p>}
-          {unlocked.map((pokemon) => {
+          {shuffledUnlocked.map((pokemon) => {
             const selected = selectedPokemonIds.includes(pokemon.pokemonId);
             return (
               <button
@@ -252,7 +279,7 @@ export function BattlesPage({ profile }: BattlesPageProps) {
                   <div className={styles.acceptPanel}>
                     <p>Tria {challenge.teamSize} Pokémon per respondre:</p>
                     <div className={styles.pokemonGrid}>
-                      {unlocked.map((pokemon) => {
+                      {shuffledUnlocked.map((pokemon) => {
                         const selected = acceptTeamIds.includes(pokemon.pokemonId);
                         return (
                           <button

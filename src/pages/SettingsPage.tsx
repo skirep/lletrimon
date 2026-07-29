@@ -224,6 +224,24 @@ export function SettingsPage({ profile, settings, onUpdateSettings: update, onUp
         </div>
       </section>
 
+      <section className={`card ${styles.section}`}>
+        <div className={styles.toggleRow}>
+          <div>
+            <h2 className={styles.sectionTitle}>Mostrar resultat immediat</h2>
+            <p className="text-muted" style={{ fontSize: '14px' }}>
+              Mostra si l&apos;element llegit és correcte o incorrecte
+            </p>
+          </div>
+          <button
+            className={`${styles.toggle} ${settings.showReadingFeedback ? styles.toggleOn : ''}`}
+            onClick={() => void update({ showReadingFeedback: !settings.showReadingFeedback })}
+            aria-label="Mostrar resultat immediat"
+          >
+            <span className={styles.toggleKnob} />
+          </button>
+        </div>
+      </section>
+
       {/* Reading speed */}
       <section className={`card ${styles.section}`}>
         <h2 className={styles.sectionTitle}>Velocitat de lectura</h2>

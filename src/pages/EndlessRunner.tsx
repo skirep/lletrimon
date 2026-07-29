@@ -339,7 +339,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       {error && <p className="text-error text-center">{error}</p>}
       {!isSupported && <p className="text-error text-center">🎤 Micròfon no disponible en aquest navegador</p>}
 
-      {lastResult && (
+      {settings.showReadingFeedback && lastResult && (
         <ResultFeedback
           result={lastResult.result}
           expected={currentItem.text}
