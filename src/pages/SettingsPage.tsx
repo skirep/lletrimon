@@ -35,6 +35,8 @@ const READING_SPEEDS: { id: number; label: string }[] = [
   { id: 2, label: 'Normal (2s)' },
   { id: 4, label: 'Tranquil·la (4s)' },
   { id: 6, label: 'Molt tranquil·la (6s)' },
+  { id: 10, label: 'Super tranquil·la (10s)' },
+  { id: 12, label: 'Ultra tranquil·la (12s)' },
 ];
 
 const EXERCISE_SPEED_TYPES: { id: ExerciseType; label: string }[] = [
