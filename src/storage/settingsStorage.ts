@@ -3,12 +3,14 @@ import type { AppSettings } from '../models';
 import { DEFAULT_SETTINGS } from '../models';
 import { supabase } from '../lib/supabase';
 
-const ALLOWED_SPEEDS = [1, 2, 4, 6];
+const ALLOWED_SPEEDS = [1, 2, 4, 6, 10, 12];
 const ALLOWED_SKINS = ['original', 'pokemon', 'pikachu-ash', 'team-rocket'] as const;
 const CURRENT_SETTINGS_VERSION = 1;
 
 function normalizeSpeed(speed: number): number {
   if (ALLOWED_SPEEDS.includes(speed)) return speed;
+  if (speed >= 12) return 12;
+  if (speed >= 10) return 10;
   if (speed >= 6) return 6;
   if (speed >= 4) return 4;
   if (speed >= 2) return 2;
