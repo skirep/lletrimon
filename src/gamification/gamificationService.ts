@@ -1,11 +1,13 @@
 import { profileStorage, gamificationStorage, sessionStorage } from '../storage';
-import { BADGES, type BadgeId } from '../models';
+import { BADGES, type BadgeId, type PokemonCollectionItem } from '../models';
 import { calculateXpGained } from '../scoring';
+import { getNewlyUnlockedPokemon } from './pokemonCollection';
 import type { ExerciseSession } from '../models';
 
 export interface GamificationResult {
   xpGained: number;
   newBadges: BadgeId[];
+  newPokemon: PokemonCollectionItem[];
   levelUp: boolean;
   newLevel: number;
   streakUpdated: boolean;
@@ -40,6 +42,11 @@ export const gamificationService = {
   async processSession(session: ExerciseSession): Promise<GamificationResult> {
     const { profileId, difficulty, score, totalItems, correctItems } = session;
     const avgTime = session.averageTimeMs;
+    const storedSessions = await sessionStorage.getAllByProfile(profileId);
+    const nextSessions = storedSessions.some((storedSession) => storedSession.id === session.id)
+      ? storedSessions
+      : [...storedSessions, session];
+    const previousSessions = nextSessions.filter((storedSession) => storedSession.id !== session.id);
 
     const xpGained = calculateXpGained(score, difficulty, avgTime);
     const statsBefore = await profileStorage.getStats(profileId);
@@ -80,6 +87,7 @@ export const gamificationService = {
     // Badges
     const newBadges: BadgeId[] = [];
     const sessionCount = await sessionStorage.countByType(profileId, session.type);
+    const newPokemon = await getNewlyUnlockedPokemon(previousSessions, nextSessions);
 
     const badgesToCheck: Array<{ id: BadgeId; condition: () => boolean }> = [
       { id: 'first_exercise', condition: () => sessionCount >= 1 },
@@ -105,6 +113,7 @@ export const gamificationService = {
     return {
       xpGained,
       newBadges,
+      newPokemon,
       levelUp,
       newLevel,
       streakUpdated,

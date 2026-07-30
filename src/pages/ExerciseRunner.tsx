@@ -5,7 +5,7 @@ import { Button } from '../components/common';
 import { useSettings, useSpeechRecognition } from '../hooks';
 import { calculateSimilarity, calculateSyllableSimilarity, classifyResult, detectErrors, calculateScore, extractSoundToken } from '../scoring';
 import { sessionStorage } from '../storage';
-import { gamificationService } from '../gamification';
+import { gamificationService, type GamificationResult } from '../gamification';
 import { shuffleItems } from '../exercises';
 import { generateId } from '../utils';
 import { WhisperEngine } from '../speech';
@@ -48,6 +48,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const [attempts, setAttempts] = useState<ExerciseAttempt[]>([]);
   const [phase, setPhase] = useState<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
   const [lastResult, setLastResult] = useState<{ expected: string; recognized: string; similarity: number; result: ExerciseAttempt['result']; recordedAudioBase64?: string } | null>(null);
+  const [gamificationResult, setGamificationResult] = useState<GamificationResult | null>(null);
   const [timeLeftMs, setTimeLeftMs] = useState(0);
   const startTimeRef = useRef<number>(0);
   const sessionStartRef = useRef<number>(Date.now());
@@ -113,7 +114,8 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       console.error('Error saving session:', err);
     }
     try {
-      await gamificationService.processSession(session);
+      const result = await gamificationService.processSession(session);
+      setGamificationResult(result);
     } catch (err) {
       console.error('Error processing gamification:', err);
     }
@@ -346,6 +348,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     setAttempts([]);
     attemptsRef.current = [];
     setLastResult(null);
+    setGamificationResult(null);
     timedOutRef.current = false;
     completingRef.current = false;
     resumeDurationMsRef.current = null;
@@ -391,6 +394,26 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
             );
           })}
         </div>
+        {gamificationResult && gamificationResult.newPokemon.length > 0 && (
+          <div className={`card ${styles.rewardsCard}`}>
+            <h2 className={styles.summaryTitle}>Pokémon guanyats</h2>
+            <div className={styles.rewardList}>
+              {gamificationResult.newPokemon.map((pokemon) => (
+                <article key={pokemon.pathId} className={styles.rewardItem}>
+                  {pokemon.imageUrl ? (
+                    <img className={styles.rewardImage} src={pokemon.imageUrl} alt={pokemon.name} loading="lazy" />
+                  ) : (
+                    <div className={styles.rewardPlaceholder} aria-hidden="true">⚡</div>
+                  )}
+                  <div>
+                    <strong>{pokemon.name}</strong>
+                    <div className="text-muted">{pokemon.assignedExerciseTitles[0] ?? 'Nou premi'}</div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
         <Button size="lg" variant="primary" onClick={handleRestart}>
           🔄 Repetir partida
         </Button>
