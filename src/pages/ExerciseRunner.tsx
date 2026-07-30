@@ -439,7 +439,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       {error && <p className="text-error text-center">{error}</p>}
       {!isSupported && <p className="text-error text-center">🎤 Micròfon no disponible en aquest navegador</p>}
 
-      {phase === 'result' && lastResult && (
+      {settings.showReadingFeedback && phase === 'result' && lastResult && (
         <ResultFeedback
           result={lastResult.result}
           expected={lastResult.expected}
