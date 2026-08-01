@@ -26,11 +26,9 @@ L'app **no jutja ni castiga**. Tot és un joc, amb personatges Pokémon de premi
 
 ## Com es crea un compte?
 
-El compte és **totalment opcional**. Serveix per guardar el progrés del nen al núvol (i poder-lo recuperar si canvies de dispositiu).
+El compte és **obligatori** per utilitzar l'aplicació. Serveix per guardar el progrés del nen al núvol i poder-lo recuperar des de qualsevol dispositiu.
 
-Si no creeu compte, l'aplicació guarda tot **al propi dispositiu** i funciona igual.
-
-### Si voleu crear compte:
+### Per crear compte:
 
 1. Obriu l'aplicació i toqueu **"No tens compte? Registra't"**.
 2. Poseu una **adreça de correu electrònic** (pot ser la vostra, de pare/mare).
@@ -44,7 +42,7 @@ Si no creeu compte, l'aplicació guarda tot **al propi dispositiu** i funciona i
 
 ## Com es crea un perfil per al nen?
 
-Un cop dins l'app (amb compte o sense), cal crear un **perfil de jugador**.
+Un cop dins l'app amb el compte creat, cal crear un **perfil de jugador**.
 
 1. A la pantalla de perfils, toqueu **"Nou perfil"** (o el botó amb un "+").
 2. Escriviu el **nom** del nen o la nena.
@@ -199,7 +197,7 @@ Els Pokémon apareixen a la pantalla al final de l'exercici, com a sorpresa! Tam
 L'app és en català però s'adapta a qualsevol nen que aprengui català, sigui la seva llengua materna o no.
 
 **Funciona sense internet?**
-Sí! L'app funciona **sense internet** per als exercicis i el progrés local. Cal internet per crear compte, sincronitzar entre dispositius i carregar les imatges dels Pokémon.
+No. L'app necessita **connexió a internet** per iniciar sessió, carregar dades i sincronitzar el progrés.
 
 **Es pot jugar sense micròfon?**
 No, el micròfon és essencial per avaluar la lectura en veu alta. Comproveu que el micròfon funciona i que el navegador té permís per usar-lo.
@@ -208,7 +206,7 @@ No, el micròfon és essencial per avaluar la lectura en veu alta. Comproveu que
 Aneu a la icona de **📊 Estadístiques** al menú inferior. Podreu veure les sessions, les puntuacions i l'evolució.
 
 **L'app guarda dades dels menors?**
-Sense compte, totes les dades es guarden únicament al dispositiu. Amb compte, es guarden al servidor de forma segura. No es comparteix cap dada personal amb tercers.
+Les dades del progrés es guarden al servidor de forma segura mitjançant el compte de l'usuari. No es comparteix cap dada personal amb tercers.
 
 ---
 
