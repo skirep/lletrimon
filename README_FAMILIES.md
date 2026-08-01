@@ -171,12 +171,33 @@ Es poden guanyar insígnies per assoliments especials:
 
 Una de les parts que als nens els encanta: **guanyar Pokémon**!
 
-Hi ha **200 Pokémon** de la primera generació per desbloquejar:
+Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema actual funciona per **camins d'exercicis**:
 
-- **Pokémon del 1 al 100** → Es desbloquegen pujant de **nivell d'experiència**. El Pokémon número N es guanya quan arribes al nivell N.
-- **Pokémon del 101 al 200** → Es desbloquegen guanyant **insígnies**. Per exemple, el Pokémon 105 es guanya quan tens 5 insígnies.
+- Cada Pokémon està associat a un exercici concret (síl·labes, paraules o frases).
+- Per desbloquejar-lo, cal arribar al percentatge mínim en aquell exercici.
+- Hi ha 4 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)** i **95% (Llegenda)**.
+- Com millor és el resultat, més Pokémon es desbloquegen i més **força** tenen per a les lluites.
 
-Els Pokémon apareixen a la pantalla al final de l'exercici, com a sorpresa! També es poden veure tots a la secció **"Els meus premis"** de la pantalla d'exercicis.
+🎯 **Detall important:** el premi final més especial és **Mew (151)**, associat al repte final de frases difícils amb nivell Llegenda.
+
+Els Pokémon desbloquejats es poden veure a la col·lecció i també s'utilitzen per formar equips a les lluites.
+
+### Lluites Pokémon (multijugador) ⚔️
+
+L'app també inclou lluites entre perfils de jugadors:
+
+1. Trieu un rival.
+2. Trieu la mida de l'equip: **1, 3 o 6 Pokémon**.
+3. Seleccioneu exactament aquell nombre de Pokémon desbloquejats.
+4. Envieu el repte.
+5. L'altre jugador pot acceptar (i triar equip) o rebutjar.
+
+Quan el repte s'accepta, la lluita es resol automàticament:
+
+- Es compara la **força total** dels dos equips.
+- El sistema hi afegeix un petit factor aleatori per fer les partides més emocionants.
+- Es guarda un resultat final únic (mateix resultat per als dos jugadors), amb marcador i resum.
+- La reproducció visual de la lluita és una animació del resultat ja calculat.
 
 ---
 
