@@ -2171,5 +2171,555 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "syl-direct-indirect-50",
+    "title": "50 Síl·labes Directes i Indirectes",
+    "description": "Cada partida tria 50 síl·labes directes i indirectes",
+    "type": "syllables",
+    "difficulty": "medium",
+    "randomCount": 50,
+    "items": [
+      {
+        "id": "syl-di-001",
+        "text": "ma",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-002",
+        "text": "me",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-003",
+        "text": "mi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-004",
+        "text": "mo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-005",
+        "text": "mu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-006",
+        "text": "pa",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-007",
+        "text": "pe",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-008",
+        "text": "pi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-009",
+        "text": "po",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-010",
+        "text": "pu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-011",
+        "text": "ta",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-012",
+        "text": "te",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-013",
+        "text": "ti",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-014",
+        "text": "to",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-015",
+        "text": "tu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-016",
+        "text": "sa",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-017",
+        "text": "se",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-018",
+        "text": "si",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-019",
+        "text": "so",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-020",
+        "text": "su",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-021",
+        "text": "ba",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-022",
+        "text": "be",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-023",
+        "text": "bi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-024",
+        "text": "bo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-025",
+        "text": "bu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-026",
+        "text": "da",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-027",
+        "text": "de",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-028",
+        "text": "di",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-029",
+        "text": "do",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-030",
+        "text": "du",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-031",
+        "text": "la",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-032",
+        "text": "le",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-033",
+        "text": "li",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-034",
+        "text": "lo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-035",
+        "text": "lu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-036",
+        "text": "na",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-037",
+        "text": "ne",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-038",
+        "text": "ni",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-039",
+        "text": "no",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-040",
+        "text": "nu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-041",
+        "text": "ra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-042",
+        "text": "re",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-043",
+        "text": "ri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-044",
+        "text": "ro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-045",
+        "text": "ru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-046",
+        "text": "fa",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-047",
+        "text": "fe",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-048",
+        "text": "fi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-049",
+        "text": "fo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-050",
+        "text": "fu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-051",
+        "text": "va",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-052",
+        "text": "ve",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-053",
+        "text": "vi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-054",
+        "text": "vo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-055",
+        "text": "vu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-056",
+        "text": "ca",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-057",
+        "text": "ce",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-058",
+        "text": "ci",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-059",
+        "text": "co",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-060",
+        "text": "cu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-061",
+        "text": "ga",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-062",
+        "text": "ge",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-063",
+        "text": "gi",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-064",
+        "text": "go",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-065",
+        "text": "gu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-066",
+        "text": "al",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-067",
+        "text": "an",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-068",
+        "text": "ar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-069",
+        "text": "as",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-070",
+        "text": "am",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-071",
+        "text": "el",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-072",
+        "text": "en",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-073",
+        "text": "er",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-074",
+        "text": "es",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-075",
+        "text": "em",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-076",
+        "text": "il",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-077",
+        "text": "in",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-078",
+        "text": "ir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-079",
+        "text": "is",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-080",
+        "text": "im",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-081",
+        "text": "ol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-082",
+        "text": "on",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-083",
+        "text": "or",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-084",
+        "text": "os",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-085",
+        "text": "om",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-086",
+        "text": "ul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-087",
+        "text": "un",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-088",
+        "text": "ur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-089",
+        "text": "us",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-di-090",
+        "text": "um",
+        "type": "syllables",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]
