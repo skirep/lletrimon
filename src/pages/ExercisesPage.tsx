@@ -229,7 +229,7 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
                 <span className={styles.setNumber} aria-hidden="true">{setIndex + 1}</span>
                 <span className={styles.setContent}>
                   <strong className={styles.setTitle}>{set.title}</strong>
-                  <span className={styles.setMeta}>🎯 {set.items.length} lectures</span>
+                  <span className={styles.setMeta}>🎯 {set.randomCount ?? set.items.length} lectures</span>
                 </span>
                 <span className={styles.setArrow} aria-hidden="true">{selectedSet?.id === set.id ? '✓' : '›'}</span>
               </button>
@@ -242,7 +242,7 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
         <div className={styles.startBar}>
           <div className={styles.selectedInfo}>
             <strong>{selectedSet.title}</strong>
-            <span>{selectedSet.items.length} lectures · El micròfon s&apos;engegarà sol</span>
+            <span>{selectedSet.randomCount ?? selectedSet.items.length} lectures · El micròfon s&apos;engegarà sol</span>
           </div>
           <Button size="lg" onClick={() => setRunning(true)}>
             Comença! ▶

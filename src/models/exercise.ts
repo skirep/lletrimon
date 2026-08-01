@@ -18,6 +18,8 @@ export interface ExerciseSet {
   type: ExerciseType;
   difficulty: Difficulty;
   items: ExerciseItem[];
+  /** When set, each game randomly picks this many items from the full `items` pool. */
+  randomCount?: number;
 }
 
 export interface ExerciseAttempt {
