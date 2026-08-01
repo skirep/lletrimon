@@ -43,7 +43,10 @@ const WHISPER_SPEECH_GRACE_MS = 5000;
 const WHISPER_TYPES = new Set(['sounds']);
 
 export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) {
-  const [items, setItems] = useState(() => shuffleItems(set.items));
+  const [items, setItems] = useState(() => {
+    const shuffled = shuffleItems(set.items);
+    return set.randomCount ? shuffled.slice(0, set.randomCount) : shuffled;
+  });
   const [index, setIndex] = useState(0);
   const [attempts, setAttempts] = useState<ExerciseAttempt[]>([]);
   const [phase, setPhase] = useState<'ready' | 'listening' | 'paused' | 'result' | 'done'>('ready');
@@ -343,7 +346,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     clearTimer(nextTimeoutRef);
     stop();
     const shuffled = shuffleItems(set.items);
-    setItems(shuffled);
+    setItems(set.randomCount ? shuffled.slice(0, set.randomCount) : shuffled);
     setIndex(0);
     setAttempts([]);
     attemptsRef.current = [];

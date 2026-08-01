@@ -1414,5 +1414,915 @@
         "difficulty": "hard"
       }
     ]
+  },
+  {
+    "id": "words-random-50",
+    "title": "50 Paraules Aleatòries",
+    "description": "Cada partida tria 50 paraules aleatòriament d'un gran banc",
+    "type": "words",
+    "difficulty": "medium",
+    "randomCount": 50,
+    "items": [
+      {
+        "id": "wpool-001",
+        "text": "gat",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-002",
+        "text": "gos",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-003",
+        "text": "peix",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-004",
+        "text": "oca",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-005",
+        "text": "lleó",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-006",
+        "text": "rata",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-007",
+        "text": "elefant",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-008",
+        "text": "porc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-009",
+        "text": "vaca",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-010",
+        "text": "ovella",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-011",
+        "text": "serp",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-012",
+        "text": "dofí",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-013",
+        "text": "balena",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-014",
+        "text": "tigre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-015",
+        "text": "àguila",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-016",
+        "text": "tortuga",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-017",
+        "text": "granota",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-018",
+        "text": "papallona",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-019",
+        "text": "abella",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-020",
+        "text": "cargol",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-021",
+        "text": "blau",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-022",
+        "text": "verd",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-023",
+        "text": "roig",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-024",
+        "text": "groc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-025",
+        "text": "negre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-026",
+        "text": "blanc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-027",
+        "text": "rosa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-028",
+        "text": "lila",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-029",
+        "text": "taronja",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-030",
+        "text": "marró",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-031",
+        "text": "mama",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-032",
+        "text": "papa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-033",
+        "text": "avi",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-034",
+        "text": "àvia",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-035",
+        "text": "germà",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-036",
+        "text": "germana",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-037",
+        "text": "oncle",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-038",
+        "text": "tieta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-039",
+        "text": "cosí",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-040",
+        "text": "bebè",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-041",
+        "text": "poma",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-042",
+        "text": "pera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-043",
+        "text": "raïm",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-044",
+        "text": "meló",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-045",
+        "text": "plàtan",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-046",
+        "text": "maduixa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-047",
+        "text": "pa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-048",
+        "text": "llet",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-049",
+        "text": "ou",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-050",
+        "text": "arròs",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-051",
+        "text": "pastanaga",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-052",
+        "text": "tomàquet",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-053",
+        "text": "formatge",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-054",
+        "text": "llimona",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-055",
+        "text": "mel",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-056",
+        "text": "patata",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-057",
+        "text": "ceba",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-058",
+        "text": "all",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-059",
+        "text": "pebre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-060",
+        "text": "farina",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-061",
+        "text": "porta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-062",
+        "text": "taula",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-063",
+        "text": "cadira",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-064",
+        "text": "llit",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-065",
+        "text": "got",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-066",
+        "text": "plat",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-067",
+        "text": "bossa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-068",
+        "text": "clau",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-069",
+        "text": "llum",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-070",
+        "text": "rellotge",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-071",
+        "text": "llibre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-072",
+        "text": "llapis",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-073",
+        "text": "mestre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-074",
+        "text": "classe",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-075",
+        "text": "pissarra",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-076",
+        "text": "motxilla",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-077",
+        "text": "goma",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-078",
+        "text": "regla",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-079",
+        "text": "tisores",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-080",
+        "text": "pinzell",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-081",
+        "text": "bosc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-082",
+        "text": "muntanya",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-083",
+        "text": "riu",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-084",
+        "text": "pedra",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-085",
+        "text": "planta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-086",
+        "text": "flor",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-087",
+        "text": "arbre",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-088",
+        "text": "roca",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-089",
+        "text": "sorra",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-090",
+        "text": "mar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-091",
+        "text": "braç",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-092",
+        "text": "cama",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-093",
+        "text": "pit",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-094",
+        "text": "esquena",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-095",
+        "text": "muscle",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-096",
+        "text": "genoll",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-097",
+        "text": "colze",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-098",
+        "text": "dit",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-099",
+        "text": "ungla",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-100",
+        "text": "cap",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-101",
+        "text": "cotxe",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-102",
+        "text": "tren",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-103",
+        "text": "avió",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-104",
+        "text": "barca",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-105",
+        "text": "bicicleta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-106",
+        "text": "camió",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-107",
+        "text": "moto",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-108",
+        "text": "metro",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-109",
+        "text": "autobús",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-110",
+        "text": "vaixell",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-111",
+        "text": "pluja",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-112",
+        "text": "sol",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-113",
+        "text": "vent",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-114",
+        "text": "neu",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-115",
+        "text": "boira",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-116",
+        "text": "tempesta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-117",
+        "text": "núvol",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-118",
+        "text": "llamp",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-119",
+        "text": "arc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-120",
+        "text": "tardor",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-121",
+        "text": "gran",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-122",
+        "text": "petit",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-123",
+        "text": "alt",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-124",
+        "text": "baix",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-125",
+        "text": "ràpid",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-126",
+        "text": "lent",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-127",
+        "text": "fort",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-128",
+        "text": "feble",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-129",
+        "text": "jove",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-130",
+        "text": "vell",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-131",
+        "text": "córrer",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-132",
+        "text": "saltar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-133",
+        "text": "llegir",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-134",
+        "text": "escriure",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-135",
+        "text": "pintar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-136",
+        "text": "cantar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-137",
+        "text": "ballar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-138",
+        "text": "nedar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-139",
+        "text": "menjar",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-140",
+        "text": "dormir",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-141",
+        "text": "alegria",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-142",
+        "text": "tristesa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-143",
+        "text": "sorpresa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-144",
+        "text": "por",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-145",
+        "text": "amor",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-146",
+        "text": "amistat",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-147",
+        "text": "família",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-148",
+        "text": "escola",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-149",
+        "text": "joc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wpool-150",
+        "text": "somni",
+        "type": "words",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]
