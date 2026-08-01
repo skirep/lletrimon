@@ -90,9 +90,10 @@ Per cada tipus hi ha **tres nivells de dificultat**:
 
 ### Els nous modes de 50 elements
 
-A la dificultat **Mitjà** trobareu dos modes especials:
+A la dificultat **Mitjà** trobareu tres modes especials:
 
 - **50 Síl·labes Aleatòries** 🔀: cada vegada que comencem una partida, l'app tria 50 síl·labes **completament aleatòries** d'un banc de 160 síl·labes diferents. Cada partida és única!
+- **50 Síl·labes Directes i Indirectes** 🔀: mode específic per practicar només síl·labes directes (com "ma", "pe") i indirectes (com "al", "en"), amb 50 elements aleatoris per partida.
 - **50 Paraules Aleatòries** 🔀: cada vegada, l'app tria 50 paraules **aleatòries** d'un banc de 150 paraules. Animals, colors, fruites, escola, natura i molt més!
 
 ---
