@@ -19,7 +19,7 @@ L'app **no jutja ni castiga**. Tot és un joc, amb personatges Pokémon de premi
 
 ## Per a quins dispositius funciona?
 
-- **Mòbil Android** (app instal·lable)
+- **Mòbil Android** (app instal·lable) - Pròximament.
 - **Navegador web** des d'ordinador, tauleta o mòbil (Chrome o Firefox recomanats)
 
 ---
@@ -33,8 +33,7 @@ El compte és **obligatori** per utilitzar l'aplicació. Serveix per guardar el 
 1. Obriu l'aplicació i toqueu **"No tens compte? Registra't"**.
 2. Poseu una **adreça de correu electrònic** (pot ser la vostra, de pare/mare).
 3. Trieu una **contrasenya** (mínim 6 caràcters).
-4. Comproveu el correu: rebreu un missatge de confirmació. Feu clic a l'enllaç del missatge.
-5. Ja podeu entrar amb el correu i la contrasenya!
+4. Ja podeu entrar amb el correu i la contrasenya!
 
 > 💡 **Consell:** Si el nen juga al mòbil i a casa al navegador, crear compte permet sincronitzar el progrés entre els dos dispositius.
 
