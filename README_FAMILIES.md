@@ -26,11 +26,9 @@ L'app **no jutja ni castiga**. Tot és un joc, amb personatges Pokémon de premi
 
 ## Com es crea un compte?
 
-El compte és **totalment opcional**. Serveix per guardar el progrés del nen al núvol (i poder-lo recuperar si canvies de dispositiu).
+El compte és **obligatori** per utilitzar l'aplicació. Serveix per guardar el progrés del nen al núvol i poder-lo recuperar des de qualsevol dispositiu.
 
-Si no creeu compte, l'aplicació guarda tot **al propi dispositiu** i funciona igual.
-
-### Si voleu crear compte:
+### Per crear compte:
 
 1. Obriu l'aplicació i toqueu **"No tens compte? Registra't"**.
 2. Poseu una **adreça de correu electrònic** (pot ser la vostra, de pare/mare).
@@ -44,7 +42,7 @@ Si no creeu compte, l'aplicació guarda tot **al propi dispositiu** i funciona i
 
 ## Com es crea un perfil per al nen?
 
-Un cop dins l'app (amb compte o sense), cal crear un **perfil de jugador**.
+Un cop dins l'app amb el compte creat, cal crear un **perfil de jugador**.
 
 1. A la pantalla de perfils, toqueu **"Nou perfil"** (o el botó amb un "+").
 2. Escriviu el **nom** del nen o la nena.
@@ -173,12 +171,33 @@ Es poden guanyar insígnies per assoliments especials:
 
 Una de les parts que als nens els encanta: **guanyar Pokémon**!
 
-Hi ha **200 Pokémon** de la primera generació per desbloquejar:
+Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema actual funciona per **camins d'exercicis**:
 
-- **Pokémon del 1 al 100** → Es desbloquegen pujant de **nivell d'experiència**. El Pokémon número N es guanya quan arribes al nivell N.
-- **Pokémon del 101 al 200** → Es desbloquegen guanyant **insígnies**. Per exemple, el Pokémon 105 es guanya quan tens 5 insígnies.
+- Cada Pokémon està associat a un exercici concret (síl·labes, paraules o frases).
+- Per desbloquejar-lo, cal arribar al percentatge mínim en aquell exercici.
+- Hi ha 4 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)** i **95% (Llegenda)**.
+- Com millor és el resultat, més Pokémon es desbloquegen i més **força** tenen per a les lluites.
 
-Els Pokémon apareixen a la pantalla al final de l'exercici, com a sorpresa! També es poden veure tots a la secció **"Els meus premis"** de la pantalla d'exercicis.
+🎯 **Detall important:** el premi final més especial és **Mew (151)**, associat al repte final de frases difícils amb nivell Llegenda.
+
+Els Pokémon desbloquejats es poden veure a la col·lecció i també s'utilitzen per formar equips a les lluites.
+
+### Lluites Pokémon (multijugador) ⚔️
+
+L'app també inclou lluites entre perfils de jugadors:
+
+1. Trieu un rival.
+2. Trieu la mida de l'equip: **1, 3 o 6 Pokémon**.
+3. Seleccioneu exactament aquell nombre de Pokémon desbloquejats.
+4. Envieu el repte.
+5. L'altre jugador pot acceptar (i triar equip) o rebutjar.
+
+Quan el repte s'accepta, la lluita es resol automàticament:
+
+- Es compara la **força total** dels dos equips.
+- El sistema hi afegeix un petit factor aleatori per fer les partides més emocionants.
+- Es guarda un resultat final únic (mateix resultat per als dos jugadors), amb marcador i resum.
+- La reproducció visual de la lluita és una animació del resultat ja calculat.
 
 ---
 
@@ -199,7 +218,7 @@ Els Pokémon apareixen a la pantalla al final de l'exercici, com a sorpresa! Tam
 L'app és en català però s'adapta a qualsevol nen que aprengui català, sigui la seva llengua materna o no.
 
 **Funciona sense internet?**
-Sí! L'app funciona **sense internet** per als exercicis i el progrés local. Cal internet per crear compte, sincronitzar entre dispositius i carregar les imatges dels Pokémon.
+No. L'app necessita **connexió a internet** per iniciar sessió, carregar dades i sincronitzar el progrés.
 
 **Es pot jugar sense micròfon?**
 No, el micròfon és essencial per avaluar la lectura en veu alta. Comproveu que el micròfon funciona i que el navegador té permís per usar-lo.
@@ -208,7 +227,7 @@ No, el micròfon és essencial per avaluar la lectura en veu alta. Comproveu que
 Aneu a la icona de **📊 Estadístiques** al menú inferior. Podreu veure les sessions, les puntuacions i l'evolució.
 
 **L'app guarda dades dels menors?**
-Sense compte, totes les dades es guarden únicament al dispositiu. Amb compte, es guarden al servidor de forma segura. No es comparteix cap dada personal amb tercers.
+Les dades del progrés es guarden al servidor de forma segura mitjançant el compte de l'usuari. No es comparteix cap dada personal amb tercers.
 
 ---
 
