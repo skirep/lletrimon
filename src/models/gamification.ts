@@ -247,6 +247,17 @@ const POKEMON_TRACKS = [
   },
 ] as const;
 
+const LEGENDARY_POKEMON_PATHS = {
+  'p-hard-100-legend': { pokemonId: 150, fallbackName: 'Mewtwo' },
+  'f-hard-100-legend': { pokemonId: 151, fallbackName: 'Mew' },
+  'sounds-hard-1-legend': { pokemonId: 493, fallbackName: 'Arceus' },
+  'w-hard-100-legend': { pokemonId: 890, fallbackName: 'Eternatus' },
+} as const;
+
+const RESERVED_POKEMON_IDS = new Set<number>(
+  Object.values(LEGENDARY_POKEMON_PATHS).map(({ pokemonId }) => pokemonId),
+);
+
 function buildPokemonPaths(): PokemonPath[] {
   const paths: PokemonPath[] = [];
   let pokemonId = 1;
@@ -254,13 +265,14 @@ function buildPokemonPaths(): PokemonPath[] {
   for (const track of POKEMON_TRACKS) {
     for (const setId of track.setIds) {
       for (const stage of POKEMON_STAGE_THRESHOLDS) {
-        const isLegendarySentencePath = track.exerciseType === 'sentences' && setId === 'f-hard-100' && stage.key === 'legend';
-        const assignedPokemonId = isLegendarySentencePath ? 151 : pokemonId;
+        const pathId = `${setId}-${stage.key}`;
+        const legendaryPokemon = LEGENDARY_POKEMON_PATHS[pathId as keyof typeof LEGENDARY_POKEMON_PATHS];
+        const assignedPokemonId = legendaryPokemon?.pokemonId ?? pokemonId;
 
         paths.push({
-          pathId: `${setId}-${stage.key}`,
+          pathId,
           pokemonId: assignedPokemonId,
-          fallbackName: isLegendarySentencePath ? 'Mew' : `Pokémon ${assignedPokemonId}`,
+          fallbackName: legendaryPokemon?.fallbackName ?? `Pokémon ${assignedPokemonId}`,
           exerciseType: track.exerciseType,
           difficulty: setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard',
           setIds: [setId],
@@ -270,9 +282,9 @@ function buildPokemonPaths(): PokemonPath[] {
           description: `${track.description} Objectiu mínim: ${stage.minScorePercent}%.`,
         });
 
-        if (!isLegendarySentencePath) {
+        if (!legendaryPokemon) {
           pokemonId += 1;
-          if (pokemonId === 151) pokemonId += 1;
+          while (RESERVED_POKEMON_IDS.has(pokemonId)) pokemonId += 1;
         }
       }
     }
