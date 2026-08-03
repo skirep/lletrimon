@@ -43,7 +43,7 @@ export interface ProfileBadge {
   earnedAt: number;
 }
 
-export type PokemonExerciseType = Exclude<ExerciseType, 'pseudowords' | 'sounds'>;
+export type PokemonExerciseType = ExerciseType;
 
 export interface PokemonPath {
   pathId: string;
@@ -219,19 +219,31 @@ const POKEMON_TRACKS = [
     exerciseType: 'syllables' as const,
     basePower: 18,
     description: 'La branca de síl·labes creix des del bàsic fins al gran repte de 100.',
-    setIds: ['syl-easy-1', 'syl-easy-2', 'syl-easy-3', 'syl-medium-1', 'syl-medium-2', 'syl-medium-3', 'syl-hard-100'],
+    setIds: ['syl-easy-1', 'syl-easy-2', 'syl-easy-3', 'syl-medium-1', 'syl-medium-2', 'syl-medium-3', 'syl-hard-100', 'syl-random-50', 'syl-direct-indirect-50'],
   },
   {
     exerciseType: 'words' as const,
     basePower: 28,
     description: 'La branca de paraules transforma cada percentatge en més potència d’atac.',
-    setIds: ['words-easy-1', 'words-easy-2', 'words-easy-3', 'words-easy-4', 'words-easy-5', 'words-medium-1', 'words-medium-2', 'words-medium-3', 'words-hard-1', 'words-hard-2', 'words-hard-3', 'w-hard-100'],
+    setIds: ['words-easy-1', 'words-easy-2', 'words-easy-3', 'words-easy-4', 'words-easy-5', 'words-medium-1', 'words-medium-2', 'words-medium-3', 'words-hard-1', 'words-hard-2', 'words-hard-3', 'w-hard-100', 'words-random-50'],
+  },
+  {
+    exerciseType: 'pseudowords' as const,
+    basePower: 34,
+    description: 'La branca de pseudoparaules premia la descodificació i la fluïdesa lectora.',
+    setIds: ['pseudo-easy-1', 'pseudo-easy-2', 'pseudo-medium-1', 'pseudo-medium-2', 'pseudo-hard-1', 'pseudo-hard-2', 'p-hard-100'],
   },
   {
     exerciseType: 'sentences' as const,
     basePower: 42,
     description: 'La branca de frases culmina en el Pokémon més tècnic i llegendari.',
     setIds: ['sent-easy-1', 'sent-easy-2', 'sent-easy-3', 'sent-medium-1', 'sent-medium-2', 'sent-medium-3', 'sent-hard-1', 'sent-hard-2', 'sent-hard-3', 'f-hard-100'],
+  },
+  {
+    exerciseType: 'sounds' as const,
+    basePower: 16,
+    description: 'La branca de sons reforça la discriminació fonològica des dels primers reptes.',
+    setIds: ['sounds-easy-1', 'sounds-medium-1', 'sounds-hard-1'],
   },
 ] as const;
 
@@ -260,6 +272,7 @@ function buildPokemonPaths(): PokemonPath[] {
 
         if (!isLegendarySentencePath) {
           pokemonId += 1;
+          if (pokemonId === 151) pokemonId += 1;
         }
       }
     }

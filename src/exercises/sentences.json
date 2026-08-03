@@ -7,50 +7,602 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "f01",
+        "id": "f0001",
         "text": "El gat és gran.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f02",
+        "id": "f0002",
         "text": "La mama cuina.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f03",
+        "id": "f0003",
         "text": "El nen juga.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f04",
+        "id": "f0004",
         "text": "La nena canta.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f05",
+        "id": "f0005",
         "text": "El sol brilla.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f06",
+        "id": "f0006",
         "text": "El gos bota.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f07",
+        "id": "f0007",
         "text": "La pilota és roja.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f08",
+        "id": "f0008",
         "text": "L'ocell vola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0009",
+        "text": "El gat juga al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0010",
+        "text": "El gat juga a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0011",
+        "text": "El gat juga amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0012",
+        "text": "El gat juga amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0013",
+        "text": "El gat juga a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0014",
+        "text": "El gat juga al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0015",
+        "text": "El gat juga a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0016",
+        "text": "El gat juga amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0017",
+        "text": "El gat juga al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0018",
+        "text": "El gat juga a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0019",
+        "text": "El gat canta al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0020",
+        "text": "El gat canta a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0021",
+        "text": "El gat canta amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0022",
+        "text": "El gat canta amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0023",
+        "text": "El gat canta a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0024",
+        "text": "El gat canta al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0025",
+        "text": "El gat canta a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0026",
+        "text": "El gat canta amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0027",
+        "text": "El gat canta al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0028",
+        "text": "El gat canta a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0029",
+        "text": "El gat corre al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0030",
+        "text": "El gat corre a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0031",
+        "text": "El gat corre amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0032",
+        "text": "El gat corre amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0033",
+        "text": "El gat corre a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0034",
+        "text": "El gat corre al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0035",
+        "text": "El gat corre a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0036",
+        "text": "El gat corre amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0037",
+        "text": "El gat corre al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0038",
+        "text": "El gat corre a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0039",
+        "text": "El gat dibuixa al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0040",
+        "text": "El gat dibuixa a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0041",
+        "text": "El gat dibuixa amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0042",
+        "text": "El gat dibuixa amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0043",
+        "text": "El gat dibuixa a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0044",
+        "text": "El gat dibuixa al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0045",
+        "text": "El gat dibuixa a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0046",
+        "text": "El gat dibuixa amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0047",
+        "text": "El gat dibuixa al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0048",
+        "text": "El gat dibuixa a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0049",
+        "text": "El gat somriu al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0050",
+        "text": "El gat somriu a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0051",
+        "text": "El gat somriu amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0052",
+        "text": "El gat somriu amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0053",
+        "text": "El gat somriu a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0054",
+        "text": "El gat somriu al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0055",
+        "text": "El gat somriu a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0056",
+        "text": "El gat somriu amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0057",
+        "text": "El gat somriu al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0058",
+        "text": "El gat somriu a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0059",
+        "text": "El gat balla al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0060",
+        "text": "El gat balla a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0061",
+        "text": "El gat balla amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0062",
+        "text": "El gat balla amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0063",
+        "text": "El gat balla a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0064",
+        "text": "El gat balla al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0065",
+        "text": "El gat balla a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0066",
+        "text": "El gat balla amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0067",
+        "text": "El gat balla al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0068",
+        "text": "El gat balla a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0069",
+        "text": "El gat menja al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0070",
+        "text": "El gat menja a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0071",
+        "text": "El gat menja amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0072",
+        "text": "El gat menja amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0073",
+        "text": "El gat menja a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0074",
+        "text": "El gat menja al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0075",
+        "text": "El gat menja a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0076",
+        "text": "El gat menja amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0077",
+        "text": "El gat menja al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0078",
+        "text": "El gat menja a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0079",
+        "text": "El gat beu al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0080",
+        "text": "El gat beu a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0081",
+        "text": "El gat beu amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0082",
+        "text": "El gat beu amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0083",
+        "text": "El gat beu a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0084",
+        "text": "El gat beu al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0085",
+        "text": "El gat beu a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0086",
+        "text": "El gat beu amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0087",
+        "text": "El gat beu al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0088",
+        "text": "El gat beu a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0089",
+        "text": "El gat salta al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0090",
+        "text": "El gat salta a casa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0091",
+        "text": "El gat salta amb la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0092",
+        "text": "El gat salta amb alegria.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0093",
+        "text": "El gat salta a l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0094",
+        "text": "El gat salta al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0095",
+        "text": "El gat salta a la cuina.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0096",
+        "text": "El gat salta amb el gos.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0097",
+        "text": "El gat salta al jardí.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0098",
+        "text": "El gat salta a la plaça.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0099",
+        "text": "El gat riu al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0100",
+        "text": "El gat riu a casa.",
         "type": "sentences",
         "difficulty": "easy"
       }
@@ -64,50 +616,602 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "f21",
+        "id": "f0101",
         "text": "El bebè dorm.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f22",
+        "id": "f0102",
         "text": "La bola és blava.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f23",
+        "id": "f0103",
         "text": "El drac és bonic.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f24",
+        "id": "f0104",
         "text": "La dona balla.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f25",
+        "id": "f0105",
         "text": "El bou és gran.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f26",
+        "id": "f0106",
         "text": "La dama porta un barret.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f27",
+        "id": "f0107",
         "text": "El dad és bo.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f28",
+        "id": "f0108",
         "text": "La bici és de David.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0109",
+        "text": "El bebè dansa dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0110",
+        "text": "El bebè dansa damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0111",
+        "text": "El bebè dansa amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0112",
+        "text": "El bebè dansa des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0113",
+        "text": "El bebè dansa a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0114",
+        "text": "El bebè dansa al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0115",
+        "text": "El bebè dansa durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0116",
+        "text": "El bebè dansa davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0117",
+        "text": "El bebè dansa a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0118",
+        "text": "El bebè dansa de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0119",
+        "text": "El bebè dorm dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0120",
+        "text": "El bebè dorm damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0121",
+        "text": "El bebè dorm amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0122",
+        "text": "El bebè dorm des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0123",
+        "text": "El bebè dorm a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0124",
+        "text": "El bebè dorm al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0125",
+        "text": "El bebè dorm durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0126",
+        "text": "El bebè dorm davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0127",
+        "text": "El bebè dorm a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0128",
+        "text": "El bebè dorm de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0129",
+        "text": "El bebè busca dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0130",
+        "text": "El bebè busca damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0131",
+        "text": "El bebè busca amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0132",
+        "text": "El bebè busca des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0133",
+        "text": "El bebè busca a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0134",
+        "text": "El bebè busca al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0135",
+        "text": "El bebè busca durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0136",
+        "text": "El bebè busca davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0137",
+        "text": "El bebè busca a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0138",
+        "text": "El bebè busca de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0139",
+        "text": "El bebè dibuixa dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0140",
+        "text": "El bebè dibuixa damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0141",
+        "text": "El bebè dibuixa amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0142",
+        "text": "El bebè dibuixa des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0143",
+        "text": "El bebè dibuixa a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0144",
+        "text": "El bebè dibuixa al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0145",
+        "text": "El bebè dibuixa durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0146",
+        "text": "El bebè dibuixa davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0147",
+        "text": "El bebè dibuixa a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0148",
+        "text": "El bebè dibuixa de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0149",
+        "text": "El bebè beu dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0150",
+        "text": "El bebè beu damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0151",
+        "text": "El bebè beu amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0152",
+        "text": "El bebè beu des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0153",
+        "text": "El bebè beu a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0154",
+        "text": "El bebè beu al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0155",
+        "text": "El bebè beu durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0156",
+        "text": "El bebè beu davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0157",
+        "text": "El bebè beu a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0158",
+        "text": "El bebè beu de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0159",
+        "text": "El bebè bota dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0160",
+        "text": "El bebè bota damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0161",
+        "text": "El bebè bota amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0162",
+        "text": "El bebè bota des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0163",
+        "text": "El bebè bota a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0164",
+        "text": "El bebè bota al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0165",
+        "text": "El bebè bota durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0166",
+        "text": "El bebè bota davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0167",
+        "text": "El bebè bota a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0168",
+        "text": "El bebè bota de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0169",
+        "text": "El bebè brilla dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0170",
+        "text": "El bebè brilla damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0171",
+        "text": "El bebè brilla amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0172",
+        "text": "El bebè brilla des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0173",
+        "text": "El bebè brilla a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0174",
+        "text": "El bebè brilla al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0175",
+        "text": "El bebè brilla durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0176",
+        "text": "El bebè brilla davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0177",
+        "text": "El bebè brilla a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0178",
+        "text": "El bebè brilla de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0179",
+        "text": "El bebè dobla dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0180",
+        "text": "El bebè dobla damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0181",
+        "text": "El bebè dobla amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0182",
+        "text": "El bebè dobla des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0183",
+        "text": "El bebè dobla a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0184",
+        "text": "El bebè dobla al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0185",
+        "text": "El bebè dobla durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0186",
+        "text": "El bebè dobla davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0187",
+        "text": "El bebè dobla a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0188",
+        "text": "El bebè dobla de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0189",
+        "text": "El bebè debana dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0190",
+        "text": "El bebè debana damunt del banc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0191",
+        "text": "El bebè debana amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0192",
+        "text": "El bebè debana des del balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0193",
+        "text": "El bebè debana a banda i banda.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0194",
+        "text": "El bebè debana al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0195",
+        "text": "El bebè debana durant el dia.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0196",
+        "text": "El bebè debana davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0197",
+        "text": "El bebè debana a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0198",
+        "text": "El bebè debana de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0199",
+        "text": "El bebè descobreix dins del bosc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0200",
+        "text": "El bebè descobreix damunt del banc.",
         "type": "sentences",
         "difficulty": "easy"
       }
@@ -121,50 +1225,602 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "f29",
+        "id": "f0201",
         "text": "El gat beu llet.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f30",
+        "id": "f0202",
         "text": "La nena llegeix.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f31",
+        "id": "f0203",
         "text": "El nen corre ràpid.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f32",
+        "id": "f0204",
         "text": "El gos menja.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f33",
+        "id": "f0205",
         "text": "La mama somriu.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f34",
+        "id": "f0206",
         "text": "L'ocell canta.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f35",
+        "id": "f0207",
         "text": "El nen dorm bé.",
         "type": "sentences",
         "difficulty": "easy"
       },
       {
-        "id": "f36",
+        "id": "f0208",
         "text": "La nena dibuixa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0209",
+        "text": "La família prepara un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0210",
+        "text": "La família prepara una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0211",
+        "text": "La família prepara una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0212",
+        "text": "La família prepara el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0213",
+        "text": "La família prepara la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0214",
+        "text": "La família prepara un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0215",
+        "text": "La família prepara el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0216",
+        "text": "La família prepara els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0217",
+        "text": "La família prepara la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0218",
+        "text": "La família prepara la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0219",
+        "text": "La família organitza un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0220",
+        "text": "La família organitza una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0221",
+        "text": "La família organitza una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0222",
+        "text": "La família organitza el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0223",
+        "text": "La família organitza la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0224",
+        "text": "La família organitza un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0225",
+        "text": "La família organitza el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0226",
+        "text": "La família organitza els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0227",
+        "text": "La família organitza la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0228",
+        "text": "La família organitza la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0229",
+        "text": "La família construeix un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0230",
+        "text": "La família construeix una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0231",
+        "text": "La família construeix una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0232",
+        "text": "La família construeix el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0233",
+        "text": "La família construeix la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0234",
+        "text": "La família construeix un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0235",
+        "text": "La família construeix el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0236",
+        "text": "La família construeix els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0237",
+        "text": "La família construeix la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0238",
+        "text": "La família construeix la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0239",
+        "text": "La família observa un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0240",
+        "text": "La família observa una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0241",
+        "text": "La família observa una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0242",
+        "text": "La família observa el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0243",
+        "text": "La família observa la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0244",
+        "text": "La família observa un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0245",
+        "text": "La família observa el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0246",
+        "text": "La família observa els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0247",
+        "text": "La família observa la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0248",
+        "text": "La família observa la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0249",
+        "text": "La família neteja un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0250",
+        "text": "La família neteja una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0251",
+        "text": "La família neteja una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0252",
+        "text": "La família neteja el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0253",
+        "text": "La família neteja la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0254",
+        "text": "La família neteja un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0255",
+        "text": "La família neteja el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0256",
+        "text": "La família neteja els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0257",
+        "text": "La família neteja la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0258",
+        "text": "La família neteja la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0259",
+        "text": "La família planifica un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0260",
+        "text": "La família planifica una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0261",
+        "text": "La família planifica una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0262",
+        "text": "La família planifica el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0263",
+        "text": "La família planifica la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0264",
+        "text": "La família planifica un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0265",
+        "text": "La família planifica el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0266",
+        "text": "La família planifica els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0267",
+        "text": "La família planifica la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0268",
+        "text": "La família planifica la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0269",
+        "text": "La família pinta un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0270",
+        "text": "La família pinta una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0271",
+        "text": "La família pinta una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0272",
+        "text": "La família pinta el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0273",
+        "text": "La família pinta la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0274",
+        "text": "La família pinta un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0275",
+        "text": "La família pinta el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0276",
+        "text": "La família pinta els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0277",
+        "text": "La família pinta la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0278",
+        "text": "La família pinta la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0279",
+        "text": "La família recorda un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0280",
+        "text": "La família recorda una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0281",
+        "text": "La família recorda una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0282",
+        "text": "La família recorda el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0283",
+        "text": "La família recorda la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0284",
+        "text": "La família recorda un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0285",
+        "text": "La família recorda el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0286",
+        "text": "La família recorda els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0287",
+        "text": "La família recorda la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0288",
+        "text": "La família recorda la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0289",
+        "text": "La família ensenya un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0290",
+        "text": "La família ensenya una recepta senzilla.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0291",
+        "text": "La família ensenya una maqueta petita.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0292",
+        "text": "La família ensenya el camí del riu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0293",
+        "text": "La família ensenya la taula gran.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0294",
+        "text": "La família ensenya un mural de classe.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0295",
+        "text": "La família ensenya el pati de l'escola.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0296",
+        "text": "La família ensenya els passos de dansa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0297",
+        "text": "La família ensenya la història del poble.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0298",
+        "text": "La família ensenya la ruta del parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0299",
+        "text": "La família explica un joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "f0300",
+        "text": "La família explica una recepta senzilla.",
         "type": "sentences",
         "difficulty": "easy"
       }
@@ -178,38 +1834,602 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "f09",
+        "id": "f0301",
         "text": "El gat dorm sobre la cadira.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f10",
+        "id": "f0302",
         "text": "La mare porta el pa a casa.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f11",
+        "id": "f0303",
         "text": "Els nens juguen al parc.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f12",
+        "id": "f0304",
         "text": "Avui fa molt bon temps.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f13",
+        "id": "f0305",
         "text": "El gos menja les galetes.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f14",
+        "id": "f0306",
         "text": "La lluna brilla a la nit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0307",
+        "text": "L'equip de classe organitza una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0308",
+        "text": "L'equip de classe organitza un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0309",
+        "text": "L'equip de classe organitza una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0310",
+        "text": "L'equip de classe organitza un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0311",
+        "text": "L'equip de classe organitza una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0312",
+        "text": "L'equip de classe organitza una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0313",
+        "text": "L'equip de classe organitza una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0314",
+        "text": "L'equip de classe organitza una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0315",
+        "text": "L'equip de classe organitza una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0316",
+        "text": "L'equip de classe organitza una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0317",
+        "text": "L'equip de classe comparteix una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0318",
+        "text": "L'equip de classe comparteix un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0319",
+        "text": "L'equip de classe comparteix una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0320",
+        "text": "L'equip de classe comparteix un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0321",
+        "text": "L'equip de classe comparteix una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0322",
+        "text": "L'equip de classe comparteix una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0323",
+        "text": "L'equip de classe comparteix una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0324",
+        "text": "L'equip de classe comparteix una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0325",
+        "text": "L'equip de classe comparteix una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0326",
+        "text": "L'equip de classe comparteix una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0327",
+        "text": "L'equip de classe investiga una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0328",
+        "text": "L'equip de classe investiga un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0329",
+        "text": "L'equip de classe investiga una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0330",
+        "text": "L'equip de classe investiga un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0331",
+        "text": "L'equip de classe investiga una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0332",
+        "text": "L'equip de classe investiga una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0333",
+        "text": "L'equip de classe investiga una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0334",
+        "text": "L'equip de classe investiga una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0335",
+        "text": "L'equip de classe investiga una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0336",
+        "text": "L'equip de classe investiga una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0337",
+        "text": "L'equip de classe coordina una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0338",
+        "text": "L'equip de classe coordina un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0339",
+        "text": "L'equip de classe coordina una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0340",
+        "text": "L'equip de classe coordina un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0341",
+        "text": "L'equip de classe coordina una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0342",
+        "text": "L'equip de classe coordina una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0343",
+        "text": "L'equip de classe coordina una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0344",
+        "text": "L'equip de classe coordina una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0345",
+        "text": "L'equip de classe coordina una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0346",
+        "text": "L'equip de classe coordina una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0347",
+        "text": "L'equip de classe practica una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0348",
+        "text": "L'equip de classe practica un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0349",
+        "text": "L'equip de classe practica una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0350",
+        "text": "L'equip de classe practica un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0351",
+        "text": "L'equip de classe practica una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0352",
+        "text": "L'equip de classe practica una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0353",
+        "text": "L'equip de classe practica una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0354",
+        "text": "L'equip de classe practica una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0355",
+        "text": "L'equip de classe practica una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0356",
+        "text": "L'equip de classe practica una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0357",
+        "text": "L'equip de classe prepara una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0358",
+        "text": "L'equip de classe prepara un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0359",
+        "text": "L'equip de classe prepara una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0360",
+        "text": "L'equip de classe prepara un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0361",
+        "text": "L'equip de classe prepara una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0362",
+        "text": "L'equip de classe prepara una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0363",
+        "text": "L'equip de classe prepara una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0364",
+        "text": "L'equip de classe prepara una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0365",
+        "text": "L'equip de classe prepara una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0366",
+        "text": "L'equip de classe prepara una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0367",
+        "text": "L'equip de classe explica una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0368",
+        "text": "L'equip de classe explica un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0369",
+        "text": "L'equip de classe explica una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0370",
+        "text": "L'equip de classe explica un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0371",
+        "text": "L'equip de classe explica una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0372",
+        "text": "L'equip de classe explica una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0373",
+        "text": "L'equip de classe explica una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0374",
+        "text": "L'equip de classe explica una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0375",
+        "text": "L'equip de classe explica una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0376",
+        "text": "L'equip de classe explica una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0377",
+        "text": "L'equip de classe resol una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0378",
+        "text": "L'equip de classe resol un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0379",
+        "text": "L'equip de classe resol una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0380",
+        "text": "L'equip de classe resol un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0381",
+        "text": "L'equip de classe resol una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0382",
+        "text": "L'equip de classe resol una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0383",
+        "text": "L'equip de classe resol una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0384",
+        "text": "L'equip de classe resol una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0385",
+        "text": "L'equip de classe resol una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0386",
+        "text": "L'equip de classe resol una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0387",
+        "text": "L'equip de classe observa una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0388",
+        "text": "L'equip de classe observa un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0389",
+        "text": "L'equip de classe observa una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0390",
+        "text": "L'equip de classe observa un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0391",
+        "text": "L'equip de classe observa una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0392",
+        "text": "L'equip de classe observa una campanya de reciclatge al barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0393",
+        "text": "L'equip de classe observa una exposició de dibuixos creatius.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0394",
+        "text": "L'equip de classe observa una representació teatral al pati.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0395",
+        "text": "L'equip de classe observa una ruta cultural pel centre històric.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0396",
+        "text": "L'equip de classe observa una jornada esportiva solidària.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0397",
+        "text": "L'equip de classe celebra una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0398",
+        "text": "L'equip de classe celebra un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0399",
+        "text": "L'equip de classe celebra una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0400",
+        "text": "L'equip de classe celebra un projecte sobre animals marins.",
         "type": "sentences",
         "difficulty": "medium"
       }
@@ -223,38 +2443,602 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "f37",
+        "id": "f0401",
         "text": "La ballarina dansa al damunt de l'escenari.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f38",
+        "id": "f0402",
         "text": "El drac blau busca el seu tresor.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f39",
+        "id": "f0403",
         "text": "La bicicleta del David és de color blava.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f40",
+        "id": "f0404",
         "text": "En Bernat dóna una beguda a la seva besàvia.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f41",
+        "id": "f0405",
         "text": "La bestia dormia dins de la cova.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f42",
+        "id": "f0406",
         "text": "El dimoni bona boca no tenia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0407",
+        "text": "El bebè dansa dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0408",
+        "text": "El bebè dansa damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0409",
+        "text": "El bebè dansa amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0410",
+        "text": "El bebè dansa des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0411",
+        "text": "El bebè dansa a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0412",
+        "text": "El bebè dansa al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0413",
+        "text": "El bebè dansa durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0414",
+        "text": "El bebè dansa davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0415",
+        "text": "El bebè dansa a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0416",
+        "text": "El bebè dansa de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0417",
+        "text": "El bebè dansa una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0418",
+        "text": "El bebè dansa un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0419",
+        "text": "El bebè dansa una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0420",
+        "text": "El bebè dansa un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0421",
+        "text": "El bebè dansa una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0422",
+        "text": "El bebè dorm dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0423",
+        "text": "El bebè dorm damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0424",
+        "text": "El bebè dorm amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0425",
+        "text": "El bebè dorm des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0426",
+        "text": "El bebè dorm a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0427",
+        "text": "El bebè dorm al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0428",
+        "text": "El bebè dorm durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0429",
+        "text": "El bebè dorm davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0430",
+        "text": "El bebè dorm a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0431",
+        "text": "El bebè dorm de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0432",
+        "text": "El bebè dorm una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0433",
+        "text": "El bebè dorm un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0434",
+        "text": "El bebè dorm una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0435",
+        "text": "El bebè dorm un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0436",
+        "text": "El bebè dorm una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0437",
+        "text": "El bebè busca dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0438",
+        "text": "El bebè busca damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0439",
+        "text": "El bebè busca amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0440",
+        "text": "El bebè busca des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0441",
+        "text": "El bebè busca a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0442",
+        "text": "El bebè busca al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0443",
+        "text": "El bebè busca durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0444",
+        "text": "El bebè busca davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0445",
+        "text": "El bebè busca a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0446",
+        "text": "El bebè busca de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0447",
+        "text": "El bebè busca una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0448",
+        "text": "El bebè busca un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0449",
+        "text": "El bebè busca una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0450",
+        "text": "El bebè busca un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0451",
+        "text": "El bebè busca una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0452",
+        "text": "El bebè dibuixa dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0453",
+        "text": "El bebè dibuixa damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0454",
+        "text": "El bebè dibuixa amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0455",
+        "text": "El bebè dibuixa des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0456",
+        "text": "El bebè dibuixa a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0457",
+        "text": "El bebè dibuixa al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0458",
+        "text": "El bebè dibuixa durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0459",
+        "text": "El bebè dibuixa davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0460",
+        "text": "El bebè dibuixa a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0461",
+        "text": "El bebè dibuixa de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0462",
+        "text": "El bebè dibuixa una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0463",
+        "text": "El bebè dibuixa un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0464",
+        "text": "El bebè dibuixa una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0465",
+        "text": "El bebè dibuixa un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0466",
+        "text": "El bebè dibuixa una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0467",
+        "text": "El bebè beu dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0468",
+        "text": "El bebè beu damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0469",
+        "text": "El bebè beu amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0470",
+        "text": "El bebè beu des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0471",
+        "text": "El bebè beu a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0472",
+        "text": "El bebè beu al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0473",
+        "text": "El bebè beu durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0474",
+        "text": "El bebè beu davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0475",
+        "text": "El bebè beu a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0476",
+        "text": "El bebè beu de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0477",
+        "text": "El bebè beu una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0478",
+        "text": "El bebè beu un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0479",
+        "text": "El bebè beu una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0480",
+        "text": "El bebè beu un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0481",
+        "text": "El bebè beu una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0482",
+        "text": "El bebè bota dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0483",
+        "text": "El bebè bota damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0484",
+        "text": "El bebè bota amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0485",
+        "text": "El bebè bota des del balcó.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0486",
+        "text": "El bebè bota a banda i banda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0487",
+        "text": "El bebè bota al costat de la biblioteca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0488",
+        "text": "El bebè bota durant el dia.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0489",
+        "text": "El bebè bota davant del dipòsit.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0490",
+        "text": "El bebè bota a la banda dreta.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0491",
+        "text": "El bebè bota de baix a dalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0492",
+        "text": "El bebè bota una activitat de lectura cada tarda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0493",
+        "text": "El bebè bota un experiment amb aigua i llum.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0494",
+        "text": "El bebè bota una sortida al bosc de la vila.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0495",
+        "text": "El bebè bota un projecte sobre animals marins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0496",
+        "text": "El bebè bota una sessió de joc cooperatiu.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0497",
+        "text": "El bebè brilla dins del bosc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0498",
+        "text": "El bebè brilla damunt del banc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0499",
+        "text": "El bebè brilla amb la bola blava.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0500",
+        "text": "El bebè brilla des del balcó.",
         "type": "sentences",
         "difficulty": "medium"
       }
@@ -268,38 +3052,602 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "f43",
+        "id": "f0501",
         "text": "Els arbres del bosc creixen molt alts.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f44",
+        "id": "f0502",
         "text": "La mestra explica la lliçó de matemàtiques.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f45",
+        "id": "f0503",
         "text": "Els ocells canten al jardí cada matí.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f46",
+        "id": "f0504",
         "text": "Avui hem anat d'excursió al camp.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f47",
+        "id": "f0505",
         "text": "La papallona vola entre les flors.",
         "type": "sentences",
         "difficulty": "medium"
       },
       {
-        "id": "f48",
+        "id": "f0506",
         "text": "Els nens pinten un mural a la classe.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0507",
+        "text": "L'alumnat de sisè prepara un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0508",
+        "text": "L'alumnat de sisè prepara una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0509",
+        "text": "L'alumnat de sisè prepara una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0510",
+        "text": "L'alumnat de sisè prepara un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0511",
+        "text": "L'alumnat de sisè prepara un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0512",
+        "text": "L'alumnat de sisè prepara una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0513",
+        "text": "L'alumnat de sisè prepara una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0514",
+        "text": "L'alumnat de sisè prepara un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0515",
+        "text": "L'alumnat de sisè prepara una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0516",
+        "text": "L'alumnat de sisè prepara una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0517",
+        "text": "L'alumnat de sisè coordina un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0518",
+        "text": "L'alumnat de sisè coordina una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0519",
+        "text": "L'alumnat de sisè coordina una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0520",
+        "text": "L'alumnat de sisè coordina un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0521",
+        "text": "L'alumnat de sisè coordina un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0522",
+        "text": "L'alumnat de sisè coordina una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0523",
+        "text": "L'alumnat de sisè coordina una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0524",
+        "text": "L'alumnat de sisè coordina un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0525",
+        "text": "L'alumnat de sisè coordina una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0526",
+        "text": "L'alumnat de sisè coordina una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0527",
+        "text": "L'alumnat de sisè presenta un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0528",
+        "text": "L'alumnat de sisè presenta una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0529",
+        "text": "L'alumnat de sisè presenta una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0530",
+        "text": "L'alumnat de sisè presenta un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0531",
+        "text": "L'alumnat de sisè presenta un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0532",
+        "text": "L'alumnat de sisè presenta una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0533",
+        "text": "L'alumnat de sisè presenta una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0534",
+        "text": "L'alumnat de sisè presenta un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0535",
+        "text": "L'alumnat de sisè presenta una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0536",
+        "text": "L'alumnat de sisè presenta una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0537",
+        "text": "L'alumnat de sisè documenta un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0538",
+        "text": "L'alumnat de sisè documenta una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0539",
+        "text": "L'alumnat de sisè documenta una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0540",
+        "text": "L'alumnat de sisè documenta un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0541",
+        "text": "L'alumnat de sisè documenta un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0542",
+        "text": "L'alumnat de sisè documenta una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0543",
+        "text": "L'alumnat de sisè documenta una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0544",
+        "text": "L'alumnat de sisè documenta un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0545",
+        "text": "L'alumnat de sisè documenta una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0546",
+        "text": "L'alumnat de sisè documenta una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0547",
+        "text": "L'alumnat de sisè analitza un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0548",
+        "text": "L'alumnat de sisè analitza una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0549",
+        "text": "L'alumnat de sisè analitza una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0550",
+        "text": "L'alumnat de sisè analitza un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0551",
+        "text": "L'alumnat de sisè analitza un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0552",
+        "text": "L'alumnat de sisè analitza una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0553",
+        "text": "L'alumnat de sisè analitza una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0554",
+        "text": "L'alumnat de sisè analitza un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0555",
+        "text": "L'alumnat de sisè analitza una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0556",
+        "text": "L'alumnat de sisè analitza una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0557",
+        "text": "L'alumnat de sisè descriu un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0558",
+        "text": "L'alumnat de sisè descriu una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0559",
+        "text": "L'alumnat de sisè descriu una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0560",
+        "text": "L'alumnat de sisè descriu un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0561",
+        "text": "L'alumnat de sisè descriu un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0562",
+        "text": "L'alumnat de sisè descriu una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0563",
+        "text": "L'alumnat de sisè descriu una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0564",
+        "text": "L'alumnat de sisè descriu un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0565",
+        "text": "L'alumnat de sisè descriu una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0566",
+        "text": "L'alumnat de sisè descriu una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0567",
+        "text": "L'alumnat de sisè comparteix un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0568",
+        "text": "L'alumnat de sisè comparteix una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0569",
+        "text": "L'alumnat de sisè comparteix una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0570",
+        "text": "L'alumnat de sisè comparteix un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0571",
+        "text": "L'alumnat de sisè comparteix un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0572",
+        "text": "L'alumnat de sisè comparteix una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0573",
+        "text": "L'alumnat de sisè comparteix una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0574",
+        "text": "L'alumnat de sisè comparteix un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0575",
+        "text": "L'alumnat de sisè comparteix una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0576",
+        "text": "L'alumnat de sisè comparteix una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0577",
+        "text": "L'alumnat de sisè millora un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0578",
+        "text": "L'alumnat de sisè millora una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0579",
+        "text": "L'alumnat de sisè millora una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0580",
+        "text": "L'alumnat de sisè millora un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0581",
+        "text": "L'alumnat de sisè millora un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0582",
+        "text": "L'alumnat de sisè millora una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0583",
+        "text": "L'alumnat de sisè millora una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0584",
+        "text": "L'alumnat de sisè millora un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0585",
+        "text": "L'alumnat de sisè millora una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0586",
+        "text": "L'alumnat de sisè millora una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0587",
+        "text": "L'alumnat de sisè repassa un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0588",
+        "text": "L'alumnat de sisè repassa una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0589",
+        "text": "L'alumnat de sisè repassa una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0590",
+        "text": "L'alumnat de sisè repassa un projecte sobre el cicle de la pluja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0591",
+        "text": "L'alumnat de sisè repassa un recull de contes de natura.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0592",
+        "text": "L'alumnat de sisè repassa una exposició de minerals locals.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0593",
+        "text": "L'alumnat de sisè repassa una ruta de neteja del bosc proper.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0594",
+        "text": "L'alumnat de sisè repassa un taller de compostatge comunitari.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0595",
+        "text": "L'alumnat de sisè repassa una guia d'arbres del barri.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0596",
+        "text": "L'alumnat de sisè repassa una jornada de lectura a l'aire lliure.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0597",
+        "text": "L'alumnat de sisè planifica un hort escolar amb plantes aromàtiques.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0598",
+        "text": "L'alumnat de sisè planifica una observació dels ocells del parc.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0599",
+        "text": "L'alumnat de sisè planifica una campanya per estalviar aigua.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "f0600",
+        "text": "L'alumnat de sisè planifica un projecte sobre el cicle de la pluja.",
         "type": "sentences",
         "difficulty": "medium"
       }
@@ -313,26 +3661,602 @@
     "difficulty": "hard",
     "items": [
       {
-        "id": "f15",
+        "id": "f0601",
         "text": "El noi i la noia van anar junts a la biblioteca del barri.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f16",
+        "id": "f0602",
         "text": "La professora va explicar una lliçó molt interessant sobre els animals.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f17",
+        "id": "f0603",
         "text": "Quan plou, els carrerons de la ciutat es tornen molt lliscadissos.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f18",
+        "id": "f0604",
         "text": "En Pere i la Maria estudien molt per treure bones notes a l'escola.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0605",
+        "text": "L'equip interdisciplinari dissenya estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0606",
+        "text": "L'equip interdisciplinari dissenya protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0607",
+        "text": "L'equip interdisciplinari dissenya itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0608",
+        "text": "L'equip interdisciplinari dissenya mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0609",
+        "text": "L'equip interdisciplinari dissenya plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0610",
+        "text": "L'equip interdisciplinari dissenya accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0611",
+        "text": "L'equip interdisciplinari dissenya simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0612",
+        "text": "L'equip interdisciplinari dissenya projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0613",
+        "text": "L'equip interdisciplinari dissenya iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0614",
+        "text": "L'equip interdisciplinari dissenya propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0615",
+        "text": "L'equip interdisciplinari implementa estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0616",
+        "text": "L'equip interdisciplinari implementa protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0617",
+        "text": "L'equip interdisciplinari implementa itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0618",
+        "text": "L'equip interdisciplinari implementa mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0619",
+        "text": "L'equip interdisciplinari implementa plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0620",
+        "text": "L'equip interdisciplinari implementa accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0621",
+        "text": "L'equip interdisciplinari implementa simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0622",
+        "text": "L'equip interdisciplinari implementa projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0623",
+        "text": "L'equip interdisciplinari implementa iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0624",
+        "text": "L'equip interdisciplinari implementa propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0625",
+        "text": "L'equip interdisciplinari avalua estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0626",
+        "text": "L'equip interdisciplinari avalua protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0627",
+        "text": "L'equip interdisciplinari avalua itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0628",
+        "text": "L'equip interdisciplinari avalua mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0629",
+        "text": "L'equip interdisciplinari avalua plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0630",
+        "text": "L'equip interdisciplinari avalua accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0631",
+        "text": "L'equip interdisciplinari avalua simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0632",
+        "text": "L'equip interdisciplinari avalua projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0633",
+        "text": "L'equip interdisciplinari avalua iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0634",
+        "text": "L'equip interdisciplinari avalua propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0635",
+        "text": "L'equip interdisciplinari documenta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0636",
+        "text": "L'equip interdisciplinari documenta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0637",
+        "text": "L'equip interdisciplinari documenta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0638",
+        "text": "L'equip interdisciplinari documenta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0639",
+        "text": "L'equip interdisciplinari documenta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0640",
+        "text": "L'equip interdisciplinari documenta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0641",
+        "text": "L'equip interdisciplinari documenta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0642",
+        "text": "L'equip interdisciplinari documenta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0643",
+        "text": "L'equip interdisciplinari documenta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0644",
+        "text": "L'equip interdisciplinari documenta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0645",
+        "text": "L'equip interdisciplinari argumenta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0646",
+        "text": "L'equip interdisciplinari argumenta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0647",
+        "text": "L'equip interdisciplinari argumenta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0648",
+        "text": "L'equip interdisciplinari argumenta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0649",
+        "text": "L'equip interdisciplinari argumenta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0650",
+        "text": "L'equip interdisciplinari argumenta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0651",
+        "text": "L'equip interdisciplinari argumenta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0652",
+        "text": "L'equip interdisciplinari argumenta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0653",
+        "text": "L'equip interdisciplinari argumenta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0654",
+        "text": "L'equip interdisciplinari argumenta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0655",
+        "text": "L'equip interdisciplinari contrasta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0656",
+        "text": "L'equip interdisciplinari contrasta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0657",
+        "text": "L'equip interdisciplinari contrasta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0658",
+        "text": "L'equip interdisciplinari contrasta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0659",
+        "text": "L'equip interdisciplinari contrasta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0660",
+        "text": "L'equip interdisciplinari contrasta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0661",
+        "text": "L'equip interdisciplinari contrasta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0662",
+        "text": "L'equip interdisciplinari contrasta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0663",
+        "text": "L'equip interdisciplinari contrasta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0664",
+        "text": "L'equip interdisciplinari contrasta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0665",
+        "text": "L'equip interdisciplinari optimitza estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0666",
+        "text": "L'equip interdisciplinari optimitza protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0667",
+        "text": "L'equip interdisciplinari optimitza itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0668",
+        "text": "L'equip interdisciplinari optimitza mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0669",
+        "text": "L'equip interdisciplinari optimitza plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0670",
+        "text": "L'equip interdisciplinari optimitza accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0671",
+        "text": "L'equip interdisciplinari optimitza simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0672",
+        "text": "L'equip interdisciplinari optimitza projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0673",
+        "text": "L'equip interdisciplinari optimitza iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0674",
+        "text": "L'equip interdisciplinari optimitza propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0675",
+        "text": "L'equip interdisciplinari comunica estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0676",
+        "text": "L'equip interdisciplinari comunica protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0677",
+        "text": "L'equip interdisciplinari comunica itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0678",
+        "text": "L'equip interdisciplinari comunica mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0679",
+        "text": "L'equip interdisciplinari comunica plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0680",
+        "text": "L'equip interdisciplinari comunica accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0681",
+        "text": "L'equip interdisciplinari comunica simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0682",
+        "text": "L'equip interdisciplinari comunica projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0683",
+        "text": "L'equip interdisciplinari comunica iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0684",
+        "text": "L'equip interdisciplinari comunica propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0685",
+        "text": "L'equip interdisciplinari sintetitza estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0686",
+        "text": "L'equip interdisciplinari sintetitza protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0687",
+        "text": "L'equip interdisciplinari sintetitza itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0688",
+        "text": "L'equip interdisciplinari sintetitza mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0689",
+        "text": "L'equip interdisciplinari sintetitza plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0690",
+        "text": "L'equip interdisciplinari sintetitza accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0691",
+        "text": "L'equip interdisciplinari sintetitza simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0692",
+        "text": "L'equip interdisciplinari sintetitza projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0693",
+        "text": "L'equip interdisciplinari sintetitza iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0694",
+        "text": "L'equip interdisciplinari sintetitza propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0695",
+        "text": "L'equip interdisciplinari projecta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0696",
+        "text": "L'equip interdisciplinari projecta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0697",
+        "text": "L'equip interdisciplinari projecta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0698",
+        "text": "L'equip interdisciplinari projecta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0699",
+        "text": "L'equip interdisciplinari projecta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0700",
+        "text": "L'equip interdisciplinari projecta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -346,26 +4270,602 @@
     "difficulty": "hard",
     "items": [
       {
-        "id": "f49",
+        "id": "f0701",
         "text": "La ballena blava és el mamífer més gran que existeix al planeta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f50",
+        "id": "f0702",
         "text": "En David i la Berta van descobrir un bosc encantat durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f51",
+        "id": "f0703",
         "text": "La biodiversitat dels boscos catalans depèn de la conservació dels hàbitats naturals.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f52",
+        "id": "f0704",
         "text": "Després de la tormenta, els núvols desapareixien deixant un cel completament blau.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0705",
+        "text": "La brigada de biodiversitat debateix bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0706",
+        "text": "La brigada de biodiversitat debateix dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0707",
+        "text": "La brigada de biodiversitat debateix bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0708",
+        "text": "La brigada de biodiversitat debateix documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0709",
+        "text": "La brigada de biodiversitat debateix dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0710",
+        "text": "La brigada de biodiversitat debateix descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0711",
+        "text": "La brigada de biodiversitat debateix dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0712",
+        "text": "La brigada de biodiversitat debateix decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0713",
+        "text": "La brigada de biodiversitat debateix diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0714",
+        "text": "La brigada de biodiversitat debateix dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0715",
+        "text": "La brigada de biodiversitat desenvolupa bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0716",
+        "text": "La brigada de biodiversitat desenvolupa dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0717",
+        "text": "La brigada de biodiversitat desenvolupa bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0718",
+        "text": "La brigada de biodiversitat desenvolupa documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0719",
+        "text": "La brigada de biodiversitat desenvolupa dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0720",
+        "text": "La brigada de biodiversitat desenvolupa descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0721",
+        "text": "La brigada de biodiversitat desenvolupa dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0722",
+        "text": "La brigada de biodiversitat desenvolupa decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0723",
+        "text": "La brigada de biodiversitat desenvolupa diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0724",
+        "text": "La brigada de biodiversitat desenvolupa dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0725",
+        "text": "La brigada de biodiversitat dibuixa bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0726",
+        "text": "La brigada de biodiversitat dibuixa dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0727",
+        "text": "La brigada de biodiversitat dibuixa bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0728",
+        "text": "La brigada de biodiversitat dibuixa documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0729",
+        "text": "La brigada de biodiversitat dibuixa dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0730",
+        "text": "La brigada de biodiversitat dibuixa descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0731",
+        "text": "La brigada de biodiversitat dibuixa dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0732",
+        "text": "La brigada de biodiversitat dibuixa decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0733",
+        "text": "La brigada de biodiversitat dibuixa diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0734",
+        "text": "La brigada de biodiversitat dibuixa dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0735",
+        "text": "La brigada de biodiversitat dissenya bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0736",
+        "text": "La brigada de biodiversitat dissenya dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0737",
+        "text": "La brigada de biodiversitat dissenya bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0738",
+        "text": "La brigada de biodiversitat dissenya documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0739",
+        "text": "La brigada de biodiversitat dissenya dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0740",
+        "text": "La brigada de biodiversitat dissenya descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0741",
+        "text": "La brigada de biodiversitat dissenya dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0742",
+        "text": "La brigada de biodiversitat dissenya decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0743",
+        "text": "La brigada de biodiversitat dissenya diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0744",
+        "text": "La brigada de biodiversitat dissenya dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0745",
+        "text": "La brigada de biodiversitat difon bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0746",
+        "text": "La brigada de biodiversitat difon dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0747",
+        "text": "La brigada de biodiversitat difon bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0748",
+        "text": "La brigada de biodiversitat difon documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0749",
+        "text": "La brigada de biodiversitat difon dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0750",
+        "text": "La brigada de biodiversitat difon descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0751",
+        "text": "La brigada de biodiversitat difon dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0752",
+        "text": "La brigada de biodiversitat difon decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0753",
+        "text": "La brigada de biodiversitat difon diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0754",
+        "text": "La brigada de biodiversitat difon dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0755",
+        "text": "La brigada de biodiversitat documenta bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0756",
+        "text": "La brigada de biodiversitat documenta dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0757",
+        "text": "La brigada de biodiversitat documenta bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0758",
+        "text": "La brigada de biodiversitat documenta documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0759",
+        "text": "La brigada de biodiversitat documenta dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0760",
+        "text": "La brigada de biodiversitat documenta descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0761",
+        "text": "La brigada de biodiversitat documenta dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0762",
+        "text": "La brigada de biodiversitat documenta decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0763",
+        "text": "La brigada de biodiversitat documenta diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0764",
+        "text": "La brigada de biodiversitat documenta dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0765",
+        "text": "La brigada de biodiversitat desplega bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0766",
+        "text": "La brigada de biodiversitat desplega dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0767",
+        "text": "La brigada de biodiversitat desplega bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0768",
+        "text": "La brigada de biodiversitat desplega documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0769",
+        "text": "La brigada de biodiversitat desplega dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0770",
+        "text": "La brigada de biodiversitat desplega descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0771",
+        "text": "La brigada de biodiversitat desplega dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0772",
+        "text": "La brigada de biodiversitat desplega decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0773",
+        "text": "La brigada de biodiversitat desplega diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0774",
+        "text": "La brigada de biodiversitat desplega dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0775",
+        "text": "La brigada de biodiversitat delibera bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0776",
+        "text": "La brigada de biodiversitat delibera dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0777",
+        "text": "La brigada de biodiversitat delibera bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0778",
+        "text": "La brigada de biodiversitat delibera documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0779",
+        "text": "La brigada de biodiversitat delibera dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0780",
+        "text": "La brigada de biodiversitat delibera descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0781",
+        "text": "La brigada de biodiversitat delibera dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0782",
+        "text": "La brigada de biodiversitat delibera decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0783",
+        "text": "La brigada de biodiversitat delibera diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0784",
+        "text": "La brigada de biodiversitat delibera dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0785",
+        "text": "La brigada de biodiversitat diagnostica bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0786",
+        "text": "La brigada de biodiversitat diagnostica dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0787",
+        "text": "La brigada de biodiversitat diagnostica bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0788",
+        "text": "La brigada de biodiversitat diagnostica documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0789",
+        "text": "La brigada de biodiversitat diagnostica dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0790",
+        "text": "La brigada de biodiversitat diagnostica descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0791",
+        "text": "La brigada de biodiversitat diagnostica dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0792",
+        "text": "La brigada de biodiversitat diagnostica decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0793",
+        "text": "La brigada de biodiversitat diagnostica diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0794",
+        "text": "La brigada de biodiversitat diagnostica dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0795",
+        "text": "La brigada de biodiversitat defineix bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0796",
+        "text": "La brigada de biodiversitat defineix dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0797",
+        "text": "La brigada de biodiversitat defineix bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0798",
+        "text": "La brigada de biodiversitat defineix documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0799",
+        "text": "La brigada de biodiversitat defineix dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0800",
+        "text": "La brigada de biodiversitat defineix descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -379,26 +4879,602 @@
     "difficulty": "hard",
     "items": [
       {
-        "id": "f53",
+        "id": "f0801",
         "text": "La fotosíntesi és el procés pel qual les plantes transformen la llum solar en energia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f54",
+        "id": "f0802",
         "text": "L'astronauta va descriure detalladament l'experiència de veure la Terra des de l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f55",
+        "id": "f0803",
         "text": "La investigació científica requereix molta paciència i rigorositat en els experiments.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f56",
+        "id": "f0804",
         "text": "Els dinosaures van desaparèixer fa aproximadament seixanta-sis milions d'anys de la Terra.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0805",
+        "text": "L'equip de robòtica modelitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0806",
+        "text": "L'equip de robòtica modelitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0807",
+        "text": "L'equip de robòtica modelitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0808",
+        "text": "L'equip de robòtica modelitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0809",
+        "text": "L'equip de robòtica modelitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0810",
+        "text": "L'equip de robòtica modelitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0811",
+        "text": "L'equip de robòtica modelitza experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0812",
+        "text": "L'equip de robòtica modelitza xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0813",
+        "text": "L'equip de robòtica modelitza simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0814",
+        "text": "L'equip de robòtica modelitza plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0815",
+        "text": "L'equip de robòtica simula algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0816",
+        "text": "L'equip de robòtica simula sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0817",
+        "text": "L'equip de robòtica simula seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0818",
+        "text": "L'equip de robòtica simula prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0819",
+        "text": "L'equip de robòtica simula mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0820",
+        "text": "L'equip de robòtica simula models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0821",
+        "text": "L'equip de robòtica simula experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0822",
+        "text": "L'equip de robòtica simula xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0823",
+        "text": "L'equip de robòtica simula simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0824",
+        "text": "L'equip de robòtica simula plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0825",
+        "text": "L'equip de robòtica analitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0826",
+        "text": "L'equip de robòtica analitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0827",
+        "text": "L'equip de robòtica analitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0828",
+        "text": "L'equip de robòtica analitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0829",
+        "text": "L'equip de robòtica analitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0830",
+        "text": "L'equip de robòtica analitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0831",
+        "text": "L'equip de robòtica analitza experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0832",
+        "text": "L'equip de robòtica analitza xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0833",
+        "text": "L'equip de robòtica analitza simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0834",
+        "text": "L'equip de robòtica analitza plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0835",
+        "text": "L'equip de robòtica verifica algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0836",
+        "text": "L'equip de robòtica verifica sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0837",
+        "text": "L'equip de robòtica verifica seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0838",
+        "text": "L'equip de robòtica verifica prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0839",
+        "text": "L'equip de robòtica verifica mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0840",
+        "text": "L'equip de robòtica verifica models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0841",
+        "text": "L'equip de robòtica verifica experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0842",
+        "text": "L'equip de robòtica verifica xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0843",
+        "text": "L'equip de robòtica verifica simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0844",
+        "text": "L'equip de robòtica verifica plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0845",
+        "text": "L'equip de robòtica calibra algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0846",
+        "text": "L'equip de robòtica calibra sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0847",
+        "text": "L'equip de robòtica calibra seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0848",
+        "text": "L'equip de robòtica calibra prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0849",
+        "text": "L'equip de robòtica calibra mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0850",
+        "text": "L'equip de robòtica calibra models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0851",
+        "text": "L'equip de robòtica calibra experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0852",
+        "text": "L'equip de robòtica calibra xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0853",
+        "text": "L'equip de robòtica calibra simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0854",
+        "text": "L'equip de robòtica calibra plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0855",
+        "text": "L'equip de robòtica interpreta algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0856",
+        "text": "L'equip de robòtica interpreta sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0857",
+        "text": "L'equip de robòtica interpreta seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0858",
+        "text": "L'equip de robòtica interpreta prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0859",
+        "text": "L'equip de robòtica interpreta mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0860",
+        "text": "L'equip de robòtica interpreta models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0861",
+        "text": "L'equip de robòtica interpreta experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0862",
+        "text": "L'equip de robòtica interpreta xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0863",
+        "text": "L'equip de robòtica interpreta simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0864",
+        "text": "L'equip de robòtica interpreta plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0865",
+        "text": "L'equip de robòtica computa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0866",
+        "text": "L'equip de robòtica computa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0867",
+        "text": "L'equip de robòtica computa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0868",
+        "text": "L'equip de robòtica computa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0869",
+        "text": "L'equip de robòtica computa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0870",
+        "text": "L'equip de robòtica computa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0871",
+        "text": "L'equip de robòtica computa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0872",
+        "text": "L'equip de robòtica computa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0873",
+        "text": "L'equip de robòtica computa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0874",
+        "text": "L'equip de robòtica computa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0875",
+        "text": "L'equip de robòtica contrasta algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0876",
+        "text": "L'equip de robòtica contrasta sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0877",
+        "text": "L'equip de robòtica contrasta seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0878",
+        "text": "L'equip de robòtica contrasta prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0879",
+        "text": "L'equip de robòtica contrasta mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0880",
+        "text": "L'equip de robòtica contrasta models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0881",
+        "text": "L'equip de robòtica contrasta experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0882",
+        "text": "L'equip de robòtica contrasta xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0883",
+        "text": "L'equip de robòtica contrasta simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0884",
+        "text": "L'equip de robòtica contrasta plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0885",
+        "text": "L'equip de robòtica implementa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0886",
+        "text": "L'equip de robòtica implementa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0887",
+        "text": "L'equip de robòtica implementa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0888",
+        "text": "L'equip de robòtica implementa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0889",
+        "text": "L'equip de robòtica implementa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0890",
+        "text": "L'equip de robòtica implementa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0891",
+        "text": "L'equip de robòtica implementa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0892",
+        "text": "L'equip de robòtica implementa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0893",
+        "text": "L'equip de robòtica implementa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0894",
+        "text": "L'equip de robòtica implementa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0895",
+        "text": "L'equip de robòtica optimitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0896",
+        "text": "L'equip de robòtica optimitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0897",
+        "text": "L'equip de robòtica optimitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0898",
+        "text": "L'equip de robòtica optimitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0899",
+        "text": "L'equip de robòtica optimitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "f0900",
+        "text": "L'equip de robòtica optimitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -412,602 +5488,602 @@
     "difficulty": "hard",
     "items": [
       {
-        "id": "f100-001",
+        "id": "f0901",
         "text": "El gat és gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-002",
+        "id": "f0902",
         "text": "La mama cuina.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-003",
+        "id": "f0903",
         "text": "El nen juga.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-004",
+        "id": "f0904",
         "text": "La nena canta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-005",
+        "id": "f0905",
         "text": "El sol brilla.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-006",
+        "id": "f0906",
         "text": "El gos bota.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-007",
+        "id": "f0907",
         "text": "La pilota és roja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-008",
+        "id": "f0908",
         "text": "L'ocell vola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-009",
+        "id": "f0909",
         "text": "El bebè dorm.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-010",
+        "id": "f0910",
         "text": "La bola és blava.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-011",
+        "id": "f0911",
         "text": "El drac és bonic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-012",
+        "id": "f0912",
         "text": "La dona balla.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-013",
+        "id": "f0913",
         "text": "El bou és gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-014",
+        "id": "f0914",
         "text": "La dama porta un barret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-015",
+        "id": "f0915",
         "text": "El dad és bo.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-016",
+        "id": "f0916",
         "text": "La bici és de David.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-017",
+        "id": "f0917",
         "text": "El gat beu llet.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-018",
+        "id": "f0918",
         "text": "La nena llegeix.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-019",
+        "id": "f0919",
         "text": "El nen corre ràpid.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-020",
+        "id": "f0920",
         "text": "El gos menja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-021",
+        "id": "f0921",
         "text": "La mama somriu.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-022",
+        "id": "f0922",
         "text": "L'ocell canta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-023",
+        "id": "f0923",
         "text": "El nen dorm bé.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-024",
+        "id": "f0924",
         "text": "La nena dibuixa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-025",
+        "id": "f0925",
         "text": "El gat dorm sobre la cadira.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-026",
+        "id": "f0926",
         "text": "La mare porta el pa a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-027",
+        "id": "f0927",
         "text": "Els nens juguen al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-028",
+        "id": "f0928",
         "text": "Avui fa molt bon temps.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-029",
+        "id": "f0929",
         "text": "El gos menja les galetes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-030",
+        "id": "f0930",
         "text": "La lluna brilla a la nit.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-031",
+        "id": "f0931",
         "text": "La ballarina dansa al damunt de l'escenari.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-032",
+        "id": "f0932",
         "text": "El drac blau busca el seu tresor.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-033",
+        "id": "f0933",
         "text": "La bicicleta del David és de color blava.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-034",
+        "id": "f0934",
         "text": "En Bernat dóna una beguda a la seva besàvia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-035",
+        "id": "f0935",
         "text": "La bestia dormia dins de la cova.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-036",
+        "id": "f0936",
         "text": "El dimoni bona boca no tenia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-037",
+        "id": "f0937",
         "text": "Els arbres del bosc creixen molt alts.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-038",
+        "id": "f0938",
         "text": "La mestra explica la lliçó de matemàtiques.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-039",
+        "id": "f0939",
         "text": "Els ocells canten al jardí cada matí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-040",
+        "id": "f0940",
         "text": "Avui hem anat d'excursió al camp.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-041",
+        "id": "f0941",
         "text": "La papallona vola entre les flors.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-042",
+        "id": "f0942",
         "text": "Els nens pinten un mural a la classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-043",
+        "id": "f0943",
         "text": "El noi i la noia van anar junts a la biblioteca del barri.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-044",
+        "id": "f0944",
         "text": "La professora va explicar una lliçó molt interessant sobre els animals.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-045",
+        "id": "f0945",
         "text": "Quan plou, els carrerons de la ciutat es tornen molt lliscadissos.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-046",
+        "id": "f0946",
         "text": "En Pere i la Maria estudien molt per treure bones notes a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-047",
+        "id": "f0947",
         "text": "La ballena blava és el mamífer més gran que existeix al planeta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-048",
+        "id": "f0948",
         "text": "En David i la Berta van descobrir un bosc encantat durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-049",
+        "id": "f0949",
         "text": "La biodiversitat dels boscos catalans depèn de la conservació dels hàbitats naturals.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-050",
+        "id": "f0950",
         "text": "Després de la tormenta, els núvols desapareixien deixant un cel completament blau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-051",
+        "id": "f0951",
         "text": "La fotosíntesi és el procés pel qual les plantes transformen la llum solar en energia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-052",
+        "id": "f0952",
         "text": "L'astronauta va descriure detalladament l'experiència de veure la Terra des de l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-053",
+        "id": "f0953",
         "text": "La investigació científica requereix molta paciència i rigorositat en els experiments.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-054",
+        "id": "f0954",
         "text": "Els dinosaures van desaparèixer fa aproximadament seixanta-sis milions d'anys de la Terra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-055",
-        "text": "El gat és gran.",
+        "id": "f0955",
+        "text": "L'equip interdisciplinari dissenya estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-056",
-        "text": "La mama cuina.",
+        "id": "f0956",
+        "text": "L'equip interdisciplinari dissenya protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-057",
-        "text": "El nen juga.",
+        "id": "f0957",
+        "text": "L'equip interdisciplinari dissenya itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-058",
-        "text": "La nena canta.",
+        "id": "f0958",
+        "text": "L'equip interdisciplinari dissenya mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-059",
-        "text": "El sol brilla.",
+        "id": "f0959",
+        "text": "L'equip interdisciplinari dissenya plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-060",
-        "text": "El gos bota.",
+        "id": "f0960",
+        "text": "L'equip interdisciplinari dissenya accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-061",
-        "text": "La pilota és roja.",
+        "id": "f0961",
+        "text": "L'equip interdisciplinari dissenya simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-062",
-        "text": "L'ocell vola.",
+        "id": "f0962",
+        "text": "L'equip interdisciplinari dissenya projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-063",
-        "text": "El bebè dorm.",
+        "id": "f0963",
+        "text": "L'equip interdisciplinari dissenya iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-064",
-        "text": "La bola és blava.",
+        "id": "f0964",
+        "text": "L'equip interdisciplinari dissenya propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-065",
-        "text": "El drac és bonic.",
+        "id": "f0965",
+        "text": "L'equip interdisciplinari dissenya algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-066",
-        "text": "La dona balla.",
+        "id": "f0966",
+        "text": "L'equip interdisciplinari dissenya sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-067",
-        "text": "El bou és gran.",
+        "id": "f0967",
+        "text": "L'equip interdisciplinari dissenya seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-068",
-        "text": "La dama porta un barret.",
+        "id": "f0968",
+        "text": "L'equip interdisciplinari dissenya prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-069",
-        "text": "El dad és bo.",
+        "id": "f0969",
+        "text": "L'equip interdisciplinari dissenya mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-070",
-        "text": "La bici és de David.",
+        "id": "f0970",
+        "text": "L'equip interdisciplinari dissenya models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-071",
-        "text": "El gat beu llet.",
+        "id": "f0971",
+        "text": "L'equip interdisciplinari dissenya experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-072",
-        "text": "La nena llegeix.",
+        "id": "f0972",
+        "text": "L'equip interdisciplinari dissenya xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-073",
-        "text": "El nen corre ràpid.",
+        "id": "f0973",
+        "text": "L'equip interdisciplinari dissenya simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-074",
-        "text": "El gos menja.",
+        "id": "f0974",
+        "text": "L'equip interdisciplinari dissenya plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-075",
-        "text": "La mama somriu.",
+        "id": "f0975",
+        "text": "L'equip interdisciplinari implementa estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-076",
-        "text": "L'ocell canta.",
+        "id": "f0976",
+        "text": "L'equip interdisciplinari implementa protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-077",
-        "text": "El nen dorm bé.",
+        "id": "f0977",
+        "text": "L'equip interdisciplinari implementa itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-078",
-        "text": "La nena dibuixa.",
+        "id": "f0978",
+        "text": "L'equip interdisciplinari implementa mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-079",
-        "text": "El gat dorm sobre la cadira.",
+        "id": "f0979",
+        "text": "L'equip interdisciplinari implementa plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-080",
-        "text": "La mare porta el pa a casa.",
+        "id": "f0980",
+        "text": "L'equip interdisciplinari implementa accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-081",
-        "text": "Els nens juguen al parc.",
+        "id": "f0981",
+        "text": "L'equip interdisciplinari implementa simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-082",
-        "text": "Avui fa molt bon temps.",
+        "id": "f0982",
+        "text": "L'equip interdisciplinari implementa projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-083",
-        "text": "El gos menja les galetes.",
+        "id": "f0983",
+        "text": "L'equip interdisciplinari implementa iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-084",
-        "text": "La lluna brilla a la nit.",
+        "id": "f0984",
+        "text": "L'equip interdisciplinari implementa propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-085",
-        "text": "La ballarina dansa al damunt de l'escenari.",
+        "id": "f0985",
+        "text": "L'equip interdisciplinari implementa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-086",
-        "text": "El drac blau busca el seu tresor.",
+        "id": "f0986",
+        "text": "L'equip interdisciplinari implementa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-087",
-        "text": "La bicicleta del David és de color blava.",
+        "id": "f0987",
+        "text": "L'equip interdisciplinari implementa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-088",
-        "text": "En Bernat dóna una beguda a la seva besàvia.",
+        "id": "f0988",
+        "text": "L'equip interdisciplinari implementa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-089",
-        "text": "La bestia dormia dins de la cova.",
+        "id": "f0989",
+        "text": "L'equip interdisciplinari implementa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-090",
-        "text": "El dimoni bona boca no tenia.",
+        "id": "f0990",
+        "text": "L'equip interdisciplinari implementa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-091",
-        "text": "Els arbres del bosc creixen molt alts.",
+        "id": "f0991",
+        "text": "L'equip interdisciplinari implementa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-092",
-        "text": "La mestra explica la lliçó de matemàtiques.",
+        "id": "f0992",
+        "text": "L'equip interdisciplinari implementa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-093",
-        "text": "Els ocells canten al jardí cada matí.",
+        "id": "f0993",
+        "text": "L'equip interdisciplinari implementa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-094",
-        "text": "Avui hem anat d'excursió al camp.",
+        "id": "f0994",
+        "text": "L'equip interdisciplinari implementa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-095",
-        "text": "La papallona vola entre les flors.",
+        "id": "f0995",
+        "text": "L'equip interdisciplinari avalua estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-096",
-        "text": "Els nens pinten un mural a la classe.",
+        "id": "f0996",
+        "text": "L'equip interdisciplinari avalua protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-097",
-        "text": "El noi i la noia van anar junts a la biblioteca del barri.",
+        "id": "f0997",
+        "text": "L'equip interdisciplinari avalua itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-098",
-        "text": "La professora va explicar una lliçó molt interessant sobre els animals.",
+        "id": "f0998",
+        "text": "L'equip interdisciplinari avalua mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-099",
-        "text": "Quan plou, els carrerons de la ciutat es tornen molt lliscadissos.",
+        "id": "f0999",
+        "text": "L'equip interdisciplinari avalua plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
-        "id": "f100-100",
-        "text": "En Pere i la Maria estudien molt per treure bones notes a l'escola.",
+        "id": "f1000",
+        "text": "L'equip interdisciplinari avalua accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
         "type": "sentences",
         "difficulty": "hard"
       }

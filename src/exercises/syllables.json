@@ -7,122 +7,674 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "s01",
+        "id": "s0001",
         "text": "ma",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s02",
+        "id": "s0002",
         "text": "me",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s03",
+        "id": "s0003",
         "text": "mi",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s04",
+        "id": "s0004",
         "text": "mo",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s05",
+        "id": "s0005",
         "text": "mu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s06",
+        "id": "s0006",
         "text": "pa",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s07",
+        "id": "s0007",
         "text": "pe",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s08",
+        "id": "s0008",
         "text": "pi",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s09",
+        "id": "s0009",
         "text": "po",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s10",
+        "id": "s0010",
         "text": "pu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s11",
+        "id": "s0011",
         "text": "ta",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s12",
+        "id": "s0012",
         "text": "te",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s13",
+        "id": "s0013",
         "text": "ti",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s14",
+        "id": "s0014",
         "text": "to",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s15",
+        "id": "s0015",
         "text": "tu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s16",
+        "id": "s0016",
         "text": "sa",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s17",
+        "id": "s0017",
         "text": "se",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s18",
+        "id": "s0018",
         "text": "si",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s19",
+        "id": "s0019",
         "text": "so",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s20",
+        "id": "s0020",
         "text": "su",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0021",
+        "text": "fa",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0022",
+        "text": "fe",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0023",
+        "text": "fi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0024",
+        "text": "fo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0025",
+        "text": "fu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0026",
+        "text": "la",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0027",
+        "text": "le",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0028",
+        "text": "li",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0029",
+        "text": "lo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0030",
+        "text": "lu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0031",
+        "text": "na",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0032",
+        "text": "ne",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0033",
+        "text": "ni",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0034",
+        "text": "no",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0035",
+        "text": "nu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0036",
+        "text": "ra",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0037",
+        "text": "re",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0038",
+        "text": "ri",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0039",
+        "text": "ro",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0040",
+        "text": "ru",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0041",
+        "text": "va",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0042",
+        "text": "ve",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0043",
+        "text": "vi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0044",
+        "text": "vo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0045",
+        "text": "vu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0046",
+        "text": "ca",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0047",
+        "text": "ce",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0048",
+        "text": "ci",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0049",
+        "text": "co",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0050",
+        "text": "cu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0051",
+        "text": "ga",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0052",
+        "text": "ge",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0053",
+        "text": "gi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0054",
+        "text": "go",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0055",
+        "text": "gu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0056",
+        "text": "mam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0057",
+        "text": "man",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0058",
+        "text": "mas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0059",
+        "text": "mal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0060",
+        "text": "mar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0061",
+        "text": "mem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0062",
+        "text": "men",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0063",
+        "text": "mes",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0064",
+        "text": "mel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0065",
+        "text": "mer",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0066",
+        "text": "mim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0067",
+        "text": "min",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0068",
+        "text": "mis",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0069",
+        "text": "mil",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0070",
+        "text": "mir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0071",
+        "text": "mom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0072",
+        "text": "mon",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0073",
+        "text": "mos",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0074",
+        "text": "mol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0075",
+        "text": "mor",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0076",
+        "text": "mum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0077",
+        "text": "mun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0078",
+        "text": "mus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0079",
+        "text": "mul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0080",
+        "text": "mur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0081",
+        "text": "pam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0082",
+        "text": "pan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0083",
+        "text": "pas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0084",
+        "text": "pal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0085",
+        "text": "par",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0086",
+        "text": "pem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0087",
+        "text": "pen",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0088",
+        "text": "pes",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0089",
+        "text": "pel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0090",
+        "text": "per",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0091",
+        "text": "pim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0092",
+        "text": "pin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0093",
+        "text": "pis",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0094",
+        "text": "pil",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0095",
+        "text": "pir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0096",
+        "text": "pom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0097",
+        "text": "pon",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0098",
+        "text": "pos",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0099",
+        "text": "pol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0100",
+        "text": "por",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0101",
+        "text": "pum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0102",
+        "text": "pun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0103",
+        "text": "pus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0104",
+        "text": "pul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0105",
+        "text": "pur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0106",
+        "text": "tam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0107",
+        "text": "tan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0108",
+        "text": "tas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0109",
+        "text": "tal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0110",
+        "text": "tar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0111",
+        "text": "tem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0112",
+        "text": "ten",
         "type": "syllables",
         "difficulty": "easy"
       }
@@ -136,62 +688,668 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "s21",
+        "id": "s0113",
         "text": "ba",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s22",
+        "id": "s0114",
         "text": "be",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s23",
+        "id": "s0115",
         "text": "bi",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s24",
+        "id": "s0116",
         "text": "bo",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s25",
+        "id": "s0117",
         "text": "bu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s26",
+        "id": "s0118",
         "text": "da",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s27",
+        "id": "s0119",
         "text": "de",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s28",
+        "id": "s0120",
         "text": "di",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s29",
+        "id": "s0121",
         "text": "do",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s30",
+        "id": "s0122",
         "text": "du",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0123",
+        "text": "ab",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0124",
+        "text": "ad",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0125",
+        "text": "eb",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0126",
+        "text": "ed",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0127",
+        "text": "ib",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0128",
+        "text": "id",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0129",
+        "text": "ob",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0130",
+        "text": "od",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0131",
+        "text": "ub",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0132",
+        "text": "ud",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0133",
+        "text": "bra",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0134",
+        "text": "bram",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0135",
+        "text": "bran",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0136",
+        "text": "bras",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0137",
+        "text": "bral",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0138",
+        "text": "brar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0139",
+        "text": "bre",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0140",
+        "text": "brem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0141",
+        "text": "bren",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0142",
+        "text": "bres",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0143",
+        "text": "brel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0144",
+        "text": "brer",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0145",
+        "text": "bri",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0146",
+        "text": "brim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0147",
+        "text": "brin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0148",
+        "text": "bris",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0149",
+        "text": "bril",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0150",
+        "text": "brir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0151",
+        "text": "bro",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0152",
+        "text": "brom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0153",
+        "text": "bron",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0154",
+        "text": "bros",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0155",
+        "text": "brol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0156",
+        "text": "bror",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0157",
+        "text": "bru",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0158",
+        "text": "brum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0159",
+        "text": "brun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0160",
+        "text": "brus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0161",
+        "text": "brul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0162",
+        "text": "brur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0163",
+        "text": "bla",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0164",
+        "text": "blam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0165",
+        "text": "blan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0166",
+        "text": "blas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0167",
+        "text": "blal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0168",
+        "text": "blar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0169",
+        "text": "ble",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0170",
+        "text": "blem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0171",
+        "text": "blen",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0172",
+        "text": "bles",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0173",
+        "text": "blel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0174",
+        "text": "bler",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0175",
+        "text": "bli",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0176",
+        "text": "blim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0177",
+        "text": "blin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0178",
+        "text": "blis",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0179",
+        "text": "blil",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0180",
+        "text": "blir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0181",
+        "text": "blo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0182",
+        "text": "blom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0183",
+        "text": "blon",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0184",
+        "text": "blos",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0185",
+        "text": "blol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0186",
+        "text": "blor",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0187",
+        "text": "blu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0188",
+        "text": "blum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0189",
+        "text": "blun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0190",
+        "text": "blus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0191",
+        "text": "blul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0192",
+        "text": "blur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0193",
+        "text": "dra",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0194",
+        "text": "dram",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0195",
+        "text": "dran",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0196",
+        "text": "dras",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0197",
+        "text": "dral",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0198",
+        "text": "drar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0199",
+        "text": "dre",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0200",
+        "text": "drem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0201",
+        "text": "dren",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0202",
+        "text": "dres",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0203",
+        "text": "drel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0204",
+        "text": "drer",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0205",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0206",
+        "text": "drim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0207",
+        "text": "drin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0208",
+        "text": "dris",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0209",
+        "text": "dril",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0210",
+        "text": "drir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0211",
+        "text": "dro",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0212",
+        "text": "drom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0213",
+        "text": "dron",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0214",
+        "text": "dros",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0215",
+        "text": "drol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0216",
+        "text": "dror",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0217",
+        "text": "dru",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0218",
+        "text": "drum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0219",
+        "text": "drun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0220",
+        "text": "drus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0221",
+        "text": "drul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0222",
+        "text": "drur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0223",
+        "text": "dla",
         "type": "syllables",
         "difficulty": "easy"
       }
@@ -205,92 +1363,668 @@
     "difficulty": "easy",
     "items": [
       {
-        "id": "s51",
+        "id": "s0224",
         "text": "la",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s52",
+        "id": "s0225",
         "text": "le",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s53",
+        "id": "s0226",
         "text": "li",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s54",
+        "id": "s0227",
         "text": "lo",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s55",
+        "id": "s0228",
         "text": "lu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s56",
+        "id": "s0229",
         "text": "na",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s57",
+        "id": "s0230",
         "text": "ne",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s58",
+        "id": "s0231",
         "text": "ni",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s59",
+        "id": "s0232",
         "text": "no",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s60",
+        "id": "s0233",
         "text": "nu",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s61",
+        "id": "s0234",
         "text": "ra",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s62",
+        "id": "s0235",
         "text": "re",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s63",
+        "id": "s0236",
         "text": "ri",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s64",
+        "id": "s0237",
         "text": "ro",
         "type": "syllables",
         "difficulty": "easy"
       },
       {
-        "id": "s65",
+        "id": "s0238",
         "text": "ru",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0239",
+        "text": "al",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0240",
+        "text": "an",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0241",
+        "text": "ar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0242",
+        "text": "el",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0243",
+        "text": "en",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0244",
+        "text": "er",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0245",
+        "text": "il",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0246",
+        "text": "in",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0247",
+        "text": "ir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0248",
+        "text": "ol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0249",
+        "text": "on",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0250",
+        "text": "or",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0251",
+        "text": "ul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0252",
+        "text": "un",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0253",
+        "text": "ur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0254",
+        "text": "lam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0255",
+        "text": "lan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0256",
+        "text": "las",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0257",
+        "text": "lal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0258",
+        "text": "lar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0259",
+        "text": "lem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0260",
+        "text": "len",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0261",
+        "text": "les",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0262",
+        "text": "lel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0263",
+        "text": "ler",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0264",
+        "text": "lim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0265",
+        "text": "lin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0266",
+        "text": "lis",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0267",
+        "text": "lil",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0268",
+        "text": "lir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0269",
+        "text": "lom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0270",
+        "text": "lon",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0271",
+        "text": "los",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0272",
+        "text": "lol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0273",
+        "text": "lor",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0274",
+        "text": "lum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0275",
+        "text": "lun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0276",
+        "text": "lus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0277",
+        "text": "lul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0278",
+        "text": "lur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0279",
+        "text": "nam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0280",
+        "text": "nan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0281",
+        "text": "nas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0282",
+        "text": "nal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0283",
+        "text": "nar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0284",
+        "text": "nem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0285",
+        "text": "nen",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0286",
+        "text": "nes",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0287",
+        "text": "nel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0288",
+        "text": "ner",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0289",
+        "text": "nim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0290",
+        "text": "nin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0291",
+        "text": "nis",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0292",
+        "text": "nil",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0293",
+        "text": "nir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0294",
+        "text": "nom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0295",
+        "text": "non",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0296",
+        "text": "nos",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0297",
+        "text": "nol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0298",
+        "text": "nor",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0299",
+        "text": "num",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0300",
+        "text": "nun",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0301",
+        "text": "nus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0302",
+        "text": "nul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0303",
+        "text": "nur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0304",
+        "text": "ram",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0305",
+        "text": "ran",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0306",
+        "text": "ras",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0307",
+        "text": "ral",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0308",
+        "text": "rar",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0309",
+        "text": "rem",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0310",
+        "text": "ren",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0311",
+        "text": "res",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0312",
+        "text": "rel",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0313",
+        "text": "rer",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0314",
+        "text": "rim",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0315",
+        "text": "rin",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0316",
+        "text": "ris",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0317",
+        "text": "ril",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0318",
+        "text": "rir",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0319",
+        "text": "rom",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0320",
+        "text": "ron",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0321",
+        "text": "ros",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0322",
+        "text": "rol",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0323",
+        "text": "ror",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0324",
+        "text": "rum",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0325",
+        "text": "run",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0326",
+        "text": "rus",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0327",
+        "text": "rul",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0328",
+        "text": "rur",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0329",
+        "text": "lla",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0330",
+        "text": "llam",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0331",
+        "text": "llan",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0332",
+        "text": "llas",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0333",
+        "text": "llal",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "s0334",
+        "text": "llar",
         "type": "syllables",
         "difficulty": "easy"
       }
@@ -304,92 +2038,668 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "s31",
+        "id": "s0335",
         "text": "bra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s32",
+        "id": "s0336",
         "text": "bre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s33",
+        "id": "s0337",
         "text": "bri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s34",
+        "id": "s0338",
         "text": "bro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s35",
+        "id": "s0339",
         "text": "bru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s36",
+        "id": "s0340",
         "text": "tra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s37",
+        "id": "s0341",
         "text": "tre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s38",
+        "id": "s0342",
         "text": "tri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s39",
+        "id": "s0343",
         "text": "tro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s40",
+        "id": "s0344",
         "text": "tru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s41",
+        "id": "s0345",
         "text": "pla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s42",
+        "id": "s0346",
         "text": "ple",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s43",
+        "id": "s0347",
         "text": "pli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s44",
+        "id": "s0348",
         "text": "plo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s45",
+        "id": "s0349",
         "text": "plu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0350",
+        "text": "pra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0351",
+        "text": "pram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0352",
+        "text": "pran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0353",
+        "text": "pras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0354",
+        "text": "pral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0355",
+        "text": "prar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0356",
+        "text": "pre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0357",
+        "text": "prem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0358",
+        "text": "pren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0359",
+        "text": "pres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0360",
+        "text": "prel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0361",
+        "text": "prer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0362",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0363",
+        "text": "prim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0364",
+        "text": "prin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0365",
+        "text": "pris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0366",
+        "text": "pril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0367",
+        "text": "prir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0368",
+        "text": "pro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0369",
+        "text": "prom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0370",
+        "text": "pron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0371",
+        "text": "pros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0372",
+        "text": "prol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0373",
+        "text": "pror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0374",
+        "text": "pru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0375",
+        "text": "prum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0376",
+        "text": "prun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0377",
+        "text": "prus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0378",
+        "text": "prul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0379",
+        "text": "prur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0380",
+        "text": "plam",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0381",
+        "text": "plan",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0382",
+        "text": "plas",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0383",
+        "text": "plal",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0384",
+        "text": "plar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0385",
+        "text": "plem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0386",
+        "text": "plen",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0387",
+        "text": "ples",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0388",
+        "text": "plel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0389",
+        "text": "pler",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0390",
+        "text": "plim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0391",
+        "text": "plin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0392",
+        "text": "plis",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0393",
+        "text": "plil",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0394",
+        "text": "plir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0395",
+        "text": "plom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0396",
+        "text": "plon",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0397",
+        "text": "plos",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0398",
+        "text": "plol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0399",
+        "text": "plor",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0400",
+        "text": "plum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0401",
+        "text": "plun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0402",
+        "text": "plus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0403",
+        "text": "plul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0404",
+        "text": "plur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0405",
+        "text": "tram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0406",
+        "text": "tran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0407",
+        "text": "tras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0408",
+        "text": "tral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0409",
+        "text": "trar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0410",
+        "text": "trem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0411",
+        "text": "tren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0412",
+        "text": "tres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0413",
+        "text": "trel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0414",
+        "text": "trer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0415",
+        "text": "trim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0416",
+        "text": "trin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0417",
+        "text": "tris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0418",
+        "text": "tril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0419",
+        "text": "trir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0420",
+        "text": "trom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0421",
+        "text": "tron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0422",
+        "text": "tros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0423",
+        "text": "trol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0424",
+        "text": "tror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0425",
+        "text": "trum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0426",
+        "text": "trun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0427",
+        "text": "trus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0428",
+        "text": "trul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0429",
+        "text": "trur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0430",
+        "text": "bram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0431",
+        "text": "bran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0432",
+        "text": "bras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0433",
+        "text": "bral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0434",
+        "text": "brar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0435",
+        "text": "brem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0436",
+        "text": "bren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0437",
+        "text": "bres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0438",
+        "text": "brel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0439",
+        "text": "brer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0440",
+        "text": "brim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0441",
+        "text": "brin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0442",
+        "text": "bris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0443",
+        "text": "bril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0444",
+        "text": "brir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0445",
+        "text": "brom",
         "type": "syllables",
         "difficulty": "medium"
       }
@@ -403,92 +2713,668 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "s66",
+        "id": "s0446",
         "text": "dra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s67",
+        "id": "s0447",
         "text": "dre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s68",
+        "id": "s0448",
         "text": "dri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s69",
+        "id": "s0449",
         "text": "dro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s70",
+        "id": "s0450",
         "text": "dru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s71",
+        "id": "s0451",
         "text": "cla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s72",
+        "id": "s0452",
         "text": "cle",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s73",
+        "id": "s0453",
         "text": "cli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s74",
+        "id": "s0454",
         "text": "clo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s75",
+        "id": "s0455",
         "text": "clu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s76",
+        "id": "s0456",
         "text": "fla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s77",
+        "id": "s0457",
         "text": "fle",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s78",
+        "id": "s0458",
         "text": "fli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s79",
+        "id": "s0459",
         "text": "flo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s80",
+        "id": "s0460",
         "text": "flu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0461",
+        "text": "dram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0462",
+        "text": "dran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0463",
+        "text": "dras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0464",
+        "text": "dral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0465",
+        "text": "drar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0466",
+        "text": "drem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0467",
+        "text": "dren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0468",
+        "text": "dres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0469",
+        "text": "drel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0470",
+        "text": "drer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0471",
+        "text": "drim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0472",
+        "text": "drin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0473",
+        "text": "dris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0474",
+        "text": "dril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0475",
+        "text": "drir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0476",
+        "text": "drom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0477",
+        "text": "dron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0478",
+        "text": "dros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0479",
+        "text": "drol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0480",
+        "text": "dror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0481",
+        "text": "drum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0482",
+        "text": "drun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0483",
+        "text": "drus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0484",
+        "text": "drul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0485",
+        "text": "drur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0486",
+        "text": "clam",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0487",
+        "text": "clan",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0488",
+        "text": "clas",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0489",
+        "text": "clal",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0490",
+        "text": "clar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0491",
+        "text": "clem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0492",
+        "text": "clen",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0493",
+        "text": "cles",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0494",
+        "text": "clel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0495",
+        "text": "cler",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0496",
+        "text": "clim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0497",
+        "text": "clin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0498",
+        "text": "clis",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0499",
+        "text": "clil",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0500",
+        "text": "clir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0501",
+        "text": "clom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0502",
+        "text": "clon",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0503",
+        "text": "clos",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0504",
+        "text": "clol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0505",
+        "text": "clor",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0506",
+        "text": "clum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0507",
+        "text": "clun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0508",
+        "text": "clus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0509",
+        "text": "clul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0510",
+        "text": "clur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0511",
+        "text": "flam",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0512",
+        "text": "flan",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0513",
+        "text": "flas",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0514",
+        "text": "flal",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0515",
+        "text": "flar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0516",
+        "text": "flem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0517",
+        "text": "flen",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0518",
+        "text": "fles",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0519",
+        "text": "flel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0520",
+        "text": "fler",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0521",
+        "text": "flim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0522",
+        "text": "flin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0523",
+        "text": "flis",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0524",
+        "text": "flil",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0525",
+        "text": "flir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0526",
+        "text": "flom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0527",
+        "text": "flon",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0528",
+        "text": "flos",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0529",
+        "text": "flol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0530",
+        "text": "flor",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0531",
+        "text": "flum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0532",
+        "text": "flun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0533",
+        "text": "flus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0534",
+        "text": "flul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0535",
+        "text": "flur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0536",
+        "text": "cra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0537",
+        "text": "cram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0538",
+        "text": "cran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0539",
+        "text": "cras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0540",
+        "text": "cral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0541",
+        "text": "crar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0542",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0543",
+        "text": "crem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0544",
+        "text": "cren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0545",
+        "text": "cres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0546",
+        "text": "crel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0547",
+        "text": "crer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0548",
+        "text": "cri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0549",
+        "text": "crim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0550",
+        "text": "crin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0551",
+        "text": "cris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0552",
+        "text": "cril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0553",
+        "text": "crir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0554",
+        "text": "cro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0555",
+        "text": "crom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0556",
+        "text": "cron",
         "type": "syllables",
         "difficulty": "medium"
       }
@@ -502,92 +3388,668 @@
     "difficulty": "medium",
     "items": [
       {
-        "id": "s81",
+        "id": "s0557",
         "text": "gra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s82",
+        "id": "s0558",
         "text": "gre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s83",
+        "id": "s0559",
         "text": "gri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s84",
+        "id": "s0560",
         "text": "gro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s85",
+        "id": "s0561",
         "text": "gru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s86",
+        "id": "s0562",
         "text": "fra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s87",
+        "id": "s0563",
         "text": "fre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s88",
+        "id": "s0564",
         "text": "fri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s89",
+        "id": "s0565",
         "text": "fro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s90",
+        "id": "s0566",
         "text": "fru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s91",
+        "id": "s0567",
         "text": "cra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s92",
+        "id": "s0568",
         "text": "cre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s93",
+        "id": "s0569",
         "text": "cri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s94",
+        "id": "s0570",
         "text": "cro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "s95",
+        "id": "s0571",
         "text": "cru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0572",
+        "text": "gram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0573",
+        "text": "gran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0574",
+        "text": "gras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0575",
+        "text": "gral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0576",
+        "text": "grar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0577",
+        "text": "grem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0578",
+        "text": "gren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0579",
+        "text": "gres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0580",
+        "text": "grel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0581",
+        "text": "grer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0582",
+        "text": "grim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0583",
+        "text": "grin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0584",
+        "text": "gris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0585",
+        "text": "gril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0586",
+        "text": "grir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0587",
+        "text": "grom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0588",
+        "text": "gron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0589",
+        "text": "gros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0590",
+        "text": "grol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0591",
+        "text": "gror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0592",
+        "text": "grum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0593",
+        "text": "grun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0594",
+        "text": "grus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0595",
+        "text": "grul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0596",
+        "text": "grur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0597",
+        "text": "fram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0598",
+        "text": "fran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0599",
+        "text": "fras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0600",
+        "text": "fral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0601",
+        "text": "frar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0602",
+        "text": "frem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0603",
+        "text": "fren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0604",
+        "text": "fres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0605",
+        "text": "frel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0606",
+        "text": "frer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0607",
+        "text": "frim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0608",
+        "text": "frin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0609",
+        "text": "fris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0610",
+        "text": "fril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0611",
+        "text": "frir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0612",
+        "text": "from",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0613",
+        "text": "fron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0614",
+        "text": "fros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0615",
+        "text": "frol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0616",
+        "text": "fror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0617",
+        "text": "frum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0618",
+        "text": "frun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0619",
+        "text": "frus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0620",
+        "text": "frul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0621",
+        "text": "frur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0622",
+        "text": "cram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0623",
+        "text": "cran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0624",
+        "text": "cras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0625",
+        "text": "cral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0626",
+        "text": "crar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0627",
+        "text": "crem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0628",
+        "text": "cren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0629",
+        "text": "cres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0630",
+        "text": "crel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0631",
+        "text": "crer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0632",
+        "text": "crim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0633",
+        "text": "crin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0634",
+        "text": "cris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0635",
+        "text": "cril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0636",
+        "text": "crir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0637",
+        "text": "crom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0638",
+        "text": "cron",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0639",
+        "text": "cros",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0640",
+        "text": "crol",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0641",
+        "text": "cror",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0642",
+        "text": "crum",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0643",
+        "text": "crun",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0644",
+        "text": "crus",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0645",
+        "text": "crul",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0646",
+        "text": "crur",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0647",
+        "text": "tra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0648",
+        "text": "tram",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0649",
+        "text": "tran",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0650",
+        "text": "tras",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0651",
+        "text": "tral",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0652",
+        "text": "trar",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0653",
+        "text": "tre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0654",
+        "text": "trem",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0655",
+        "text": "tren",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0656",
+        "text": "tres",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0657",
+        "text": "trel",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0658",
+        "text": "trer",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0659",
+        "text": "tri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0660",
+        "text": "trim",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0661",
+        "text": "trin",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0662",
+        "text": "tris",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0663",
+        "text": "tril",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0664",
+        "text": "trir",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0665",
+        "text": "tro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0666",
+        "text": "trom",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0667",
+        "text": "tron",
         "type": "syllables",
         "difficulty": "medium"
       }
@@ -601,602 +4063,668 @@
     "difficulty": "hard",
     "items": [
       {
-        "id": "syl100-001",
+        "id": "s0668",
         "text": "ma",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-002",
+        "id": "s0669",
         "text": "me",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-003",
+        "id": "s0670",
         "text": "mi",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-004",
+        "id": "s0671",
         "text": "mo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-005",
+        "id": "s0672",
         "text": "mu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-006",
+        "id": "s0673",
         "text": "pa",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-007",
+        "id": "s0674",
         "text": "pe",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-008",
+        "id": "s0675",
         "text": "pi",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-009",
+        "id": "s0676",
         "text": "po",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-010",
+        "id": "s0677",
         "text": "pu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-011",
+        "id": "s0678",
         "text": "ta",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-012",
+        "id": "s0679",
         "text": "te",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-013",
+        "id": "s0680",
         "text": "ti",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-014",
+        "id": "s0681",
         "text": "to",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-015",
+        "id": "s0682",
         "text": "tu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-016",
+        "id": "s0683",
         "text": "sa",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-017",
+        "id": "s0684",
         "text": "se",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-018",
+        "id": "s0685",
         "text": "si",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-019",
+        "id": "s0686",
         "text": "so",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-020",
+        "id": "s0687",
         "text": "su",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-021",
+        "id": "s0688",
         "text": "ba",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-022",
+        "id": "s0689",
         "text": "be",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-023",
+        "id": "s0690",
         "text": "bi",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-024",
+        "id": "s0691",
         "text": "bo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-025",
+        "id": "s0692",
         "text": "bu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-026",
+        "id": "s0693",
         "text": "da",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-027",
+        "id": "s0694",
         "text": "de",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-028",
+        "id": "s0695",
         "text": "di",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-029",
+        "id": "s0696",
         "text": "do",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-030",
+        "id": "s0697",
         "text": "du",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-031",
+        "id": "s0698",
         "text": "la",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-032",
+        "id": "s0699",
         "text": "le",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-033",
+        "id": "s0700",
         "text": "li",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-034",
+        "id": "s0701",
         "text": "lo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-035",
+        "id": "s0702",
         "text": "lu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-036",
+        "id": "s0703",
         "text": "na",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-037",
+        "id": "s0704",
         "text": "ne",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-038",
+        "id": "s0705",
         "text": "ni",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-039",
+        "id": "s0706",
         "text": "no",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-040",
+        "id": "s0707",
         "text": "nu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-041",
+        "id": "s0708",
         "text": "ra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-042",
+        "id": "s0709",
         "text": "re",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-043",
+        "id": "s0710",
         "text": "ri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-044",
+        "id": "s0711",
         "text": "ro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-045",
+        "id": "s0712",
         "text": "ru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-046",
+        "id": "s0713",
         "text": "bra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-047",
+        "id": "s0714",
         "text": "bre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-048",
+        "id": "s0715",
         "text": "bri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-049",
+        "id": "s0716",
         "text": "bro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-050",
+        "id": "s0717",
         "text": "bru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-051",
+        "id": "s0718",
         "text": "tra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-052",
+        "id": "s0719",
         "text": "tre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-053",
+        "id": "s0720",
         "text": "tri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-054",
+        "id": "s0721",
         "text": "tro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-055",
+        "id": "s0722",
         "text": "tru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-056",
+        "id": "s0723",
         "text": "pla",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-057",
+        "id": "s0724",
         "text": "ple",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-058",
+        "id": "s0725",
         "text": "pli",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-059",
+        "id": "s0726",
         "text": "plo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-060",
+        "id": "s0727",
         "text": "plu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-061",
+        "id": "s0728",
         "text": "dra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-062",
+        "id": "s0729",
         "text": "dre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-063",
+        "id": "s0730",
         "text": "dri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-064",
+        "id": "s0731",
         "text": "dro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-065",
+        "id": "s0732",
         "text": "dru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-066",
+        "id": "s0733",
         "text": "cla",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-067",
+        "id": "s0734",
         "text": "cle",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-068",
+        "id": "s0735",
         "text": "cli",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-069",
+        "id": "s0736",
         "text": "clo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-070",
+        "id": "s0737",
         "text": "clu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-071",
+        "id": "s0738",
         "text": "fla",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-072",
+        "id": "s0739",
         "text": "fle",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-073",
+        "id": "s0740",
         "text": "fli",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-074",
+        "id": "s0741",
         "text": "flo",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-075",
+        "id": "s0742",
         "text": "flu",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-076",
+        "id": "s0743",
         "text": "gra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-077",
+        "id": "s0744",
         "text": "gre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-078",
+        "id": "s0745",
         "text": "gri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-079",
+        "id": "s0746",
         "text": "gro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-080",
+        "id": "s0747",
         "text": "gru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-081",
+        "id": "s0748",
         "text": "fra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-082",
+        "id": "s0749",
         "text": "fre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-083",
+        "id": "s0750",
         "text": "fri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-084",
+        "id": "s0751",
         "text": "fro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-085",
+        "id": "s0752",
         "text": "fru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-086",
+        "id": "s0753",
         "text": "cra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-087",
+        "id": "s0754",
         "text": "cre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-088",
+        "id": "s0755",
         "text": "cri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-089",
+        "id": "s0756",
         "text": "cro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-090",
+        "id": "s0757",
         "text": "cru",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-091",
-        "text": "ma",
+        "id": "s0758",
+        "text": "stra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-092",
-        "text": "me",
+        "id": "s0759",
+        "text": "stram",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-093",
-        "text": "mi",
+        "id": "s0760",
+        "text": "stran",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-094",
-        "text": "mo",
+        "id": "s0761",
+        "text": "stras",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-095",
-        "text": "mu",
+        "id": "s0762",
+        "text": "stral",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-096",
-        "text": "pa",
+        "id": "s0763",
+        "text": "strar",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-097",
-        "text": "pe",
+        "id": "s0764",
+        "text": "stre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-098",
-        "text": "pi",
+        "id": "s0765",
+        "text": "strem",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-099",
-        "text": "po",
+        "id": "s0766",
+        "text": "stren",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
-        "id": "syl100-100",
-        "text": "pu",
+        "id": "s0767",
+        "text": "stres",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0768",
+        "text": "strel",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0769",
+        "text": "strer",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0770",
+        "text": "stri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0771",
+        "text": "strim",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0772",
+        "text": "strin",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0773",
+        "text": "stris",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0774",
+        "text": "stril",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0775",
+        "text": "strir",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0776",
+        "text": "stro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0777",
+        "text": "strom",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "s0778",
+        "text": "stron",
         "type": "syllables",
         "difficulty": "hard"
       }
@@ -1211,962 +4739,668 @@
     "randomCount": 50,
     "items": [
       {
-        "id": "syl-pool-001",
+        "id": "s0779",
         "text": "ma",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-002",
+        "id": "s0780",
         "text": "me",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-003",
+        "id": "s0781",
         "text": "mi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-004",
+        "id": "s0782",
         "text": "mo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-005",
+        "id": "s0783",
         "text": "mu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-006",
+        "id": "s0784",
         "text": "pa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-007",
+        "id": "s0785",
         "text": "pe",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-008",
+        "id": "s0786",
         "text": "pi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-009",
+        "id": "s0787",
         "text": "po",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-010",
+        "id": "s0788",
         "text": "pu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-011",
+        "id": "s0789",
         "text": "ta",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-012",
+        "id": "s0790",
         "text": "te",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-013",
+        "id": "s0791",
         "text": "ti",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-014",
+        "id": "s0792",
         "text": "to",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-015",
+        "id": "s0793",
         "text": "tu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-016",
+        "id": "s0794",
         "text": "sa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-017",
+        "id": "s0795",
         "text": "se",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-018",
+        "id": "s0796",
         "text": "si",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-019",
+        "id": "s0797",
         "text": "so",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-020",
+        "id": "s0798",
         "text": "su",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-021",
+        "id": "s0799",
         "text": "ba",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-022",
+        "id": "s0800",
         "text": "be",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-023",
+        "id": "s0801",
         "text": "bi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-024",
+        "id": "s0802",
         "text": "bo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-025",
+        "id": "s0803",
         "text": "bu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-026",
+        "id": "s0804",
         "text": "da",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-027",
+        "id": "s0805",
         "text": "de",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-028",
+        "id": "s0806",
         "text": "di",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-029",
+        "id": "s0807",
         "text": "do",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-030",
+        "id": "s0808",
         "text": "du",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-031",
+        "id": "s0809",
         "text": "la",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-032",
+        "id": "s0810",
         "text": "le",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-033",
+        "id": "s0811",
         "text": "li",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-034",
+        "id": "s0812",
         "text": "lo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-035",
+        "id": "s0813",
         "text": "lu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-036",
+        "id": "s0814",
         "text": "na",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-037",
+        "id": "s0815",
         "text": "ne",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-038",
+        "id": "s0816",
         "text": "ni",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-039",
+        "id": "s0817",
         "text": "no",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-040",
+        "id": "s0818",
         "text": "nu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-041",
+        "id": "s0819",
         "text": "ra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-042",
+        "id": "s0820",
         "text": "re",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-043",
+        "id": "s0821",
         "text": "ri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-044",
+        "id": "s0822",
         "text": "ro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-045",
+        "id": "s0823",
         "text": "ru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-046",
+        "id": "s0824",
         "text": "ca",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-047",
+        "id": "s0825",
         "text": "ce",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-048",
+        "id": "s0826",
         "text": "ci",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-049",
+        "id": "s0827",
         "text": "co",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-050",
+        "id": "s0828",
         "text": "cu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-051",
+        "id": "s0829",
         "text": "fa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-052",
+        "id": "s0830",
         "text": "fe",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-053",
+        "id": "s0831",
         "text": "fi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-054",
+        "id": "s0832",
         "text": "fo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-055",
+        "id": "s0833",
         "text": "fu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-056",
+        "id": "s0834",
         "text": "ga",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-057",
+        "id": "s0835",
         "text": "ge",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-058",
+        "id": "s0836",
         "text": "gi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-059",
+        "id": "s0837",
         "text": "go",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-060",
+        "id": "s0838",
         "text": "gu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-061",
+        "id": "s0839",
         "text": "va",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-062",
+        "id": "s0840",
         "text": "ve",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-063",
+        "id": "s0841",
         "text": "vi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-064",
+        "id": "s0842",
         "text": "vo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-065",
+        "id": "s0843",
         "text": "vu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-066",
+        "id": "s0844",
         "text": "xa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-067",
+        "id": "s0845",
         "text": "xe",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-068",
+        "id": "s0846",
         "text": "xi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-069",
+        "id": "s0847",
         "text": "xo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-070",
+        "id": "s0848",
         "text": "xu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-071",
+        "id": "s0849",
         "text": "ja",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-072",
+        "id": "s0850",
         "text": "je",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-073",
+        "id": "s0851",
         "text": "ji",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-074",
+        "id": "s0852",
         "text": "jo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-075",
+        "id": "s0853",
         "text": "ju",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-076",
+        "id": "s0854",
         "text": "za",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-077",
+        "id": "s0855",
         "text": "ze",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-078",
+        "id": "s0856",
         "text": "zi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-079",
+        "id": "s0857",
         "text": "zo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-080",
+        "id": "s0858",
         "text": "zu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-081",
+        "id": "s0859",
         "text": "bra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-082",
+        "id": "s0860",
         "text": "bre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-083",
+        "id": "s0861",
         "text": "bri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-084",
+        "id": "s0862",
         "text": "bro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-085",
+        "id": "s0863",
         "text": "bru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-086",
+        "id": "s0864",
         "text": "tra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-087",
+        "id": "s0865",
         "text": "tre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-088",
+        "id": "s0866",
         "text": "tri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-089",
+        "id": "s0867",
         "text": "tro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-090",
+        "id": "s0868",
         "text": "tru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-091",
+        "id": "s0869",
         "text": "pla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-092",
+        "id": "s0870",
         "text": "ple",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-093",
+        "id": "s0871",
         "text": "pli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-094",
+        "id": "s0872",
         "text": "plo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-095",
+        "id": "s0873",
         "text": "plu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-096",
+        "id": "s0874",
         "text": "dra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-097",
+        "id": "s0875",
         "text": "dre",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-098",
+        "id": "s0876",
         "text": "dri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-099",
+        "id": "s0877",
         "text": "dro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-100",
+        "id": "s0878",
         "text": "dru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-101",
+        "id": "s0879",
         "text": "cla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-102",
+        "id": "s0880",
         "text": "cle",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-103",
+        "id": "s0881",
         "text": "cli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-104",
+        "id": "s0882",
         "text": "clo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-105",
+        "id": "s0883",
         "text": "clu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-106",
+        "id": "s0884",
         "text": "fla",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-107",
+        "id": "s0885",
         "text": "fle",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-108",
+        "id": "s0886",
         "text": "fli",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-109",
+        "id": "s0887",
         "text": "flo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-110",
+        "id": "s0888",
         "text": "flu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-pool-111",
+        "id": "s0889",
         "text": "gra",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-112",
-        "text": "gre",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-113",
-        "text": "gri",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-114",
-        "text": "gro",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-115",
-        "text": "gru",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-116",
-        "text": "fra",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-117",
-        "text": "fre",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-118",
-        "text": "fri",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-119",
-        "text": "fro",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-120",
-        "text": "fru",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-121",
-        "text": "cra",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-122",
-        "text": "cre",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-123",
-        "text": "cri",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-124",
-        "text": "cro",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-125",
-        "text": "cru",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-126",
-        "text": "bla",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-127",
-        "text": "ble",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-128",
-        "text": "bli",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-129",
-        "text": "blo",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-130",
-        "text": "blu",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-131",
-        "text": "pra",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-132",
-        "text": "pre",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-133",
-        "text": "pri",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-134",
-        "text": "pro",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-135",
-        "text": "pru",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-136",
-        "text": "gla",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-137",
-        "text": "gle",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-138",
-        "text": "gli",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-139",
-        "text": "glo",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-140",
-        "text": "glu",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-141",
-        "text": "al",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-142",
-        "text": "el",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-143",
-        "text": "il",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-144",
-        "text": "ol",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-145",
-        "text": "ul",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-146",
-        "text": "an",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-147",
-        "text": "en",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-148",
-        "text": "in",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-149",
-        "text": "on",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-150",
-        "text": "un",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-151",
-        "text": "ar",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-152",
-        "text": "er",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-153",
-        "text": "ir",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-154",
-        "text": "or",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-155",
-        "text": "ur",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-156",
-        "text": "as",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-157",
-        "text": "es",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-158",
-        "text": "is",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-159",
-        "text": "os",
-        "type": "syllables",
-        "difficulty": "medium"
-      },
-      {
-        "id": "syl-pool-160",
-        "text": "us",
         "type": "syllables",
         "difficulty": "medium"
       }
@@ -2181,542 +5415,668 @@
     "randomCount": 50,
     "items": [
       {
-        "id": "syl-di-001",
+        "id": "s0890",
         "text": "ma",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-002",
+        "id": "s0891",
         "text": "me",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-003",
+        "id": "s0892",
         "text": "mi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-004",
+        "id": "s0893",
         "text": "mo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-005",
+        "id": "s0894",
         "text": "mu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-006",
+        "id": "s0895",
         "text": "pa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-007",
+        "id": "s0896",
         "text": "pe",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-008",
+        "id": "s0897",
         "text": "pi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-009",
+        "id": "s0898",
         "text": "po",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-010",
+        "id": "s0899",
         "text": "pu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-011",
+        "id": "s0900",
         "text": "ta",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-012",
+        "id": "s0901",
         "text": "te",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-013",
+        "id": "s0902",
         "text": "ti",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-014",
+        "id": "s0903",
         "text": "to",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-015",
+        "id": "s0904",
         "text": "tu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-016",
+        "id": "s0905",
         "text": "sa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-017",
+        "id": "s0906",
         "text": "se",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-018",
+        "id": "s0907",
         "text": "si",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-019",
+        "id": "s0908",
         "text": "so",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-020",
+        "id": "s0909",
         "text": "su",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-021",
+        "id": "s0910",
         "text": "ba",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-022",
+        "id": "s0911",
         "text": "be",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-023",
+        "id": "s0912",
         "text": "bi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-024",
+        "id": "s0913",
         "text": "bo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-025",
+        "id": "s0914",
         "text": "bu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-026",
+        "id": "s0915",
         "text": "da",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-027",
+        "id": "s0916",
         "text": "de",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-028",
+        "id": "s0917",
         "text": "di",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-029",
+        "id": "s0918",
         "text": "do",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-030",
+        "id": "s0919",
         "text": "du",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-031",
+        "id": "s0920",
         "text": "la",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-032",
+        "id": "s0921",
         "text": "le",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-033",
+        "id": "s0922",
         "text": "li",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-034",
+        "id": "s0923",
         "text": "lo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-035",
+        "id": "s0924",
         "text": "lu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-036",
+        "id": "s0925",
         "text": "na",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-037",
+        "id": "s0926",
         "text": "ne",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-038",
+        "id": "s0927",
         "text": "ni",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-039",
+        "id": "s0928",
         "text": "no",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-040",
+        "id": "s0929",
         "text": "nu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-041",
+        "id": "s0930",
         "text": "ra",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-042",
+        "id": "s0931",
         "text": "re",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-043",
+        "id": "s0932",
         "text": "ri",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-044",
+        "id": "s0933",
         "text": "ro",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-045",
+        "id": "s0934",
         "text": "ru",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-046",
+        "id": "s0935",
         "text": "fa",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-047",
+        "id": "s0936",
         "text": "fe",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-048",
+        "id": "s0937",
         "text": "fi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-049",
+        "id": "s0938",
         "text": "fo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-050",
+        "id": "s0939",
         "text": "fu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-051",
+        "id": "s0940",
         "text": "va",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-052",
+        "id": "s0941",
         "text": "ve",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-053",
+        "id": "s0942",
         "text": "vi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-054",
+        "id": "s0943",
         "text": "vo",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-055",
+        "id": "s0944",
         "text": "vu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-056",
+        "id": "s0945",
         "text": "ca",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-057",
+        "id": "s0946",
         "text": "ce",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-058",
+        "id": "s0947",
         "text": "ci",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-059",
+        "id": "s0948",
         "text": "co",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-060",
+        "id": "s0949",
         "text": "cu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-061",
+        "id": "s0950",
         "text": "ga",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-062",
+        "id": "s0951",
         "text": "ge",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-063",
+        "id": "s0952",
         "text": "gi",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-064",
+        "id": "s0953",
         "text": "go",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-065",
+        "id": "s0954",
         "text": "gu",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-066",
+        "id": "s0955",
         "text": "al",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-067",
+        "id": "s0956",
         "text": "an",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-068",
+        "id": "s0957",
         "text": "ar",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-069",
+        "id": "s0958",
         "text": "as",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-070",
+        "id": "s0959",
         "text": "am",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-071",
+        "id": "s0960",
         "text": "el",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-072",
+        "id": "s0961",
         "text": "en",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-073",
+        "id": "s0962",
         "text": "er",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-074",
+        "id": "s0963",
         "text": "es",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-075",
+        "id": "s0964",
         "text": "em",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-076",
+        "id": "s0965",
         "text": "il",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-077",
+        "id": "s0966",
         "text": "in",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-078",
+        "id": "s0967",
         "text": "ir",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-079",
+        "id": "s0968",
         "text": "is",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-080",
+        "id": "s0969",
         "text": "im",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-081",
+        "id": "s0970",
         "text": "ol",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-082",
+        "id": "s0971",
         "text": "on",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-083",
+        "id": "s0972",
         "text": "or",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-084",
+        "id": "s0973",
         "text": "os",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-085",
+        "id": "s0974",
         "text": "om",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-086",
+        "id": "s0975",
         "text": "ul",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-087",
+        "id": "s0976",
         "text": "un",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-088",
+        "id": "s0977",
         "text": "ur",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-089",
+        "id": "s0978",
         "text": "us",
         "type": "syllables",
         "difficulty": "medium"
       },
       {
-        "id": "syl-di-090",
+        "id": "s0979",
         "text": "um",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0980",
+        "text": "ap",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0981",
+        "text": "at",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0982",
+        "text": "af",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0983",
+        "text": "av",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0984",
+        "text": "ac",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0985",
+        "text": "ag",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0986",
+        "text": "ep",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0987",
+        "text": "et",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0988",
+        "text": "ef",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0989",
+        "text": "ev",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0990",
+        "text": "ec",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0991",
+        "text": "eg",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0992",
+        "text": "ip",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0993",
+        "text": "it",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0994",
+        "text": "if",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0995",
+        "text": "iv",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0996",
+        "text": "ic",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0997",
+        "text": "ig",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0998",
+        "text": "op",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s0999",
+        "text": "ot",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "s1000",
+        "text": "of",
         "type": "syllables",
         "difficulty": "medium"
       }
