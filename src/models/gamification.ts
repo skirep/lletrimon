@@ -254,7 +254,7 @@ const LEGENDARY_POKEMON_PATHS = {
   'w-hard-100-legend': { pokemonId: 890, fallbackName: 'Eternatus' },
 } as const;
 
-const RESERVED_POKEMON_IDS = new Set(
+const RESERVED_POKEMON_IDS = new Set<number>(
   Object.values(LEGENDARY_POKEMON_PATHS).map(({ pokemonId }) => pokemonId),
 );
 
