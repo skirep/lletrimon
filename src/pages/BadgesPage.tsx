@@ -26,6 +26,20 @@ const POKEDEX_SECTIONS = [
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'sentences',
     evolutionLabel: '40% → 60% → 80% → 95%',
   },
+  {
+    id: 'pseudowords-route',
+    title: 'Camí de pseudoparaules',
+    description: 'Entrena descodificació i precisió amb paraules inventades per desbloquejar noves criatures.',
+    match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'pseudowords',
+    evolutionLabel: '40% → 60% → 80% → 95%',
+  },
+  {
+    id: 'sounds-route',
+    title: 'Camí de sons',
+    description: 'Practica els sons bàsics i consolida la base fonològica per pujar de nivell.',
+    match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'sounds',
+    evolutionLabel: '40% → 60% → 80% → 95%',
+  },
 ] as const;
 
 const DIFFICULTY_RANK: Record<PokemonCollectionItem['difficulty'], number> = {
@@ -38,6 +52,8 @@ const ATTACKS_BY_TYPE: Record<PokemonCollectionItem['exerciseType'], string[]> =
   syllables: ['Impacte sil·làbic', 'Rafega vocal', 'Combo de consonants'],
   words: ['Foc de paraules', 'Tall lèxic', 'Crit d’ortografia'],
   sentences: ['Onada sintàctica', 'Raig de frase llarga', 'Tempesta narrativa'],
+  pseudowords: ['Vòrtex inventat', 'Impuls fonètic', 'Fletxa de descodificació'],
+  sounds: ['Eco fonològic', 'Cop sonor', 'Ressonància precisa'],
 };
 
 const ATTACKS_BY_DIFFICULTY: Record<PokemonCollectionItem['difficulty'], string[]> = {
@@ -258,7 +274,7 @@ export function BadgesPage({ profile }: BadgesPageProps) {
             <li><strong>Síl·labes:</strong> obren la branca Bulbasaur → Ivysaur → Venusaur.</li>
             <li><strong>Paraules:</strong> fan créixer Charmander → Charmeleon → Charizard.</li>
             <li><strong>Frases:</strong> desbloquegen Dratini → Dragonair → Mew.</li>
-            <li><strong>Pseudoparaules:</strong> queden fora de la Pokédex perquè el reconeixement de veu no és prou fiable.</li>
+            <li><strong>Pseudoparaules i sons:</strong> també tenen rutes pròpies amb Pokémon desbloquejables.</li>
           </ul>
           <p>A la mini-lluita pots triar dos Pokémon desbloquejats. El seu poder depèn del nivell base i dels exercicis superats d’aquell camí.</p>
         </div>
