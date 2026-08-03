@@ -6,6 +6,7 @@ import { EndlessRunner } from './EndlessRunner';
 import { getAllSets, getSetById, getSetsByType, getSetsByTypeAndDifficulty } from '../exercises';
 import { PokemonCollection } from '../components/gamification';
 import { usePokemonCollection, useRecommendedMission } from '../hooks';
+import { sessionStorage } from '../storage';
 import type { ExerciseType, Difficulty, ExerciseSet, ExerciseItem, Profile } from '../models';
 
 /**
@@ -65,6 +66,7 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
   const [endlessRunning, setEndlessRunning] = useState(false);
   const [endlessPool, setEndlessPool] = useState<ExerciseItem[]>([]);
   const [endlessLabel, setEndlessLabel] = useState('');
+  const [bestScoresBySet, setBestScoresBySet] = useState<Record<string, number>>({});
 
   const allTypes: ExerciseType[] = ['sounds', 'syllables', 'words', 'pseudowords', 'sentences'];
   const difficulties: Difficulty[] = ['easy', 'medium', 'hard'];
@@ -83,6 +85,27 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
   useEffect(() => {
     if (initialSetId) onInitialSetConsumed?.();
   }, [initialSetId, onInitialSetConsumed]);
+
+  useEffect(() => {
+    let cancelled = false;
+    const loadBestScores = async () => {
+      try {
+        const sessions = await sessionStorage.getAllByProfile(profile.id);
+        if (cancelled) return;
+        const bestBySet: Record<string, number> = {};
+        for (const session of sessions) {
+          bestBySet[session.setId] = Math.max(bestBySet[session.setId] ?? 0, session.score);
+        }
+        setBestScoresBySet(bestBySet);
+      } catch (error) {
+        console.error('No s’han pogut carregar les millors puntuacions:', error);
+      }
+    };
+    void loadBestScores();
+    return () => {
+      cancelled = true;
+    };
+  }, [profile.id]);
 
   const startMission = (set: ExerciseSet) => {
     if (isComingSoonType(set.type)) return;
@@ -230,6 +253,9 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
                 <span className={styles.setContent}>
                   <strong className={styles.setTitle}>{set.title}</strong>
                   <span className={styles.setMeta}>🎯 {set.randomCount ?? set.items.length} lectures</span>
+                  <span className={styles.setBestScore}>
+                    🏅 Millor puntuació: {bestScoresBySet[set.id] !== undefined ? `${bestScoresBySet[set.id]}%` : 'Encara sense marca'}
+                  </span>
                 </span>
                 <span className={styles.setArrow} aria-hidden="true">{selectedSet?.id === set.id ? '✓' : '›'}</span>
               </button>
