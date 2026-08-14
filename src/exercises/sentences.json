@@ -5486,6 +5486,7 @@
     "description": "Repte de 100 frases",
     "type": "sentences",
     "difficulty": "hard",
+    "randomCount": 100,
     "items": [
       {
         "id": "f0901",

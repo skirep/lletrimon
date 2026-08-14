@@ -5186,6 +5186,7 @@
     "description": "Repte de 100 paraules",
     "type": "words",
     "difficulty": "hard",
+    "randomCount": 100,
     "items": [
       {
         "id": "w0848",

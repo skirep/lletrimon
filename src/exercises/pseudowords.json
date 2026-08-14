@@ -5207,6 +5207,7 @@
     "description": "Repte de 100 pseudoparaules",
     "type": "pseudowords",
     "difficulty": "hard",
+    "randomCount": 100,
     "items": [
       {
         "id": "p0859",
