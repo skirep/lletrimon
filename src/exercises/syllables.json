@@ -5,6 +5,7 @@
     "description": "Practica les síl·labes bàsiques",
     "type": "syllables",
     "difficulty": "easy",
+    "randomCount": 10,
     "items": [
       {
         "id": "s0001",
@@ -686,6 +687,7 @@
     "description": "Practica les síl·labes amb b i d",
     "type": "syllables",
     "difficulty": "easy",
+    "randomCount": 15,
     "items": [
       {
         "id": "s0113",
@@ -1361,6 +1363,7 @@
     "description": "Practica les síl·labes amb l, n i r",
     "type": "syllables",
     "difficulty": "easy",
+    "randomCount": 20,
     "items": [
       {
         "id": "s0224",
@@ -2036,6 +2039,7 @@
     "description": "Practica les síl·labes amb dues consonants",
     "type": "syllables",
     "difficulty": "medium",
+    "randomCount": 10,
     "items": [
       {
         "id": "s0335",
@@ -2711,6 +2715,7 @@
     "description": "Practica les síl·labes amb dr, cl i fl",
     "type": "syllables",
     "difficulty": "medium",
+    "randomCount": 15,
     "items": [
       {
         "id": "s0446",
@@ -3386,6 +3391,7 @@
     "description": "Practica les síl·labes amb gr, fr i cr",
     "type": "syllables",
     "difficulty": "medium",
+    "randomCount": 20,
     "items": [
       {
         "id": "s0557",
@@ -4061,6 +4067,7 @@
     "description": "Repte de 100 síl·labes",
     "type": "syllables",
     "difficulty": "hard",
+    "randomCount": 100,
     "items": [
       {
         "id": "s0668",
