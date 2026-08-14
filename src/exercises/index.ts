@@ -5,13 +5,42 @@ import pseudowordsSets from './pseudowords.json';
 import sentencesSets from './sentences.json';
 import type { ExerciseSet, ExerciseType, Difficulty } from '../models';
 
+const EASY_MEDIUM_COUNTS = [10, 15, 20] as const;
+
+function inferAllowedCountFromSetId(id: string): number | null {
+  const match = id.match(/-(\d+)$/);
+  if (!match) return null;
+  const index = Number(match[1]) - 1;
+  return EASY_MEDIUM_COUNTS[index] ?? null;
+}
+
+function toAllowedEasyMediumCount(set: ExerciseSet): number {
+  const inferred = inferAllowedCountFromSetId(set.id);
+  if (inferred) return inferred;
+
+  const currentCount = set.randomCount ?? set.items.length;
+  if (currentCount <= 10) return 10;
+  if (currentCount <= 15) return 15;
+  return 20;
+}
+
+function normalizeSet(set: ExerciseSet): ExerciseSet {
+  if (set.difficulty === 'easy' || set.difficulty === 'medium') {
+    return {
+      ...set,
+      randomCount: toAllowedEasyMediumCount(set),
+    };
+  }
+  return set;
+}
+
 const allSets: ExerciseSet[] = [
   ...(soundsSets as ExerciseSet[]),
   ...(syllablesSets as ExerciseSet[]),
   ...(wordsSets as ExerciseSet[]),
   ...(pseudowordsSets as ExerciseSet[]),
   ...(sentencesSets as ExerciseSet[]),
-];
+].map(normalizeSet);
 
 export function getAllSets(): ExerciseSet[] {
   return allSets;
