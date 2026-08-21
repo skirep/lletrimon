@@ -3656,607 +3656,607 @@
   {
     "id": "sent-hard-1",
     "title": "Frases difícils",
-    "description": "Frases llargues i complexes",
+    "description": "Frases curtes amb vocabulari variat i aventures infantils",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
       {
         "id": "f0601",
-        "text": "El noi i la noia van anar junts a la biblioteca del barri.",
+        "text": "L'Arnau troba un mapa secret al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0602",
-        "text": "La professora va explicar una lliçó molt interessant sobre els animals.",
+        "text": "L'Arnau troba un mapa secret a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0603",
-        "text": "Quan plou, els carrerons de la ciutat es tornen molt lliscadissos.",
+        "text": "L'Arnau troba un mapa secret al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0604",
-        "text": "En Pere i la Maria estudien molt per treure bones notes a l'escola.",
+        "text": "L'Arnau troba un mapa secret al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0605",
-        "text": "L'equip interdisciplinari dissenya estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0606",
-        "text": "L'equip interdisciplinari dissenya protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0607",
-        "text": "L'equip interdisciplinari dissenya itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0608",
-        "text": "L'equip interdisciplinari dissenya mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0609",
-        "text": "L'equip interdisciplinari dissenya plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0610",
-        "text": "L'equip interdisciplinari dissenya accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un mapa secret després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0611",
-        "text": "L'equip interdisciplinari dissenya simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0612",
-        "text": "L'equip interdisciplinari dissenya projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0613",
-        "text": "L'equip interdisciplinari dissenya iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0614",
-        "text": "L'equip interdisciplinari dissenya propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0615",
-        "text": "L'equip interdisciplinari implementa estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0616",
-        "text": "L'equip interdisciplinari implementa protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0617",
-        "text": "L'equip interdisciplinari implementa itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0618",
-        "text": "L'equip interdisciplinari implementa mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0619",
-        "text": "L'equip interdisciplinari implementa plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0620",
-        "text": "L'equip interdisciplinari implementa accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0621",
-        "text": "L'equip interdisciplinari implementa simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0622",
-        "text": "L'equip interdisciplinari implementa projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0623",
-        "text": "L'equip interdisciplinari implementa iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0624",
-        "text": "L'equip interdisciplinari implementa propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0625",
-        "text": "L'equip interdisciplinari avalua estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0626",
-        "text": "L'equip interdisciplinari avalua protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0627",
-        "text": "L'equip interdisciplinari avalua itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0628",
-        "text": "L'equip interdisciplinari avalua mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0629",
-        "text": "L'equip interdisciplinari avalua plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0630",
-        "text": "L'equip interdisciplinari avalua accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0631",
-        "text": "L'equip interdisciplinari avalua simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0632",
-        "text": "L'equip interdisciplinari avalua projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0633",
-        "text": "L'equip interdisciplinari avalua iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0634",
-        "text": "L'equip interdisciplinari avalua propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0635",
-        "text": "L'equip interdisciplinari documenta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0636",
-        "text": "L'equip interdisciplinari documenta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0637",
-        "text": "L'equip interdisciplinari documenta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0638",
-        "text": "L'equip interdisciplinari documenta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0639",
-        "text": "L'equip interdisciplinari documenta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0640",
-        "text": "L'equip interdisciplinari documenta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un castell de cartró després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0641",
-        "text": "L'equip interdisciplinari documenta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0642",
-        "text": "L'equip interdisciplinari documenta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0643",
-        "text": "L'equip interdisciplinari documenta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0644",
-        "text": "L'equip interdisciplinari documenta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0645",
-        "text": "L'equip interdisciplinari argumenta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0646",
-        "text": "L'equip interdisciplinari argumenta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0647",
-        "text": "L'equip interdisciplinari argumenta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0648",
-        "text": "L'equip interdisciplinari argumenta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0649",
-        "text": "L'equip interdisciplinari argumenta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0650",
-        "text": "L'equip interdisciplinari argumenta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0651",
-        "text": "L'equip interdisciplinari argumenta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0652",
-        "text": "L'equip interdisciplinari argumenta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0653",
-        "text": "L'equip interdisciplinari argumenta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0654",
-        "text": "L'equip interdisciplinari argumenta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0655",
-        "text": "L'equip interdisciplinari contrasta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0656",
-        "text": "L'equip interdisciplinari contrasta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0657",
-        "text": "L'equip interdisciplinari contrasta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0658",
-        "text": "L'equip interdisciplinari contrasta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0659",
-        "text": "L'equip interdisciplinari contrasta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0660",
-        "text": "L'equip interdisciplinari contrasta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0661",
-        "text": "L'equip interdisciplinari contrasta simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0662",
-        "text": "L'equip interdisciplinari contrasta projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0663",
-        "text": "L'equip interdisciplinari contrasta iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0664",
-        "text": "L'equip interdisciplinari contrasta propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0665",
-        "text": "L'equip interdisciplinari optimitza estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0666",
-        "text": "L'equip interdisciplinari optimitza protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0667",
-        "text": "L'equip interdisciplinari optimitza itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0668",
-        "text": "L'equip interdisciplinari optimitza mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0669",
-        "text": "L'equip interdisciplinari optimitza plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0670",
-        "text": "L'equip interdisciplinari optimitza accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0671",
-        "text": "L'equip interdisciplinari optimitza simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0672",
-        "text": "L'equip interdisciplinari optimitza projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0673",
-        "text": "L'equip interdisciplinari optimitza iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0674",
-        "text": "L'equip interdisciplinari optimitza propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0675",
-        "text": "L'equip interdisciplinari comunica estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0676",
-        "text": "L'equip interdisciplinari comunica protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0677",
-        "text": "L'equip interdisciplinari comunica itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0678",
-        "text": "L'equip interdisciplinari comunica mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0679",
-        "text": "L'equip interdisciplinari comunica plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0680",
-        "text": "L'equip interdisciplinari comunica accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0681",
-        "text": "L'equip interdisciplinari comunica simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0682",
-        "text": "L'equip interdisciplinari comunica projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0683",
-        "text": "L'equip interdisciplinari comunica iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0684",
-        "text": "L'equip interdisciplinari comunica propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0685",
-        "text": "L'equip interdisciplinari sintetitza estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0686",
-        "text": "L'equip interdisciplinari sintetitza protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0687",
-        "text": "L'equip interdisciplinari sintetitza itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0688",
-        "text": "L'equip interdisciplinari sintetitza mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0689",
-        "text": "L'equip interdisciplinari sintetitza plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0690",
-        "text": "L'equip interdisciplinari sintetitza accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0691",
-        "text": "L'equip interdisciplinari sintetitza simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0692",
-        "text": "L'equip interdisciplinari sintetitza projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0693",
-        "text": "L'equip interdisciplinari sintetitza iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0694",
-        "text": "L'equip interdisciplinari sintetitza propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0695",
-        "text": "L'equip interdisciplinari projecta estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0696",
-        "text": "L'equip interdisciplinari projecta protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0697",
-        "text": "L'equip interdisciplinari projecta itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0698",
-        "text": "L'equip interdisciplinari projecta mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0699",
-        "text": "L'equip interdisciplinari projecta plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0700",
-        "text": "L'equip interdisciplinari projecta accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -4265,607 +4265,607 @@
   {
     "id": "sent-hard-2",
     "title": "Frases difícils - b i d",
-    "description": "Frases llargues amb b i d per practicar",
+    "description": "Frases amb b i d sobre temes propers als nens",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
       {
         "id": "f0701",
-        "text": "La ballena blava és el mamífer més gran que existeix al planeta.",
+        "text": "En David busca una bola blava.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0702",
-        "text": "En David i la Berta van descobrir un bosc encantat durant l'excursió.",
+        "text": "La Berta dibuixa un drac verd.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0703",
-        "text": "La biodiversitat dels boscos catalans depèn de la conservació dels hàbitats naturals.",
+        "text": "El robot blau dobla la cantonada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0704",
-        "text": "Després de la tormenta, els núvols desapareixien deixant un cel completament blau.",
+        "text": "La bicicleta de David baixa de pressa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0705",
-        "text": "La brigada de biodiversitat debateix bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "En Biel descobreix un bosc encantat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0706",
-        "text": "La brigada de biodiversitat debateix dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "La Bruna porta dues banderes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0707",
-        "text": "La brigada de biodiversitat debateix bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "El drac dorm dins del castell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0708",
-        "text": "La brigada de biodiversitat debateix documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "La Berta amaga el dibuix.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0709",
-        "text": "La brigada de biodiversitat debateix dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "En David construeix un robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0710",
-        "text": "La brigada de biodiversitat debateix descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bola rebota sota el banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0711",
-        "text": "La brigada de biodiversitat debateix dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El bebè busca el seu nino.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0712",
-        "text": "La brigada de biodiversitat debateix decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta passa pel bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0713",
-        "text": "La brigada de biodiversitat debateix diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El drac blau defensa el castell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0714",
-        "text": "La brigada de biodiversitat debateix dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "La Berta dóna menjar al gos.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0715",
-        "text": "La brigada de biodiversitat desenvolupa bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "En David dibuixa un dinosaure.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0716",
-        "text": "La brigada de biodiversitat desenvolupa dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "El robot obre una porta daurada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0717",
-        "text": "La brigada de biodiversitat desenvolupa bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "La Bruna baixa pel tobogan.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0718",
-        "text": "La brigada de biodiversitat desenvolupa documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té un drac enorme.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0719",
-        "text": "La brigada de biodiversitat desenvolupa dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "En Biel troba una brúixola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0720",
-        "text": "La brigada de biodiversitat desenvolupa descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bola cau dins del cubell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0721",
-        "text": "La brigada de biodiversitat desenvolupa dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El bandit busca el seu botí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0722",
-        "text": "La brigada de biodiversitat desenvolupa decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta derrapa al fang.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0723",
-        "text": "La brigada de biodiversitat desenvolupa diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El drac fa una gran badallada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0724",
-        "text": "La brigada de biodiversitat desenvolupa dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "En David guarda les bales.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0725",
-        "text": "La brigada de biodiversitat dibuixa bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "La Berta descobreix un passadís.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0726",
-        "text": "La brigada de biodiversitat dibuixa dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "El robot saluda des del balcó.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0727",
-        "text": "La brigada de biodiversitat dibuixa bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "La Bruna beu aigua després de córrer.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0728",
-        "text": "La brigada de biodiversitat dibuixa documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "El dibuixador pinta un bosc blau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0729",
-        "text": "La brigada de biodiversitat dibuixa dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "En Biel obre una capsa daurada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0730",
-        "text": "La brigada de biodiversitat dibuixa descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bola desapareix sota el sofà.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0731",
-        "text": "La brigada de biodiversitat dibuixa dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El drac protegeix el seu bebè.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0732",
-        "text": "La brigada de biodiversitat dibuixa decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "En David comparteix el berenar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0733",
-        "text": "La brigada de biodiversitat dibuixa diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "La Berta troba un botó brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0734",
-        "text": "La brigada de biodiversitat dibuixa dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta té dues rodes grans.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0735",
-        "text": "La brigada de biodiversitat dissenya bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "El robot busca una bateria nova.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0736",
-        "text": "La brigada de biodiversitat dissenya dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "La Bruna dibuixa un submarí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0737",
-        "text": "La brigada de biodiversitat dissenya bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "El drac baixa de la muntanya.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0738",
-        "text": "La brigada de biodiversitat dissenya documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "En Biel descobreix una drecera.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0739",
-        "text": "La brigada de biodiversitat dissenya dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "La bola blava bota molt alt.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0740",
-        "text": "La brigada de biodiversitat dissenya descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "El dibuix sembla una aventura.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0741",
-        "text": "La brigada de biodiversitat dissenya dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "En David ajuda la seva amiga.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0742",
-        "text": "La brigada de biodiversitat dissenya decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La Berta prepara un batut.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0743",
-        "text": "La brigada de biodiversitat dissenya diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El robot detecta una porta oberta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0744",
-        "text": "La brigada de biodiversitat dissenya dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta passa sota el pont.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0745",
-        "text": "La brigada de biodiversitat difon bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "El drac deixa petjades al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0746",
-        "text": "La brigada de biodiversitat difon dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "En Biel troba un barret de bruixot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0747",
-        "text": "La brigada de biodiversitat difon bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "La Bruna obre un llibre de dinosaures.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0748",
-        "text": "La brigada de biodiversitat difon documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "El dibuix amaga un missatge secret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0749",
-        "text": "La brigada de biodiversitat difon dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "En David porta dues motxilles.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0750",
-        "text": "La brigada de biodiversitat difon descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bola queda darrere del banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0751",
-        "text": "La brigada de biodiversitat difon dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El robot balla amb la Berta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0752",
-        "text": "La brigada de biodiversitat difon decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta baixa per un camí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0753",
-        "text": "La brigada de biodiversitat difon diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El drac busca una cova fosca.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0754",
-        "text": "La brigada de biodiversitat difon dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "En Biel guarda una pedra brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0755",
-        "text": "La brigada de biodiversitat documenta bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "La Bruna construeix una torre de blocs.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0756",
-        "text": "La brigada de biodiversitat documenta dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té bandes de colors.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0757",
-        "text": "La brigada de biodiversitat documenta bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "En David juga amb la bicicleta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0758",
-        "text": "La brigada de biodiversitat documenta documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "La Berta dóna una pista bona.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0759",
-        "text": "La brigada de biodiversitat documenta dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "El robot troba una bateria buida.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0760",
-        "text": "La brigada de biodiversitat documenta descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bola rebota contra la paret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0761",
-        "text": "La brigada de biodiversitat documenta dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El drac blau vola sobre el bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0762",
-        "text": "La brigada de biodiversitat documenta decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "En Biel dibuixa un mapa del tresor.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0763",
-        "text": "La brigada de biodiversitat documenta diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "La Bruna porta un braçalet daurat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0764",
-        "text": "La brigada de biodiversitat documenta dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "El dibuix mostra un gran desert.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0765",
-        "text": "La brigada de biodiversitat desplega bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "En David descobreix un botó secret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0766",
-        "text": "La brigada de biodiversitat desplega dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "La Berta baixa del tobogan.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0767",
-        "text": "La brigada de biodiversitat desplega bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "El robot obre la porta del laboratori.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0768",
-        "text": "La brigada de biodiversitat desplega documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta passa davant de l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0769",
-        "text": "La brigada de biodiversitat desplega dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "El drac defensa una bola màgica.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0770",
-        "text": "La brigada de biodiversitat desplega descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "En Biel busca un doble del seu robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0771",
-        "text": "La brigada de biodiversitat desplega dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "La Bruna troba una bossa de boles.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0772",
-        "text": "La brigada de biodiversitat desplega decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "El dibuixador barreja blau i blanc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0773",
-        "text": "La brigada de biodiversitat desplega diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "En David porta el berenar a dins.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0774",
-        "text": "La brigada de biodiversitat desplega dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "La Berta descobreix una base secreta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0775",
-        "text": "La brigada de biodiversitat delibera bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "El robot salta damunt del banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0776",
-        "text": "La brigada de biodiversitat delibera dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta arriba abans que l'autobús.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0777",
-        "text": "La brigada de biodiversitat delibera bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "El drac amaga un diamant blau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0778",
-        "text": "La brigada de biodiversitat delibera documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "En Biel obre el bagul del tresor.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0779",
-        "text": "La brigada de biodiversitat delibera dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "La Bruna dibuixa una bandera pirata.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0780",
-        "text": "La brigada de biodiversitat delibera descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té un submarí gegant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0781",
-        "text": "La brigada de biodiversitat delibera dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "En David busca el seu llibre.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0782",
-        "text": "La brigada de biodiversitat delibera decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La Berta juga amb dues pilotes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0783",
-        "text": "La brigada de biodiversitat delibera diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El robot detecta un soroll estrany.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0784",
-        "text": "La brigada de biodiversitat delibera dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta travessa un pont de fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0785",
-        "text": "La brigada de biodiversitat diagnostica bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "El drac dorm sota una pedra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0786",
-        "text": "La brigada de biodiversitat diagnostica dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "En Biel construeix un búnquer de blocs.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0787",
-        "text": "La brigada de biodiversitat diagnostica bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "La Bruna descobreix un dofí brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0788",
-        "text": "La brigada de biodiversitat diagnostica documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "El dibuix mostra un bosc de bolets.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0789",
-        "text": "La brigada de biodiversitat diagnostica dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "En David obre la porta prohibida.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0790",
-        "text": "La brigada de biodiversitat diagnostica descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La Berta busca una brúixola daurada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0791",
-        "text": "La brigada de biodiversitat diagnostica dissenys de laboratoris d'aprenentatge de manera rigorosa i col·laborativa.",
+        "text": "El robot baixa per una rampa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0792",
-        "text": "La brigada de biodiversitat diagnostica decrets interns de convivència positiva de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta deixa una marca al fang.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0793",
-        "text": "La brigada de biodiversitat diagnostica diagrames de desplegament tecnològic de manera rigorosa i col·laborativa.",
+        "text": "El drac troba una bandera perduda.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0794",
-        "text": "La brigada de biodiversitat diagnostica dossiers de biodiversitat del districte de manera rigorosa i col·laborativa.",
+        "text": "En Biel dóna una bola al seu amic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0795",
-        "text": "La brigada de biodiversitat defineix bones pràctiques de lectura en veu alta de manera rigorosa i col·laborativa.",
+        "text": "La Bruna amaga un botí de pirates.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0796",
-        "text": "La brigada de biodiversitat defineix dades obertes per a projectes educatius de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té un robot de batalla.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0797",
-        "text": "La brigada de biodiversitat defineix bibliografies de qualitat contrastada de manera rigorosa i col·laborativa.",
+        "text": "En David descobreix un passadís fosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0798",
-        "text": "La brigada de biodiversitat defineix documents de seguiment del programa de manera rigorosa i col·laborativa.",
+        "text": "La Berta porta un casc de bomber.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0799",
-        "text": "La brigada de biodiversitat defineix dinàmiques de debat amb mirada inclusiva de manera rigorosa i col·laborativa.",
+        "text": "El robot busca dades dins del mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0800",
-        "text": "La brigada de biodiversitat defineix descripcions detallades de cada activitat de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta baixa sense fer soroll.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -4874,595 +4874,595 @@
   {
     "id": "sent-hard-3",
     "title": "Frases difícils - Ciència",
-    "description": "Frases sobre ciència i coneixement",
+    "description": "Frases curtes sobre espai, dinosaures, robots i natura",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
       {
         "id": "f0801",
-        "text": "La fotosíntesi és el procés pel qual les plantes transformen la llum solar en energia.",
+        "text": "El coet s'enlaira cap a l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0802",
-        "text": "L'astronauta va descriure detalladament l'experiència de veure la Terra des de l'espai.",
+        "text": "Un astronauta mira la Terra des de la nau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0803",
-        "text": "La investigació científica requereix molta paciència i rigorositat en els experiments.",
+        "text": "El robot segueix una línia negra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0804",
-        "text": "Els dinosaures van desaparèixer fa aproximadament seixanta-sis milions d'anys de la Terra.",
+        "text": "El dinosaure deixa petjades al fang.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0805",
-        "text": "L'equip de robòtica modelitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "La Lluna canvia de forma durant el mes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0806",
-        "text": "L'equip de robòtica modelitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Un volcà pot expulsar lava molt calenta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0807",
-        "text": "L'equip de robòtica modelitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "Els planetes giren al voltant del Sol.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0808",
-        "text": "L'equip de robòtica modelitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "El Tiranosaure tenia unes dents enormes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0809",
-        "text": "L'equip de robòtica modelitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "El submarí explora el fons del mar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0810",
-        "text": "L'equip de robòtica modelitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Una formiga pot portar molt de pes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0811",
-        "text": "L'equip de robòtica modelitza experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "El telescopi ensenya estrelles molt llunyanes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0812",
-        "text": "L'equip de robòtica modelitza xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El robot necessita una bateria carregada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0813",
-        "text": "L'equip de robòtica modelitza simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Els imants poden atraure alguns metalls.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0814",
-        "text": "L'equip de robòtica modelitza plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Un fòssil guarda pistes del passat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0815",
-        "text": "L'equip de robòtica simula algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El coet té una finestra molt petita.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0816",
-        "text": "L'equip de robòtica simula sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Els dofins respiren fora de l'aigua.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0817",
-        "text": "L'equip de robòtica simula seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El volcà dorm abans de despertar-se.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0818",
-        "text": "L'equip de robòtica simula prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "La Terra gira sense parar cada dia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0819",
-        "text": "L'equip de robòtica simula mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "El robot reconeix el color vermell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0820",
-        "text": "L'equip de robòtica simula models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Els dinosaures no vivien amb persones.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0821",
-        "text": "L'equip de robòtica simula experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Una planta creix buscant la llum.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0822",
-        "text": "L'equip de robòtica simula xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El submarí troba un peix fluorescent.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0823",
-        "text": "L'equip de robòtica simula simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "L'astronauta flota dins de la nau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0824",
-        "text": "L'equip de robòtica simula plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Els llamps apareixen durant algunes tempestes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0825",
-        "text": "L'equip de robòtica analitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El robot evita els obstacles del camí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0826",
-        "text": "L'equip de robòtica analitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Un meteorit pot caure des de l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0827",
-        "text": "L'equip de robòtica analitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "Els taurons tenen moltes dents.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0828",
-        "text": "L'equip de robòtica analitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "El telescopi apunta cap a la Lluna.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0829",
-        "text": "L'equip de robòtica analitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "El dinosaure menja fulles molt altes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0830",
-        "text": "L'equip de robòtica analitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Una abella visita moltes flors.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0831",
-        "text": "L'equip de robòtica analitza experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "El coet necessita molt combustible.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0832",
-        "text": "L'equip de robòtica analitza xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El robot encén una petita llum.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0833",
-        "text": "L'equip de robòtica analitza simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Els planetes no tenen tots la mateixa mida.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0834",
-        "text": "L'equip de robòtica analitza plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Un camaleó pot canviar de color.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0835",
-        "text": "L'equip de robòtica verifica algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El submarí baixa fins al fons.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0836",
-        "text": "L'equip de robòtica verifica sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Els astronautes porten un vestit especial.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0837",
-        "text": "L'equip de robòtica verifica seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El volcà té fum al seu cràter.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0838",
-        "text": "L'equip de robòtica verifica prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "Els dinosaures vivien fa milions d'anys.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0839",
-        "text": "L'equip de robòtica verifica mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "El robot mou una peça amb cura.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0840",
-        "text": "L'equip de robòtica verifica models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Una aranya fabrica la seva teranyina.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0841",
-        "text": "L'equip de robòtica verifica experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "El Sol és una estrella molt gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0842",
-        "text": "L'equip de robòtica verifica xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "Un astronauta fa exercici cada dia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0843",
-        "text": "L'equip de robòtica verifica simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Els imants tenen dos costats diferents.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0844",
-        "text": "L'equip de robòtica verifica plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "El dinosaure corre darrere d'un altre.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0845",
-        "text": "L'equip de robòtica calibra algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "Una llavor necessita aigua per créixer.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0846",
-        "text": "L'equip de robòtica calibra sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "El coet travessa els núvols ràpidament.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0847",
-        "text": "L'equip de robòtica calibra seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El robot detecta una paret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0848",
-        "text": "L'equip de robòtica calibra prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "Els planetes són diferents entre ells.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0849",
-        "text": "L'equip de robòtica calibra mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "Un fòssil pot ser un os antic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0850",
-        "text": "L'equip de robòtica calibra models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "El submarí encén els seus focus.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0851",
-        "text": "L'equip de robòtica calibra experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Les estrelles brillen molt lluny.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0852",
-        "text": "L'equip de robòtica calibra xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "Un dinosaure petit busca menjar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0853",
-        "text": "L'equip de robòtica calibra simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "El robot segueix les ordres.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0854",
-        "text": "L'equip de robòtica calibra plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Una eruga es transforma en papallona.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0855",
-        "text": "L'equip de robòtica interpreta algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El volcà té una muntanya al voltant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0856",
-        "text": "L'equip de robòtica interpreta sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "El coet deixa fum quan s'enlaira.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0857",
-        "text": "L'equip de robòtica interpreta seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "Els astronautes dormen dins de la nau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0858",
-        "text": "L'equip de robòtica interpreta prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "Un telescopi pot mirar planetes llunyans.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0859",
-        "text": "L'equip de robòtica interpreta mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "El robot porta una peça vermella.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0860",
-        "text": "L'equip de robòtica interpreta models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Els dinosaures tenien formes molt diferents.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0861",
-        "text": "L'equip de robòtica interpreta experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Una balena viu dins del mar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0862",
-        "text": "L'equip de robòtica interpreta xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El Sol dona llum durant el dia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0863",
-        "text": "L'equip de robòtica interpreta simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Un astronauta observa un eclipsi.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0864",
-        "text": "L'equip de robòtica interpreta plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Els imants poden enganxar-se entre ells.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0865",
-        "text": "L'equip de robòtica computa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El robot troba la sortida del laberint.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0866",
-        "text": "L'equip de robòtica computa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Un dinosaure defensa els seus ous.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0867",
-        "text": "L'equip de robòtica computa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "La Lluna no té aire per respirar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0868",
-        "text": "L'equip de robòtica computa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "El submarí observa un pop gegant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0869",
-        "text": "L'equip de robòtica computa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "Una planta gira cap a la finestra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0870",
-        "text": "L'equip de robòtica computa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "El coet viatja més amunt que els núvols.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0871",
-        "text": "L'equip de robòtica computa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Els astronautes estudien l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0872",
-        "text": "L'equip de robòtica computa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El robot pot recollir una bola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0873",
-        "text": "L'equip de robòtica computa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Un fòssil ajuda a conèixer els dinosaures.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0874",
-        "text": "L'equip de robòtica computa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Les abelles fabriquen mel.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0875",
-        "text": "L'equip de robòtica contrasta algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El telescopi mostra un planeta brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0876",
-        "text": "L'equip de robòtica contrasta sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "El dinosaure sacseja la seva cua.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0877",
-        "text": "L'equip de robòtica contrasta seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El volcà expulsa fum i cendra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0878",
-        "text": "L'equip de robòtica contrasta prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "El robot evita un forat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0879",
-        "text": "L'equip de robòtica contrasta mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "La Terra té una gran Lluna.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0880",
-        "text": "L'equip de robòtica contrasta models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Un astronauta menja dins de la nau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0881",
-        "text": "L'equip de robòtica contrasta experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Els planetes poden tenir moltes llunes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0882",
-        "text": "L'equip de robòtica contrasta xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El submarí troba un cofre enfonsat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0883",
-        "text": "L'equip de robòtica contrasta simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "Una aranya té vuit potes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0884",
-        "text": "L'equip de robòtica contrasta plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "El robot obre una porta automàtica.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0885",
-        "text": "L'equip de robòtica implementa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "Un meteorit deixa una marca al terra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0886",
-        "text": "L'equip de robòtica implementa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "El dinosaure busca aigua al riu.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0887",
-        "text": "L'equip de robòtica implementa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El Sol escalfa la Terra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0888",
-        "text": "L'equip de robòtica implementa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "Un astronauta fa fotos de l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0889",
-        "text": "L'equip de robòtica implementa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "Els imants no atrauen la fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0890",
-        "text": "L'equip de robòtica implementa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "El robot segueix un mapa digital.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0891",
-        "text": "L'equip de robòtica implementa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "Una planta necessita llum i aigua.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0892",
-        "text": "L'equip de robòtica implementa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El telescopi mira una estrella blava.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0893",
-        "text": "L'equip de robòtica implementa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "El submarí passa sota una roca.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0894",
-        "text": "L'equip de robòtica implementa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Un dinosaure enorme deixa una petjada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0895",
-        "text": "L'equip de robòtica optimitza algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El coet porta satèl·lits a l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0896",
-        "text": "L'equip de robòtica optimitza sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "Els astronautes treballen en equip.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0897",
-        "text": "L'equip de robòtica optimitza seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El robot acaba el seu recorregut.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0898",
-        "text": "L'equip de robòtica optimitza prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "Una estrella pot ser més gran que el Sol.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5483,608 +5483,608 @@
   {
     "id": "f-hard-100",
     "title": "Frases difícils (100)",
-    "description": "Repte de 100 frases",
+    "description": "Repte de 100 frases curtes i variades",
     "type": "sentences",
     "difficulty": "hard",
     "randomCount": 100,
     "items": [
       {
         "id": "f0901",
-        "text": "El gat és gran.",
+        "text": "L'Arnau troba un joc nou durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0902",
-        "text": "La mama cuina.",
+        "text": "L'Arnau troba un tresor amagat al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0903",
-        "text": "El nen juga.",
+        "text": "En David ajuda la seva amiga.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0904",
-        "text": "La nena canta.",
+        "text": "El robot saluda des del balcó.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0905",
-        "text": "El sol brilla.",
+        "text": "En David dibuixa un dinosaure.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0906",
-        "text": "El gos bota.",
+        "text": "L'Arnau troba una pista misteriosa a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0907",
-        "text": "La pilota és roja.",
+        "text": "L'Arnau troba un joc nou al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0908",
-        "text": "L'ocell vola.",
+        "text": "Un astronauta menja dins de la nau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0909",
-        "text": "El bebè dorm.",
+        "text": "L'Arnau troba un robot petit a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0910",
-        "text": "La bola és blava.",
+        "text": "El volcà dorm abans de despertar-se.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0911",
-        "text": "El drac és bonic.",
+        "text": "L'Arnau troba un tresor amagat al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0912",
-        "text": "La dona balla.",
+        "text": "L'Arnau troba un tresor amagat a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0913",
-        "text": "El bou és gran.",
+        "text": "L'Arnau troba un robot petit durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0914",
-        "text": "La dama porta un barret.",
+        "text": "La bicicleta passa pel bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0915",
-        "text": "El dad és bo.",
+        "text": "La bola cau dins del cubell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0916",
-        "text": "La bici és de David.",
+        "text": "El robot porta una peça vermella.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0917",
-        "text": "El gat beu llet.",
+        "text": "L'Arnau troba un tresor amagat al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0918",
-        "text": "La nena llegeix.",
+        "text": "La Berta dibuixa un drac verd.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0919",
-        "text": "El nen corre ràpid.",
+        "text": "Una planta necessita llum i aigua.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0920",
-        "text": "El gos menja.",
+        "text": "El coet té una finestra molt petita.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0921",
-        "text": "La mama somriu.",
+        "text": "El drac blau defensa el castell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0922",
-        "text": "L'ocell canta.",
+        "text": "Una abella visita moltes flors.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0923",
-        "text": "El nen dorm bé.",
+        "text": "El robot detecta una porta oberta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0924",
-        "text": "La nena dibuixa.",
+        "text": "L'Arnau troba un mapa secret al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0925",
-        "text": "El gat dorm sobre la cadira.",
+        "text": "L'Arnau troba un drac simpàtic a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0926",
-        "text": "La mare porta el pa a casa.",
+        "text": "Els imants no atrauen la fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0927",
-        "text": "Els nens juguen al parc.",
+        "text": "El robot salta damunt del banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0928",
-        "text": "Avui fa molt bon temps.",
+        "text": "El dinosaure sacseja la seva cua.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0929",
-        "text": "El gos menja les galetes.",
+        "text": "L'Arnau troba una pista misteriosa després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0930",
-        "text": "La lluna brilla a la nit.",
+        "text": "El bebè busca el seu nino.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0931",
-        "text": "La ballarina dansa al damunt de l'escenari.",
+        "text": "En David porta el berenar a dins.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0932",
-        "text": "El drac blau busca el seu tresor.",
+        "text": "El telescopi mira una estrella blava.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0933",
-        "text": "La bicicleta del David és de color blava.",
+        "text": "El dinosaure busca aigua al riu.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0934",
-        "text": "En Bernat dóna una beguda a la seva besàvia.",
+        "text": "La Bruna amaga un botí de pirates.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0935",
-        "text": "La bestia dormia dins de la cova.",
+        "text": "L'Arnau troba un robot petit després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0936",
-        "text": "El dimoni bona boca no tenia.",
+        "text": "La bicicleta travessa un pont de fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0937",
-        "text": "Els arbres del bosc creixen molt alts.",
+        "text": "El drac amaga un diamant blau.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0938",
-        "text": "La mestra explica la lliçó de matemàtiques.",
+        "text": "La Bruna dibuixa un submarí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0939",
-        "text": "Els ocells canten al jardí cada matí.",
+        "text": "L'Arnau troba una nau espacial al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0940",
-        "text": "Avui hem anat d'excursió al camp.",
+        "text": "Els astronautes porten un vestit especial.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0941",
-        "text": "La papallona vola entre les flors.",
+        "text": "L'Arnau troba una capa màgica al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0942",
-        "text": "Els nens pinten un mural a la classe.",
+        "text": "En Biel dóna una bola al seu amic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0943",
-        "text": "El noi i la noia van anar junts a la biblioteca del barri.",
+        "text": "L'Arnau troba un robot petit al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0944",
-        "text": "La professora va explicar una lliçó molt interessant sobre els animals.",
+        "text": "La Berta prepara un batut.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0945",
-        "text": "Quan plou, els carrerons de la ciutat es tornen molt lliscadissos.",
+        "text": "L'Arnau troba una pista misteriosa a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0946",
-        "text": "En Pere i la Maria estudien molt per treure bones notes a l'escola.",
+        "text": "Els imants poden atraure alguns metalls.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0947",
-        "text": "La ballena blava és el mamífer més gran que existeix al planeta.",
+        "text": "El drac blau vola sobre el bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0948",
-        "text": "En David i la Berta van descobrir un bosc encantat durant l'excursió.",
+        "text": "El robot troba una bateria buida.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0949",
-        "text": "La biodiversitat dels boscos catalans depèn de la conservació dels hàbitats naturals.",
+        "text": "Els taurons tenen moltes dents.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0950",
-        "text": "Després de la tormenta, els núvols desapareixien deixant un cel completament blau.",
+        "text": "Una planta creix buscant la llum.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0951",
-        "text": "La fotosíntesi és el procés pel qual les plantes transformen la llum solar en energia.",
+        "text": "L'Arnau troba una cabana al jardí al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0952",
-        "text": "L'astronauta va descriure detalladament l'experiència de veure la Terra des de l'espai.",
+        "text": "El dibuix amaga un missatge secret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0953",
-        "text": "La investigació científica requereix molta paciència i rigorositat en els experiments.",
+        "text": "Els imants poden enganxar-se entre ells.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0954",
-        "text": "Els dinosaures van desaparèixer fa aproximadament seixanta-sis milions d'anys de la Terra.",
+        "text": "En David busca el seu llibre.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0955",
-        "text": "L'equip interdisciplinari dissenya estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0956",
-        "text": "L'equip interdisciplinari dissenya protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0957",
-        "text": "L'equip interdisciplinari dissenya itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "En Biel busca un doble del seu robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0958",
-        "text": "L'equip interdisciplinari dissenya mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0959",
-        "text": "L'equip interdisciplinari dissenya plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "La Berta porta un casc de bomber.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0960",
-        "text": "L'equip interdisciplinari dissenya accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una pista misteriosa a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0961",
-        "text": "L'equip interdisciplinari dissenya simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0962",
-        "text": "L'equip interdisciplinari dissenya projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "El robot reconeix el color vermell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0963",
-        "text": "L'equip interdisciplinari dissenya iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0964",
-        "text": "L'equip interdisciplinari dissenya propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "El submarí troba un peix fluorescent.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0965",
-        "text": "L'equip interdisciplinari dissenya algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una nau espacial a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0966",
-        "text": "L'equip interdisciplinari dissenya sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí durant l'excursió.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0967",
-        "text": "L'equip interdisciplinari dissenya seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "El submarí passa sota una roca.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0968",
-        "text": "L'equip interdisciplinari dissenya prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "La Bruna baixa pel tobogan.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0969",
-        "text": "L'equip interdisciplinari dissenya mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "La Bruna porta un braçalet daurat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0970",
-        "text": "L'equip interdisciplinari dissenya models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Un fòssil guarda pistes del passat.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0971",
-        "text": "L'equip interdisciplinari dissenya experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0972",
-        "text": "L'equip interdisciplinari dissenya xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0973",
-        "text": "L'equip interdisciplinari dissenya simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0974",
-        "text": "L'equip interdisciplinari dissenya plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una cabana al jardí al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0975",
-        "text": "L'equip interdisciplinari implementa estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0976",
-        "text": "L'equip interdisciplinari implementa protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "El dibuixador barreja blau i blanc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0977",
-        "text": "L'equip interdisciplinari implementa itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0978",
-        "text": "L'equip interdisciplinari implementa mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té un submarí gegant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0979",
-        "text": "L'equip interdisciplinari implementa plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "El robot pot recollir una bola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0980",
-        "text": "L'equip interdisciplinari implementa accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "La Berta baixa del tobogan.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0981",
-        "text": "L'equip interdisciplinari implementa simulacions científiques per interpretar dades complexes de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat amb els amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0982",
-        "text": "L'equip interdisciplinari implementa projectes artístics que integren memòria i territori de manera rigorosa i col·laborativa.",
+        "text": "El dibuix té bandes de colors.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0983",
-        "text": "L'equip interdisciplinari implementa iniciatives d'accessibilitat lingüística per a tothom de manera rigorosa i col·laborativa.",
+        "text": "El volcà expulsa fum i cendra.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0984",
-        "text": "L'equip interdisciplinari implementa propostes de millora energètica dels espais comuns de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un robot petit al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0985",
-        "text": "L'equip interdisciplinari implementa algorismes per predir patrons atmosfèrics locals de manera rigorosa i col·laborativa.",
+        "text": "El drac baixa de la muntanya.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0986",
-        "text": "L'equip interdisciplinari implementa sistemes de sensors per monitorar la qualitat de l'aire de manera rigorosa i col·laborativa.",
+        "text": "La Bruna descobreix un dofí brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0987",
-        "text": "L'equip interdisciplinari implementa seqüències de dades per detectar anomalies energètiques de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0988",
-        "text": "L'equip interdisciplinari implementa prototips d'intel·ligència artificial explicable de manera rigorosa i col·laborativa.",
+        "text": "El submarí encén els seus focus.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0989",
-        "text": "L'equip interdisciplinari implementa mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "En Biel troba una brúixola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0990",
-        "text": "L'equip interdisciplinari implementa models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "Els planetes no tenen tots la mateixa mida.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0991",
-        "text": "L'equip interdisciplinari implementa experiments sobre transferència tèrmica en materials de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba una capa màgica després de classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0992",
-        "text": "L'equip interdisciplinari implementa xarxes neuronals aplicades a imatges satel·litals de manera rigorosa i col·laborativa.",
+        "text": "El dibuix mostra un gran desert.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0993",
-        "text": "L'equip interdisciplinari implementa simulacions quàntiques de fenòmens elementals de manera rigorosa i col·laborativa.",
+        "text": "El Sol dona llum durant el dia.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0994",
-        "text": "L'equip interdisciplinari implementa plataformes obertes de visualització científica de manera rigorosa i col·laborativa.",
+        "text": "Els astronautes estudien l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0995",
-        "text": "L'equip interdisciplinari avalua estratègies d'aprenentatge personalitzat amb eines digitals de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un joc nou al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0996",
-        "text": "L'equip interdisciplinari avalua protocols de mediació per millorar la convivència quotidiana de manera rigorosa i col·laborativa.",
+        "text": "La bicicleta arriba abans que l'autobús.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0997",
-        "text": "L'equip interdisciplinari avalua itineraris de lectura crítica sobre fonts diverses de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un drac simpàtic al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0998",
-        "text": "L'equip interdisciplinari avalua mecanismes d'avaluació formativa per competències de manera rigorosa i col·laborativa.",
+        "text": "En David descobreix un passadís fosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0999",
-        "text": "L'equip interdisciplinari avalua plans de participació comunitària a llarg termini de manera rigorosa i col·laborativa.",
+        "text": "El robot busca dades dins del mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f1000",
-        "text": "L'equip interdisciplinari avalua accions coordinades de preservació del patrimoni local de manera rigorosa i col·laborativa.",
+        "text": "L'Arnau troba un tresor amagat a casa.",
         "type": "sentences",
         "difficulty": "hard"
       }
