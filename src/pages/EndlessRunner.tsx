@@ -24,6 +24,7 @@ interface EndlessRunnerProps {
 const CORRECT_DISPLAY_MS = 600;
 const ERROR_DISPLAY_MS = 1500;
 const WHISPER_SPEECH_GRACE_MS = 5000;
+const SPEECH_RESTART_THRESHOLD_MS = 500;
 
 /** Web uses Whisper only for sounds; Android WebView uses it for every type. */
 const WHISPER_TYPES = new Set<ExerciseType>(['sounds']);
@@ -222,12 +223,25 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     return () => window.clearInterval(intervalId);
   }, [phase]);
 
-  // When recognition ends naturally
+  // When recognition ends naturally, check whether to restart or evaluate.
+  // The Web Speech API uses continuous:false, so it may stop after a brief pause
+  // even if the user hasn't finished reading a phrase. If significant timer time
+  // remains, restart recognition (preserving the current transcript) so the user
+  // can continue speaking. Only evaluate immediately when close to timer expiry.
   useEffect(() => {
     if (isListening || phase !== 'listening' || timedOutRef.current) return;
     if (awaitingWhisperResultRef.current && !transcript.trim()) return;
+    const timeRemaining = itemDeadlineRef.current - Date.now();
+    if (timeRemaining > SPEECH_RESTART_THRESHOLD_MS) {
+      const savedTranscript = transcriptRef.current;
+      start();
+      if (savedTranscript) {
+        setTranscript(savedTranscript);
+      }
+      return;
+    }
     evaluateCurrentAttempt(transcriptRef.current);
-  }, [isListening, phase, transcript, evaluateCurrentAttempt]);
+  }, [isListening, phase, transcript, evaluateCurrentAttempt, start, setTranscript]);
 
   // result → next or done
   useEffect(() => {

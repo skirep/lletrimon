@@ -38,6 +38,10 @@ const ERROR_DISPLAY_MS = 1100;
 // Whisper needs extra grace time: the API call itself takes 1-3 seconds after
 // the audio recording stops, so we wait longer before giving up.
 const WHISPER_SPEECH_GRACE_MS = 5000;
+// If recognition ends naturally but this many ms still remain on the timer,
+// restart listening instead of evaluating immediately. This prevents premature
+// evaluation when the engine stops after a brief pause mid-phrase.
+const SPEECH_RESTART_THRESHOLD_MS = 500;
 
 /** Web uses Whisper only for sounds; Android WebView uses it for every type. */
 const WHISPER_TYPES = new Set(['sounds']);
@@ -299,13 +303,27 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     return () => window.clearInterval(intervalId);
   }, [phase, handleReadTimeout]);
 
-  // When recognition ends automatically, evaluate and transition to result phase
+  // When recognition ends automatically, check whether to restart or evaluate.
+  // The Web Speech API uses continuous:false, so it may stop after a brief pause
+  // even if the user hasn't finished reading a phrase. If significant timer time
+  // remains, restart recognition (preserving the current transcript) so the user
+  // can continue speaking. Only evaluate immediately when close to timer expiry.
   useEffect(() => {
     if (phase !== 'listening' || timedOutRef.current || isListening) return;
+    const timeRemaining = itemDeadlineRef.current - Date.now();
+    if (timeRemaining > SPEECH_RESTART_THRESHOLD_MS) {
+      // Keep the accumulated transcript across the restart.
+      const savedTranscript = transcriptRef.current;
+      start();
+      if (savedTranscript) {
+        setTranscript(savedTranscript);
+      }
+      return;
+    }
     const recognized = transcriptRef.current.trim();
     if (!recognized) return;
     evaluateCurrentAttempt(recognized);
-  }, [isListening, phase, evaluateCurrentAttempt]);
+  }, [isListening, phase, evaluateCurrentAttempt, start, setTranscript]);
 
   useEffect(() => {
     if (phase !== 'result' || !lastResult) return;
