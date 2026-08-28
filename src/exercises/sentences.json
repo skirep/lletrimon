@@ -3656,247 +3656,247 @@
   {
     "id": "sent-hard-1",
     "title": "Frases difícils",
-    "description": "Frases curtes amb vocabulari variat i aventures infantils",
+    "description": "Frases curtes d'aventures",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
       {
         "id": "f0601",
-        "text": "L'Arnau troba un mapa secret al parc.",
+        "text": "L'Arnau troba un mapa al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0602",
-        "text": "L'Arnau troba un mapa secret a l'escola.",
+        "text": "L'Arnau troba un mapa a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0603",
-        "text": "L'Arnau troba un mapa secret al bosc.",
+        "text": "L'Arnau troba un mapa al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0604",
-        "text": "L'Arnau troba un mapa secret al pati.",
+        "text": "L'Arnau troba un mapa al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0605",
-        "text": "L'Arnau troba un mapa secret a casa.",
+        "text": "L'Arnau troba un mapa a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0606",
-        "text": "L'Arnau troba un mapa secret a la platja.",
+        "text": "L'Arnau troba un mapa a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0607",
-        "text": "L'Arnau troba un mapa secret al jardí.",
+        "text": "L'Arnau troba un mapa al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0608",
-        "text": "L'Arnau troba un mapa secret durant l'excursió.",
+        "text": "L'Arnau troba un mapa de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0609",
-        "text": "L'Arnau troba un mapa secret amb els amics.",
+        "text": "L'Arnau troba un mapa amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0610",
-        "text": "L'Arnau troba un mapa secret després de classe.",
+        "text": "L'Arnau troba un mapa a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0611",
-        "text": "L'Arnau troba un tresor amagat al parc.",
+        "text": "L'Arnau troba un tresor al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0612",
-        "text": "L'Arnau troba un tresor amagat a l'escola.",
+        "text": "L'Arnau troba un tresor a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0613",
-        "text": "L'Arnau troba un tresor amagat al bosc.",
+        "text": "L'Arnau troba un tresor al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0614",
-        "text": "L'Arnau troba un tresor amagat al pati.",
+        "text": "L'Arnau troba un tresor al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0615",
-        "text": "L'Arnau troba un tresor amagat a casa.",
+        "text": "L'Arnau troba un tresor a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0616",
-        "text": "L'Arnau troba un tresor amagat a la platja.",
+        "text": "L'Arnau troba un tresor a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0617",
-        "text": "L'Arnau troba un tresor amagat al jardí.",
+        "text": "L'Arnau troba un tresor al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0618",
-        "text": "L'Arnau troba un tresor amagat durant l'excursió.",
+        "text": "L'Arnau troba un tresor de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0619",
-        "text": "L'Arnau troba un tresor amagat amb els amics.",
+        "text": "L'Arnau troba un tresor amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0620",
-        "text": "L'Arnau troba un tresor amagat després de classe.",
+        "text": "L'Arnau troba un tresor a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0621",
-        "text": "L'Arnau troba una nau espacial al parc.",
+        "text": "L'Arnau troba un coet al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0622",
-        "text": "L'Arnau troba una nau espacial a l'escola.",
+        "text": "L'Arnau troba un coet a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0623",
-        "text": "L'Arnau troba una nau espacial al bosc.",
+        "text": "L'Arnau troba un coet al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0624",
-        "text": "L'Arnau troba una nau espacial al pati.",
+        "text": "L'Arnau troba un coet al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0625",
-        "text": "L'Arnau troba una nau espacial a casa.",
+        "text": "L'Arnau troba un coet a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0626",
-        "text": "L'Arnau troba una nau espacial a la platja.",
+        "text": "L'Arnau troba un coet a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0627",
-        "text": "L'Arnau troba una nau espacial al jardí.",
+        "text": "L'Arnau troba un coet al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0628",
-        "text": "L'Arnau troba una nau espacial durant l'excursió.",
+        "text": "L'Arnau troba un coet de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0629",
-        "text": "L'Arnau troba una nau espacial amb els amics.",
+        "text": "L'Arnau troba un coet amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0630",
-        "text": "L'Arnau troba una nau espacial després de classe.",
+        "text": "L'Arnau troba un coet a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0631",
-        "text": "L'Arnau troba un castell de cartró al parc.",
+        "text": "L'Arnau troba un castell al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0632",
-        "text": "L'Arnau troba un castell de cartró a l'escola.",
+        "text": "L'Arnau troba un castell a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0633",
-        "text": "L'Arnau troba un castell de cartró al bosc.",
+        "text": "L'Arnau troba un castell al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0634",
-        "text": "L'Arnau troba un castell de cartró al pati.",
+        "text": "L'Arnau troba un castell al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0635",
-        "text": "L'Arnau troba un castell de cartró a casa.",
+        "text": "L'Arnau troba un castell a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0636",
-        "text": "L'Arnau troba un castell de cartró a la platja.",
+        "text": "L'Arnau troba un castell a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0637",
-        "text": "L'Arnau troba un castell de cartró al jardí.",
+        "text": "L'Arnau troba un castell al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0638",
-        "text": "L'Arnau troba un castell de cartró durant l'excursió.",
+        "text": "L'Arnau troba un castell de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0639",
-        "text": "L'Arnau troba un castell de cartró amb els amics.",
+        "text": "L'Arnau troba un castell amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0640",
-        "text": "L'Arnau troba un castell de cartró després de classe.",
+        "text": "L'Arnau troba un castell a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -3944,19 +3944,19 @@
       },
       {
         "id": "f0648",
-        "text": "L'Arnau troba un robot petit durant l'excursió.",
+        "text": "L'Arnau troba un robot petit de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0649",
-        "text": "L'Arnau troba un robot petit amb els amics.",
+        "text": "L'Arnau troba un robot petit amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0650",
-        "text": "L'Arnau troba un robot petit després de classe.",
+        "text": "L'Arnau troba un robot petit a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4004,139 +4004,139 @@
       },
       {
         "id": "f0658",
-        "text": "L'Arnau troba un joc nou durant l'excursió.",
+        "text": "L'Arnau troba un joc nou de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0659",
-        "text": "L'Arnau troba un joc nou amb els amics.",
+        "text": "L'Arnau troba un joc nou amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0660",
-        "text": "L'Arnau troba un joc nou després de classe.",
+        "text": "L'Arnau troba un joc nou a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0661",
-        "text": "L'Arnau troba una capa màgica al parc.",
+        "text": "L'Arnau troba una capa al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0662",
-        "text": "L'Arnau troba una capa màgica a l'escola.",
+        "text": "L'Arnau troba una capa a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0663",
-        "text": "L'Arnau troba una capa màgica al bosc.",
+        "text": "L'Arnau troba una capa al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0664",
-        "text": "L'Arnau troba una capa màgica al pati.",
+        "text": "L'Arnau troba una capa al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0665",
-        "text": "L'Arnau troba una capa màgica a casa.",
+        "text": "L'Arnau troba una capa a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0666",
-        "text": "L'Arnau troba una capa màgica a la platja.",
+        "text": "L'Arnau troba una capa a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0667",
-        "text": "L'Arnau troba una capa màgica al jardí.",
+        "text": "L'Arnau troba una capa al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0668",
-        "text": "L'Arnau troba una capa màgica durant l'excursió.",
+        "text": "L'Arnau troba una capa de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0669",
-        "text": "L'Arnau troba una capa màgica amb els amics.",
+        "text": "L'Arnau troba una capa amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0670",
-        "text": "L'Arnau troba una capa màgica després de classe.",
+        "text": "L'Arnau troba una capa a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0671",
-        "text": "L'Arnau troba una pista misteriosa al parc.",
+        "text": "L'Arnau troba una pista al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0672",
-        "text": "L'Arnau troba una pista misteriosa a l'escola.",
+        "text": "L'Arnau troba una pista a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0673",
-        "text": "L'Arnau troba una pista misteriosa al bosc.",
+        "text": "L'Arnau troba una pista al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0674",
-        "text": "L'Arnau troba una pista misteriosa al pati.",
+        "text": "L'Arnau troba una pista al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0675",
-        "text": "L'Arnau troba una pista misteriosa a casa.",
+        "text": "L'Arnau troba una pista a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0676",
-        "text": "L'Arnau troba una pista misteriosa a la platja.",
+        "text": "L'Arnau troba una pista a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0677",
-        "text": "L'Arnau troba una pista misteriosa al jardí.",
+        "text": "L'Arnau troba una pista al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0678",
-        "text": "L'Arnau troba una pista misteriosa durant l'excursió.",
+        "text": "L'Arnau troba una pista de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0679",
-        "text": "L'Arnau troba una pista misteriosa amb els amics.",
+        "text": "L'Arnau troba una pista amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0680",
-        "text": "L'Arnau troba una pista misteriosa després de classe.",
+        "text": "L'Arnau troba una pista a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4184,79 +4184,79 @@
       },
       {
         "id": "f0688",
-        "text": "L'Arnau troba un drac simpàtic durant l'excursió.",
+        "text": "L'Arnau troba un drac simpàtic de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0689",
-        "text": "L'Arnau troba un drac simpàtic amb els amics.",
+        "text": "L'Arnau troba un drac simpàtic amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0690",
-        "text": "L'Arnau troba un drac simpàtic després de classe.",
+        "text": "L'Arnau troba un drac simpàtic a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0691",
-        "text": "L'Arnau troba una cabana al jardí al parc.",
+        "text": "L'Arnau troba una cabana al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0692",
-        "text": "L'Arnau troba una cabana al jardí a l'escola.",
+        "text": "L'Arnau troba una cabana a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0693",
-        "text": "L'Arnau troba una cabana al jardí al bosc.",
+        "text": "L'Arnau troba una cabana al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0694",
-        "text": "L'Arnau troba una cabana al jardí al pati.",
+        "text": "L'Arnau troba una cabana al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0695",
-        "text": "L'Arnau troba una cabana al jardí a casa.",
+        "text": "L'Arnau troba una cabana a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0696",
-        "text": "L'Arnau troba una cabana al jardí a la platja.",
+        "text": "L'Arnau troba una cabana a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0697",
-        "text": "L'Arnau troba una cabana al jardí al jardí.",
+        "text": "L'Arnau troba una cabana.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0698",
-        "text": "L'Arnau troba una cabana al jardí durant l'excursió.",
+        "text": "L'Arnau troba una cabana de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0699",
-        "text": "L'Arnau troba una cabana al jardí amb els amics.",
+        "text": "L'Arnau troba una cabana amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0700",
-        "text": "L'Arnau troba una cabana al jardí després de classe.",
+        "text": "L'Arnau troba una cabana a classe.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -4265,7 +4265,7 @@
   {
     "id": "sent-hard-2",
     "title": "Frases difícils - b i d",
-    "description": "Frases amb b i d sobre temes propers als nens",
+    "description": "Frases curtes amb b i d",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
@@ -4295,7 +4295,7 @@
       },
       {
         "id": "f0705",
-        "text": "En Biel descobreix un bosc encantat.",
+        "text": "En Biel troba un bosc encantat.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4307,7 +4307,7 @@
       },
       {
         "id": "f0707",
-        "text": "El drac dorm dins del castell.",
+        "text": "El drac dorm al castell.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4319,19 +4319,19 @@
       },
       {
         "id": "f0709",
-        "text": "En David construeix un robot.",
+        "text": "En David fa un robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0710",
-        "text": "La bola rebota sota el banc.",
+        "text": "La bola bota sota el banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0711",
-        "text": "El bebè busca el seu nino.",
+        "text": "El bebè busca un nino.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4379,7 +4379,7 @@
       },
       {
         "id": "f0719",
-        "text": "En Biel troba una brúixola.",
+        "text": "En Biel troba una mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4391,7 +4391,7 @@
       },
       {
         "id": "f0721",
-        "text": "El bandit busca el seu botí.",
+        "text": "El bandit busca el seu tresor.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4403,7 +4403,7 @@
       },
       {
         "id": "f0723",
-        "text": "El drac fa una gran badallada.",
+        "text": "El drac fa una gran badall.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4415,7 +4415,7 @@
       },
       {
         "id": "f0725",
-        "text": "La Berta descobreix un passadís.",
+        "text": "La Berta troba un camí.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4433,7 +4433,7 @@
       },
       {
         "id": "f0728",
-        "text": "El dibuixador pinta un bosc blau.",
+        "text": "El nen pinta un bosc blau.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4445,19 +4445,19 @@
       },
       {
         "id": "f0730",
-        "text": "La bola desapareix sota el sofà.",
+        "text": "La bola s'amaga sota el sofà.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0731",
-        "text": "El drac protegeix el seu bebè.",
+        "text": "El drac cuida el seu bebè.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0732",
-        "text": "En David comparteix el berenar.",
+        "text": "En David dona el berenar.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4493,7 +4493,7 @@
       },
       {
         "id": "f0738",
-        "text": "En Biel descobreix una drecera.",
+        "text": "En Biel troba un camí curt.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4505,13 +4505,13 @@
       },
       {
         "id": "f0740",
-        "text": "El dibuix sembla una aventura.",
+        "text": "El dibuix és com una aventura.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0741",
-        "text": "En David ajuda la seva amiga.",
+        "text": "En David ajuda una amiga.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4523,7 +4523,7 @@
       },
       {
         "id": "f0743",
-        "text": "El robot detecta una porta oberta.",
+        "text": "El robot veu una porta oberta.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4565,7 +4565,7 @@
       },
       {
         "id": "f0750",
-        "text": "La bola queda darrere del banc.",
+        "text": "La bola queda al banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4595,7 +4595,7 @@
       },
       {
         "id": "f0755",
-        "text": "La Bruna construeix una torre de blocs.",
+        "text": "La Bruna fa una torre de blocs.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4619,19 +4619,19 @@
       },
       {
         "id": "f0759",
-        "text": "El robot troba una bateria buida.",
+        "text": "El robot troba una pila gastada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0760",
-        "text": "La bola rebota contra la paret.",
+        "text": "La bola bota contra la paret.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0761",
-        "text": "El drac blau vola sobre el bosc.",
+        "text": "El drac blau vola pel bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4655,7 +4655,7 @@
       },
       {
         "id": "f0765",
-        "text": "En David descobreix un botó secret.",
+        "text": "En David troba un botó secret.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4667,13 +4667,13 @@
       },
       {
         "id": "f0767",
-        "text": "El robot obre la porta del laboratori.",
+        "text": "El robot obre la porta del classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0768",
-        "text": "La bicicleta passa davant de l'escola.",
+        "text": "La bicicleta passa a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4685,7 +4685,7 @@
       },
       {
         "id": "f0770",
-        "text": "En Biel busca un doble del seu robot.",
+        "text": "En Biel busca un altre robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4697,7 +4697,7 @@
       },
       {
         "id": "f0772",
-        "text": "El dibuixador barreja blau i blanc.",
+        "text": "El nen barreja blau i blanc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4709,19 +4709,19 @@
       },
       {
         "id": "f0774",
-        "text": "La Berta descobreix una base secreta.",
+        "text": "La Berta troba una base secreta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0775",
-        "text": "El robot salta damunt del banc.",
+        "text": "El robot salta sobre el banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0776",
-        "text": "La bicicleta arriba abans que l'autobús.",
+        "text": "La bicicleta arriba ràpid.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4745,13 +4745,13 @@
       },
       {
         "id": "f0780",
-        "text": "El dibuix té un submarí gegant.",
+        "text": "El dibuix té un submarí gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0781",
-        "text": "En David busca el seu llibre.",
+        "text": "En David busca un llibre.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4763,31 +4763,31 @@
       },
       {
         "id": "f0783",
-        "text": "El robot detecta un soroll estrany.",
+        "text": "El robot veu un soroll estrany.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0784",
-        "text": "La bicicleta travessa un pont de fusta.",
+        "text": "La bicicleta passa per un pont de fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0785",
-        "text": "El drac dorm sota una pedra.",
+        "text": "El drac dorm a la roca.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0786",
-        "text": "En Biel construeix un búnquer de blocs.",
+        "text": "En Biel fa un casa de blocs.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0787",
-        "text": "La Bruna descobreix un dofí brillant.",
+        "text": "La Bruna troba un dofí brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4799,13 +4799,13 @@
       },
       {
         "id": "f0789",
-        "text": "En David obre la porta prohibida.",
+        "text": "En David obre la porta tancada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0790",
-        "text": "La Berta busca una brúixola daurada.",
+        "text": "La Berta busca una mapa daurada.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4835,7 +4835,7 @@
       },
       {
         "id": "f0795",
-        "text": "La Bruna amaga un botí de pirates.",
+        "text": "La Bruna amaga un tresor de pirates.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4847,7 +4847,7 @@
       },
       {
         "id": "f0797",
-        "text": "En David descobreix un passadís fosc.",
+        "text": "En David troba un camí fosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4859,13 +4859,13 @@
       },
       {
         "id": "f0799",
-        "text": "El robot busca dades dins del mapa.",
+        "text": "El robot busca coses al mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0800",
-        "text": "La bicicleta baixa sense fer soroll.",
+        "text": "La bicicleta baixa a poc a poc.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -4874,19 +4874,19 @@
   {
     "id": "sent-hard-3",
     "title": "Frases difícils - Ciència",
-    "description": "Frases curtes sobre espai, dinosaures, robots i natura",
+    "description": "Frases curtes de ciència",
     "type": "sentences",
     "difficulty": "hard",
     "items": [
       {
         "id": "f0801",
-        "text": "El coet s'enlaira cap a l'espai.",
+        "text": "El coet puja a l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0802",
-        "text": "Un astronauta mira la Terra des de la nau.",
+        "text": "Un astronauta mira la Terra des del coet.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4904,73 +4904,73 @@
       },
       {
         "id": "f0805",
-        "text": "La Lluna canvia de forma durant el mes.",
+        "text": "La Lluna canvia al llarg del mes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0806",
-        "text": "Un volcà pot expulsar lava molt calenta.",
+        "text": "Un volcà treu lava calenta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0807",
-        "text": "Els planetes giren al voltant del Sol.",
+        "text": "Els planetes giren prop del Sol.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0808",
-        "text": "El Tiranosaure tenia unes dents enormes.",
+        "text": "El dinosaure tenia unes dents enormes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0809",
-        "text": "El submarí explora el fons del mar.",
+        "text": "El submarí mira sota el mar.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0810",
-        "text": "Una formiga pot portar molt de pes.",
+        "text": "Una formiga pot portar molt pes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0811",
-        "text": "El telescopi ensenya estrelles molt llunyanes.",
+        "text": "El telescopi ensenya estrelles llunyanes.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0812",
-        "text": "El robot necessita una bateria carregada.",
+        "text": "El robot necessita una pila.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0813",
-        "text": "Els imants poden atraure alguns metalls.",
+        "text": "Els imants enganxen el ferro.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0814",
-        "text": "Un fòssil guarda pistes del passat.",
+        "text": "Un fòssil és molt antic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0815",
-        "text": "El coet té una finestra molt petita.",
+        "text": "El coet té una finestra petita.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0816",
-        "text": "Els dofins respiren fora de l'aigua.",
+        "text": "Els dofins respiren aire.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -4988,13 +4988,13 @@
       },
       {
         "id": "f0819",
-        "text": "El robot reconeix el color vermell.",
+        "text": "El robot veu el color vermell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0820",
-        "text": "Els dinosaures no vivien amb persones.",
+        "text": "Els dinosaures no vivien amb nosaltres.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5006,25 +5006,25 @@
       },
       {
         "id": "f0822",
-        "text": "El submarí troba un peix fluorescent.",
+        "text": "El submarí troba un peix brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0823",
-        "text": "L'astronauta flota dins de la nau.",
+        "text": "L'astronauta flota al coet.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0824",
-        "text": "Els llamps apareixen durant algunes tempestes.",
+        "text": "Els llamps surten a la tempesta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0825",
-        "text": "El robot evita els obstacles del camí.",
+        "text": "El robot evita les coses.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5036,7 +5036,7 @@
       },
       {
         "id": "f0827",
-        "text": "Els taurons tenen moltes dents.",
+        "text": "Els taurons tenen dents grans.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5048,7 +5048,7 @@
       },
       {
         "id": "f0829",
-        "text": "El dinosaure menja fulles molt altes.",
+        "text": "El dinosaure menja fulles altes.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5060,7 +5060,7 @@
       },
       {
         "id": "f0831",
-        "text": "El coet necessita molt combustible.",
+        "text": "El coet necessita molt foc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5072,7 +5072,7 @@
       },
       {
         "id": "f0833",
-        "text": "Els planetes no tenen tots la mateixa mida.",
+        "text": "Els planetes tenen mides diferents.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5084,13 +5084,13 @@
       },
       {
         "id": "f0835",
-        "text": "El submarí baixa fins al fons.",
+        "text": "El submarí baixa molt.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0836",
-        "text": "Els astronautes porten un vestit especial.",
+        "text": "Els astronautes porten un vestit gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5102,25 +5102,25 @@
       },
       {
         "id": "f0838",
-        "text": "Els dinosaures vivien fa milions d'anys.",
+        "text": "Els dinosaures vivien fa molt temps.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0839",
-        "text": "El robot mou una peça amb cura.",
+        "text": "El robot mou una peça a poc a poc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0840",
-        "text": "Una aranya fabrica la seva teranyina.",
+        "text": "Una aranya fa una teranyina.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0841",
-        "text": "El Sol és una estrella molt gran.",
+        "text": "El Sol és una estrella gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5132,7 +5132,7 @@
       },
       {
         "id": "f0843",
-        "text": "Els imants tenen dos costats diferents.",
+        "text": "Els imants tenen dos costats.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5150,13 +5150,13 @@
       },
       {
         "id": "f0846",
-        "text": "El coet travessa els núvols ràpidament.",
+        "text": "El coet puja entre núvols.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0847",
-        "text": "El robot detecta una paret.",
+        "text": "El robot veu una paret.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5180,7 +5180,7 @@
       },
       {
         "id": "f0851",
-        "text": "Les estrelles brillen molt lluny.",
+        "text": "Les estrelles brillen lluny.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5198,7 +5198,7 @@
       },
       {
         "id": "f0854",
-        "text": "Una eruga es transforma en papallona.",
+        "text": "Una eruga es fa papallona.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5216,13 +5216,13 @@
       },
       {
         "id": "f0857",
-        "text": "Els astronautes dormen dins de la nau.",
+        "text": "Els astronautes dormen al coet.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0858",
-        "text": "Un telescopi pot mirar planetes llunyans.",
+        "text": "Un telescopi mira planetes.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5234,7 +5234,7 @@
       },
       {
         "id": "f0860",
-        "text": "Els dinosaures tenien formes molt diferents.",
+        "text": "Els dinosaures tenien formes diferents.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5276,13 +5276,13 @@
       },
       {
         "id": "f0867",
-        "text": "La Lluna no té aire per respirar.",
+        "text": "La Lluna no té aire.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0868",
-        "text": "El submarí observa un pop gegant.",
+        "text": "El submarí observa un pop gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5312,7 +5312,7 @@
       },
       {
         "id": "f0873",
-        "text": "Un fòssil ajuda a conèixer els dinosaures.",
+        "text": "Un fòssil parla dels dinosaures.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5336,7 +5336,7 @@
       },
       {
         "id": "f0877",
-        "text": "El volcà expulsa fum i cendra.",
+        "text": "El volcà treu fum.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5354,13 +5354,13 @@
       },
       {
         "id": "f0880",
-        "text": "Un astronauta menja dins de la nau.",
+        "text": "Un astronauta menja al coet.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0881",
-        "text": "Els planetes poden tenir moltes llunes.",
+        "text": "Els planetes tenen algunes llunes.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5414,7 +5414,7 @@
       },
       {
         "id": "f0890",
-        "text": "El robot segueix un mapa digital.",
+        "text": "El robot segueix un mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5444,7 +5444,7 @@
       },
       {
         "id": "f0895",
-        "text": "El coet porta satèl·lits a l'espai.",
+        "text": "El coet puja a l'espai.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5456,25 +5456,25 @@
       },
       {
         "id": "f0897",
-        "text": "El robot acaba el seu recorregut.",
+        "text": "El robot acaba el camí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0898",
-        "text": "Una estrella pot ser més gran que el Sol.",
+        "text": "Una estrella pot ser molt gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0899",
-        "text": "L'equip de robòtica optimitza mecanismes de control per a robots educatius de manera rigorosa i col·laborativa.",
+        "text": "L'equip fa robots a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0900",
-        "text": "L'equip de robòtica optimitza models matemàtics de creixement poblacional de manera rigorosa i col·laborativa.",
+        "text": "L'equip fa números a classe.",
         "type": "sentences",
         "difficulty": "hard"
       }
@@ -5483,26 +5483,26 @@
   {
     "id": "f-hard-100",
     "title": "Frases difícils (100)",
-    "description": "Repte de 100 frases curtes i variades",
+    "description": "100 frases curtes variades",
     "type": "sentences",
     "difficulty": "hard",
     "randomCount": 100,
     "items": [
       {
         "id": "f0901",
-        "text": "L'Arnau troba un joc nou durant l'excursió.",
+        "text": "L'Arnau troba un joc nou de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0902",
-        "text": "L'Arnau troba un tresor amagat al bosc.",
+        "text": "L'Arnau troba un tresor al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0903",
-        "text": "En David ajuda la seva amiga.",
+        "text": "En David ajuda una amiga.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5520,7 +5520,7 @@
       },
       {
         "id": "f0906",
-        "text": "L'Arnau troba una pista misteriosa a l'escola.",
+        "text": "L'Arnau troba una pista a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5532,7 +5532,7 @@
       },
       {
         "id": "f0908",
-        "text": "Un astronauta menja dins de la nau.",
+        "text": "Un astronauta menja al coet.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5550,19 +5550,19 @@
       },
       {
         "id": "f0911",
-        "text": "L'Arnau troba un tresor amagat al jardí.",
+        "text": "L'Arnau troba un tresor al jardí.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0912",
-        "text": "L'Arnau troba un tresor amagat a la platja.",
+        "text": "L'Arnau troba un tresor a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0913",
-        "text": "L'Arnau troba un robot petit durant l'excursió.",
+        "text": "L'Arnau troba un robot petit de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5586,7 +5586,7 @@
       },
       {
         "id": "f0917",
-        "text": "L'Arnau troba un tresor amagat al pati.",
+        "text": "L'Arnau troba un tresor al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5604,7 +5604,7 @@
       },
       {
         "id": "f0920",
-        "text": "El coet té una finestra molt petita.",
+        "text": "El coet té una finestra petita.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5622,13 +5622,13 @@
       },
       {
         "id": "f0923",
-        "text": "El robot detecta una porta oberta.",
+        "text": "El robot veu una porta oberta.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0924",
-        "text": "L'Arnau troba un mapa secret al pati.",
+        "text": "L'Arnau troba un mapa al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5646,7 +5646,7 @@
       },
       {
         "id": "f0927",
-        "text": "El robot salta damunt del banc.",
+        "text": "El robot salta sobre el banc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5658,13 +5658,13 @@
       },
       {
         "id": "f0929",
-        "text": "L'Arnau troba una pista misteriosa després de classe.",
+        "text": "L'Arnau troba una pista a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0930",
-        "text": "El bebè busca el seu nino.",
+        "text": "El bebè busca un nino.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5688,19 +5688,19 @@
       },
       {
         "id": "f0934",
-        "text": "La Bruna amaga un botí de pirates.",
+        "text": "La Bruna amaga un tresor de pirates.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0935",
-        "text": "L'Arnau troba un robot petit després de classe.",
+        "text": "L'Arnau troba un robot petit a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0936",
-        "text": "La bicicleta travessa un pont de fusta.",
+        "text": "La bicicleta passa per un pont de fusta.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5718,19 +5718,19 @@
       },
       {
         "id": "f0939",
-        "text": "L'Arnau troba una nau espacial al bosc.",
+        "text": "L'Arnau troba un coet al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0940",
-        "text": "Els astronautes porten un vestit especial.",
+        "text": "Els astronautes porten un vestit gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0941",
-        "text": "L'Arnau troba una capa màgica al pati.",
+        "text": "L'Arnau troba una capa al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5754,31 +5754,31 @@
       },
       {
         "id": "f0945",
-        "text": "L'Arnau troba una pista misteriosa a la platja.",
+        "text": "L'Arnau troba una pista a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0946",
-        "text": "Els imants poden atraure alguns metalls.",
+        "text": "Els imants enganxen el ferro.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0947",
-        "text": "El drac blau vola sobre el bosc.",
+        "text": "El drac blau vola pel bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0948",
-        "text": "El robot troba una bateria buida.",
+        "text": "El robot troba una pila gastada.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0949",
-        "text": "Els taurons tenen moltes dents.",
+        "text": "Els taurons tenen dents grans.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5790,7 +5790,7 @@
       },
       {
         "id": "f0951",
-        "text": "L'Arnau troba una cabana al jardí al bosc.",
+        "text": "L'Arnau troba una cabana al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5802,37 +5802,37 @@
       },
       {
         "id": "f0953",
-        "text": "Els imants poden enganxar-se entre ells.",
+        "text": "Els imants s'enganxen.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0954",
-        "text": "En David busca el seu llibre.",
+        "text": "En David busca un llibre.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0955",
-        "text": "L'Arnau troba un tresor amagat durant l'excursió.",
+        "text": "L'Arnau troba un tresor de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0956",
-        "text": "L'Arnau troba un tresor amagat a l'escola.",
+        "text": "L'Arnau troba un tresor a l'escola.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0957",
-        "text": "En Biel busca un doble del seu robot.",
+        "text": "En Biel busca un altre robot.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0958",
-        "text": "L'Arnau troba un joc nou amb els amics.",
+        "text": "L'Arnau troba un joc nou amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5844,43 +5844,43 @@
       },
       {
         "id": "f0960",
-        "text": "L'Arnau troba una pista misteriosa a casa.",
+        "text": "L'Arnau troba una pista a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0961",
-        "text": "L'Arnau troba una nau espacial al parc.",
+        "text": "L'Arnau troba un coet al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0962",
-        "text": "El robot reconeix el color vermell.",
+        "text": "El robot veu el color vermell.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0963",
-        "text": "L'Arnau troba un joc nou després de classe.",
+        "text": "L'Arnau troba un joc nou a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0964",
-        "text": "El submarí troba un peix fluorescent.",
+        "text": "El submarí troba un peix brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0965",
-        "text": "L'Arnau troba una nau espacial a la platja.",
+        "text": "L'Arnau troba un coet a la platja.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0966",
-        "text": "L'Arnau troba una cabana al jardí durant l'excursió.",
+        "text": "L'Arnau troba una cabana de passeig.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5904,13 +5904,13 @@
       },
       {
         "id": "f0970",
-        "text": "Un fòssil guarda pistes del passat.",
+        "text": "Un fòssil és molt antic.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0971",
-        "text": "L'Arnau troba una cabana al jardí al pati.",
+        "text": "L'Arnau troba una cabana al pati.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5922,13 +5922,13 @@
       },
       {
         "id": "f0973",
-        "text": "L'Arnau troba una cabana al jardí a casa.",
+        "text": "L'Arnau troba una cabana a casa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0974",
-        "text": "L'Arnau troba una cabana al jardí al parc.",
+        "text": "L'Arnau troba una cabana al parc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5940,19 +5940,19 @@
       },
       {
         "id": "f0976",
-        "text": "El dibuixador barreja blau i blanc.",
+        "text": "El nen barreja blau i blanc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0977",
-        "text": "L'Arnau troba una capa màgica amb els amics.",
+        "text": "L'Arnau troba una capa amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0978",
-        "text": "El dibuix té un submarí gegant.",
+        "text": "El dibuix té un submarí gran.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5970,7 +5970,7 @@
       },
       {
         "id": "f0981",
-        "text": "L'Arnau troba un tresor amagat amb els amics.",
+        "text": "L'Arnau troba un tresor amb amics.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -5982,7 +5982,7 @@
       },
       {
         "id": "f0983",
-        "text": "El volcà expulsa fum i cendra.",
+        "text": "El volcà treu fum.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -6000,13 +6000,13 @@
       },
       {
         "id": "f0986",
-        "text": "La Bruna descobreix un dofí brillant.",
+        "text": "La Bruna troba un dofí brillant.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0987",
-        "text": "L'Arnau troba una capa màgica al bosc.",
+        "text": "L'Arnau troba una capa al bosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -6018,19 +6018,19 @@
       },
       {
         "id": "f0989",
-        "text": "En Biel troba una brúixola.",
+        "text": "En Biel troba una mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0990",
-        "text": "Els planetes no tenen tots la mateixa mida.",
+        "text": "Els planetes tenen mides diferents.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0991",
-        "text": "L'Arnau troba una capa màgica després de classe.",
+        "text": "L'Arnau troba una capa a classe.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -6060,7 +6060,7 @@
       },
       {
         "id": "f0996",
-        "text": "La bicicleta arriba abans que l'autobús.",
+        "text": "La bicicleta arriba ràpid.",
         "type": "sentences",
         "difficulty": "hard"
       },
@@ -6072,19 +6072,19 @@
       },
       {
         "id": "f0998",
-        "text": "En David descobreix un passadís fosc.",
+        "text": "En David troba un camí fosc.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f0999",
-        "text": "El robot busca dades dins del mapa.",
+        "text": "El robot busca coses al mapa.",
         "type": "sentences",
         "difficulty": "hard"
       },
       {
         "id": "f1000",
-        "text": "L'Arnau troba un tresor amagat a casa.",
+        "text": "L'Arnau troba un tresor a casa.",
         "type": "sentences",
         "difficulty": "hard"
       }
