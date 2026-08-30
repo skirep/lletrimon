@@ -8,6 +8,7 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
   const [alternatives, setAlternatives] = useState<SpeechRecognitionAlternativeResult[]>([]);
   const [lastAudioBase64, setLastAudioBase64] = useState<string | null>(null);
   const [isListening, setIsListening] = useState(false);
+  const [isFinalResult, setIsFinalResult] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isSupported] = useState(() => engineRef.current.isSupported());
 
@@ -16,12 +17,14 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
     setAlternatives([]);
     setLastAudioBase64(null);
     setError(null);
+    setIsFinalResult(false);
     setIsListening(true);
     const e = engineRef.current;
     e.onResult = (result) => {
       setTranscript(result.transcript);
       setAlternatives(result.alternatives);
       if (result.isFinal) {
+        setIsFinalResult(true);
         setIsListening(false);
       }
     };
@@ -48,5 +51,5 @@ export function useSpeechRecognition(engine?: SpeechEngine, hints?: string[]) {
     setIsListening(false);
   }, []);
 
-  return { transcript, alternatives, lastAudioBase64, isListening, error, isSupported, start, stop, setTranscript };
+  return { transcript, alternatives, lastAudioBase64, isListening, isFinalResult, error, isSupported, start, stop, setTranscript };
 }

@@ -79,7 +79,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
   const grammarHints = useRef(useWhisper ? [] : items.map((item) => item.text)).current;
 
   const { settings, loading: settingsLoading } = useSettings(profile.id);
-  const { transcript, alternatives, lastAudioBase64, isListening, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
+  const { transcript, alternatives, lastAudioBase64, isListening, isFinalResult, error, isSupported, start, stop, setTranscript } = useSpeechRecognition(speechEngine, grammarHints);
 
   const currentItem = items[index];
 
@@ -305,11 +305,17 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
 
   // When recognition ends automatically, check whether to restart or evaluate.
   // The Web Speech API uses continuous:false, so it may stop after a brief pause
-  // even if the user hasn't finished reading a phrase. If significant timer time
+  // even if the user hasn't finished reading a phrase. If the engine signalled a
+  // final result, evaluate immediately. Otherwise, if significant timer time
   // remains, restart recognition (preserving the current transcript) so the user
   // can continue speaking. Only evaluate immediately when close to timer expiry.
   useEffect(() => {
     if (phase !== 'listening' || timedOutRef.current || isListening) return;
+    const recognized = transcriptRef.current.trim();
+    if (isFinalResult && recognized) {
+      evaluateCurrentAttempt(recognized);
+      return;
+    }
     const timeRemaining = itemDeadlineRef.current - Date.now();
     if (timeRemaining > SPEECH_RESTART_THRESHOLD_MS) {
       // Keep the accumulated transcript across the restart.
@@ -320,10 +326,9 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
       }
       return;
     }
-    const recognized = transcriptRef.current.trim();
     if (!recognized) return;
     evaluateCurrentAttempt(recognized);
-  }, [isListening, phase, evaluateCurrentAttempt, start, setTranscript]);
+  }, [isListening, isFinalResult, phase, evaluateCurrentAttempt, start, setTranscript]);
 
   useEffect(() => {
     if (phase !== 'result' || !lastResult) return;
