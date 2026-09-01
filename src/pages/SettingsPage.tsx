@@ -281,7 +281,7 @@ export function SettingsPage({ profile, settings, onUpdateSettings: update, onUp
               {CORRECT_THRESHOLD_OPTIONS.map((threshold) => (
                 <button
                   key={`${exerciseType.id}-correct-${threshold}`}
-                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType].correct === threshold ? styles.optSelected : ''}`}
+                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType.id].correct === threshold ? styles.optSelected : ''}`}
                   onClick={() => void update({
                     speechRecognitionTuning: {
                       ...settings.speechRecognitionTuning,
@@ -304,7 +304,7 @@ export function SettingsPage({ profile, settings, onUpdateSettings: update, onUp
               {ALMOST_THRESHOLD_OPTIONS.map((threshold) => (
                 <button
                   key={`${exerciseType.id}-almost-${threshold}`}
-                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType].almost === threshold ? styles.optSelected : ''}`}
+                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType.id].almost === threshold ? styles.optSelected : ''}`}
                   onClick={() => void update({
                     speechRecognitionTuning: {
                       ...settings.speechRecognitionTuning,
