@@ -108,7 +108,10 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
     }
 
     const similarity = bestSimilarity;
-    const result = classifyResult(similarity);
+    const resultThresholds = sessionType === 'sounds'
+      ? undefined
+      : settings.speechRecognitionTuning[sessionType];
+    const result = classifyResult(similarity, resultThresholds);
     const attempt: ExerciseAttempt = {
       itemId: currentItemRef.current.id,
       expected: currentItemRef.current.text,
@@ -127,7 +130,7 @@ export function EndlessRunner({ profile, itemPool, sessionType, sessionDifficult
       setStreak(streakRef.current);
     }
     setPhase('result');
-  }, [clearTimer, sessionType, lastAudioBase64]);
+  }, [clearTimer, sessionType, lastAudioBase64, settings.speechRecognitionTuning]);
 
   const completeSession = useCallback(async (finalAttempts: ExerciseAttempt[]) => {
     if (completingRef.current) return;

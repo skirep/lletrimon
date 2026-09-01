@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import styles from './SettingsPage.module.css';
-import type { Profile, FontSize, ColorScheme, SkinId, AppSettings, ExerciseType } from '../models';
+import type {
+  Profile,
+  FontSize,
+  ColorScheme,
+  SkinId,
+  AppSettings,
+  ExerciseType,
+  SpeechRecognitionExerciseType,
+} from '../models';
 
 interface SettingsPageProps {
   profile: Profile;
@@ -47,6 +55,16 @@ const EXERCISE_SPEED_TYPES: { id: ExerciseType; label: string }[] = [
   { id: 'sentences', label: 'Frases' },
 ];
 
+const SPEECH_RECOGNITION_TYPES: { id: SpeechRecognitionExerciseType; label: string }[] = [
+  { id: 'syllables', label: 'Síl·labes' },
+  { id: 'words', label: 'Paraules' },
+  { id: 'pseudowords', label: 'Paraules inventades' },
+  { id: 'sentences', label: 'Frases' },
+];
+
+const CORRECT_THRESHOLD_OPTIONS = [0.65, 0.7, 0.75, 0.8, 0.85, 0.9];
+const ALMOST_THRESHOLD_OPTIONS = [0.35, 0.45, 0.55, 0.65, 0.75];
+
 export function SettingsPage({ profile, settings, onUpdateSettings: update, onUpdateProfile }: SettingsPageProps) {
   const [name, setName] = useState(profile.name);
   const [school, setSchool] = useState(profile.school ?? '');
@@ -85,6 +103,7 @@ export function SettingsPage({ profile, settings, onUpdateSettings: update, onUp
             <li><strong>Tipus de lletra:</strong> la lletra per a dislèxia facilita distingir lletres similars com b/d.</li>
             <li><strong>Majúscules:</strong> mostra el text dels exercicis tot en majúscules.</li>
             <li><strong>Velocitat de lectura:</strong> temps que tens per llegir cada element en veu alta.</li>
+            <li><strong>Reconeixement de veu:</strong> ajusta el percentatge de semblança necessari per validar la resposta.</li>
             <li><strong>Mode dislèxia:</strong> activa espaiament especial per millorar la llegibilitat.</li>
           </ul>
           <p>Tots els canvis es guarden automàticament.</p>
@@ -242,6 +261,66 @@ export function SettingsPage({ profile, settings, onUpdateSettings: update, onUp
             <span className={styles.toggleKnob} />
           </button>
         </div>
+      </section>
+
+      <section className={`card ${styles.section}`}>
+        <h2 className={styles.sectionTitle}>Reconeixement de veu</h2>
+        <p className="text-muted" style={{ fontSize: '14px' }}>
+          Baixa aquests percentatges si vols que el reconeixement sigui més permissiu.
+        </p>
+        {SPEECH_RECOGNITION_TYPES.map((exerciseType) => (
+          <div key={exerciseType.id} style={{ marginTop: '14px' }}>
+            <p className="text-muted" style={{ fontSize: '14px', marginBottom: '8px' }}>
+              {exerciseType.label}
+            </p>
+
+            <p className="text-muted" style={{ fontSize: '13px', marginBottom: '8px' }}>
+              Correcte
+            </p>
+            <div className={styles.optionGrid}>
+              {CORRECT_THRESHOLD_OPTIONS.map((threshold) => (
+                <button
+                  key={`${exerciseType.id}-correct-${threshold}`}
+                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType].correct === threshold ? styles.optSelected : ''}`}
+                  onClick={() => void update({
+                    speechRecognitionTuning: {
+                      ...settings.speechRecognitionTuning,
+                      [exerciseType.id]: {
+                        ...settings.speechRecognitionTuning[exerciseType.id],
+                        correct: threshold,
+                      },
+                    },
+                  })}
+                >
+                  {Math.round(threshold * 100)}%
+                </button>
+              ))}
+            </div>
+
+            <p className="text-muted" style={{ fontSize: '13px', marginTop: '12px', marginBottom: '8px' }}>
+              Gairebé correcte
+            </p>
+            <div className={styles.optionGrid}>
+              {ALMOST_THRESHOLD_OPTIONS.map((threshold) => (
+                <button
+                  key={`${exerciseType.id}-almost-${threshold}`}
+                  className={`${styles.optBtn} ${settings.speechRecognitionTuning[exerciseType].almost === threshold ? styles.optSelected : ''}`}
+                  onClick={() => void update({
+                    speechRecognitionTuning: {
+                      ...settings.speechRecognitionTuning,
+                      [exerciseType.id]: {
+                        ...settings.speechRecognitionTuning[exerciseType.id],
+                        almost: threshold,
+                      },
+                    },
+                  })}
+                >
+                  {Math.round(threshold * 100)}%
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
 
       {/* Reading speed */}
