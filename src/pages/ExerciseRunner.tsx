@@ -152,7 +152,10 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     }
 
     const similarity = bestSimilarity;
-    const result = classifyResult(similarity);
+    const resultThresholds = set.type === 'sounds'
+      ? undefined
+      : settings.speechRecognitionTuning[set.type];
+    const result = classifyResult(similarity, resultThresholds);
     const errorTypes = detectErrors(currentItem.text, bestText);
     const attempt: ExerciseAttempt = {
       itemId: currentItem.id,
@@ -182,7 +185,7 @@ export function ExerciseRunner({ profile, set, onFinish }: ExerciseRunnerProps) 
     }
 
     void completeSession(updatedAttempts);
-  }, [currentItem, clearTimer, index, items.length, completeSession, set.type, lastAudioBase64]);
+  }, [currentItem, clearTimer, index, items.length, completeSession, set.type, lastAudioBase64, settings.speechRecognitionTuning]);
 
   const handleReadTimeout = useCallback(() => {
     if (phaseRef.current !== 'listening' || timedOutRef.current || !currentItem) return;

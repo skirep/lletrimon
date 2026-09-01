@@ -5,7 +5,11 @@ import { supabase } from '../lib/supabase';
 
 const ALLOWED_SPEEDS = [1, 2, 4, 6, 10, 12];
 const ALLOWED_SKINS = ['original', 'pokemon', 'pikachu-ash', 'team-rocket'] as const;
-const CURRENT_SETTINGS_VERSION = 1;
+const CURRENT_SETTINGS_VERSION = 2;
+const MIN_CORRECT_THRESHOLD = 0.5;
+const MAX_CORRECT_THRESHOLD = 0.95;
+const MIN_ALMOST_THRESHOLD = 0.3;
+const MIN_THRESHOLD_GAP = 0.05;
 
 function normalizeSpeed(speed: number): number {
   if (ALLOWED_SPEEDS.includes(speed)) return speed;
@@ -31,6 +35,56 @@ function normalizeExerciseSpeeds(
   };
 }
 
+function normalizeThreshold(value: number, min: number, max: number): number {
+  return Math.round(Math.min(max, Math.max(min, value)) * 100) / 100;
+}
+
+function normalizeSpeechRecognitionThresholds(
+  thresholds: Partial<AppSettings['speechRecognitionTuning']['words']> | undefined,
+  fallback: AppSettings['speechRecognitionTuning']['words'],
+): AppSettings['speechRecognitionTuning']['words'] {
+  const rawAlmost = normalizeThreshold(
+    thresholds?.almost ?? fallback.almost,
+    MIN_ALMOST_THRESHOLD,
+    MAX_CORRECT_THRESHOLD - MIN_THRESHOLD_GAP,
+  );
+  const correctMin = Math.max(MIN_CORRECT_THRESHOLD, rawAlmost + MIN_THRESHOLD_GAP);
+  const correct = normalizeThreshold(
+    thresholds?.correct ?? fallback.correct,
+    correctMin,
+    MAX_CORRECT_THRESHOLD,
+  );
+  const almost = normalizeThreshold(
+    thresholds?.almost ?? fallback.almost,
+    MIN_ALMOST_THRESHOLD,
+    correct - MIN_THRESHOLD_GAP,
+  );
+  return { correct, almost };
+}
+
+function normalizeSpeechRecognitionTuning(
+  tuning: Partial<AppSettings['speechRecognitionTuning']> | undefined,
+): AppSettings['speechRecognitionTuning'] {
+  return {
+    syllables: normalizeSpeechRecognitionThresholds(
+      tuning?.syllables,
+      DEFAULT_SETTINGS.speechRecognitionTuning.syllables,
+    ),
+    words: normalizeSpeechRecognitionThresholds(
+      tuning?.words,
+      DEFAULT_SETTINGS.speechRecognitionTuning.words,
+    ),
+    pseudowords: normalizeSpeechRecognitionThresholds(
+      tuning?.pseudowords,
+      DEFAULT_SETTINGS.speechRecognitionTuning.pseudowords,
+    ),
+    sentences: normalizeSpeechRecognitionThresholds(
+      tuning?.sentences,
+      DEFAULT_SETTINGS.speechRecognitionTuning.sentences,
+    ),
+  };
+}
+
 function normalizeSkin(skin: AppSettings['skin'] | undefined): AppSettings['skin'] {
   return ALLOWED_SKINS.includes(skin ?? 'original') ? (skin ?? 'original') : 'original';
 }
@@ -43,6 +97,7 @@ function normalizeSettingsPayload(profileId: string, source: Partial<AppSettings
     profileId,
     speed: baseSpeed,
     exerciseSpeeds: normalizeExerciseSpeeds(source.exerciseSpeeds, baseSpeed),
+    speechRecognitionTuning: normalizeSpeechRecognitionTuning(source.speechRecognitionTuning),
     uppercaseText: source.uppercaseText ?? DEFAULT_SETTINGS.uppercaseText,
     showReadingFeedback: source.showReadingFeedback ?? DEFAULT_SETTINGS.showReadingFeedback,
     skin: normalizeSkin(source.skin),
@@ -56,6 +111,9 @@ function readLegacyCloudSettings(profileId: string, data: Record<string, unknown
     exerciseSpeeds: normalizeExerciseSpeeds(
       (data.exercise_speeds as Partial<AppSettings['exerciseSpeeds']> | undefined) ?? undefined,
       speed,
+    ),
+    speechRecognitionTuning: normalizeSpeechRecognitionTuning(
+      (data.speech_recognition_tuning as Partial<AppSettings['speechRecognitionTuning']> | undefined) ?? undefined,
     ),
     uppercaseText: (data.uppercase_text as boolean | null) ?? DEFAULT_SETTINGS.uppercaseText,
     showReadingFeedback: (data.show_reading_feedback as boolean | null) ?? DEFAULT_SETTINGS.showReadingFeedback,
@@ -175,6 +233,7 @@ export const settingsStorage = {
       profileId,
       speed: normalizeSpeed(settings.speed),
       exerciseSpeeds: normalizeExerciseSpeeds(settings.exerciseSpeeds, settings.speed),
+      speechRecognitionTuning: normalizeSpeechRecognitionTuning(settings.speechRecognitionTuning),
       skin: normalizeSkin(settings.skin),
     };
 
@@ -196,16 +255,21 @@ export const settingsStorage = {
     const mergedExerciseSpeeds = partial.exerciseSpeeds
       ? { ...current.exerciseSpeeds, ...partial.exerciseSpeeds }
       : current.exerciseSpeeds;
+    const mergedSpeechRecognitionTuning = partial.speechRecognitionTuning
+      ? { ...current.speechRecognitionTuning, ...partial.speechRecognitionTuning }
+      : current.speechRecognitionTuning;
 
     const partialSpeed = partial.speed !== undefined ? normalizeSpeed(partial.speed) : undefined;
     const baseSpeed = partialSpeed ?? current.speed;
     const normalizedExerciseSpeeds = normalizeExerciseSpeeds(mergedExerciseSpeeds, baseSpeed);
+    const normalizedSpeechRecognitionTuning = normalizeSpeechRecognitionTuning(mergedSpeechRecognitionTuning);
 
     const updated: AppSettings = {
       ...current,
       ...partial,
       speed: partialSpeed ?? normalizedExerciseSpeeds.sounds,
       exerciseSpeeds: normalizedExerciseSpeeds,
+      speechRecognitionTuning: normalizedSpeechRecognitionTuning,
       skin: normalizeSkin((partial.skin ?? current.skin) as AppSettings['skin']),
     };
 

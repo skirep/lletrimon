@@ -16,7 +16,7 @@
  *  5. calculateXpGained()    – XP reward based on score, difficulty and speed.
  */
 
-import type { ErrorType, ReadingResult } from '../models';
+import type { ErrorType, ReadingResult, SpeechRecognitionThresholds } from '../models';
 
 const SPOKEN_LETTER_MAP: Record<string, string> = {
   a: 'a',
@@ -179,9 +179,12 @@ export function calculateSyllableSimilarity(expected: string, recognized: string
   return bestSimilarity;
 }
 
-export function classifyResult(similarity: number): ReadingResult {
-  if (similarity >= 0.8) return 'correct';
-  if (similarity >= 0.55) return 'almost';
+export function classifyResult(
+  similarity: number,
+  thresholds: SpeechRecognitionThresholds = { correct: 0.8, almost: 0.55 },
+): ReadingResult {
+  if (similarity >= thresholds.correct) return 'correct';
+  if (similarity >= thresholds.almost) return 'almost';
   return 'incorrect';
 }
 
