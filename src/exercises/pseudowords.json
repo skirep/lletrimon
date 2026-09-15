@@ -6062,5 +6062,74 @@
         "difficulty": "hard"
       }
     ]
+  },
+  {
+    "id": "pseudo-hard-3",
+    "title": "Paraules inventades - nivell pro",
+    "description": "Decodifica pseudoparaules llargues i poc previsibles.",
+    "type": "pseudowords",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "ph3-1",
+        "text": "granitolma",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-2",
+        "text": "plevarundi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-3",
+        "text": "trumecadi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-4",
+        "text": "blacurenta",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-5",
+        "text": "clorimeda",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-6",
+        "text": "dravonil",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-7",
+        "text": "frisoltep",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-8",
+        "text": "pratanuxi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-9",
+        "text": "xalveroni",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-10",
+        "text": "nyolapret",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]

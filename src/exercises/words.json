@@ -6117,5 +6117,143 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "words-hard-4",
+    "title": "Paraules difícils - accents",
+    "description": "Llegeix paraules amb accents i combinacions complexes.",
+    "type": "words",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "wh4-1",
+        "text": "música",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-2",
+        "text": "ciència",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-3",
+        "text": "qüestió",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-4",
+        "text": "història",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-5",
+        "text": "ràpid",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-6",
+        "text": "pròxim",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-7",
+        "text": "llàgrima",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-8",
+        "text": "església",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-9",
+        "text": "xarxa",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-10",
+        "text": "plàtan",
+        "type": "words",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "words-hard-5",
+    "title": "Paraules difícils - velocitat",
+    "description": "Entrena fluïdesa amb paraules llargues i variades.",
+    "type": "words",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "wh5-1",
+        "text": "extraordinari",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-2",
+        "text": "biblioteca",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-3",
+        "text": "laboratori",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-4",
+        "text": "tramuntana",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-5",
+        "text": "electricitat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-6",
+        "text": "aventurer",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-7",
+        "text": "glorieta",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-8",
+        "text": "frontera",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-9",
+        "text": "espectacle",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-10",
+        "text": "pinzellada",
+        "type": "words",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]

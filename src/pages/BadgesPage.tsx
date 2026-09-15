@@ -33,13 +33,6 @@ const POKEDEX_SECTIONS = [
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'pseudowords',
     evolutionLabel: '40% → 60% → 80% → 95%',
   },
-  {
-    id: 'sounds-route',
-    title: 'Camí de sons',
-    description: 'Practica els sons bàsics i consolida la base fonològica per pujar de nivell.',
-    match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'sounds',
-    evolutionLabel: '40% → 60% → 80% → 95%',
-  },
 ] as const;
 
 const DIFFICULTY_RANK: Record<PokemonCollectionItem['difficulty'], number> = {

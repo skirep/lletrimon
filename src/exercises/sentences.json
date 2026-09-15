@@ -6089,5 +6089,74 @@
         "difficulty": "hard"
       }
     ]
+  },
+  {
+    "id": "sent-hard-4",
+    "title": "Frases difícils - comprensió ràpida",
+    "description": "Llegeix frases més llargues amb ritme i precisió.",
+    "type": "sentences",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sh4-1",
+        "text": "Quan arriba la pluja, el drac blau busca refugi sota el pont antic.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-2",
+        "text": "La Júlia va preparar una motxilla petita per fer una excursió al bosc.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-3",
+        "text": "Després del partit, l'equip va celebrar la victòria amb una cançó divertida.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-4",
+        "text": "El científic observa el cel nocturn i apunta cada estrella al quadern.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-5",
+        "text": "La cuinera remena la sopa lentament mentre prova si falta una mica de sal.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-6",
+        "text": "Abans de dormir, en Pau ordena els llibres i apaga amb cura la làmpada.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-7",
+        "text": "La bicicleta vermella baixa pel carrer estret sense fer cap soroll.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-8",
+        "text": "Quan sona el timbre, tota la classe recull el material molt ràpidament.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-9",
+        "text": "El gat curiós mira per la finestra mentre passa un globus gegant.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh4-10",
+        "text": "Al final del conte, la protagonista troba una clau daurada dins d'una caixa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]

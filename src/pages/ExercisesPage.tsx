@@ -34,7 +34,7 @@ const TYPE_OPTIONS: Record<ExerciseType, { icon: string; label: string; descript
   sentences: { icon: '📖', label: 'Frases', description: 'Llegeix històries curtes' },
 };
 
-const COMING_SOON_TYPES: ExerciseType[] = [];
+const COMING_SOON_TYPES: ExerciseType[] = ['sounds'];
 
 function isComingSoonType(type: ExerciseType): boolean {
   return COMING_SOON_TYPES.includes(type);
@@ -68,7 +68,7 @@ export function ExercisesPage({ profile, initialSetId = null, onInitialSetConsum
   const [endlessLabel, setEndlessLabel] = useState('');
   const [bestScoresBySet, setBestScoresBySet] = useState<Record<string, number>>({});
 
-  const allTypes: ExerciseType[] = ['sounds', 'syllables', 'words', 'pseudowords', 'sentences'];
+  const allTypes: ExerciseType[] = ['syllables', 'words', 'pseudowords', 'sentences'];
   const difficulties: Difficulty[] = ['easy', 'medium', 'hard'];
 
   const availableSets = (selectedType && selectedDifficulty

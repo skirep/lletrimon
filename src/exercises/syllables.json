@@ -6088,5 +6088,143 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "syl-hard-2",
+    "title": "Síl·labes difícils - combinacions",
+    "description": "Practica combinacions complexes de síl·labes.",
+    "type": "syllables",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sylh2-1",
+        "text": "bra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-2",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-3",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-4",
+        "text": "glo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-5",
+        "text": "pla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-6",
+        "text": "tro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-7",
+        "text": "gru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-8",
+        "text": "fra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-9",
+        "text": "clo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-10",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "syl-hard-3",
+    "title": "Síl·labes difícils - precisió",
+    "description": "Millora la precisió amb síl·labes menys habituals.",
+    "type": "syllables",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sylh3-1",
+        "text": "güe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-2",
+        "text": "qüi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-3",
+        "text": "txa",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-4",
+        "text": "txe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-5",
+        "text": "dja",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-6",
+        "text": "lle",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-7",
+        "text": "nya",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-8",
+        "text": "rro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-9",
+        "text": "xiu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-10",
+        "text": "çó",
+        "type": "syllables",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]
