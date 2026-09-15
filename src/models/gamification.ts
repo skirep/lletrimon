@@ -243,7 +243,7 @@ const POKEMON_TRACKS = [
     exerciseType: 'sounds' as const,
     basePower: 16,
     description: 'La branca de sons reforça la discriminació fonològica des dels primers reptes.',
-    setIds: ['sounds-easy-1', 'sounds-medium-1', 'sounds-hard-1'],
+    setIds: ['sounds-easy-1', 'sounds-easy-2', 'sounds-medium-1', 'sounds-medium-2', 'sounds-hard-1', 'sounds-hard-2'],
   },
 ] as const;
 

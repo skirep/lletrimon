@@ -34,7 +34,7 @@ const TYPE_OPTIONS: Record<ExerciseType, { icon: string; label: string; descript
   sentences: { icon: '📖', label: 'Frases', description: 'Llegeix històries curtes' },
 };
 
-const COMING_SOON_TYPES: ExerciseType[] = ['sounds'];
+const COMING_SOON_TYPES: ExerciseType[] = [];
 
 function isComingSoonType(type: ExerciseType): boolean {
   return COMING_SOON_TYPES.includes(type);
