@@ -6188,71 +6188,140 @@
     ]
   },
   {
-    "id": "words-hard-5",
-    "title": "Paraules difícils - velocitat",
-    "description": "Entrena fluïdesa amb paraules llargues i variades.",
+    "id": "words-easy-6",
+    "title": "Paraules fàcils - inici 6",
+    "description": "Nova col·lecció de paraules curtes per agafar ritme.",
     "type": "words",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "items": [
       {
-        "id": "wh5-1",
-        "text": "extraordinari",
+        "id": "we6-1",
+        "text": "sol",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-2",
-        "text": "biblioteca",
+        "id": "we6-2",
+        "text": "mar",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-3",
-        "text": "laboratori",
+        "id": "we6-3",
+        "text": "niu",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-4",
-        "text": "tramuntana",
+        "id": "we6-4",
+        "text": "gel",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-5",
-        "text": "electricitat",
+        "id": "we6-5",
+        "text": "gos",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-6",
-        "text": "aventurer",
+        "id": "we6-6",
+        "text": "mà",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-7",
-        "text": "glorieta",
+        "id": "we6-7",
+        "text": "dit",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-8",
-        "text": "frontera",
+        "id": "we6-8",
+        "text": "pa",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-9",
-        "text": "espectacle",
+        "id": "we6-9",
+        "text": "flor",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
       },
       {
-        "id": "wh5-10",
-        "text": "pinzellada",
+        "id": "we6-10",
+        "text": "llum",
         "type": "words",
-        "difficulty": "hard"
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "words-medium-4",
+    "title": "Paraules mitjanes - repte 4",
+    "description": "Llegeix paraules de nivell mitjà amb síl·labes combinades.",
+    "type": "words",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "wm4-1",
+        "text": "casaeta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-2",
+        "text": "planetari",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-3",
+        "text": "formiga",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-4",
+        "text": "cadira",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-5",
+        "text": "motxilla",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-6",
+        "text": "cotxera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-7",
+        "text": "finestra",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-8",
+        "text": "pirata",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-9",
+        "text": "llanterna",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-10",
+        "text": "papallona",
+        "type": "words",
+        "difficulty": "medium"
       }
     ]
   }

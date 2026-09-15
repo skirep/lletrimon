@@ -6158,5 +6158,143 @@
         "difficulty": "hard"
       }
     ]
+  },
+  {
+    "id": "sent-easy-4",
+    "title": "Frases fàcils - inici 4",
+    "description": "Frases curtes i clares per començar amb confiança.",
+    "type": "sentences",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "se4-1",
+        "text": "El gat dorm al sofà.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-2",
+        "text": "La nena pinta un sol.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-3",
+        "text": "Avui fa un dia clar.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-4",
+        "text": "El noi menja pa amb oli.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-5",
+        "text": "La mare riu al parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-6",
+        "text": "Un peix salta a l'aigua.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-7",
+        "text": "La porta és de fusta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-8",
+        "text": "El tren passa molt lent.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-9",
+        "text": "L'avi llegeix un conte.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se4-10",
+        "text": "La lluna brilla de nit.",
+        "type": "sentences",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "sent-medium-4",
+    "title": "Frases mitjanes - repte 4",
+    "description": "Frases de nivell mitjà per millorar ritme i entonació.",
+    "type": "sentences",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sm4-1",
+        "text": "Quan sona la campana, tots els alumnes guarden els llapis.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-2",
+        "text": "La Carla prepara una motxilla petita abans de sortir d'excursió.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-3",
+        "text": "En Marc rega les plantes mentre escolta música suau.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-4",
+        "text": "Després de berenar, la colla juga a pilota al pati gran.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-5",
+        "text": "El cuiner tasta la sopa i hi afegeix una mica de sal.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-6",
+        "text": "La bicicleta blava gira pel carrer estret sense pressa.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-7",
+        "text": "Quan acaba la pluja, apareix un arc de colors sobre el poble.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-8",
+        "text": "La biblioteca obre a les nou i tanca al vespre.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-9",
+        "text": "El gos espera pacientment al portal fins que arriba el seu amo.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm4-10",
+        "text": "A la nit, la família explica històries abans d'anar a dormir.",
+        "type": "sentences",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]
