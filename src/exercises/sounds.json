@@ -55,5 +55,62 @@
       { "id": "sound-rr", "text": "r", "type": "sounds", "difficulty": "hard" },
       { "id": "sound-cs", "text": "s", "type": "sounds", "difficulty": "hard" }
     ]
+  },
+  {
+    "id": "sounds-easy-2",
+    "title": "Sons de lletres - pràctica guiada",
+    "description": "Consolida vocals i consonants senzilles amb una nova ronda.",
+    "type": "sounds",
+    "difficulty": "easy",
+    "items": [
+      { "id": "sound2-a", "text": "a", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-e", "text": "e", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-i", "text": "i", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-o", "text": "o", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-u", "text": "u", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-b", "text": "b", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-d", "text": "d", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-f", "text": "f", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-g", "text": "g", "type": "sounds", "difficulty": "easy" },
+      { "id": "sound2-n", "text": "n", "type": "sounds", "difficulty": "easy" }
+    ]
+  },
+  {
+    "id": "sounds-medium-2",
+    "title": "Sons de lletres - contrastos",
+    "description": "Treballa parelles de sons que sovint es confonen.",
+    "type": "sounds",
+    "difficulty": "medium",
+    "items": [
+      { "id": "soundm2-b", "text": "b", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-v", "text": "v", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-c", "text": "c", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-q", "text": "q", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-s", "text": "s", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-z", "text": "z", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-j", "text": "j", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-x", "text": "x", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-r", "text": "r", "type": "sounds", "difficulty": "medium" },
+      { "id": "soundm2-rr", "text": "r", "type": "sounds", "difficulty": "medium" }
+    ]
+  },
+  {
+    "id": "sounds-hard-2",
+    "title": "Sons de lletres - experts",
+    "description": "Reforça sons especials i grafies menys freqüents.",
+    "type": "sounds",
+    "difficulty": "hard",
+    "items": [
+      { "id": "soundh2-h", "text": "h", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-w", "text": "w", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-y", "text": "y", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-k", "text": "k", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-ny", "text": "n", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-ll", "text": "l", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-r", "text": "r", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-s", "text": "s", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-t", "text": "t", "type": "sounds", "difficulty": "hard" },
+      { "id": "soundh2-z", "text": "z", "type": "sounds", "difficulty": "hard" }
+    ]
   }
 ]

@@ -6088,5 +6088,212 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "syl-hard-2",
+    "title": "Síl·labes difícils - combinacions",
+    "description": "Practica combinacions complexes de síl·labes.",
+    "type": "syllables",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sylh2-1",
+        "text": "bra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-2",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-3",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-4",
+        "text": "glo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-5",
+        "text": "pla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-6",
+        "text": "tro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-7",
+        "text": "gru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-8",
+        "text": "fra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-9",
+        "text": "clo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh2-10",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "syl-easy-4",
+    "title": "Síl·labes fàcils - inici 4",
+    "description": "Nova ronda fàcil per reforçar combinacions bàsiques.",
+    "type": "syllables",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "syle4-1",
+        "text": "ma",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-2",
+        "text": "pa",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-3",
+        "text": "la",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-4",
+        "text": "ta",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-5",
+        "text": "na",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-6",
+        "text": "mi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-7",
+        "text": "po",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-8",
+        "text": "lu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-9",
+        "text": "sa",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle4-10",
+        "text": "de",
+        "type": "syllables",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "syl-medium-4",
+    "title": "Síl·labes mitjanes - enllaços",
+    "description": "Practica síl·labes mixtes de nivell mitjà amb més control.",
+    "type": "syllables",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sylm4-1",
+        "text": "bra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-2",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-3",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-4",
+        "text": "glo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-5",
+        "text": "pla",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-6",
+        "text": "tro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-7",
+        "text": "gru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-8",
+        "text": "fra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-9",
+        "text": "clo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm4-10",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]

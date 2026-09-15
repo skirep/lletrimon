@@ -177,7 +177,7 @@ Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema
 - Hi ha 4 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)** i **95% (Llegenda)**.
 - Com millor és el resultat, més Pokémon es desbloquegen i més **força** tenen per a les lluites.
 
-🎯 **Detall important:** el premi final més especial és **Mew (151)**, associat al repte final de frases difícils amb nivell Llegenda.
+🎯 **Detall important:** hi ha premis especials com **Lugia, Ho-Oh, Rayquaza i Giratina**, associats a reptes avançats en diferents categories.
 
 Els Pokémon desbloquejats es poden veure a la col·lecció i també s'utilitzen per formar equips a les lluites.
 

@@ -6062,5 +6062,212 @@
         "difficulty": "hard"
       }
     ]
+  },
+  {
+    "id": "pseudo-hard-3",
+    "title": "Paraules inventades - nivell pro",
+    "description": "Decodifica pseudoparaules llargues i poc previsibles.",
+    "type": "pseudowords",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "ph3-1",
+        "text": "granitolma",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-2",
+        "text": "plevarundi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-3",
+        "text": "trumecadi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-4",
+        "text": "blacurenta",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-5",
+        "text": "clorimeda",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-6",
+        "text": "dravonil",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-7",
+        "text": "frisoltep",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-8",
+        "text": "pratanuxi",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-9",
+        "text": "xalveroni",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      },
+      {
+        "id": "ph3-10",
+        "text": "nyolapret",
+        "type": "pseudowords",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "pseudo-easy-3",
+    "title": "Paraules inventades fàcils - inici 3",
+    "description": "Pseudoparaules curtes per entrenar la descodificació bàsica.",
+    "type": "pseudowords",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "pe3-1",
+        "text": "mipa",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-2",
+        "text": "luno",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-3",
+        "text": "sate",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-4",
+        "text": "tari",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-5",
+        "text": "nofa",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-6",
+        "text": "dali",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-7",
+        "text": "puro",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-8",
+        "text": "gemi",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-9",
+        "text": "fula",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pe3-10",
+        "text": "rime",
+        "type": "pseudowords",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "pseudo-medium-3",
+    "title": "Paraules inventades mitjanes - repte 3",
+    "description": "Pseudoparaules de nivell mitjà per guanyar fluïdesa.",
+    "type": "pseudowords",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "pm3-1",
+        "text": "clatemo",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-2",
+        "text": "brunila",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-3",
+        "text": "trapedi",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-4",
+        "text": "glanuri",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-5",
+        "text": "drasopi",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-6",
+        "text": "froneti",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-7",
+        "text": "plamori",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-8",
+        "text": "crenuta",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-9",
+        "text": "bloreta",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      },
+      {
+        "id": "pm3-10",
+        "text": "gripalu",
+        "type": "pseudowords",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]

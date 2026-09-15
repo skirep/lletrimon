@@ -6117,5 +6117,212 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "words-hard-4",
+    "title": "Paraules difícils - accents",
+    "description": "Llegeix paraules amb accents i combinacions complexes.",
+    "type": "words",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "wh4-1",
+        "text": "música",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-2",
+        "text": "ciència",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-3",
+        "text": "qüestió",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-4",
+        "text": "història",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-5",
+        "text": "ràpid",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-6",
+        "text": "pròxim",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-7",
+        "text": "llàgrima",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-8",
+        "text": "església",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-9",
+        "text": "xarxa",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh4-10",
+        "text": "plàtan",
+        "type": "words",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "words-easy-6",
+    "title": "Paraules fàcils - inici 6",
+    "description": "Nova col·lecció de paraules curtes per agafar ritme.",
+    "type": "words",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "we6-1",
+        "text": "sol",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-2",
+        "text": "mar",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-3",
+        "text": "niu",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-4",
+        "text": "gel",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-5",
+        "text": "gos",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-6",
+        "text": "mà",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-7",
+        "text": "dit",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-8",
+        "text": "pa",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-9",
+        "text": "flor",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we6-10",
+        "text": "llum",
+        "type": "words",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "words-medium-4",
+    "title": "Paraules mitjanes - repte 4",
+    "description": "Llegeix paraules de nivell mitjà amb síl·labes combinades.",
+    "type": "words",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "wm4-1",
+        "text": "casaeta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-2",
+        "text": "planetari",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-3",
+        "text": "formiga",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-4",
+        "text": "cadira",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-5",
+        "text": "motxilla",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-6",
+        "text": "cotxera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-7",
+        "text": "finestra",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-8",
+        "text": "pirata",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-9",
+        "text": "llanterna",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm4-10",
+        "text": "papallona",
+        "type": "words",
+        "difficulty": "medium"
+      }
+    ]
   }
 ]
