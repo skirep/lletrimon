@@ -241,15 +241,31 @@ const POKEMON_TRACKS = [
   },
 ] as const;
 
-const LEGENDARY_POKEMON_PATHS = {
+const FIXED_POKEMON_PATHS = {
+  'syl-hard-2-bronze': { pokemonId: 232, fallbackName: 'Donphan' },
+  'syl-hard-2-silver': { pokemonId: 231, fallbackName: 'Phanpy' },
+  'syl-hard-2-gold': { pokemonId: 230, fallbackName: 'Kingdra' },
   'syl-hard-2-legend': { pokemonId: 249, fallbackName: 'Lugia' },
+  'syl-hard-100-bronze': { pokemonId: 233, fallbackName: 'Porygon2' },
+  'syl-hard-100-silver': { pokemonId: 234, fallbackName: 'Stantler' },
+  'syl-hard-100-gold': { pokemonId: 235, fallbackName: 'Smeargle' },
+  'words-hard-4-bronze': { pokemonId: 237, fallbackName: 'Hitmontop' },
+  'words-hard-4-silver': { pokemonId: 238, fallbackName: 'Smoochum' },
+  'words-hard-4-gold': { pokemonId: 239, fallbackName: 'Elekid' },
   'words-hard-4-legend': { pokemonId: 250, fallbackName: 'Ho-Oh' },
+  'words-hard-3-gold': { pokemonId: 240, fallbackName: 'Magby' },
+  'pseudo-hard-3-bronze': { pokemonId: 241, fallbackName: 'Miltank' },
+  'pseudo-hard-3-silver': { pokemonId: 242, fallbackName: 'Blissey' },
+  'pseudo-hard-3-gold': { pokemonId: 236, fallbackName: 'Tyrogue' },
   'pseudo-hard-3-legend': { pokemonId: 384, fallbackName: 'Rayquaza' },
+  'sent-hard-4-gold': { pokemonId: 246, fallbackName: 'Larvitar' },
   'sent-hard-4-legend': { pokemonId: 487, fallbackName: 'Giratina' },
+  'sent-hard-3-bronze': { pokemonId: 247, fallbackName: 'Pupitar' },
+  'sent-hard-3-silver': { pokemonId: 248, fallbackName: 'Tyranitar' },
 } as const;
 
 const RESERVED_POKEMON_IDS = new Set<number>(
-  Object.values(LEGENDARY_POKEMON_PATHS).map(({ pokemonId }) => pokemonId),
+  Object.values(FIXED_POKEMON_PATHS).map(({ pokemonId }) => pokemonId),
 );
 
 function buildPokemonPaths(): PokemonPath[] {
@@ -260,13 +276,13 @@ function buildPokemonPaths(): PokemonPath[] {
     for (const setId of track.setIds) {
       for (const stage of POKEMON_STAGE_THRESHOLDS) {
         const pathId = `${setId}-${stage.key}`;
-        const legendaryPokemon = LEGENDARY_POKEMON_PATHS[pathId as keyof typeof LEGENDARY_POKEMON_PATHS];
-        const assignedPokemonId = legendaryPokemon?.pokemonId ?? pokemonId;
+        const fixedPokemon = FIXED_POKEMON_PATHS[pathId as keyof typeof FIXED_POKEMON_PATHS];
+        const assignedPokemonId = fixedPokemon?.pokemonId ?? pokemonId;
 
         paths.push({
           pathId,
           pokemonId: assignedPokemonId,
-          fallbackName: legendaryPokemon?.fallbackName ?? `Pokémon ${assignedPokemonId}`,
+          fallbackName: fixedPokemon?.fallbackName ?? `Pokémon ${assignedPokemonId}`,
           exerciseType: track.exerciseType,
           difficulty: setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard',
           setIds: [setId],
@@ -276,7 +292,7 @@ function buildPokemonPaths(): PokemonPath[] {
           description: `${track.description} Objectiu mínim: ${stage.minScorePercent}%.`,
         });
 
-        if (!legendaryPokemon) {
+        if (!fixedPokemon) {
           pokemonId += 1;
           while (RESERVED_POKEMON_IDS.has(pokemonId)) pokemonId += 1;
         }
