@@ -8,13 +8,16 @@ export async function buildPokemonCollection(sessions: ExerciseSession[]): Promi
     POKEMON_PATHS.map(async (path) => {
       const pokemon = await pokeApiService.getPokemon(path.pokemonId, path.fallbackName);
       const relevantSessions = sessions.filter((session) => path.setIds.includes(session.setId));
+      const qualifyingSessions = relevantSessions.filter((session) => session.score >= path.minScorePercent);
       const bestScore = relevantSessions.length > 0
         ? Math.max(...relevantSessions.map((session) => session.score))
         : 0;
-      const unlocked = bestScore >= path.minScorePercent;
+      const unlocked = qualifyingSessions.length >= path.minCompletedSessions;
       const completedSetIds = unlocked ? [...path.setIds] : [];
       const assignedExerciseTitles = path.setIds.map((setId) => getSetById(setId)?.title ?? setId);
-      const progressPercent = Math.min(1, bestScore / path.minScorePercent);
+      const scoreProgress = path.minScorePercent > 0 ? bestScore / path.minScorePercent : 1;
+      const sessionsProgress = path.minCompletedSessions > 0 ? qualifyingSessions.length / path.minCompletedSessions : 1;
+      const progressPercent = Math.min(1, scoreProgress, sessionsProgress);
       const averageScore = relevantSessions.length > 0
         ? relevantSessions.reduce((sum, session) => sum + session.score, 0) / relevantSessions.length
         : 0;
@@ -27,8 +30,8 @@ export async function buildPokemonCollection(sessions: ExerciseSession[]): Promi
       const specialAttackName = specialAttackUnlocked ? `${pokemon.name} absolut` : null;
       const specialAttackCondition = specialAttackUnlocked ? 'Atac especial desbloquejat per fer 100% en frases' : null;
       const unlockCondition = unlocked
-        ? `${bestScore}% sobre ${path.minScorePercent}% · ${path.tierLabel}`
-        : `Aconsegueix ${path.minScorePercent}% a ${firstAssignedTitle}`;
+        ? `${bestScore}% i ${qualifyingSessions.length} sessions sobre ${path.minScorePercent}%/${path.minCompletedSessions} · ${path.tierLabel}`
+        : `Aconsegueix ${path.minScorePercent}% en ${path.minCompletedSessions} sessions a ${firstAssignedTitle}`;
 
       return {
         ...path,

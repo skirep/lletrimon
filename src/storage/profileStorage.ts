@@ -83,7 +83,11 @@ async function syncRankingToSupabase(profile: Profile, stats: ProfileStats): Pro
   await syncToSupabase(profile);
   const sessions = await db.sessions.where('profileId').equals(profile.id).toArray();
   const pokemonIds = POKEMON_PATHS
-    .filter((path) => sessions.some((session) => path.setIds.includes(session.setId) && session.score >= path.minScorePercent))
+    .filter((path) => {
+      const relevantSessions = sessions.filter((session) => path.setIds.includes(session.setId));
+      const qualifyingSessions = relevantSessions.filter((session) => session.score >= path.minScorePercent);
+      return qualifyingSessions.length >= path.minCompletedSessions;
+    })
     .map((path) => path.pokemonId);
   const ranking = {
     profile_id: profile.id,
