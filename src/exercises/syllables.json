@@ -811,7 +811,7 @@
       },
       {
         "id": "s0133",
-        "text": "rra",
+        "text": "bra",
         "type": "syllables",
         "difficulty": "easy"
       },
@@ -847,7 +847,7 @@
       },
       {
         "id": "s0139",
-        "text": "rre",
+        "text": "bre",
         "type": "syllables",
         "difficulty": "easy"
       },
@@ -883,7 +883,7 @@
       },
       {
         "id": "s0145",
-        "text": "rri",
+        "text": "bri",
         "type": "syllables",
         "difficulty": "easy"
       },
@@ -919,7 +919,7 @@
       },
       {
         "id": "s0151",
-        "text": "rro",
+        "text": "bro",
         "type": "syllables",
         "difficulty": "easy"
       },
@@ -955,7 +955,7 @@
       },
       {
         "id": "s0157",
-        "text": "rru",
+        "text": "bru",
         "type": "syllables",
         "difficulty": "easy"
       },
@@ -7031,31 +7031,31 @@
       },
       {
         "id": "sylh3-36",
-        "text": "bra",
+        "text": "rra",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
         "id": "sylh3-37",
-        "text": "bre",
+        "text": "rre",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
         "id": "sylh3-38",
-        "text": "bri",
+        "text": "rri",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
         "id": "sylh3-39",
-        "text": "bro",
+        "text": "rro",
         "type": "syllables",
         "difficulty": "hard"
       },
       {
         "id": "sylh3-40",
-        "text": "bru",
+        "text": "rru",
         "type": "syllables",
         "difficulty": "hard"
       }
