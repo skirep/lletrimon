@@ -6324,5 +6324,1019 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "words-easy-7",
+    "title": "Paraules fàcils - Jocs i coses",
+    "description": "Paraules quotidianes i curtes per començar amb seguretat.",
+    "type": "words",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "we7-1",
+        "text": "pilota",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-2",
+        "text": "nina",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-3",
+        "text": "cubell",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-4",
+        "text": "pala",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-5",
+        "text": "conte",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-6",
+        "text": "pinta",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-7",
+        "text": "globus",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-8",
+        "text": "barca",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-9",
+        "text": "corda",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-10",
+        "text": "dau",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-11",
+        "text": "tren",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-12",
+        "text": "robot",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-13",
+        "text": "patí",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-14",
+        "text": "estel",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-15",
+        "text": "tassa",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-16",
+        "text": "galeta",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-17",
+        "text": "manta",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-18",
+        "text": "caixa",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-19",
+        "text": "sabó",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we7-20",
+        "text": "coixí",
+        "type": "words",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "words-easy-8",
+    "title": "Paraules fàcils - Roba i cos",
+    "description": "Vocabulari bàsic relacionat amb el cos i la roba.",
+    "type": "words",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "we8-1",
+        "text": "camisa",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-2",
+        "text": "pantaló",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-3",
+        "text": "sabata",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-4",
+        "text": "gorra",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-5",
+        "text": "bufanda",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-6",
+        "text": "mitjó",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-7",
+        "text": "mà",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-8",
+        "text": "colze",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-9",
+        "text": "galta",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-10",
+        "text": "nas",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-11",
+        "text": "boca",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-12",
+        "text": "coll",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-13",
+        "text": "cama",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-14",
+        "text": "peu",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-15",
+        "text": "ungla",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-16",
+        "text": "faldilla",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-17",
+        "text": "jersei",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-18",
+        "text": "cinturó",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-19",
+        "text": "butxaca",
+        "type": "words",
+        "difficulty": "easy"
+      },
+      {
+        "id": "we8-20",
+        "text": "màniga",
+        "type": "words",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "words-medium-5",
+    "title": "Paraules mitjanes - Oficis i ciutat",
+    "description": "Paraules de nivell mitjà sobre professions i espais del poble.",
+    "type": "words",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "wm5-1",
+        "text": "bomber",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-2",
+        "text": "cuinera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-3",
+        "text": "farmàcia",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-4",
+        "text": "semàfor",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-5",
+        "text": "plaça",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-6",
+        "text": "mercat",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-7",
+        "text": "oficina",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-8",
+        "text": "carter",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-9",
+        "text": "metgessa",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-10",
+        "text": "turista",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-11",
+        "text": "botiga",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-12",
+        "text": "sirena",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-13",
+        "text": "brigada",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-14",
+        "text": "cafeteria",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-15",
+        "text": "biblioteca",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-16",
+        "text": "alcalde",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-17",
+        "text": "jardinera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-18",
+        "text": "carnisser",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-19",
+        "text": "flequera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm5-20",
+        "text": "estació",
+        "type": "words",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "words-medium-6",
+    "title": "Paraules mitjanes - Esport i transport",
+    "description": "Pràctica de paraules habituals amb més síl·labes.",
+    "type": "words",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "wm6-1",
+        "text": "bicicleta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-2",
+        "text": "patinet",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-3",
+        "text": "tramvia",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-4",
+        "text": "monopatí",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-5",
+        "text": "porteria",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-6",
+        "text": "samarreta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-7",
+        "text": "xandall",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-8",
+        "text": "raqueta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-9",
+        "text": "autobús",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-10",
+        "text": "helicòpter",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-11",
+        "text": "motxiller",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-12",
+        "text": "patinatge",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-13",
+        "text": "marató",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-14",
+        "text": "piragua",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-15",
+        "text": "cascada",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-16",
+        "text": "remador",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-17",
+        "text": "furgoneta",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-18",
+        "text": "carretera",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-19",
+        "text": "semiremolc",
+        "type": "words",
+        "difficulty": "medium"
+      },
+      {
+        "id": "wm6-20",
+        "text": "cremallera",
+        "type": "words",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "words-hard-5",
+    "title": "Paraules difícils - Natura i ciència",
+    "description": "Llista llarga de paraules complexes per a lectura avançada.",
+    "type": "words",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "wh5-1",
+        "text": "telescopi",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-2",
+        "text": "constel·lació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-3",
+        "text": "termòmetre",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-4",
+        "text": "electricitat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-5",
+        "text": "microscopi",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-6",
+        "text": "gravetat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-7",
+        "text": "ecosistema",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-8",
+        "text": "hidràulica",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-9",
+        "text": "laboratori",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-10",
+        "text": "fotovoltaic",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-11",
+        "text": "astronauta",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-12",
+        "text": "paracaigudes",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-13",
+        "text": "continents",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-14",
+        "text": "geometria",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-15",
+        "text": "vegetació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-16",
+        "text": "atmosfera",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-17",
+        "text": "calcària",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-18",
+        "text": "mamífers",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-19",
+        "text": "respiració",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-20",
+        "text": "cartografia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-21",
+        "text": "biològic",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-22",
+        "text": "sequència",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-23",
+        "text": "dinàmica",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-24",
+        "text": "meteoròleg",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-25",
+        "text": "volcànica",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-26",
+        "text": "crisàlide",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-27",
+        "text": "prehistòria",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-28",
+        "text": "equilibrista",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-29",
+        "text": "plàncton",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-30",
+        "text": "mineralogia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-31",
+        "text": "biodiversitat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-32",
+        "text": "transparència",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-33",
+        "text": "evaporació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-34",
+        "text": "condensació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-35",
+        "text": "multiplicar",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-36",
+        "text": "pol·linització",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-37",
+        "text": "hemisferi",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-38",
+        "text": "frigorífic",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-39",
+        "text": "hipopòtam",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh5-40",
+        "text": "extraordinari",
+        "type": "words",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "words-hard-6",
+    "title": "Paraules difícils - Cultura i tecnologia",
+    "description": "Segon bloc extens de paraules difícils amb accents i combinacions complexes.",
+    "type": "words",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "wh6-1",
+        "text": "bibliotecària",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-2",
+        "text": "programació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-3",
+        "text": "ordinador",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-4",
+        "text": "impressora",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-5",
+        "text": "connectivitat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-6",
+        "text": "pantalla",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-7",
+        "text": "disciplina",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-8",
+        "text": "enciclopèdia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-9",
+        "text": "arquitectura",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-10",
+        "text": "coreografia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-11",
+        "text": "fotografia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-12",
+        "text": "il·lustració",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-13",
+        "text": "ceràmica",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-14",
+        "text": "orquestra",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-15",
+        "text": "partitura",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-16",
+        "text": "escenografia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-17",
+        "text": "videotrucada",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-18",
+        "text": "teclat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-19",
+        "text": "algoritme",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-20",
+        "text": "robotització",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-21",
+        "text": "mecanografia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-22",
+        "text": "audiovisual",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-23",
+        "text": "cartellera",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-24",
+        "text": "documentació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-25",
+        "text": "narrativa",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-26",
+        "text": "dramatització",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-27",
+        "text": "restauració",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-28",
+        "text": "conferència",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-29",
+        "text": "cal·ligrafia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-30",
+        "text": "traducció",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-31",
+        "text": "experimentació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-32",
+        "text": "comunicació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-33",
+        "text": "il·luminació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-34",
+        "text": "meteorologia",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-35",
+        "text": "civilització",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-36",
+        "text": "sincronitzar",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-37",
+        "text": "accessibilitat",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-38",
+        "text": "identificació",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-39",
+        "text": "configuració",
+        "type": "words",
+        "difficulty": "hard"
+      },
+      {
+        "id": "wh6-40",
+        "text": "responsabilitat",
+        "type": "words",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]

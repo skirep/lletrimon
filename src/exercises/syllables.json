@@ -6295,5 +6295,1019 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "syl-easy-5",
+    "title": "Síl·labes fàcils - paquets 5",
+    "description": "Síl·labes simples per consolidar la lectura inicial.",
+    "type": "syllables",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "syle5-1",
+        "text": "ba",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-2",
+        "text": "be",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-3",
+        "text": "bi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-4",
+        "text": "bo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-5",
+        "text": "bu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-6",
+        "text": "pa",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-7",
+        "text": "pe",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-8",
+        "text": "pi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-9",
+        "text": "po",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-10",
+        "text": "pu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-11",
+        "text": "ta",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-12",
+        "text": "te",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-13",
+        "text": "ti",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-14",
+        "text": "to",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-15",
+        "text": "tu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-16",
+        "text": "fa",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-17",
+        "text": "fe",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-18",
+        "text": "fi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-19",
+        "text": "fo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle5-20",
+        "text": "fu",
+        "type": "syllables",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "syl-easy-6",
+    "title": "Síl·labes fàcils - paquets 6",
+    "description": "Nova sèrie de síl·labes curtes i clares.",
+    "type": "syllables",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "syle6-1",
+        "text": "la",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-2",
+        "text": "le",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-3",
+        "text": "li",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-4",
+        "text": "lo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-5",
+        "text": "lu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-6",
+        "text": "na",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-7",
+        "text": "ne",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-8",
+        "text": "ni",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-9",
+        "text": "no",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-10",
+        "text": "nu",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-11",
+        "text": "ra",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-12",
+        "text": "re",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-13",
+        "text": "ri",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-14",
+        "text": "ro",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-15",
+        "text": "ru",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-16",
+        "text": "va",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-17",
+        "text": "ve",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-18",
+        "text": "vi",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-19",
+        "text": "vo",
+        "type": "syllables",
+        "difficulty": "easy"
+      },
+      {
+        "id": "syle6-20",
+        "text": "vu",
+        "type": "syllables",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "syl-medium-5",
+    "title": "Síl·labes mitjanes - paquets 5",
+    "description": "Pràctica amb síl·labes trabades de nivell mitjà.",
+    "type": "syllables",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sylm5-1",
+        "text": "bla",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-2",
+        "text": "ble",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-3",
+        "text": "bli",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-4",
+        "text": "blo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-5",
+        "text": "blu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-6",
+        "text": "bra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-7",
+        "text": "bre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-8",
+        "text": "bri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-9",
+        "text": "bro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-10",
+        "text": "bru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-11",
+        "text": "pla",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-12",
+        "text": "ple",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-13",
+        "text": "pli",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-14",
+        "text": "plo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-15",
+        "text": "plu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-16",
+        "text": "pra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-17",
+        "text": "pre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-18",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-19",
+        "text": "pro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm5-20",
+        "text": "pru",
+        "type": "syllables",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "syl-medium-6",
+    "title": "Síl·labes mitjanes - paquets 6",
+    "description": "Més combinacions consonàntiques per agafar fluïdesa.",
+    "type": "syllables",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sylm6-1",
+        "text": "cla",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-2",
+        "text": "cle",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-3",
+        "text": "cli",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-4",
+        "text": "clo",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-5",
+        "text": "clu",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-6",
+        "text": "cra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-7",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-8",
+        "text": "cri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-9",
+        "text": "cro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-10",
+        "text": "cru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-11",
+        "text": "dra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-12",
+        "text": "dre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-13",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-14",
+        "text": "dro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-15",
+        "text": "dru",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-16",
+        "text": "fra",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-17",
+        "text": "fre",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-18",
+        "text": "fri",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-19",
+        "text": "fro",
+        "type": "syllables",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sylm6-20",
+        "text": "fru",
+        "type": "syllables",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "syl-hard-3",
+    "title": "Síl·labes difícils - paquets 3",
+    "description": "Bloc ampli de síl·labes complexes per a lectura avançada.",
+    "type": "syllables",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sylh3-1",
+        "text": "lla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-2",
+        "text": "lle",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-3",
+        "text": "lli",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-4",
+        "text": "llo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-5",
+        "text": "llu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-6",
+        "text": "nya",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-7",
+        "text": "nye",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-8",
+        "text": "nyi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-9",
+        "text": "nyo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-10",
+        "text": "nyu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-11",
+        "text": "qua",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-12",
+        "text": "que",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-13",
+        "text": "qui",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-14",
+        "text": "qüe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-15",
+        "text": "qüi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-16",
+        "text": "gua",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-17",
+        "text": "gue",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-18",
+        "text": "gui",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-19",
+        "text": "güe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-20",
+        "text": "güi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-21",
+        "text": "xa",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-22",
+        "text": "xe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-23",
+        "text": "xi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-24",
+        "text": "xo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-25",
+        "text": "xu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-26",
+        "text": "txa",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-27",
+        "text": "txe",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-28",
+        "text": "txi",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-29",
+        "text": "txo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-30",
+        "text": "txu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-31",
+        "text": "ja",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-32",
+        "text": "je",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-33",
+        "text": "ji",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-34",
+        "text": "jo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-35",
+        "text": "ju",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-36",
+        "text": "rra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-37",
+        "text": "rre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-38",
+        "text": "rri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-39",
+        "text": "rro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh3-40",
+        "text": "rru",
+        "type": "syllables",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "syl-hard-4",
+    "title": "Síl·labes difícils - paquets 4",
+    "description": "Segon bloc llarg amb combinacions exigents.",
+    "type": "syllables",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sylh4-1",
+        "text": "gra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-2",
+        "text": "gre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-3",
+        "text": "gri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-4",
+        "text": "gro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-5",
+        "text": "gru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-6",
+        "text": "dra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-7",
+        "text": "dre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-8",
+        "text": "dri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-9",
+        "text": "dro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-10",
+        "text": "dru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-11",
+        "text": "fra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-12",
+        "text": "fre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-13",
+        "text": "fri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-14",
+        "text": "fro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-15",
+        "text": "fru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-16",
+        "text": "cla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-17",
+        "text": "cle",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-18",
+        "text": "cli",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-19",
+        "text": "clo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-20",
+        "text": "clu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-21",
+        "text": "gla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-22",
+        "text": "gle",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-23",
+        "text": "gli",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-24",
+        "text": "glo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-25",
+        "text": "glu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-26",
+        "text": "pla",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-27",
+        "text": "ple",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-28",
+        "text": "pli",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-29",
+        "text": "plo",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-30",
+        "text": "plu",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-31",
+        "text": "pra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-32",
+        "text": "pre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-33",
+        "text": "pri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-34",
+        "text": "pro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-35",
+        "text": "pru",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-36",
+        "text": "cra",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-37",
+        "text": "cre",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-38",
+        "text": "cri",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-39",
+        "text": "cro",
+        "type": "syllables",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sylh4-40",
+        "text": "cru",
+        "type": "syllables",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]
