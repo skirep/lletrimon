@@ -6296,5 +6296,539 @@
         "difficulty": "medium"
       }
     ]
+  },
+  {
+    "id": "sent-easy-5",
+    "title": "Frases fàcils - Casa i pati",
+    "description": "Frases curtes i clares per llegir amb confiança.",
+    "type": "sentences",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "se5-1",
+        "text": "La nena rega una flor.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-2",
+        "text": "El gat dorm al sofà.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-3",
+        "text": "La mare pela una poma.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-4",
+        "text": "El nen porta la pilota.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-5",
+        "text": "Un ocell canta al balcó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-6",
+        "text": "La iaia cus una bossa.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-7",
+        "text": "El sol entra per la finestra.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-8",
+        "text": "La tassa és damunt la taula.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-9",
+        "text": "El gos corre pel pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se5-10",
+        "text": "La pluja mulla el carrer.",
+        "type": "sentences",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "sent-easy-6",
+    "title": "Frases fàcils - Escola i joc",
+    "description": "Frases senzilles per practicar una lectura pausada.",
+    "type": "sentences",
+    "difficulty": "easy",
+    "items": [
+      {
+        "id": "se6-1",
+        "text": "En Pol obre el llibre blau.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-2",
+        "text": "La mestra escriu a la pissarra.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-3",
+        "text": "La Carla fa un dibuix rodó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-4",
+        "text": "Dos amics juguen al sorral.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-5",
+        "text": "El timbre sona molt fort.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-6",
+        "text": "Una fulla cau al pati.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-7",
+        "text": "La motxilla pesa poc avui.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-8",
+        "text": "El trenet gira pel parc.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-9",
+        "text": "La nena canta una cançó.",
+        "type": "sentences",
+        "difficulty": "easy"
+      },
+      {
+        "id": "se6-10",
+        "text": "El pare tanca la porta.",
+        "type": "sentences",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "id": "sent-medium-5",
+    "title": "Frases mitjanes - Rutines i natura",
+    "description": "Frases una mica més llargues per guanyar ritme lector.",
+    "type": "sentences",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sm5-1",
+        "text": "Cada matí, en Biel prepara l’esmorzar abans de sortir de casa.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-2",
+        "text": "La Júlia recull petxines petites mentre camina vora la platja.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-3",
+        "text": "Quan s’acaba la pluja, el jardí fa olor de terra humida.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-4",
+        "text": "La colla comparteix els colors abans de pintar un mural gegant.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-5",
+        "text": "El veterinari escolta amb calma el cor del gosset malalt.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-6",
+        "text": "A l’hort de l’escola, les tomaqueres creixen al costat de l’enciam.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-7",
+        "text": "La bicicleta vermella espera l’Arnau a l’entrada del garatge.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-8",
+        "text": "Des de la finestra, la família veu passar núvols molt foscos.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-9",
+        "text": "La cuinera remena la sopa mentre sona música suau a la ràdio.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm5-10",
+        "text": "Quan arriba el vespre, els ratpenats volen damunt del campanar.",
+        "type": "sentences",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "sent-medium-6",
+    "title": "Frases mitjanes - Viatges i descobertes",
+    "description": "Frases de nivell mitjà amb vocabulari variat i bon ritme.",
+    "type": "sentences",
+    "difficulty": "medium",
+    "items": [
+      {
+        "id": "sm6-1",
+        "text": "L’autobús escolar s’atura davant del museu abans de començar la visita.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-2",
+        "text": "En Martí apunta al mapa el camí correcte per arribar fins al far.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-3",
+        "text": "La Marina guarda la càmera dins la motxilla després de fer moltes fotos.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-4",
+        "text": "Dalt del turó, el vent mou les branques seques dels pins.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-5",
+        "text": "La bibliotecària recomana un conte d’aventures a cada alumne de la classe.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-6",
+        "text": "Quan la llum s’apaga, tothom espera en silenci que torni l’electricitat.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-7",
+        "text": "El grup observa les petjades humides que travessen tota la plaça.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-8",
+        "text": "A mig camí de l’excursió, la colla comparteix fruita i aigua fresca.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-9",
+        "text": "L’àvia explica una història antiga mentre cus una manta de colors.",
+        "type": "sentences",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sm6-10",
+        "text": "La científica anota cada canvi de la planta dins una llibreta verda.",
+        "type": "sentences",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "id": "sent-hard-5",
+    "title": "Frases difícils - Ciència i invents",
+    "description": "Vint frases llargues amb estructures i vocabulari més exigents.",
+    "type": "sentences",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sh5-1",
+        "text": "L’equip del laboratori comprova si el petit robot pot seguir una línia sense equivocar-se.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-2",
+        "text": "Quan el telescopi s’enfoca correctament, la constel·lació sembla dibuixada damunt del cel negre.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-3",
+        "text": "La científica explica que l’evaporació transforma l’aigua del got en vapor invisible.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-4",
+        "text": "El submarí recull mostres del fons marí mentre una pantalla mostra la profunditat exacta.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-5",
+        "text": "Abans d’engegar el coet, els astronautes revisen cada botó del panell electrònic.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-6",
+        "text": "La mestra projecta un mapa interactiu perquè la classe localitzi els continents sense pressa.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-7",
+        "text": "Un corrent d’aire inesperat mou les ales del molí experimental del pati interior.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-8",
+        "text": "El termòmetre digital indica una temperatura molt diferent de la prevista al matí.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-9",
+        "text": "Durant l’experiment, la barreja canvia de color i deixa tothom absolutament sorprès.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-10",
+        "text": "La veterinària observa amb atenció la respiració del cavall abans de donar cap instrucció.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-11",
+        "text": "Quan arriba la nit, el grup d’astronomia prepara els trípodes a prop de l’observatori.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-12",
+        "text": "La pluja intensa obliga els exploradors a protegir els aparells dins una caixa impermeable.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-13",
+        "text": "El monitor explica com l’electricitat viatja pels cables fins a encendre la bombeta.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-14",
+        "text": "Una abella carregada de pol·len entra i surt de les flors del jardí botànic.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-15",
+        "text": "Per construir el pont de proves, l’equip necessita peces metàl·liques perfectament alineades.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-16",
+        "text": "La geòloga identifica minerals brillants en una roca que sembla completament ordinària.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-17",
+        "text": "El dron registra imatges nítides de la vall mentre sobrevola els arbres més alts.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-18",
+        "text": "La meteoròloga compara diversos núvols abans de confirmar l’arribada d’una nova tempesta.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-19",
+        "text": "Després de mesurar la distància, l’alumnat dibuixa el circuit amb una precisió sorprenent.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh5-20",
+        "text": "L’inventor somriu satisfet quan el mecanisme finalment funciona sense fer cap soroll estrany.",
+        "type": "sentences",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "id": "sent-hard-6",
+    "title": "Frases difícils - Cultura i tecnologia",
+    "description": "Segon bloc de vint frases complexes per reforçar fluïdesa i atenció.",
+    "type": "sentences",
+    "difficulty": "hard",
+    "items": [
+      {
+        "id": "sh6-1",
+        "text": "La bibliotecària digitalitza documents antics perquè es puguin consultar sense tocar els originals.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-2",
+        "text": "Abans de començar l’obra, la companyia revisa el vestuari, les llums i tota l’escenografia.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-3",
+        "text": "El programador corregeix un error minúscul que impedia desar correctament la configuració.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-4",
+        "text": "Durant la visita guiada, el museu presenta una col·lecció d’invents que van canviar la ciutat.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-5",
+        "text": "L’orquestra assaja amb paciència fins que cada instrument encaixa amb la mateixa intensitat.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-6",
+        "text": "Quan s’obre el teló, el públic descobreix un decorat brillant ple de colors i miralls.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-7",
+        "text": "La professora demana una redacció creativa sobre un viatge imaginari a una biblioteca flotant.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-8",
+        "text": "El tècnic connecta el projector i ajusta la resolució perquè la imatge no tremoli.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-9",
+        "text": "La il·lustradora combina textures i ombres per donar profunditat a cada personatge del conte.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-10",
+        "text": "Un sistema automàtic avisa l’equip quan la bateria del vehicle baixa massa ràpidament.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-11",
+        "text": "La restauradora neteja amb molta delicadesa una ceràmica que havia quedat enterrada durant segles.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-12",
+        "text": "El periodista grava l’entrevista en un estudi silenciós per evitar interferències de fons.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-13",
+        "text": "Per editar el vídeo final, la colla ordena les escenes segons una narrativa molt clara.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-14",
+        "text": "La conferència sobre accessibilitat mostra exemples pràctics que milloren la vida quotidiana.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-15",
+        "text": "Quan la xarxa falla uns segons, els ordinadors guarden automàticament tota la documentació.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-16",
+        "text": "La coreògrafa repeteix el moviment fins que el grup el sincronitza amb la música.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-17",
+        "text": "A l’auditori, una pantalla gegant projecta subtítols perquè ningú perdi detall de l’explicació.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-18",
+        "text": "La traductora compara diverses paraules abans d’escollir l’expressió més precisa del text.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-19",
+        "text": "Després del taller, l’alumnat comparteix idees per millorar la comunicació del nou projecte.",
+        "type": "sentences",
+        "difficulty": "hard"
+      },
+      {
+        "id": "sh6-20",
+        "text": "El disseny final combina tipografia, icones i contrastos per fer el missatge més entenedor.",
+        "type": "sentences",
+        "difficulty": "hard"
+      }
+    ]
   }
 ]
