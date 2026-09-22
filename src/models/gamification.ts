@@ -242,10 +242,29 @@ const POKEMON_TRACKS = [
 ] as const;
 
 const LEGENDARY_POKEMON_PATHS = {
+  'syl-hard-2-bronze': { pokemonId: 232, fallbackName: 'Donphan' },
+  'syl-hard-2-silver': { pokemonId: 231, fallbackName: 'Phanpy' },
+  'syl-hard-2-gold': { pokemonId: 230, fallbackName: 'Kingdra' },
   'syl-hard-2-legend': { pokemonId: 249, fallbackName: 'Lugia' },
+  'syl-hard-100-bronze': { pokemonId: 233, fallbackName: 'Porygon2' },
+  'syl-hard-100-silver': { pokemonId: 234, fallbackName: 'Stantler' },
+  'syl-hard-100-gold': { pokemonId: 235, fallbackName: 'Smeargle' },
+  'syl-hard-100-legend': { pokemonId: 236, fallbackName: 'Tyrogue' },
+  'words-hard-4-bronze': { pokemonId: 237, fallbackName: 'Hitmontop' },
+  'words-hard-4-silver': { pokemonId: 238, fallbackName: 'Smoochum' },
+  'words-hard-4-gold': { pokemonId: 239, fallbackName: 'Elekid' },
   'words-hard-4-legend': { pokemonId: 250, fallbackName: 'Ho-Oh' },
+  'words-hard-3-legend': { pokemonId: 240, fallbackName: 'Magby' },
+  'words-hard-2-legend': { pokemonId: 248, fallbackName: 'Tyranitar' },
+  'pseudo-hard-3-bronze': { pokemonId: 241, fallbackName: 'Miltank' },
+  'pseudo-hard-3-silver': { pokemonId: 242, fallbackName: 'Blissey' },
+  'pseudo-hard-3-gold': { pokemonId: 243, fallbackName: 'Raikou' },
   'pseudo-hard-3-legend': { pokemonId: 384, fallbackName: 'Rayquaza' },
+  'sent-hard-4-bronze': { pokemonId: 244, fallbackName: 'Entei' },
+  'sent-hard-4-silver': { pokemonId: 245, fallbackName: 'Suicune' },
+  'sent-hard-4-gold': { pokemonId: 246, fallbackName: 'Larvitar' },
   'sent-hard-4-legend': { pokemonId: 487, fallbackName: 'Giratina' },
+  'sent-hard-3-legend': { pokemonId: 247, fallbackName: 'Pupitar' },
 } as const;
 
 const RESERVED_POKEMON_IDS = new Set<number>(
