@@ -297,8 +297,16 @@ function buildPokemonPaths(): PokemonPath[] {
       for (const stage of POKEMON_STAGE_THRESHOLDS) {
         const pathId = `${setId}-${stage.key}`;
         const fixedPokemon = FIXED_POKEMON_PATHS[pathId as keyof typeof FIXED_POKEMON_PATHS];
+        if (!fixedPokemon && pokemonId > MAX_POKEMON_ID) continue;
+
         const assignedPokemonId = fixedPokemon?.pokemonId ?? pokemonId;
-        if (assignedPokemonId > MAX_POKEMON_ID || assignedPokemonIds.has(assignedPokemonId)) continue;
+        if (assignedPokemonId > MAX_POKEMON_ID || assignedPokemonIds.has(assignedPokemonId)) {
+          if (!fixedPokemon) {
+            pokemonId += 1;
+            while (RESERVED_POKEMON_IDS.has(pokemonId) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
+          }
+          continue;
+        }
         assignedPokemonIds.add(assignedPokemonId);
 
         paths.push({
@@ -318,8 +326,6 @@ function buildPokemonPaths(): PokemonPath[] {
           pokemonId += 1;
           while (RESERVED_POKEMON_IDS.has(pokemonId) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
         }
-
-        if (assignedPokemonIds.size >= MAX_POKEMON_ID) return paths;
       }
     }
   }
