@@ -220,6 +220,8 @@ const POKEMON_HARD_BONUS_STAGE_THRESHOLDS = [
   { key: 'master-2', label: 'Mestre II', minScorePercent: 100, minCompletedSessions: 2, powerBonus: 70 },
 ] as const;
 
+const MAX_POKEMON_ID = 400;
+
 const POKEMON_TRACKS = [
   {
     exerciseType: 'sounds' as const,
@@ -276,7 +278,7 @@ const FIXED_POKEMON_PATHS = {
   'pseudo-hard-3-gold': { pokemonId: 236, fallbackName: 'Tyrogue' },
   'pseudo-hard-3-legend': { pokemonId: 384, fallbackName: 'Rayquaza' },
   'sent-hard-4-gold': { pokemonId: 246, fallbackName: 'Larvitar' },
-  'sent-hard-4-legend': { pokemonId: 487, fallbackName: 'Giratina' },
+  'sent-hard-4-legend': { pokemonId: 385, fallbackName: 'Jirachi' },
   'sent-hard-3-bronze': { pokemonId: 247, fallbackName: 'Pupitar' },
   'sent-hard-3-silver': { pokemonId: 248, fallbackName: 'Tyranitar' },
 } as const;
@@ -289,7 +291,7 @@ function buildPokemonPaths(): PokemonPath[] {
   const paths: PokemonPath[] = [];
   const assignedPokemonIds = new Set<number>();
   let pokemonId = 1;
-  while (RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) pokemonId += 1;
+  while ((RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
 
   for (const track of POKEMON_TRACKS) {
     for (const setId of track.setIds) {
@@ -301,12 +303,14 @@ function buildPokemonPaths(): PokemonPath[] {
       for (const stage of stageThresholds) {
         const pathId = `${setId}-${stage.key}`;
         const fixedPokemon = FIXED_POKEMON_PATHS[pathId as keyof typeof FIXED_POKEMON_PATHS];
+        if (!fixedPokemon && pokemonId > MAX_POKEMON_ID) continue;
         let assignedPokemonId = fixedPokemon?.pokemonId ?? pokemonId;
         if (!fixedPokemon) {
-          while (RESERVED_POKEMON_IDS.has(assignedPokemonId) || assignedPokemonIds.has(assignedPokemonId)) {
+          while ((RESERVED_POKEMON_IDS.has(assignedPokemonId) || assignedPokemonIds.has(assignedPokemonId)) && assignedPokemonId <= MAX_POKEMON_ID) {
             assignedPokemonId += 1;
           }
-        } else if (assignedPokemonIds.has(assignedPokemonId)) {
+          if (assignedPokemonId > MAX_POKEMON_ID) continue;
+        } else if (assignedPokemonId > MAX_POKEMON_ID || assignedPokemonIds.has(assignedPokemonId)) {
           continue;
         }
         assignedPokemonIds.add(assignedPokemonId);
@@ -327,7 +331,7 @@ function buildPokemonPaths(): PokemonPath[] {
 
         if (!fixedPokemon) {
           pokemonId = assignedPokemonId + 1;
-          while (RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) pokemonId += 1;
+          while ((RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
         }
       }
     }
