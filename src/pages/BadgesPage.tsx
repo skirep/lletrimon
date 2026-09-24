@@ -413,7 +413,7 @@ export function BadgesPage({ profile }: BadgesPageProps) {
               ))}
             </div>
             <div className={styles.evolutionCaption}>
-              {section.evolutionLabel} · Alguns exercicis avançats d’aquest camí afegeixen una fita extra de 100% en 2 sessions.
+              {section.evolutionLabel} · Només alguns exercicis avançats d’aquest camí tenen una fita extra de 100% en 2 sessions.
             </div>
             <PokemonCollection
               collection={sectionCollection}
