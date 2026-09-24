@@ -208,24 +208,17 @@ export const BADGES: Record<BadgeId, Badge> = {
   },
 };
 
-const POKEMON_STAGE_THRESHOLDS = [
+const POKEMON_CORE_STAGE_THRESHOLDS = [
   { key: 'bronze', label: 'Bronze', minScorePercent: 40, minCompletedSessions: 1, powerBonus: 0 },
   { key: 'silver', label: 'Plata', minScorePercent: 60, minCompletedSessions: 1, powerBonus: 12 },
   { key: 'gold', label: 'Or', minScorePercent: 80, minCompletedSessions: 1, powerBonus: 28 },
   { key: 'legend', label: 'Llegenda', minScorePercent: 95, minCompletedSessions: 1, powerBonus: 46 },
-  { key: 'legend-2', label: 'Llegenda II', minScorePercent: 100, minCompletedSessions: 2, powerBonus: 50 },
-  { key: 'legend-3', label: 'Llegenda III', minScorePercent: 100, minCompletedSessions: 3, powerBonus: 54 },
-  { key: 'legend-4', label: 'Llegenda IV', minScorePercent: 100, minCompletedSessions: 4, powerBonus: 58 },
-  { key: 'legend-5', label: 'Llegenda V', minScorePercent: 100, minCompletedSessions: 5, powerBonus: 62 },
-  { key: 'legend-6', label: 'Llegenda VI', minScorePercent: 100, minCompletedSessions: 6, powerBonus: 66 },
-  { key: 'legend-7', label: 'Llegenda VII', minScorePercent: 100, minCompletedSessions: 7, powerBonus: 70 },
-  { key: 'legend-8', label: 'Llegenda VIII', minScorePercent: 100, minCompletedSessions: 8, powerBonus: 74 },
-  { key: 'legend-9', label: 'Llegenda IX', minScorePercent: 100, minCompletedSessions: 9, powerBonus: 78 },
-  { key: 'legend-10', label: 'Llegenda X', minScorePercent: 100, minCompletedSessions: 10, powerBonus: 82 },
-  { key: 'legend-11', label: 'Llegenda XI', minScorePercent: 100, minCompletedSessions: 11, powerBonus: 86 },
+  { key: 'master', label: 'Mestre', minScorePercent: 100, minCompletedSessions: 1, powerBonus: 58 },
 ] as const;
 
-const MAX_POKEMON_ID = 1025;
+const POKEMON_HARD_BONUS_STAGE_THRESHOLDS = [
+  { key: 'master-2', label: 'Mestre II', minScorePercent: 100, minCompletedSessions: 2, powerBonus: 70 },
+] as const;
 
 const POKEMON_TRACKS = [
   {
@@ -291,22 +284,24 @@ function buildPokemonPaths(): PokemonPath[] {
   const paths: PokemonPath[] = [];
   const assignedPokemonIds = new Set<number>();
   let pokemonId = 1;
-  while ((RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
+  while (RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) pokemonId += 1;
 
   for (const track of POKEMON_TRACKS) {
     for (const setId of track.setIds) {
-      for (const stage of POKEMON_STAGE_THRESHOLDS) {
+      const difficulty = setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard';
+      const stageThresholds = difficulty === 'hard' && track.exerciseType !== 'sounds'
+        ? [...POKEMON_CORE_STAGE_THRESHOLDS, ...POKEMON_HARD_BONUS_STAGE_THRESHOLDS]
+        : POKEMON_CORE_STAGE_THRESHOLDS;
+
+      for (const stage of stageThresholds) {
         const pathId = `${setId}-${stage.key}`;
         const fixedPokemon = FIXED_POKEMON_PATHS[pathId as keyof typeof FIXED_POKEMON_PATHS];
-        if (!fixedPokemon && pokemonId > MAX_POKEMON_ID) continue;
-
         let assignedPokemonId = fixedPokemon?.pokemonId ?? pokemonId;
         if (!fixedPokemon) {
-          while ((RESERVED_POKEMON_IDS.has(assignedPokemonId) || assignedPokemonIds.has(assignedPokemonId)) && assignedPokemonId <= MAX_POKEMON_ID) {
+          while (RESERVED_POKEMON_IDS.has(assignedPokemonId) || assignedPokemonIds.has(assignedPokemonId)) {
             assignedPokemonId += 1;
           }
-          if (assignedPokemonId > MAX_POKEMON_ID) continue;
-        } else if (assignedPokemonId > MAX_POKEMON_ID || assignedPokemonIds.has(assignedPokemonId)) {
+        } else if (assignedPokemonIds.has(assignedPokemonId)) {
           continue;
         }
         assignedPokemonIds.add(assignedPokemonId);
@@ -316,7 +311,7 @@ function buildPokemonPaths(): PokemonPath[] {
           pokemonId: assignedPokemonId,
           fallbackName: fixedPokemon?.fallbackName ?? `Pokémon ${assignedPokemonId}`,
           exerciseType: track.exerciseType,
-          difficulty: setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard',
+          difficulty,
           setIds: [setId],
           minScorePercent: stage.minScorePercent,
           minCompletedSessions: stage.minCompletedSessions,
@@ -327,7 +322,7 @@ function buildPokemonPaths(): PokemonPath[] {
 
         if (!fixedPokemon) {
           pokemonId = assignedPokemonId + 1;
-          while ((RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) && pokemonId <= MAX_POKEMON_ID) pokemonId += 1;
+          while (RESERVED_POKEMON_IDS.has(pokemonId) || assignedPokemonIds.has(pokemonId)) pokemonId += 1;
         }
       }
     }
