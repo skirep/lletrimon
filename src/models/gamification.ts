@@ -294,7 +294,7 @@ function buildPokemonPaths(): PokemonPath[] {
   for (const track of POKEMON_TRACKS) {
     for (const setId of track.setIds) {
       const difficulty = setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard';
-      const stageThresholds = track.bonusStageSetIds.includes(setId)
+      const stageThresholds = track.bonusStageSetIds.some((bonusStageSetId) => bonusStageSetId === setId)
         ? [...POKEMON_CORE_STAGE_THRESHOLDS, ...POKEMON_HARD_BONUS_STAGE_THRESHOLDS]
         : POKEMON_CORE_STAGE_THRESHOLDS;
 
