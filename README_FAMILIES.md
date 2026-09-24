@@ -175,7 +175,7 @@ Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema
 - Cada Pokémon està associat a un exercici concret (síl·labes, paraules o frases).
 - Per desbloquejar-lo, cal arribar al percentatge mínim en aquell exercici.
 - Tots els camins tenen 5 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)**, **95% (Llegenda)** i **100% (Mestre)**.
-- Els reptes difícils afegeixen un 6è desbloqueig: **100% en 2 sessions (Mestre II)**.
+- Alguns reptes avançats afegeixen un 6è desbloqueig: **100% en 2 sessions (Mestre II)**.
 - Com millor és el resultat, més Pokémon es desbloquegen i més **força** tenen per a les lluites.
 
 🎯 **Detall important:** hi ha premis especials com **Lugia, Ho-Oh, Rayquaza i Giratina**, associats a reptes avançats en diferents categories.
