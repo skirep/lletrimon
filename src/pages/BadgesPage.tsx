@@ -10,29 +10,37 @@ const POKEDEX_SECTIONS = [
     title: 'Camí de síl·labes',
     description: 'Pokémon que creixen completant els conjunts de síl·labes. Cada un s’activa a un percentatge diferent.',
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'syllables',
-    evolutionLabel: '40% → 60% → 80% → 95%',
+    evolutionLabel: '40% → 60% → 80% → 95% → 100%',
   },
   {
     id: 'words-route',
     title: 'Camí de paraules',
     description: 'Paraules fàcils, mitjanes i difícils: a mesura que puges el percentatge, apareixen Pokémon més potents.',
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'words',
-    evolutionLabel: '40% → 60% → 80% → 95%',
+    evolutionLabel: '40% → 60% → 80% → 95% → 100%',
   },
   {
     id: 'sentences-route',
     title: 'Camí de frases',
     description: 'La ruta més tècnica. Aquí es troben els Pokémon més difícils i la fita Mew.',
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'sentences',
-    evolutionLabel: '40% → 60% → 80% → 95%',
+    evolutionLabel: '40% → 60% → 80% → 95% → 100%',
   },
   {
     id: 'pseudowords-route',
     title: 'Camí de pseudoparaules',
     description: 'Entrena descodificació i precisió amb paraules inventades per desbloquejar noves criatures.',
     match: (pokemon: PokemonCollectionItem) => pokemon.exerciseType === 'pseudowords',
-    evolutionLabel: '40% → 60% → 80% → 95%',
+    evolutionLabel: '40% → 60% → 80% → 95% → 100%',
   },
+] as const;
+
+const EVOLUTION_THRESHOLDS = [
+  { percent: 40, label: 'Bronze' },
+  { percent: 60, label: 'Plata' },
+  { percent: 80, label: 'Or' },
+  { percent: 95, label: 'Llegenda' },
+  { percent: 100, label: 'Mestre' },
 ] as const;
 
 const DIFFICULTY_RANK: Record<PokemonCollectionItem['difficulty'], number> = {
@@ -394,15 +402,13 @@ export function BadgesPage({ profile }: BadgesPageProps) {
               <div className={styles.sectionCounter}>{sectionUnlocked}/{sectionCollection.length}</div>
             </div>
             <div className={styles.evolutionTrack}>
-              {[40, 60, 80, 95].map((threshold, index) => (
-                <div key={`${section.id}-${threshold}`} className={styles.evolutionNodeWrap}>
+              {EVOLUTION_THRESHOLDS.map((threshold, index) => (
+                <div key={`${section.id}-${threshold.label}`} className={styles.evolutionNodeWrap}>
                   <div className={styles.evolutionNodeHint}>
-                    <div className={styles.evolutionNodeHintPercent}>{threshold}%</div>
-                    <div className={styles.evolutionNodeHintLabel}>
-                      {index === 0 ? 'Bronze' : index === 1 ? 'Plata' : index === 2 ? 'Or' : 'Llegenda'}
-                    </div>
+                    <div className={styles.evolutionNodeHintPercent}>{threshold.percent}%</div>
+                    <div className={styles.evolutionNodeHintLabel}>{threshold.label}</div>
                   </div>
-                  {index < 3 && <div className={styles.evolutionArrow}>→</div>}
+                  {index < EVOLUTION_THRESHOLDS.length - 1 && <div className={styles.evolutionArrow}>→</div>}
                 </div>
               ))}
             </div>

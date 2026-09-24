@@ -170,14 +170,15 @@ Es poden guanyar insígnies per assoliments especials:
 
 Una de les parts que als nens els encanta: **guanyar Pokémon**!
 
-Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema actual funciona per **camins d'exercicis**:
+Ara els Pokémon **no es desbloquegen per nivell ni per insígnies**. El sistema actual funciona per **camins d'exercicis** i la col·lecció està ajustada a **400 Pokémon**:
 
-- Cada Pokémon està associat a un exercici concret (síl·labes, paraules o frases).
+- Cada Pokémon està associat a un exercici concret (sons, síl·labes, paraules, pseudoparaules o frases).
 - Per desbloquejar-lo, cal arribar al percentatge mínim en aquell exercici.
-- Hi ha 4 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)** i **95% (Llegenda)**.
+- Tots els camins tenen 5 llindars de progrés: **40% (Bronze)**, **60% (Plata)**, **80% (Or)**, **95% (Llegenda)** i **100% (Mestre)**.
+- Alguns exercicis avançats seleccionats afegeixen un 6è desbloqueig: **100% en 2 sessions (Mestre II)**.
 - Com millor és el resultat, més Pokémon es desbloquegen i més **força** tenen per a les lluites.
 
-🎯 **Detall important:** hi ha premis especials com **Lugia, Ho-Oh, Rayquaza i Giratina**, associats a reptes avançats en diferents categories.
+🎯 **Detall important:** hi ha premis especials com **Lugia, Ho-Oh, Rayquaza i Jirachi**, associats a reptes avançats en diferents categories.
 
 Els Pokémon desbloquejats es poden veure a la col·lecció i també s'utilitzen per formar equips a les lluites.
 

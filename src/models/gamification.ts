@@ -208,24 +208,19 @@ export const BADGES: Record<BadgeId, Badge> = {
   },
 };
 
-const POKEMON_STAGE_THRESHOLDS = [
+const POKEMON_CORE_STAGE_THRESHOLDS = [
   { key: 'bronze', label: 'Bronze', minScorePercent: 40, minCompletedSessions: 1, powerBonus: 0 },
   { key: 'silver', label: 'Plata', minScorePercent: 60, minCompletedSessions: 1, powerBonus: 12 },
   { key: 'gold', label: 'Or', minScorePercent: 80, minCompletedSessions: 1, powerBonus: 28 },
   { key: 'legend', label: 'Llegenda', minScorePercent: 95, minCompletedSessions: 1, powerBonus: 46 },
-  { key: 'legend-2', label: 'Llegenda II', minScorePercent: 100, minCompletedSessions: 2, powerBonus: 50 },
-  { key: 'legend-3', label: 'Llegenda III', minScorePercent: 100, minCompletedSessions: 3, powerBonus: 54 },
-  { key: 'legend-4', label: 'Llegenda IV', minScorePercent: 100, minCompletedSessions: 4, powerBonus: 58 },
-  { key: 'legend-5', label: 'Llegenda V', minScorePercent: 100, minCompletedSessions: 5, powerBonus: 62 },
-  { key: 'legend-6', label: 'Llegenda VI', minScorePercent: 100, minCompletedSessions: 6, powerBonus: 66 },
-  { key: 'legend-7', label: 'Llegenda VII', minScorePercent: 100, minCompletedSessions: 7, powerBonus: 70 },
-  { key: 'legend-8', label: 'Llegenda VIII', minScorePercent: 100, minCompletedSessions: 8, powerBonus: 74 },
-  { key: 'legend-9', label: 'Llegenda IX', minScorePercent: 100, minCompletedSessions: 9, powerBonus: 78 },
-  { key: 'legend-10', label: 'Llegenda X', minScorePercent: 100, minCompletedSessions: 10, powerBonus: 82 },
-  { key: 'legend-11', label: 'Llegenda XI', minScorePercent: 100, minCompletedSessions: 11, powerBonus: 86 },
+  { key: 'master', label: 'Mestre', minScorePercent: 100, minCompletedSessions: 1, powerBonus: 58 },
 ] as const;
 
-const MAX_POKEMON_ID = 1025;
+const POKEMON_HARD_BONUS_STAGE_THRESHOLDS = [
+  { key: 'master-2', label: 'Mestre II', minScorePercent: 100, minCompletedSessions: 2, powerBonus: 70 },
+] as const;
+
+const MAX_POKEMON_ID = 400;
 
 const POKEMON_TRACKS = [
   {
@@ -233,30 +228,35 @@ const POKEMON_TRACKS = [
     basePower: 12,
     description: 'La branca de sons reforça la discriminació auditiva amb reptes bàsics i avançats.',
     setIds: ['sounds-easy-1', 'sounds-medium-1', 'sounds-hard-1', 'sounds-easy-2', 'sounds-medium-2', 'sounds-hard-2'],
+    bonusStageSetIds: [] as string[],
   },
   {
     exerciseType: 'syllables' as const,
     basePower: 18,
     description: 'La branca de síl·labes creix des del bàsic fins al gran repte de 100.',
     setIds: ['syl-easy-1', 'syl-easy-2', 'syl-easy-3', 'syl-medium-1', 'syl-medium-2', 'syl-medium-3', 'syl-hard-100', 'syl-random-50', 'syl-direct-indirect-50', 'syl-hard-2', 'syl-easy-4', 'syl-medium-4', 'syl-easy-5', 'syl-easy-6', 'syl-medium-5', 'syl-medium-6', 'syl-hard-3', 'syl-hard-4'],
+    bonusStageSetIds: ['syl-hard-100', 'syl-random-50', 'syl-direct-indirect-50', 'syl-hard-2', 'syl-hard-3', 'syl-hard-4'],
   },
   {
     exerciseType: 'words' as const,
     basePower: 28,
     description: 'La branca de paraules transforma cada percentatge en més potència d’atac.',
     setIds: ['words-easy-1', 'words-easy-2', 'words-easy-3', 'words-easy-4', 'words-easy-5', 'words-medium-1', 'words-medium-2', 'words-medium-3', 'words-hard-1', 'words-hard-2', 'words-hard-3', 'w-hard-100', 'words-random-50', 'words-hard-4', 'words-easy-6', 'words-medium-4', 'words-easy-7', 'words-easy-8', 'words-medium-5', 'words-medium-6', 'words-hard-5', 'words-hard-6'],
+    bonusStageSetIds: ['words-hard-1', 'words-hard-2', 'words-hard-3', 'w-hard-100', 'words-random-50', 'words-hard-4', 'words-hard-5', 'words-hard-6'],
   },
   {
     exerciseType: 'pseudowords' as const,
     basePower: 34,
     description: 'La branca de pseudoparaules premia la descodificació i la fluïdesa lectora.',
     setIds: ['pseudo-easy-1', 'pseudo-easy-2', 'pseudo-easy-3', 'pseudo-medium-1', 'pseudo-medium-2', 'pseudo-medium-3', 'pseudo-hard-1', 'pseudo-hard-2', 'pseudo-hard-3', 'p-hard-100'],
+    bonusStageSetIds: ['pseudo-hard-1', 'pseudo-hard-2', 'pseudo-hard-3', 'p-hard-100'],
   },
   {
     exerciseType: 'sentences' as const,
     basePower: 42,
     description: 'La branca de frases culmina en el Pokémon més tècnic i llegendari.',
     setIds: ['sent-easy-1', 'sent-easy-2', 'sent-easy-3', 'sent-medium-1', 'sent-medium-2', 'sent-medium-3', 'sent-hard-1', 'sent-hard-2', 'sent-hard-3', 'f-hard-100', 'sent-hard-4', 'sent-easy-4', 'sent-medium-4', 'sent-easy-5', 'sent-easy-6', 'sent-medium-5', 'sent-medium-6', 'sent-hard-5', 'sent-hard-6'],
+    bonusStageSetIds: ['sent-hard-1', 'sent-hard-2', 'sent-hard-3', 'f-hard-100', 'sent-hard-4', 'sent-hard-5', 'sent-hard-6'],
   },
 ] as const;
 
@@ -278,7 +278,7 @@ const FIXED_POKEMON_PATHS = {
   'pseudo-hard-3-gold': { pokemonId: 236, fallbackName: 'Tyrogue' },
   'pseudo-hard-3-legend': { pokemonId: 384, fallbackName: 'Rayquaza' },
   'sent-hard-4-gold': { pokemonId: 246, fallbackName: 'Larvitar' },
-  'sent-hard-4-legend': { pokemonId: 487, fallbackName: 'Giratina' },
+  'sent-hard-4-legend': { pokemonId: 385, fallbackName: 'Jirachi' },
   'sent-hard-3-bronze': { pokemonId: 247, fallbackName: 'Pupitar' },
   'sent-hard-3-silver': { pokemonId: 248, fallbackName: 'Tyranitar' },
 } as const;
@@ -295,11 +295,15 @@ function buildPokemonPaths(): PokemonPath[] {
 
   for (const track of POKEMON_TRACKS) {
     for (const setId of track.setIds) {
-      for (const stage of POKEMON_STAGE_THRESHOLDS) {
+      const difficulty = setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard';
+      const stageThresholds = track.bonusStageSetIds.some((bonusStageSetId) => bonusStageSetId === setId)
+        ? [...POKEMON_CORE_STAGE_THRESHOLDS, ...POKEMON_HARD_BONUS_STAGE_THRESHOLDS]
+        : POKEMON_CORE_STAGE_THRESHOLDS;
+
+      for (const stage of stageThresholds) {
         const pathId = `${setId}-${stage.key}`;
         const fixedPokemon = FIXED_POKEMON_PATHS[pathId as keyof typeof FIXED_POKEMON_PATHS];
         if (!fixedPokemon && pokemonId > MAX_POKEMON_ID) continue;
-
         let assignedPokemonId = fixedPokemon?.pokemonId ?? pokemonId;
         if (!fixedPokemon) {
           while ((RESERVED_POKEMON_IDS.has(assignedPokemonId) || assignedPokemonIds.has(assignedPokemonId)) && assignedPokemonId <= MAX_POKEMON_ID) {
@@ -316,7 +320,7 @@ function buildPokemonPaths(): PokemonPath[] {
           pokemonId: assignedPokemonId,
           fallbackName: fixedPokemon?.fallbackName ?? `Pokémon ${assignedPokemonId}`,
           exerciseType: track.exerciseType,
-          difficulty: setId.includes('easy') ? 'easy' : setId.includes('medium') ? 'medium' : 'hard',
+          difficulty,
           setIds: [setId],
           minScorePercent: stage.minScorePercent,
           minCompletedSessions: stage.minCompletedSessions,
